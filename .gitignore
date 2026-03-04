@@ -1,0 +1,9 @@
+# Ignore the data and output
+data/
+triage_manifest.json
+__pycache__/
+.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
