@@ -1,0 +1,1509 @@
+{
+  "fta_performance_survey_final_report_2022.pdf": {
+    "file_name": "fta_performance_survey_final_report_2022.pdf",
+    "total_pages": 155,
+    "overall_origin": "born_digital",
+    "domain_hint": "Banking/Security",
+    "layout_complexity": "High",
+    "pages": [
+      {
+        "page_number": 1,
+        "char_density": 0.000634462298899872,
+        "rect_count": 90,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 2,
+        "char_density": 0.010416753655837207,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 3,
+        "char_density": 0.007725276796667624,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 4,
+        "char_density": 0.008752786494571506,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 5,
+        "char_density": 0.008846559224283122,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 6,
+        "char_density": 0.0013347650250440705,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 7,
+        "char_density": 0.0015662041026301872,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 8,
+        "char_density": 0.00233833274940456,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 9,
+        "char_density": 0.00528918098862755,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 10,
+        "char_density": 0.005299156810937296,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 11,
+        "char_density": 0.0051335581605955055,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 12,
+        "char_density": 0.0048103415177597215,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 13,
+        "char_density": 0.004922070727628881,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 14,
+        "char_density": 0.0048103415177597215,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 15,
+        "char_density": 0.004221768001484683,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 16,
+        "char_density": 0.0011611857168544828,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 17,
+        "char_density": 0.0050377902664219395,
+        "rect_count": 3,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 18,
+        "char_density": 0.005247282534926614,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 19,
+        "char_density": 0.00428561326426706,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 20,
+        "char_density": 0.004331502046891893,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 21,
+        "char_density": 0.003942444976811783,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 22,
+        "char_density": 0.004816327011145569,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 23,
+        "char_density": 0.004638757374032083,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 24,
+        "char_density": 0.0035434120844219266,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 25,
+        "char_density": 0.005149519476291099,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 26,
+        "char_density": 0.004533013657548771,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 27,
+        "char_density": 0.004686641321118866,
+        "rect_count": 107,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 28,
+        "char_density": 0.003214209948200295,
+        "rect_count": 143,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 29,
+        "char_density": 0.003108466231716983,
+        "rect_count": 49,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 30,
+        "char_density": 0.004379385993978677,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 31,
+        "char_density": 0.0044312602699893575,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 32,
+        "char_density": 0.00495399335902007,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 33,
+        "char_density": 0.0030266644887770623,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 34,
+        "char_density": 0.0020969178495086967,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 35,
+        "char_density": 0.0009836160797409967,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 36,
+        "char_density": 0.0028870029764406125,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 37,
+        "char_density": 0.0015203153200053538,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 38,
+        "char_density": 0.0014963733464619623,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 39,
+        "char_density": 0.0019093723900854638,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 40,
+        "char_density": 0.0033578617894606433,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 41,
+        "char_density": 0.00286705133182112,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 42,
+        "char_density": 0.004137971094082813,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 43,
+        "char_density": 0.0018415367983791882,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 44,
+        "char_density": 0.006001454701543444,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 45,
+        "char_density": 0.0016899042992710427,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 46,
+        "char_density": 0.003545407248883876,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 47,
+        "char_density": 0.0035773298802750644,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 48,
+        "char_density": 0.003495528137335144,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 49,
+        "char_density": 0.002809191562424591,
+        "rect_count": 353,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 50,
+        "char_density": 0.003888575536339153,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 51,
+        "char_density": 0.0020829516982750515,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 52,
+        "char_density": 0.00320024379696665,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 53,
+        "char_density": 0.001191113183783722,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 54,
+        "char_density": 0.002120859823052088,
+        "rect_count": 3,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 55,
+        "char_density": 0.003437668367938615,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 56,
+        "char_density": 0.00166995265465155,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 57,
+        "char_density": 0.001979203146253689,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 58,
+        "char_density": 0.0022445600196929435,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 59,
+        "char_density": 0.0018375464694552898,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 60,
+        "char_density": 0.0001396615123364498,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 61,
+        "char_density": 0.0021667486056769214,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 62,
+        "char_density": 0.0015602186092443394,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 63,
+        "char_density": 0.001775696371134862,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 64,
+        "char_density": 0.00158615574724968,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 65,
+        "char_density": 0.0020211015999546237,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 66,
+        "char_density": 0.0021108840007423415,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 67,
+        "char_density": 0.0033578617894606433,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 68,
+        "char_density": 0.0033738231051562376,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 69,
+        "char_density": 0.0036411751430574417,
+        "rect_count": 5,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 70,
+        "char_density": 0.0021587679478291245,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 71,
+        "char_density": 0.002332347256018712,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 72,
+        "char_density": 0.002479989426202959,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 73,
+        "char_density": 0.0013706779853591574,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 74,
+        "char_density": 0.0019432901859386018,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 75,
+        "char_density": 0.001833556140531391,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 76,
+        "char_density": 0.0023862166964913425,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 77,
+        "char_density": 0.0013587069985874617,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 78,
+        "char_density": 0.00578996726857682,
+        "rect_count": 14,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 79,
+        "char_density": 0.00018555029496128333,
+        "rect_count": 0,
+        "is_landscape": true,
+        "dominant_strategy": "STRATEGY_B",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 80,
+        "char_density": 0.0039504256346595806,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 81,
+        "char_density": 0.0018495174562269854,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 82,
+        "char_density": 0.003607257347204304,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 83,
+        "char_density": 0.0014664458795327232,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 84,
+        "char_density": 0.00534504559356213,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 85,
+        "char_density": 0.00545477963896934,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 86,
+        "char_density": 0.005995469208157596,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 87,
+        "char_density": 0.004437245763375205,
+        "rect_count": 41,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 88,
+        "char_density": 0.002761307615337808,
+        "rect_count": 23,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 89,
+        "char_density": 0.0050577419110414325,
+        "rect_count": 3,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 90,
+        "char_density": 0.0031563501788037657,
+        "rect_count": 5,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 91,
+        "char_density": 0.003551392742269724,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 92,
+        "char_density": 0.0022525406775407405,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 93,
+        "char_density": 0.0033997602431615785,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 94,
+        "char_density": 0.001338755353967969,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 95,
+        "char_density": 0.005051756417655585,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 96,
+        "char_density": 0.0014464942349132301,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 97,
+        "char_density": 0.003327934322531404,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 98,
+        "char_density": 0.005023824115188295,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 99,
+        "char_density": 0.005125577502747708,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 100,
+        "char_density": 0.0053969198695728105,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 101,
+        "char_density": 0.005325093948942637,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 102,
+        "char_density": 0.004914090069781084,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 103,
+        "char_density": 0.005522615230675616,
+        "rect_count": 5,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 104,
+        "char_density": 0.00036112476761282025,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 105,
+        "char_density": 0.0049320465499386274,
+        "rect_count": 2,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 106,
+        "char_density": 0.0046327718806462356,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 107,
+        "char_density": 0.0037030252413778695,
+        "rect_count": 3,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 108,
+        "char_density": 0.003280050375444621,
+        "rect_count": 8,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 109,
+        "char_density": 0.0031523598498798674,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 110,
+        "char_density": 0.002346313407252357,
+        "rect_count": 7,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 111,
+        "char_density": 0.0027154188327129744,
+        "rect_count": 134,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 112,
+        "char_density": 0.0024420813014259224,
+        "rect_count": 1085,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 113,
+        "char_density": 0.0024101586700347338,
+        "rect_count": 1110,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 114,
+        "char_density": 0.0022505455130787913,
+        "rect_count": 1116,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 115,
+        "char_density": 0.001183132525935925,
+        "rect_count": 525,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 116,
+        "char_density": 0.0026834962013217857,
+        "rect_count": 130,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 117,
+        "char_density": 0.0037090107347637173,
+        "rect_count": 56,
+        "is_landscape": true,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 118,
+        "char_density": 0.004355444020435285,
+        "rect_count": 55,
+        "is_landscape": true,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 119,
+        "char_density": 0.004979930497025411,
+        "rect_count": 55,
+        "is_landscape": true,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 120,
+        "char_density": 0.0035434120844219266,
+        "rect_count": 55,
+        "is_landscape": true,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 121,
+        "char_density": 0.001071403316066765,
+        "rect_count": 27,
+        "is_landscape": true,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 122,
+        "char_density": 0.0026296267608491553,
+        "rect_count": 491,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 123,
+        "char_density": 0.0032461325795914834,
+        "rect_count": 268,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 124,
+        "char_density": 0.0039204981677303415,
+        "rect_count": 268,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 125,
+        "char_density": 0.004531018493086822,
+        "rect_count": 346,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 126,
+        "char_density": 0.003932469154502037,
+        "rect_count": 283,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 127,
+        "char_density": 0.003687063925682275,
+        "rect_count": 276,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 128,
+        "char_density": 0.0035394217554980283,
+        "rect_count": 253,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 129,
+        "char_density": 0.003545407248883876,
+        "rect_count": 361,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 130,
+        "char_density": 0.0038985513586488993,
+        "rect_count": 322,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 131,
+        "char_density": 0.002972795048304432,
+        "rect_count": 740,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 132,
+        "char_density": 0.0027972205756528947,
+        "rect_count": 842,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 133,
+        "char_density": 0.0025258782088277924,
+        "rect_count": 1022,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 134,
+        "char_density": 0.0027672931087236556,
+        "rect_count": 919,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 135,
+        "char_density": 0.003517474946416586,
+        "rect_count": 866,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 136,
+        "char_density": 0.0034775716571776006,
+        "rect_count": 309,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 137,
+        "char_density": 0.0030984904094072366,
+        "rect_count": 361,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 138,
+        "char_density": 0.0010873646317623592,
+        "rect_count": 135,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 139,
+        "char_density": 0.00247799426174101,
+        "rect_count": 520,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 140,
+        "char_density": 0.0035274507687263327,
+        "rect_count": 399,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 141,
+        "char_density": 0.0035414169199599775,
+        "rect_count": 357,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 142,
+        "char_density": 0.0032900261977543677,
+        "rect_count": 441,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 143,
+        "char_density": 0.003341900473765049,
+        "rect_count": 434,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 144,
+        "char_density": 0.0035753347158131153,
+        "rect_count": 386,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 145,
+        "char_density": 0.0033738231051562376,
+        "rect_count": 302,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 146,
+        "char_density": 0.003469590999329803,
+        "rect_count": 342,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 147,
+        "char_density": 0.003776846326469993,
+        "rect_count": 338,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 148,
+        "char_density": 0.0034017554076235276,
+        "rect_count": 427,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 149,
+        "char_density": 0.003335914980379201,
+        "rect_count": 450,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 150,
+        "char_density": 0.003611247676128202,
+        "rect_count": 325,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 151,
+        "char_density": 0.0030625774490921497,
+        "rect_count": 462,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 152,
+        "char_density": 0.000993591902050743,
+        "rect_count": 135,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 153,
+        "char_density": 0.003545407248883876,
+        "rect_count": 1,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 154,
+        "char_density": 0.0037868221487797394,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_A",
+        "detected_origin": "born_digital"
+      },
+      {
+        "page_number": 155,
+        "char_density": 0.000450907168400538,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      }
+    ]
+  },
+  "Security_Vulnerability_Disclosure_Standard_Procedure_1 (class A).pdf": {
+    "file_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1 (class A).pdf",
+    "total_pages": 15,
+    "overall_origin": "scanned",
+    "domain_hint": "General",
+    "layout_complexity": "Low",
+    "pages": [
+      {
+        "page_number": 1,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 2,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 3,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 4,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 5,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 6,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 7,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 8,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 9,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 10,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 11,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 12,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 13,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 14,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 15,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      }
+    ]
+  },
+  "Security_Vulnerability_Disclosure_Standard_Procedure_2.pdf": {
+    "file_name": "Security_Vulnerability_Disclosure_Standard_Procedure_2.pdf",
+    "total_pages": 15,
+    "overall_origin": "scanned",
+    "domain_hint": "General",
+    "layout_complexity": "Low",
+    "pages": [
+      {
+        "page_number": 1,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 2,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 3,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 4,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 5,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 6,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 7,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 8,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 9,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 10,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 11,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 12,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 13,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 14,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      },
+      {
+        "page_number": 15,
+        "char_density": 0.0,
+        "rect_count": 0,
+        "is_landscape": false,
+        "dominant_strategy": "STRATEGY_C",
+        "detected_origin": "scanned"
+      }
+    ]
+  }
+}

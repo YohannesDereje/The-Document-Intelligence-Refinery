@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "document-intelligence-refinery"
+version = "0.1.0"
+description = "Document Intelligence Refinery"
+requires-python = ">=3.10"
+dependencies = [
+  "pdfplumber==0.11.9",
+  "pydantic==2.12.5",
+  "docling==2.75.0",
+  "langgraph==1.0.10",
+  "openai==2.24.0",
+  "loguru==0.7.3",
+  "pyyaml==6.0.3",
+  "chromadb==1.5.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==9.0.2",
+  "ipykernel==7.2.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
