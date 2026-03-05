@@ -1,0 +1,373 @@
+{
+    "file_id": "CBE Annual Report 2012-13",
+    "domain_hint": "Banking/Security",
+    "metadata": {
+        "overall_origin": "born_digital",
+        "layout_complexity": "High",
+        "total_pages": 3,
+        "units_count": 30,
+        "escalations": 0
+    },
+    "units": [
+        {
+            "uid": "CBE Annual Report 2012-13_p1_1",
+            "content_type": "header",
+            "content_raw": "Annual Report\n2012/13",
+            "content_markdown": "# Annual Report\n## 2012/13",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:31.880723+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p2_1",
+            "content_type": "header",
+            "content_raw": "Working towards a World-Class Commercial Bank",
+            "content_markdown": "# Working towards a World-Class Commercial Bank",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:36.235089+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_1",
+            "content_type": "text",
+            "content_raw": "Contents",
+            "content_markdown": "Contents",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230841+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_2",
+            "content_type": "text",
+            "content_raw": "Key figures (in Millions of Birr)........................................................................6",
+            "content_markdown": "Key figures (in Millions of Birr)........................................................................6",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230900+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_3",
+            "content_type": "text",
+            "content_raw": "Message of the President...............................................................................8",
+            "content_markdown": "Message of the President...............................................................................8",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230913+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_4",
+            "content_type": "text",
+            "content_raw": "1. Macroeconomic Highlights ...................................................................... 10",
+            "content_markdown": "1. Macroeconomic Highlights ...................................................................... 10",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230922+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_5",
+            "content_type": "text",
+            "content_raw": "1.1. Economy……………………………………………………………………………...10",
+            "content_markdown": "1.1. Economy……………………………………………………………………………...10",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230933+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_6",
+            "content_type": "text",
+            "content_raw": "Global",
+            "content_markdown": "Global",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230941+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_7",
+            "content_type": "text",
+            "content_raw": "Economy……………………………………………………………………..10",
+            "content_markdown": "Economy……………………………………………………………………..10",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230950+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_8",
+            "content_type": "text",
+            "content_raw": "1.2 The Ethiopian",
+            "content_markdown": "1.2 The Ethiopian",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230957+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_9",
+            "content_type": "text",
+            "content_raw": "2. Highlights of the CBE............................................................................. 11",
+            "content_markdown": "2. Highlights of the CBE............................................................................. 11",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230965+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_10",
+            "content_type": "text",
+            "content_raw": "2.1. Financial Position................................................................................ 11",
+            "content_markdown": "2.1. Financial Position................................................................................ 11",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230973+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_11",
+            "content_type": "text",
+            "content_raw": "Income……………………………………………………………………….11",
+            "content_markdown": "Income……………………………………………………………………….11",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230981+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_12",
+            "content_type": "text",
+            "content_raw": "2.1.1 Net Interest",
+            "content_markdown": "2.1.1 Net Interest",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230989+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_13",
+            "content_type": "text",
+            "content_raw": "Margin………………………………………………………………………..12",
+            "content_markdown": "Margin………………………………………………………………………..12",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.230997+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_14",
+            "content_type": "text",
+            "content_raw": "2.1.2 Net Interest",
+            "content_markdown": "2.1.2 Net Interest",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231007+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_15",
+            "content_type": "text",
+            "content_raw": "Income……………………………………………………………………..12",
+            "content_markdown": "Income……………………………………………………………………..12",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231015+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_16",
+            "content_type": "text",
+            "content_raw": "2.1.3. Non–Interest",
+            "content_markdown": "2.1.3. Non–Interest",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231023+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_17",
+            "content_type": "text",
+            "content_raw": "2.1.4 Total Expenses……………………………………………………………………………..13",
+            "content_markdown": "2.1.4 Total Expenses……………………………………………………………………………..13",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231030+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_18",
+            "content_type": "text",
+            "content_raw": "2.1.5 Operating Profit……………………………………………………………………………13",
+            "content_markdown": "2.1.5 Operating Profit……………………………………………………………………………13",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231038+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_19",
+            "content_type": "text",
+            "content_raw": "2.1.6 Earning Capacity…………………………………………………………………………...14",
+            "content_markdown": "2.1.6 Earning Capacity…………………………………………………………………………...14",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231045+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_20",
+            "content_type": "text",
+            "content_raw": "2.2. Balance Sheet Analysis.......................................................................... 15",
+            "content_markdown": "2.2. Balance Sheet Analysis.......................................................................... 15",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231052+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_21",
+            "content_type": "text",
+            "content_raw": "2.2.1 Asset Structure……………………………………………………………………………..15",
+            "content_markdown": "2.2.1 Asset Structure……………………………………………………………………………..15",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231060+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_22",
+            "content_type": "text",
+            "content_raw": "2.2.2 Loan Portfolio………………………………………………………………………………15",
+            "content_markdown": "2.2.2 Loan Portfolio………………………………………………………………………………15",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231067+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_23",
+            "content_type": "text",
+            "content_raw": "2.2.3 Liabilities…………………………………………………………………………………...16",
+            "content_markdown": "2.2.3 Liabilities…………………………………………………………………………………...16",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231077+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_24",
+            "content_type": "text",
+            "content_raw": "2.2.4 Capital Adequacy………………………………………………………………………….17",
+            "content_markdown": "2.2.4 Capital Adequacy………………………………………………………………………….17",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231084+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_25",
+            "content_type": "text",
+            "content_raw": "2.3. International Banking ........................................................................... 17",
+            "content_markdown": "2.3. International Banking ........................................................................... 17",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231092+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_26",
+            "content_type": "text",
+            "content_raw": "2.3.1 Foreign currency earnings.................................................................... 18",
+            "content_markdown": "2.3.1 Foreign currency earnings.................................................................... 18",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231100+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_27",
+            "content_type": "text",
+            "content_raw": "2.4. Human Resources................................................................................ 19",
+            "content_markdown": "2.4. Human Resources................................................................................ 19",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231108+00:00"
+            }
+        },
+        {
+            "uid": "CBE Annual Report 2012-13_p3_28",
+            "content_type": "text",
+            "content_raw": "2.5. Business Development .......................................................................... 19",
+            "content_markdown": "2.5. Business Development .......................................................................... 19",
+            "provenance": {
+                "source_file": "CBE Annual Report 2012-13.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:39.231116+00:00"
+            }
+        }
+    ]
+}

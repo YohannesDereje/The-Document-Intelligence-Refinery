@@ -1,0 +1,121 @@
+{
+    "file_id": "2019_Audited_Financial_Statement_Report",
+    "domain_hint": "General",
+    "metadata": {
+        "overall_origin": "scanned",
+        "layout_complexity": "Low",
+        "total_pages": 3,
+        "units_count": 9,
+        "escalations": 0
+    },
+    "units": [
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p1_1",
+            "content_type": "header",
+            "content_raw": "Ethio Telecom\nIFRS financial statements\nFor the year ended 30 June 2019\nStatement of profit or loss and other comprehensive income",
+            "content_markdown": "# Ethio Telecom\n## IFRS financial statements\n### For the year ended 30 June 2019\n#### Statement of profit or loss and other comprehensive income",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:05.122802+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p1_2",
+            "content_type": "table",
+            "content_raw": "{\"headers\": [\"Notes\", \"30 June 2019\", \"30 June 2018\"], \"rows\": [[\"Revenue from contracts with customers\", \"\", \"36,405,691\", \"34,816,668\"], [\"Direct costs\", \"\", \"(3,201,044)\", \"(2,906,981)\"], [\"Operating expenses\", \"6(a)\", \"(11,964,115)\", \"(9,682,990)\"], [\"Net impairment losses on financial and contract assets\", \"6(b)\", \"(281,990)\", \"(173,748)\"], [\"Other income (expense)\", \"\", \"8\", \"413,765\", \"(23,846)\"], [\"Earnings before interest, taxes, depreciation and amortization (EBITDA)\", \"\", \"21,372,307\", \"21,893,103\"], [\"Depreciation of property, plant and equipment\", \"11\", \"(6,196,343)\", \"(6,222,741)\"], [\"Depreciation charge of right of use asset\", \"12\", \"(127,925)\", \"(100,603)\"], [\"Amortization intangible assets\", \"13\", \"(613,436)\", \"(586,262)\"], [\"Operating profit\", \"\", \"14,434,603\", \"14,929,492\"], [\"Finance income\", \"\", \"9\", \"146,577\", \"27,515\"], [\"Finance costs\", \"\", \"9\", \"(4,027,542)\", \"(7,994,729)\"], [\"Finance costs - net\", \"\", \"\", \"\", \"\"], [\"Profit / (loss) before income tax\", \"\", \"(3,880,965)\", \"(7,897,214)\"], [\"Income tax (expense) / credit\", \"10(a)\", \"10,553,638\", \"7,092,278\"], [\"Profit / (loss) after tax\", \"\", \"(4,219,890)\", \"(2,978,801)\"], [\"Other comprehensive income (OCI) net on income tax\", \"\", \"\", \"\", \"\"], [\"Items that will not be subsequently reclassified into profit or loss:\", \"\", \"\", \"\", \"\"], [\"Remeasurement gain/(loss) on post employment benefits obligations\", \"19\", \"(42,739)\", \"(3,503)\"], [\"Deferred tax (liability)/asset on remeasurement gain or loss on post employment benefits obligations\", \"10(a)\", \"12,822\", \"1,051\"], [\"Total comprehensive income (loss) for the period\", \"\", \"(29,917)\", \"(2,452)\"], [\"\", \"\", \"6,303,822\", \"4,050,935\"]]}",
+            "content_markdown": "| Notes | 30 June 2019 | 30 June 2018 |\n|-------|--------------|--------------|\n| Revenue from contracts with customers | | 36,405,691 | 34,816,668 |\n| Direct costs | | (3,201,044) | (2,906,981) |\n| Operating expenses | 6(a) | (11,964,115) | (9,682,990) |\n| Net impairment losses on financial and contract assets | 6(b) | (281,990) | (173,748) |\n| Other income (expense) | | 8 | 413,765 | (23,846) |\n| Earnings before interest, taxes, depreciation and amortization (EBITDA) | | 21,372,307 | 21,893,103 |\n| Depreciation of property, plant and equipment | 11 | (6,196,343) | (6,222,741) |\n| Depreciation charge of right of use asset | 12 | (127,925) | (100,603) |\n| Amortization intangible assets | 13 | (613,436) | (586,262) |\n| Operating profit | | 14,434,603 | 14,929,492 |\n| Finance income | | 9 | 146,577 | 27,515 |\n| Finance costs | | 9 | (4,027,542) | (7,994,729) |\n| Finance costs - net | | | | |\n| Profit / (loss) before income tax | | (3,880,965) | (7,897,214) |\n| Income tax (expense) / credit | 10(a) | 10,553,638 | 7,092,278 |\n| Profit / (loss) after tax | | (4,219,890) | (2,978,801) |\n| Other comprehensive income (OCI) net on income tax | | | | |\n| Items that will not be subsequently reclassified into profit or loss: | | | | |\n| Remeasurement gain/(loss) on post employment benefits obligations | 19 | (42,739) | (3,503) |\n| Deferred tax (liability)/asset on remeasurement gain or loss on post employment benefits obligations | 10(a) | 12,822 | 1,051 |\n| Total comprehensive income (loss) for the period | | (29,917) | (2,452) |\n| | | 6,303,822 | 4,050,935 |",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:05.122943+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p1_3",
+            "content_type": "text",
+            "content_raw": "The Notes on pages 15 to 55 are an integral part of these financial statements.",
+            "content_markdown": "The Notes on pages 15 to 55 are an integral part of these financial statements.",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:05.122969+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p2_1",
+            "content_type": "header",
+            "content_raw": "Ethio Telecom\nIFRS financial statements\nFor the year ended 30 June 2019\nStatement of financial position",
+            "content_markdown": "# Ethio Telecom\n## IFRS financial statements\n### For the year ended 30 June 2019\n#### Statement of financial position",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:31.072148+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p2_2",
+            "content_type": "table",
+            "content_raw": "{\"headers\": [\"30 June 2019\", \"30 June 2018\"], \"rows\": [[\"ASSETS\", \"\"], [\"Non current assets\", \"\"], [\"Property, plant and equipment\", \"38,455,632\", \"41,116,759\"], [\"Right of use assets\", \"628,012\", \"260,801\"], [\"Intangible assets\", \"1,937,069\", \"2,218,344\"], [\"Other assets\", \"51,904\", \"86,427\"], [\"Other financial assets at amortised cost\", \"7,308,912\", \"7,415,233\"], [\"Current assets\", \"\"], [\"Inventories\", \"3,894,474\", \"6,929,012\"], [\"Other assets\", \"2,806,865\", \"3,041,213\"], [\"Trade receivables\", \"7,737,477\", \"9,959,964\"], [\"Other financial assets at amortised cost\", \"1,131,566\", \"135,621\"], [\"Investment securities at amortised cost\", \"3,438,078\", \"946,482\"], [\"Cash and cash equivalents\", \"12,447,041\", \"15,938,827\"], [\"Total assets\", \"29,492,401\", \"35,851,065\"], [\"\", \"77,874,337\", \"86,948,619\"], [\"EQUITY AND LIABILITIES\", \"\"], [\"LIABILITIES\", \"\"], [\"Non-current liabilities\", \"\"], [\"Borrowings\", \"26,830,327\", \"31,444,923\"], [\"Provisions\", \"11,117\", \"6,722\"], [\"Lease liabilities\", \"422,907\", \"136,188\"], [\"Grants\", \"660\", \"705\"], [\"Deferred tax liabilities\", \"323,693\", \"528,179\"], [\"Defined benefit liabilities\", \"479,964\", \"403,279\"], [\"Current liabilities\", \"\"], [\"Borrowings\", \"7,733,327\", \"7,008,425\"], [\"Contract liabilities\", \"7,736,634\", \"7,643,770\"], [\"Trade and other payables\", \"18,956,735\", \"18,785,467\"], [\"Provisions\", \"16,305\", \"7,279\"], [\"Lease liabilities\", \"136,845\", \"59,809\"], [\"Grants\", \"43\", \"3,020\"], [\"Defined benefit liabilities\", \"46,938\", \"37,483\"], [\"Current income tax\", \"9,146,566\", \"11,056,813\"], [\"Total liabilities\", \"70,762,151\", \"80,140,256\"], [\"\", \"42,684,383\", \"47,620,062\"], [\"Equity attributable to owners\", \"\"], [\"Capital\", \"4,749,719\", \"4,749,719\"], [\"Retained earnings\", \"1,466,954\", \"1,133,215\"], [\"Legal reserve\", \"949,944\", \"949,944\"], [\"Other reserves\", \"-54,432\", \"-24,515\"], [\"Total equity\", \"7,112,185\", \"6,808,363\"], [\"Total equity and liabilities\", \"77,874,337\", \"86,948,619\"]]}",
+            "content_markdown": "| 30 June 2019 | 30 June 2018 |\n|---------------|---------------|\n| ASSETS        |               |\n| Non current assets |               |\n| Property, plant and equipment | 38,455,632 | 41,116,759 |\n| Right of use assets | 628,012 | 260,801 |\n| Intangible assets | 1,937,069 | 2,218,344 |\n| Other assets | 51,904 | 86,427 |\n| Other financial assets at amortised cost | 7,308,912 | 7,415,233 |\n| Current assets |               |\n| Inventories | 3,894,474 | 6,929,012 |\n| Other assets | 2,806,865 | 3,041,213 |\n| Trade receivables | 7,737,477 | 9,959,964 |\n| Other financial assets at amortised cost | 1,131,566 | 135,621 |\n| Investment securities at amortised cost | 3,438,078 | 946,482 |\n| Cash and cash equivalents | 12,447,041 | 15,938,827 |\n| Total assets | 29,492,401 | 35,851,065 |\n|               | 77,874,337 | 86,948,619 |\n| EQUITY AND LIABILITIES |               |\n| LIABILITIES |               |\n| Non-current liabilities |               |\n| Borrowings | 26,830,327 | 31,444,923 |\n| Provisions | 11,117 | 6,722 |\n| Lease liabilities | 422,907 | 136,188 |\n| Grants | 660 | 705 |\n| Deferred tax liabilities | 323,693 | 528,179 |\n| Defined benefit liabilities | 479,964 | 403,279 |\n| Current liabilities |               |\n| Borrowings | 7,733,327 | 7,008,425 |\n| Contract liabilities | 7,736,634 | 7,643,770 |\n| Trade and other payables | 18,956,735 | 18,785,467 |\n| Provisions | 16,305 | 7,279 |\n| Lease liabilities | 136,845 | 59,809 |\n| Grants | 43 | 3,020 |\n| Defined benefit liabilities | 46,938 | 37,483 |\n| Current income tax | 9,146,566 | 11,056,813 |\n| Total liabilities | 70,762,151 | 80,140,256 |\n|               | 42,684,383 | 47,620,062 |\n| Equity attributable to owners |               |\n| Capital | 4,749,719 | 4,749,719 |\n| Retained earnings | 1,466,954 | 1,133,215 |\n| Legal reserve | 949,944 | 949,944 |\n| Other reserves | -54,432 | -24,515 |\n| Total equity | 7,112,185 | 6,808,363 |\n| Total equity and liabilities | 77,874,337 | 86,948,619 |",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:31.072237+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p2_3",
+            "content_type": "text",
+            "content_raw": "The Notes on pages 15 to 55 are an integral part of these financial statements.\nThe financial statements on pages 11 to 55 were approved and authorised for issue on 03 December 2021 and were signed by:\nW/T Frehiwot Tamiru\nChief Executive Officer\n03 December 2021",
+            "content_markdown": "The Notes on pages 15 to 55 are an integral part of these financial statements.\nThe financial statements on pages 11 to 55 were approved and authorised for issue on 03 December 2021 and were signed by:\nW/T Frehiwot Tamiru\nChief Executive Officer\n03 December 2021",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:31.072250+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p3_1",
+            "content_type": "header",
+            "content_raw": "Ethio Telecom\nIFRS financial statements\nFor the year ended 30 June 2019\nStatement of cash flows",
+            "content_markdown": "# Ethio Telecom\n## IFRS financial statements\n### For the year ended 30 June 2019\n#### Statement of cash flows",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:49.019004+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p3_2",
+            "content_type": "table",
+            "content_raw": "{\"30 June 2019\": {\"Birr'000\": [\"23,434,783\", \"107,137\", \"(1,317,868)\", \"(6,042,829)\", \"16,181,323\", \"(2,500,000)\", \"(17,157)\", \"(3,852,130)\", \"(8,298)\", \"117,956\", \"(6,259,629)\", \"(6,511,669)\", \"(117,744)\", \"(6,000,000)\", \"(12,629,413)\", \"(2,707,719)\", \"15,538,827\", \"12,447,041\"]}, \"30 June 2018\": {\"Birr'000\": [\"27,853,736\", \"4,167\", \"(981,063)\", \"(5,210,786)\", \"21,666,054\", \"(300,000)\", \"(202)\", \"(1,665,259)\", \"(126)\", \"82,710\", \"(1,882,877)\", \"(4,764,478)\", \"(89,528)\", \"(3,215,699)\", \"(8,069,705)\", \"11,713,473\", \"(381,757)\", \"15,538,827\"]}}",
+            "content_markdown": "| 30 June 2019 | Birr'000     | 30 June 2018 | Birr'000     |\n|---------------|--------------|---------------|--------------|\n| Cash flows from operating activities |              |               |              |\n| Cash generated from operations       | 23,434,783   | 27,853,736    |\n| Interest income received              | 107,137      | 4,167        |\n| Interest expense paid                 | (1,317,868)  | (981,063)    |\n| Income tax paid                       | (6,042,829)  | (5,210,786)  |\n| Net cash (outflow)/inflow from operating activities | 16,181,323   | 21,666,054    |\n| Cash flows from investing activities   |              |               |\n| Purchase of investment securities     | (2,500,000)  | (300,000)    |\n| Purchase of intangible assets         | (17,157)     | (202)        |\n| Purchase of property, plant and equipment | (3,852,130) | (1,665,259)  |\n| Payment for right of use assets      | (8,298)      | (126)        |\n| Proceeds from sale of property, plant and equipment | 117,956      | 82,710       |\n| Net cash (outflow)/inflow from investing activities | (6,259,629)  | (1,882,877)  |\n| Cash flows from financing activities    |              |               |\n| Repayments of borrowings              | (6,511,669)  | (4,764,478)  |\n| Principal elements of lease payments   | (117,744)    | (89,528)     |\n| Payment to Ethiopian Railways Corporation | (6,000,000) | (3,215,699)  |\n| Net cash (outflow)/inflow from financing activities | (12,629,413) | (8,069,705)  |\n| Net increase/(decrease) in cash and cash equivalents | (2,707,719)  | 11,713,473   |\n| Cash and cash equivalents at the beginning of the year | 15,538,827   | 12,447,041   |\n| Cash and cash equivalents at the end of the year | 12,447,041   | 15,538,827   |",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:49.019089+00:00"
+            }
+        },
+        {
+            "uid": "2019_Audited_Financial_Statement_Report_p3_3",
+            "content_type": "text",
+            "content_raw": "The Notes on pages 15 to 55 are an integral part of these financial statements.",
+            "content_markdown": "The Notes on pages 15 to 55 are an integral part of these financial statements.",
+            "provenance": {
+                "source_file": "2019_Audited_Financial_Statement_Report.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:31:49.019112+00:00"
+            }
+        }
+    ]
+}

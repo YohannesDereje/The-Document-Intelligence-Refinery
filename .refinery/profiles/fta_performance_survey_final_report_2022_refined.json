@@ -1,0 +1,829 @@
+{
+    "file_id": "fta_performance_survey_final_report_2022",
+    "domain_hint": "Banking/Security",
+    "metadata": {
+        "overall_origin": "born_digital",
+        "layout_complexity": "High",
+        "total_pages": 3,
+        "units_count": 68,
+        "escalations": 1
+    },
+    "units": [
+        {
+            "uid": "fta_performance_survey_final_report_2022_p1_1",
+            "content_type": "text",
+            "content_raw": "Vision API error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14517. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_39zcrckkqRnpI93FTI7V9H8qrqE'}",
+            "content_markdown": "Vision API error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14517. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_39zcrckkqRnpI93FTI7V9H8qrqE'}",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:38:13.881791+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_1",
+            "content_type": "text",
+            "content_raw": "Contents",
+            "content_markdown": "Contents",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120021+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_2",
+            "content_type": "text",
+            "content_raw": "List of Figures ........................................................................................................................................ iii",
+            "content_markdown": "List of Figures ........................................................................................................................................ iii",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120100+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_3",
+            "content_type": "text",
+            "content_raw": "List of Tables .......................................................................................................................................... v",
+            "content_markdown": "List of Tables .......................................................................................................................................... v",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120125+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_4",
+            "content_type": "text",
+            "content_raw": "Acknowledgements ................................................................................................................................ vi",
+            "content_markdown": "Acknowledgements ................................................................................................................................ vi",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120147+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_5",
+            "content_type": "text",
+            "content_raw": "Acronyms .............................................................................................................................................. vii",
+            "content_markdown": "Acronyms .............................................................................................................................................. vii",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120168+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_6",
+            "content_type": "text",
+            "content_raw": "Executive Summary ................................................................................................................................. i",
+            "content_markdown": "Executive Summary ................................................................................................................................. i",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120189+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_7",
+            "content_type": "text",
+            "content_raw": "1. Introduction ......................................................................................................................................... 1",
+            "content_markdown": "1. Introduction ......................................................................................................................................... 1",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120209+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_8",
+            "content_type": "text",
+            "content_raw": "1.1. Background .................................................................................................................................. 1",
+            "content_markdown": "1.1. Background .................................................................................................................................. 1",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120230+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_9",
+            "content_type": "text",
+            "content_raw": "1.2. Objective of the assessment ......................................................................................................... 4",
+            "content_markdown": "1.2. Objective of the assessment ......................................................................................................... 4",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120251+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_10",
+            "content_type": "text",
+            "content_raw": "1.3. Scope of the study ........................................................................................................................ 5",
+            "content_markdown": "1.3. Scope of the study ........................................................................................................................ 5",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120273+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_11",
+            "content_type": "text",
+            "content_raw": "1.4. Brief overview of FTA Program in Ethiopia ............................................................................... 6",
+            "content_markdown": "1.4. Brief overview of FTA Program in Ethiopia ............................................................................... 6",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120294+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_12",
+            "content_type": "text",
+            "content_raw": "1.4.1. Context .................................................................................................................................. 6",
+            "content_markdown": "1.4.1. Context .................................................................................................................................. 6",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120316+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_13",
+            "content_type": "text",
+            "content_raw": "1.4.2. The FTA initiative ................................................................................................................. 7",
+            "content_markdown": "1.4.2. The FTA initiative ................................................................................................................. 7",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120337+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_14",
+            "content_type": "text",
+            "content_raw": "1.4.3. Logical framework of FTA ................................................................................................... 8",
+            "content_markdown": "1.4.3. Logical framework of FTA ................................................................................................... 8",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120357+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_15",
+            "content_type": "text",
+            "content_raw": "1.4.4. Implementation status of FTA initiative so far ..................................................................... 9",
+            "content_markdown": "1.4.4. Implementation status of FTA initiative so far ..................................................................... 9",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120378+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_16",
+            "content_type": "text",
+            "content_raw": "2. Methodology ..................................................................................................................................... 10",
+            "content_markdown": "2. Methodology ..................................................................................................................................... 10",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120398+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_17",
+            "content_type": "text",
+            "content_raw": "2.1. Study design ............................................................................................................................... 11",
+            "content_markdown": "2.1. Study design ............................................................................................................................... 11",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120418+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_18",
+            "content_type": "text",
+            "content_raw": "2.2. Study coverage ........................................................................................................................... 11",
+            "content_markdown": "2.2. Study coverage ........................................................................................................................... 11",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120439+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_19",
+            "content_type": "text",
+            "content_raw": "2.2. Sampling technique .................................................................................................................... 11",
+            "content_markdown": "2.2. Sampling technique .................................................................................................................... 11",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120459+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_20",
+            "content_type": "text",
+            "content_raw": "2.3. Data collection technique ........................................................................................................... 12",
+            "content_markdown": "2.3. Data collection technique ........................................................................................................... 12",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120479+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_21",
+            "content_type": "text",
+            "content_raw": "2.3.1. Document review ................................................................................................................ 12",
+            "content_markdown": "2.3.1. Document review ................................................................................................................ 12",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120499+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_22",
+            "content_type": "text",
+            "content_raw": "2.3.2. Household interview ........................................................................................................... 13",
+            "content_markdown": "2.3.2. Household interview ........................................................................................................... 13",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120519+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_23",
+            "content_type": "text",
+            "content_raw": "2.3.3. Key informant interviews .................................................................................................... 13",
+            "content_markdown": "2.3.3. Key informant interviews .................................................................................................... 13",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120539+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_24",
+            "content_type": "text",
+            "content_raw": "2.3.4. Focus group discussions ...................................................................................................... 14",
+            "content_markdown": "2.3.4. Focus group discussions ...................................................................................................... 14",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120560+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_25",
+            "content_type": "text",
+            "content_raw": "2.4. Data analysis .............................................................................................................................. 14",
+            "content_markdown": "2.4. Data analysis .............................................................................................................................. 14",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120579+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_26",
+            "content_type": "text",
+            "content_raw": "2.5. Limitations ................................................................................................................................. 14",
+            "content_markdown": "2.5. Limitations ................................................................................................................................. 14",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120600+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_27",
+            "content_type": "text",
+            "content_raw": "2.6. Organization of the report .......................................................................................................... 15",
+            "content_markdown": "2.6. Organization of the report .......................................................................................................... 15",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120621+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_28",
+            "content_type": "text",
+            "content_raw": "3. Achievement against expectations .................................................................................................... 16",
+            "content_markdown": "3. Achievement against expectations .................................................................................................... 16",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120641+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_29",
+            "content_type": "text",
+            "content_raw": "3.1 Achievements at Sub-national level ............................................................................................ 16",
+            "content_markdown": "3.1 Achievements at Sub-national level ............................................................................................ 16",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120661+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_30",
+            "content_type": "text",
+            "content_raw": "3.1.1. Awareness creations ............................................................................................................ 16",
+            "content_markdown": "3.1.1. Awareness creations ............................................................................................................ 16",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120681+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_31",
+            "content_type": "text",
+            "content_raw": "3.1.2. Budget Literacy Training provision .................................................................................... 17",
+            "content_markdown": "3.1.2. Budget Literacy Training provision .................................................................................... 17",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120702+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_32",
+            "content_type": "text",
+            "content_raw": "3.1.3. Budgetary information provision ........................................................................................ 21",
+            "content_markdown": "3.1.3. Budgetary information provision ........................................................................................ 21",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120722+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_33",
+            "content_type": "text",
+            "content_raw": "3.1.4. Pre-budget discussions ........................................................................................................ 25",
+            "content_markdown": "3.1.4. Pre-budget discussions ........................................................................................................ 25",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120742+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_34",
+            "content_type": "text",
+            "content_raw": "3.1.5. Accountability mechanism .................................................................................................. 28",
+            "content_markdown": "3.1.5. Accountability mechanism .................................................................................................. 28",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120762+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_35",
+            "content_type": "text",
+            "content_raw": "3.1.6. Implementation challenges at regional/city administration and woreda level .................... 29",
+            "content_markdown": "3.1.6. Implementation challenges at regional/city administration and woreda level .................... 29",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120782+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_36",
+            "content_type": "text",
+            "content_raw": "3.2 Achievement at Federal budgetary institutions ........................................................................... 30",
+            "content_markdown": "3.2 Achievement at Federal budgetary institutions ........................................................................... 30",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120802+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_37",
+            "content_type": "text",
+            "content_raw": "3.2.1. Awareness about FTA ......................................................................................................... 30",
+            "content_markdown": "3.2.1. Awareness about FTA ......................................................................................................... 30",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120823+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p2_38",
+            "content_type": "text",
+            "content_raw": "3.2.2. Provision of budgetary information .................................................................................... 31",
+            "content_markdown": "3.2.2. Provision of budgetary information .................................................................................... 31",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:18.120843+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_1",
+            "content_type": "text",
+            "content_raw": "3.2.3. Engagement of stakeholders ............................................................................................... 34",
+            "content_markdown": "3.2.3. Engagement of stakeholders ............................................................................................... 34",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842087+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_2",
+            "content_type": "text",
+            "content_raw": "3.2.4. Implementation challenges at Federal budgetary institution level ...................................... 35",
+            "content_markdown": "3.2.4. Implementation challenges at Federal budgetary institution level ...................................... 35",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842146+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_3",
+            "content_type": "text",
+            "content_raw": "4. Effectiveness and impact of FTA initiatives ..................................................................................... 36",
+            "content_markdown": "4. Effectiveness and impact of FTA initiatives ..................................................................................... 36",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842161+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_4",
+            "content_type": "text",
+            "content_raw": "4.1. Demographic Characteristics of respondents ............................................................................. 36",
+            "content_markdown": "4.1. Demographic Characteristics of respondents ............................................................................. 36",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842173+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_5",
+            "content_type": "text",
+            "content_raw": "4.2. Citizen awareness and understanding ........................................................................................ 39",
+            "content_markdown": "4.2. Citizen awareness and understanding ........................................................................................ 39",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842184+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_6",
+            "content_type": "text",
+            "content_raw": "4.3. Access to budget information .................................................................................................... 45",
+            "content_markdown": "4.3. Access to budget information .................................................................................................... 45",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842196+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_7",
+            "content_type": "text",
+            "content_raw": "4.4. Citizens’ participation in local government ............................................................................... 52",
+            "content_markdown": "4.4. Citizens’ participation in local government ............................................................................... 52",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842210+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_8",
+            "content_type": "text",
+            "content_raw": "4.5. Transparency and accountability in basic services delivery ...................................................... 62",
+            "content_markdown": "4.5. Transparency and accountability in basic services delivery ...................................................... 62",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842224+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_9",
+            "content_type": "text",
+            "content_raw": "4.6. Satisfaction with of basic services delivery ............................................................................... 64",
+            "content_markdown": "4.6. Satisfaction with of basic services delivery ............................................................................... 64",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842235+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_10",
+            "content_type": "text",
+            "content_raw": "5. Determinants of local government transparency ............................................................................... 68",
+            "content_markdown": "5. Determinants of local government transparency ............................................................................... 68",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842246+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_11",
+            "content_type": "text",
+            "content_raw": "6. Gender and FTA ............................................................................................................................... 73",
+            "content_markdown": "6. Gender and FTA ............................................................................................................................... 73",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842257+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_12",
+            "content_type": "text",
+            "content_raw": "6.1. Women representation in local government .............................................................................. 73",
+            "content_markdown": "6.1. Women representation in local government .............................................................................. 73",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842268+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_13",
+            "content_type": "text",
+            "content_raw": "6.2. Availability of sex disaggregated data ....................................................................................... 74",
+            "content_markdown": "6.2. Availability of sex disaggregated data ....................................................................................... 74",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842280+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_14",
+            "content_type": "text",
+            "content_raw": "6.3. Women participation in FTA implementation ........................................................................... 75",
+            "content_markdown": "6.3. Women participation in FTA implementation ........................................................................... 75",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842292+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_15",
+            "content_type": "text",
+            "content_raw": "6.4. Challenges in ensuring gender equality ..................................................................................... 77",
+            "content_markdown": "6.4. Challenges in ensuring gender equality ..................................................................................... 77",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842308+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_16",
+            "content_type": "text",
+            "content_raw": "7. Linkage and coordination ................................................................................................................. 79",
+            "content_markdown": "7. Linkage and coordination ................................................................................................................. 79",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842320+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_17",
+            "content_type": "text",
+            "content_raw": "8. Project management .......................................................................................................................... 83",
+            "content_markdown": "8. Project management .......................................................................................................................... 83",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842331+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_18",
+            "content_type": "text",
+            "content_raw": "9. Lesson learned .................................................................................................................................. 86",
+            "content_markdown": "9. Lesson learned .................................................................................................................................. 86",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842342+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_19",
+            "content_type": "text",
+            "content_raw": "10. Conclusions and Recommendations ............................................................................................... 89",
+            "content_markdown": "10. Conclusions and Recommendations ............................................................................................... 89",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842353+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_20",
+            "content_type": "text",
+            "content_raw": "10.1. Conclusion ............................................................................................................................... 89",
+            "content_markdown": "10.1. Conclusion ............................................................................................................................... 89",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842364+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_21",
+            "content_type": "text",
+            "content_raw": "10.2. Recommendations .................................................................................................................... 91",
+            "content_markdown": "10.2. Recommendations .................................................................................................................... 91",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842376+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_22",
+            "content_type": "text",
+            "content_raw": "Annexes ................................................................................................................................................ 95",
+            "content_markdown": "Annexes ................................................................................................................................................ 95",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842391+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_23",
+            "content_type": "text",
+            "content_raw": "Annex A: Additional Tables ............................................................................................................. 95",
+            "content_markdown": "Annex A: Additional Tables ............................................................................................................. 95",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842402+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_24",
+            "content_type": "text",
+            "content_raw": "Annex B: List of Sample Woredas and Towns ................................................................................. 96",
+            "content_markdown": "Annex B: List of Sample Woredas and Towns ................................................................................. 96",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842413+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_25",
+            "content_type": "text",
+            "content_raw": "Annex C: List of selected Federal Budgetary Institutions .............................................................. 100",
+            "content_markdown": "Annex C: List of selected Federal Budgetary Institutions .............................................................. 100",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842424+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_26",
+            "content_type": "text",
+            "content_raw": "Annex D: Matrix of evaluation questions and data sources ............................................................ 101",
+            "content_markdown": "Annex D: Matrix of evaluation questions and data sources ............................................................ 101",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842435+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_27",
+            "content_type": "text",
+            "content_raw": "Annex E. Household Survey Instruments (Questionnaire) ............................................................. 106",
+            "content_markdown": "Annex E. Household Survey Instruments (Questionnaire) ............................................................. 106",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842446+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_28",
+            "content_type": "text",
+            "content_raw": "Annex F: Key Informant Interview (KII) Instrument ..................................................................... 123",
+            "content_markdown": "Annex F: Key Informant Interview (KII) Instrument ..................................................................... 123",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842459+00:00"
+            }
+        },
+        {
+            "uid": "fta_performance_survey_final_report_2022_p3_29",
+            "content_type": "text",
+            "content_raw": "Annex G: Focus Group Discussions (FGD) Guide (Protocol) ........................................................ 137",
+            "content_markdown": "Annex G: Focus Group Discussions (FGD) Guide (Protocol) ........................................................ 137",
+            "provenance": {
+                "source_file": "fta_performance_survey_final_report_2022.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:38:19.842469+00:00"
+            }
+        }
+    ]
+}

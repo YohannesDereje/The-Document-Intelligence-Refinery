@@ -1,0 +1,997 @@
+{
+    "file_id": "Consumer Price Index September 2025",
+    "domain_hint": "Banking/Security",
+    "metadata": {
+        "overall_origin": "born_digital",
+        "layout_complexity": "Medium",
+        "total_pages": 3,
+        "units_count": 82,
+        "escalations": 1
+    },
+    "units": [
+        {
+            "uid": "Consumer Price Index September 2025_p1_1",
+            "content_type": "text",
+            "content_raw": "ETHIOPIAN STATISTICAL SERVICE",
+            "content_markdown": "ETHIOPIAN STATISTICAL SERVICE",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285753+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_2",
+            "content_type": "text",
+            "content_raw": "Statistical Bulletin",
+            "content_markdown": "Statistical Bulletin",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285824+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_3",
+            "content_type": "text",
+            "content_raw": "MONTHLY NEWS RELEASE",
+            "content_markdown": "MONTHLY NEWS RELEASE",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285852+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_4",
+            "content_type": "text",
+            "content_raw": "INFLATION REPORT ON SEPTEMBER, EFY 2018",
+            "content_markdown": "INFLATION REPORT ON SEPTEMBER, EFY 2018",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285869+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_5",
+            "content_type": "text",
+            "content_raw": "Issue No. 27/2018",
+            "content_markdown": "Issue No. 27/2018",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285886+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_6",
+            "content_type": "text",
+            "content_raw": "September EFY2018 Page 1",
+            "content_markdown": "September EFY2018 Page 1",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285902+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_7",
+            "content_type": "text",
+            "content_raw": "1. Summary",
+            "content_markdown": "1. Summary",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285961+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_8",
+            "content_type": "text",
+            "content_raw": "The Consumer Price Index (CPI), a key economic statistics, is surveyed, analyzed, and made available",
+            "content_markdown": "The Consumer Price Index (CPI), a key economic statistics, is surveyed, analyzed, and made available",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285980+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_9",
+            "content_type": "text",
+            "content_raw": "Content",
+            "content_markdown": "Content",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.285997+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_10",
+            "content_type": "text",
+            "content_raw": "to data users on a monthly basis.",
+            "content_markdown": "to data users on a monthly basis.",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286014+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_11",
+            "content_type": "text",
+            "content_raw": "The year-on-year, general inflation rate (annual percentage change) in the country stood at 13.2",
+            "content_markdown": "The year-on-year, general inflation rate (annual percentage change) in the country stood at 13.2",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286031+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_12",
+            "content_type": "text",
+            "content_raw": "percent for the month of September EFY2018. A year earlier (in September EFY2016), the rate was",
+            "content_markdown": "percent for the month of September EFY2018. A year earlier (in September EFY2016), the rate was",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286047+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_13",
+            "content_type": "text",
+            "content_raw": "Summary",
+            "content_markdown": "Summary",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286064+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_14",
+            "content_type": "text",
+            "content_raw": "",
+            "content_markdown": "",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286082+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_15",
+            "content_type": "text",
+            "content_raw": "17.5 percent. The month-on-month general inflation rate increased by 2.0 percent for the month of",
+            "content_markdown": "17.5 percent. The month-on-month general inflation rate increased by 2.0 percent for the month of",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286100+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_16",
+            "content_type": "text",
+            "content_raw": "Year-on-Year Gen-",
+            "content_markdown": "Year-on-Year Gen-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286117+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_17",
+            "content_type": "text",
+            "content_raw": "September-EFY2018. It was 2.4 percent in September EFY2017. ",
+            "content_markdown": "September-EFY2018. It was 2.4 percent in September EFY2017. ",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286135+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_18",
+            "content_type": "text",
+            "content_raw": "eral, Food & Non-",
+            "content_markdown": "eral, Food & Non-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286154+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_19",
+            "content_type": "text",
+            "content_raw": "General inflation encompasses of two main divisions and twenty-one groups of expenditures. These",
+            "content_markdown": "General inflation encompasses of two main divisions and twenty-one groups of expenditures. These",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286171+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_20",
+            "content_type": "text",
+            "content_raw": "food Inflation",
+            "content_markdown": "food Inflation",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286189+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_21",
+            "content_type": "text",
+            "content_raw": "divisions registered the following price changes during the month of September EFY2018 compared",
+            "content_markdown": "divisions registered the following price changes during the month of September EFY2018 compared",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286207+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_22",
+            "content_type": "text",
+            "content_raw": "Month-on-Month",
+            "content_markdown": "Month-on-Month",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286227+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_23",
+            "content_type": "text",
+            "content_raw": "",
+            "content_markdown": "",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286244+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_24",
+            "content_type": "text",
+            "content_raw": "with September EFY2017.",
+            "content_markdown": "with September EFY2017.",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286262+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_25",
+            "content_type": "text",
+            "content_raw": "General, Food &",
+            "content_markdown": "General, Food &",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286279+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_26",
+            "content_type": "text",
+            "content_raw": "2. Food & Non-alcoholic Beverages and Non-Food (Year-on-Year)",
+            "content_markdown": "2. Food & Non-alcoholic Beverages and Non-Food (Year-on-Year)",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286294+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_27",
+            "content_type": "text",
+            "content_raw": "Inflation",
+            "content_markdown": "Inflation",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286310+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_28",
+            "content_type": "text",
+            "content_raw": "Non-food Inflation",
+            "content_markdown": "Non-food Inflation",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286326+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_29",
+            "content_type": "text",
+            "content_raw": "The year-on-year inflation and the month-to-month inflation rates helps to gauge the current infla-",
+            "content_markdown": "The year-on-year inflation and the month-to-month inflation rates helps to gauge the current infla-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286341+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_30",
+            "content_type": "text",
+            "content_raw": "12-Month Moving",
+            "content_markdown": "12-Month Moving",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286356+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_31",
+            "content_type": "text",
+            "content_raw": "",
+            "content_markdown": "",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286370+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_32",
+            "content_type": "text",
+            "content_raw": "tion trajectory, as they capture short-term fluctuations in prices and provides an immediate indicator",
+            "content_markdown": "tion trajectory, as they capture short-term fluctuations in prices and provides an immediate indicator",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286384+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_33",
+            "content_type": "text",
+            "content_raw": "Average General,",
+            "content_markdown": "Average General,",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286398+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_34",
+            "content_type": "text",
+            "content_raw": "Food and Non-food",
+            "content_markdown": "Food and Non-food",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286412+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_35",
+            "content_type": "text",
+            "content_raw": "of inflationary pressures. Particularly, the month-to-month is also crucial for monitoring changes in",
+            "content_markdown": "of inflationary pressures. Particularly, the month-to-month is also crucial for monitoring changes in",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286426+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_36",
+            "content_type": "text",
+            "content_raw": "Inflation",
+            "content_markdown": "Inflation",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286440+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_37",
+            "content_type": "text",
+            "content_raw": "consumer prices and identifying any sudden spikes or declines in inflation.",
+            "content_markdown": "consumer prices and identifying any sudden spikes or declines in inflation.",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286453+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_38",
+            "content_type": "text",
+            "content_raw": "Annual Infla-",
+            "content_markdown": "Annual Infla-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286467+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_39",
+            "content_type": "text",
+            "content_raw": "",
+            "content_markdown": "",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286481+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_40",
+            "content_type": "text",
+            "content_raw": "tion trend",
+            "content_markdown": "tion trend",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286494+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_41",
+            "content_type": "text",
+            "content_raw": "Food & Non-alcoholic Beverages index",
+            "content_markdown": "Food & Non-alcoholic Beverages index",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286509+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_42",
+            "content_type": "text",
+            "content_raw": "The year-on-year inflation rate, also known as the annual inflation rate, measures the percentage change",
+            "content_markdown": "The year-on-year inflation rate, also known as the annual inflation rate, measures the percentage change",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286524+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_43",
+            "content_type": "text",
+            "content_raw": "in overall price levels from one year to the same month in the previous year. Accordingly, the year-on-year",
+            "content_markdown": "in overall price levels from one year to the same month in the previous year. Accordingly, the year-on-year",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286539+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_44",
+            "content_type": "text",
+            "content_raw": "Glossary",
+            "content_markdown": "Glossary",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286553+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_45",
+            "content_type": "text",
+            "content_raw": "",
+            "content_markdown": "",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286568+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_46",
+            "content_type": "text",
+            "content_raw": "inflation rate of the Food and Non-alcoholic component of the CPI, for the month of September 2018 EFY",
+            "content_markdown": "inflation rate of the Food and Non-alcoholic component of the CPI, for the month of September 2018 EFY",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286582+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_47",
+            "content_type": "text",
+            "content_raw": "stood at 12.1%. This implies that the CPI of Food and Non-Alcoholic Beverages has, on average, increased",
+            "content_markdown": "stood at 12.1%. This implies that the CPI of Food and Non-Alcoholic Beverages has, on average, increased",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286671+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_48",
+            "content_type": "text",
+            "content_raw": "by 12.1% compared to September EFY2016. The major contributing factors for the rise of food inflation for",
+            "content_markdown": "by 12.1% compared to September EFY2016. The major contributing factors for the rise of food inflation for",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286692+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_49",
+            "content_type": "text",
+            "content_raw": "September EFY2018 was the observed increase in the average prices of major food commodities such as",
+            "content_markdown": "September EFY2018 was the observed increase in the average prices of major food commodities such as",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286707+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_50",
+            "content_type": "text",
+            "content_raw": "bread and cereals decreased by (-2.0%), vegetables increased by (15.3%), meat increased by (16.1%), Sug-",
+            "content_markdown": "bread and cereals decreased by (-2.0%), vegetables increased by (15.3%), meat increased by (16.1%), Sug-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286722+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_51",
+            "content_type": "text",
+            "content_raw": "ar, jam, honey & chocolate increased by (20.5%), Milk, Cheese and Eggs increased by (14.5%), Oils and",
+            "content_markdown": "ar, jam, honey & chocolate increased by (20.5%), Milk, Cheese and Eggs increased by (14.5%), Oils and",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286737+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_52",
+            "content_type": "text",
+            "content_raw": "Fats increased by (19.5%), Fruit increased by (17.8%), and Food products n.e.c increased by (21.9%).",
+            "content_markdown": "Fats increased by (19.5%), Fruit increased by (17.8%), and Food products n.e.c increased by (21.9%).",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286752+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_53",
+            "content_type": "text",
+            "content_raw": "Tele: +251 111 568464",
+            "content_markdown": "Tele: +251 111 568464",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286768+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_54",
+            "content_type": "text",
+            "content_raw": "YOUR RELIABLE DATA SOURCE",
+            "content_markdown": "YOUR RELIABLE DATA SOURCE",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286783+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_55",
+            "content_type": "text",
+            "content_raw": "Website: www.ess.gov.et",
+            "content_markdown": "Website: www.ess.gov.et",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286800+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_56",
+            "content_type": "text",
+            "content_raw": "+251 111 564226",
+            "content_markdown": "+251 111 564226",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286817+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_57",
+            "content_type": "text",
+            "content_raw": "ተዓማኒ የመረጃ",
+            "content_markdown": "ተዓማኒ የመረጃ",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286835+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_58",
+            "content_type": "text",
+            "content_raw": "P.O.Box፡ 1143",
+            "content_markdown": "P.O.Box፡ 1143",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286851+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_59",
+            "content_type": "text",
+            "content_raw": "+251 111 115131",
+            "content_markdown": "+251 111 115131",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286868+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p1_60",
+            "content_type": "text",
+            "content_raw": "Fax: +251 111 115470",
+            "content_markdown": "Fax: +251 111 115470",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:22.286885+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p2_1",
+            "content_type": "text",
+            "content_raw": "Vision API error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16060. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_39zcrckkqRnpI93FTI7V9H8qrqE'}",
+            "content_markdown": "Vision API error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 16060. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_39zcrckkqRnpI93FTI7V9H8qrqE'}",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:36:24.199422+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_1",
+            "content_type": "text",
+            "content_raw": "ETHIOPIAN STATISTICAL SERVICE",
+            "content_markdown": "ETHIOPIAN STATISTICAL SERVICE",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.094951+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_2",
+            "content_type": "text",
+            "content_raw": "Statistical Bulletin",
+            "content_markdown": "Statistical Bulletin",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095022+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_3",
+            "content_type": "text",
+            "content_raw": "Page 3",
+            "content_markdown": "Page 3",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095048+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_4",
+            "content_type": "text",
+            "content_raw": "Issue No. 27/2018",
+            "content_markdown": "Issue No. 27/2018",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095070+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_5",
+            "content_type": "text",
+            "content_raw": "Fig 1: Food and Non-Food Inflation (%, Year-on-Year), September EFY2017 - September EFY2018",
+            "content_markdown": "Fig 1: Food and Non-Food Inflation (%, Year-on-Year), September EFY2017 - September EFY2018",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095092+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_6",
+            "content_type": "text",
+            "content_raw": "Non-Food Inflation and Alcoholic Beverages (Year-on-Year)",
+            "content_markdown": "Non-Food Inflation and Alcoholic Beverages (Year-on-Year)",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095115+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_7",
+            "content_type": "text",
+            "content_raw": "As can be seen from the above figure, both the non-food year-on-year inflation rate and Food inflation rate in-",
+            "content_markdown": "As can be seen from the above figure, both the non-food year-on-year inflation rate and Food inflation rate in-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095138+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_8",
+            "content_type": "text",
+            "content_raw": "creased in September-ETY2018. The Non-Food inflation increased by 14.8 percent during the same period. Par-",
+            "content_markdown": "creased in September-ETY2018. The Non-Food inflation increased by 14.8 percent during the same period. Par-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095159+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_9",
+            "content_type": "text",
+            "content_raw": "ticularly, Alcoholic Beverages and Tobacco increased by (18.4%); Housing, water, electricity & other fuel compo-",
+            "content_markdown": "ticularly, Alcoholic Beverages and Tobacco increased by (18.4%); Housing, water, electricity & other fuel compo-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095180+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_10",
+            "content_type": "text",
+            "content_raw": "nent increased by (12.9%); Furnishings, household equipment & routine maintenance of the House increased by",
+            "content_markdown": "nent increased by (12.9%); Furnishings, household equipment & routine maintenance of the House increased by",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095202+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_11",
+            "content_type": "text",
+            "content_raw": "(13.5%); Health decreased by (-0.6%); Transport increased by (40.3%); Communication increased by (7.8%); Ed-",
+            "content_markdown": "(13.5%); Health decreased by (-0.6%); Transport increased by (40.3%); Communication increased by (7.8%); Ed-",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095224+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_12",
+            "content_type": "text",
+            "content_raw": "ucation increased by (5.8%); Restaurants and hotels increased by (11.1%) and Miscellaneous goods and services",
+            "content_markdown": "ucation increased by (5.8%); Restaurants and hotels increased by (11.1%) and Miscellaneous goods and services",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095246+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_13",
+            "content_type": "text",
+            "content_raw": "increased by (20.9%) have contributed for the rise in non-food inflation rate in September EFY2018.",
+            "content_markdown": "increased by (20.9%) have contributed for the rise in non-food inflation rate in September EFY2018.",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095269+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_14",
+            "content_type": "text",
+            "content_raw": "Tele: +251 111 568464",
+            "content_markdown": "Tele: +251 111 568464",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095293+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_15",
+            "content_type": "text",
+            "content_raw": "YOUR RELIABLE DATA SOURCE",
+            "content_markdown": "YOUR RELIABLE DATA SOURCE",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095316+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_16",
+            "content_type": "text",
+            "content_raw": "Website: www.ess.gov.et",
+            "content_markdown": "Website: www.ess.gov.et",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095337+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_17",
+            "content_type": "text",
+            "content_raw": "+251 111 564226",
+            "content_markdown": "+251 111 564226",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095359+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_18",
+            "content_type": "text",
+            "content_raw": "ተዓማኒ የመረጃ",
+            "content_markdown": "ተዓማኒ የመረጃ",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095381+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_19",
+            "content_type": "text",
+            "content_raw": "P.O.Box፡ 1143",
+            "content_markdown": "P.O.Box፡ 1143",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095404+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_20",
+            "content_type": "text",
+            "content_raw": "+251 111 115131",
+            "content_markdown": "+251 111 115131",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095427+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index September 2025_p3_21",
+            "content_type": "text",
+            "content_raw": "Fax: +251 111 115470",
+            "content_markdown": "Fax: +251 111 115470",
+            "provenance": {
+                "source_file": "Consumer Price Index September 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:36:25.095450+00:00"
+            }
+        }
+    ]
+}

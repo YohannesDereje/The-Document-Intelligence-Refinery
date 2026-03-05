@@ -1,6 +1,8 @@
 # Ignore the data and output
+# Data and Confidential PDFs
+data/*.pdf
+data/**/*.pdf
 data/
-triage_manifest.json
 __pycache__/
 .env
 

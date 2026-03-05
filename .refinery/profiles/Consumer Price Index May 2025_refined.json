@@ -1,0 +1,877 @@
+{
+    "file_id": "Consumer Price Index May 2025",
+    "domain_hint": "Banking/Security",
+    "metadata": {
+        "overall_origin": "born_digital",
+        "layout_complexity": "Medium",
+        "total_pages": 3,
+        "units_count": 72,
+        "escalations": 1
+    },
+    "units": [
+        {
+            "uid": "Consumer Price Index May 2025_p1_1",
+            "content_type": "text",
+            "content_raw": "ETHIOPIAN STATISTICAL SERVICE",
+            "content_markdown": "ETHIOPIAN STATISTICAL SERVICE",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618196+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_2",
+            "content_type": "text",
+            "content_raw": "Statistical Bulletin",
+            "content_markdown": "Statistical Bulletin",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618247+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_3",
+            "content_type": "text",
+            "content_raw": "MONTHLY NEWS RELEASE",
+            "content_markdown": "MONTHLY NEWS RELEASE",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618261+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_4",
+            "content_type": "text",
+            "content_raw": "INFLATION REPORT ON MAY, EFY 2017",
+            "content_markdown": "INFLATION REPORT ON MAY, EFY 2017",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618272+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_5",
+            "content_type": "text",
+            "content_raw": "May EFY2017 Issue No. 23/2017",
+            "content_markdown": "May EFY2017 Issue No. 23/2017",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618283+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_6",
+            "content_type": "text",
+            "content_raw": "1. Summary",
+            "content_markdown": "1. Summary",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618294+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_7",
+            "content_type": "text",
+            "content_raw": "The Consumer Price Index (CPI), a key economic statistics, is surveyed, analyzed, and made available",
+            "content_markdown": "The Consumer Price Index (CPI), a key economic statistics, is surveyed, analyzed, and made available",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618307+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_8",
+            "content_type": "text",
+            "content_raw": "Content",
+            "content_markdown": "Content",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618318+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_9",
+            "content_type": "text",
+            "content_raw": "to data users on a monthly basis.",
+            "content_markdown": "to data users on a monthly basis.",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618328+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_10",
+            "content_type": "text",
+            "content_raw": "The year-on-year, general inflation rate (annual percentage change) in the country stood at 14.4",
+            "content_markdown": "The year-on-year, general inflation rate (annual percentage change) in the country stood at 14.4",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618339+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_11",
+            "content_type": "text",
+            "content_raw": "percent for the month of May EFY2017. A year earlier (in May EFY2016), the rate was 22.8 percent.",
+            "content_markdown": "percent for the month of May EFY2017. A year earlier (in May EFY2016), the rate was 22.8 percent.",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618349+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_12",
+            "content_type": "text",
+            "content_raw": "Summary",
+            "content_markdown": "Summary",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618359+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_13",
+            "content_type": "text",
+            "content_raw": "•",
+            "content_markdown": "•",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618370+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_14",
+            "content_type": "text",
+            "content_raw": "The month-on-month general inflation rate increased by 0.2 percent for the month of May-EFY2017.",
+            "content_markdown": "The month-on-month general inflation rate increased by 0.2 percent for the month of May-EFY2017.",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618380+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_15",
+            "content_type": "text",
+            "content_raw": "Year-on-Year Gen-",
+            "content_markdown": "Year-on-Year Gen-",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618391+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_16",
+            "content_type": "text",
+            "content_raw": "It was 0.2 percent in May EFY2016. •",
+            "content_markdown": "It was 0.2 percent in May EFY2016. •",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618401+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_17",
+            "content_type": "text",
+            "content_raw": "eral, Food & Non-",
+            "content_markdown": "eral, Food & Non-",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618411+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_18",
+            "content_type": "text",
+            "content_raw": "General inflation encompasses of two main divisions and twenty-one groups of expenditures. These",
+            "content_markdown": "General inflation encompasses of two main divisions and twenty-one groups of expenditures. These",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618421+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_19",
+            "content_type": "text",
+            "content_raw": "food Inflation",
+            "content_markdown": "food Inflation",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618432+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_20",
+            "content_type": "text",
+            "content_raw": "divisions registered the following price changes during the month of May EFY2017 compared",
+            "content_markdown": "divisions registered the following price changes during the month of May EFY2017 compared",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618442+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_21",
+            "content_type": "text",
+            "content_raw": "with",
+            "content_markdown": "with",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618452+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_22",
+            "content_type": "text",
+            "content_raw": "Month-on-Month",
+            "content_markdown": "Month-on-Month",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618463+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_23",
+            "content_type": "text",
+            "content_raw": "•",
+            "content_markdown": "•",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618473+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_24",
+            "content_type": "text",
+            "content_raw": "May EFY2016.",
+            "content_markdown": "May EFY2016.",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618483+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_25",
+            "content_type": "text",
+            "content_raw": "General, Food &",
+            "content_markdown": "General, Food &",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618494+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_26",
+            "content_type": "text",
+            "content_raw": "Non-food Inflation",
+            "content_markdown": "Non-food Inflation",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618505+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_27",
+            "content_type": "text",
+            "content_raw": "2. Food & Non-alcoholic Beverages and Non-Food Inflation (Year-on-Year)",
+            "content_markdown": "2. Food & Non-alcoholic Beverages and Non-Food Inflation (Year-on-Year)",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618515+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_28",
+            "content_type": "text",
+            "content_raw": "The year-on-year inflation and the month-to-month inflation rates helps to gauge the current infla-",
+            "content_markdown": "The year-on-year inflation and the month-to-month inflation rates helps to gauge the current infla-",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618526+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_29",
+            "content_type": "text",
+            "content_raw": "12-Month Moving",
+            "content_markdown": "12-Month Moving",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618536+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_30",
+            "content_type": "text",
+            "content_raw": "•",
+            "content_markdown": "•",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618547+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_31",
+            "content_type": "text",
+            "content_raw": "tion trajectory, as they capture short-term fluctuations in prices and provides an immediate indicator",
+            "content_markdown": "tion trajectory, as they capture short-term fluctuations in prices and provides an immediate indicator",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618557+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_32",
+            "content_type": "text",
+            "content_raw": "Average General,",
+            "content_markdown": "Average General,",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618567+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_33",
+            "content_type": "text",
+            "content_raw": "Food and Non-food",
+            "content_markdown": "Food and Non-food",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618577+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_34",
+            "content_type": "text",
+            "content_raw": "of inflationary pressures. Particularly, the month-to-month is also crucial for monitoring changes in",
+            "content_markdown": "of inflationary pressures. Particularly, the month-to-month is also crucial for monitoring changes in",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618587+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_35",
+            "content_type": "text",
+            "content_raw": "Inflation",
+            "content_markdown": "Inflation",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618597+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_36",
+            "content_type": "text",
+            "content_raw": "consumer prices and identifying any sudden spikes or declines in inflation.",
+            "content_markdown": "consumer prices and identifying any sudden spikes or declines in inflation.",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618607+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_37",
+            "content_type": "text",
+            "content_raw": "Annual Infla-",
+            "content_markdown": "Annual Infla-",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618617+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_38",
+            "content_type": "text",
+            "content_raw": "•",
+            "content_markdown": "•",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618627+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_39",
+            "content_type": "text",
+            "content_raw": "tion trend",
+            "content_markdown": "tion trend",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618637+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_40",
+            "content_type": "text",
+            "content_raw": "Food & Non-alcoholic Beverages index",
+            "content_markdown": "Food & Non-alcoholic Beverages index",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618648+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_41",
+            "content_type": "text",
+            "content_raw": "The year-on-year inflation rate, also known as the annual inflation rate, measures the percentage",
+            "content_markdown": "The year-on-year inflation rate, also known as the annual inflation rate, measures the percentage",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618658+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_42",
+            "content_type": "text",
+            "content_raw": "change in overall price levels from one year to the same month in the previous year. Accordingly, the Glossary",
+            "content_markdown": "change in overall price levels from one year to the same month in the previous year. Accordingly, the Glossary",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618669+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_43",
+            "content_type": "text",
+            "content_raw": "•",
+            "content_markdown": "•",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618679+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_44",
+            "content_type": "text",
+            "content_raw": "year-on-year inflation rate of the Food and Non-alcoholic component of the CPI, for the month of May",
+            "content_markdown": "year-on-year inflation rate of the Food and Non-alcoholic component of the CPI, for the month of May",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618689+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_45",
+            "content_type": "text",
+            "content_raw": "2017 EFY stood at 12.1%. This implies that the CPI of Food and Non-Alcoholic Beverages has, on aver-",
+            "content_markdown": "2017 EFY stood at 12.1%. This implies that the CPI of Food and Non-Alcoholic Beverages has, on aver-",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618700+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_46",
+            "content_type": "text",
+            "content_raw": "age, increased by 12.1% compared to EFY2016. The major contributing factors for the rise of food",
+            "content_markdown": "age, increased by 12.1% compared to EFY2016. The major contributing factors for the rise of food",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618710+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_47",
+            "content_type": "text",
+            "content_raw": "May",
+            "content_markdown": "May",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618720+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_48",
+            "content_type": "text",
+            "content_raw": "inflation for EFY2017 was the observed increase in the average prices of major food commodities",
+            "content_markdown": "inflation for EFY2017 was the observed increase in the average prices of major food commodities",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618730+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_49",
+            "content_type": "text",
+            "content_raw": "May",
+            "content_markdown": "May",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618740+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_50",
+            "content_type": "text",
+            "content_raw": "such as bread and cereals (1.3%), vegetables (14.5%), meat (10.1%), Sugar, jam, honey & chocolate",
+            "content_markdown": "such as bread and cereals (1.3%), vegetables (14.5%), meat (10.1%), Sugar, jam, honey & chocolate",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618751+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_51",
+            "content_type": "text",
+            "content_raw": "(20.3%), Milk, Cheese and Eggs (10.0%), Oils and Fats (26.7%), Fruit (14.2%), and Food products n.e.c",
+            "content_markdown": "(20.3%), Milk, Cheese and Eggs (10.0%), Oils and Fats (26.7%), Fruit (14.2%), and Food products n.e.c",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618786+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_52",
+            "content_type": "text",
+            "content_raw": "(20.2%).",
+            "content_markdown": "(20.2%).",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618794+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_53",
+            "content_type": "text",
+            "content_raw": "www.ess.gov.et",
+            "content_markdown": "www.ess.gov.et",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618802+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p1_54",
+            "content_type": "text",
+            "content_raw": "YOUR RELIABLE DATA SOURCE",
+            "content_markdown": "YOUR RELIABLE DATA SOURCE",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:33:51.618810+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p2_1",
+            "content_type": "header",
+            "content_raw": "ETHIOPIAN STATISTICAL SERVICE\nStatistical Bulletin",
+            "content_markdown": "# ETHIOPIAN STATISTICAL SERVICE\n## Statistical Bulletin",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:35:13.565166+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p2_2",
+            "content_type": "text",
+            "content_raw": "Issue No. 23/2017\nBeginning from May-EFY 2016 the magnitude of the inflation rate steadily declined overtime. In May EFY-2017 General inflation was 14.4% as compared to the one observed in May- EFY2016.",
+            "content_markdown": "Issue No. 23/2017\n\nBeginning from May-EFY 2016 the magnitude of the inflation rate steadily declined overtime. In May EFY-2017 General inflation was 14.4% as compared to the one observed in May- EFY2016.",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:35:13.565226+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p2_3",
+            "content_type": "table",
+            "content_raw": "{\"headers\": [\"Month/Year\", \"General\", \"Food\", \"Non-Food\"], \"rows\": [[\"May EFY2009 - June EFY2010\", \"14.4\", \"13.4\", \"15.9\"], [\"May EFY 2010 - JuneEFY2011\", \"12.6\", \"13.1\", \"11.9\"], [\"May EFY2011 - June EFY2012\", \"19.9\", \"23.3\", \"15.9\"], [\"May EFY2012 - June EFY2013\", \"20.2\", \"23.2\", \"16.4\"], [\"May EFY2013 - June EFY2014\", \"33.8\", \"40.3\", \"25.2\"], [\"May EFY2014 - June EFY2015\", \"32.5\", \"31.7\", \"33.9\"], [\"May EFY2015 - June EFY2016\", \"26.6\", \"28.1\", \"24.3\"], [\"May-EFY 2016\", \"22.8\", \"25.6\", \"18.8\"], [\"June\", \"19.9\", \"22.7\", \"15.8\"], [\"July\", \"18.6\", \"20.6\", \"15.7\"], [\"August\", \"17.2\", \"18.8\", \"14.7\"], [\"September\", \"17.5\", \"19.6\", \"14.4\"], [\"October\", \"16.1\", \"19.2\", \"11.6\"], [\"November\", \"16.9\", \"18.5\", \"14.5\"], [\"December\", \"17.0\", \"18.7\", \"14.4\"], [\"January\", \"15.5\", \"15.8\", \"15.0\"], [\"February\", \"15.0\", \"14.6\", \"15.6\"], [\"March\", \"13.5\", \"11.7\", \"16.2\"], [\"April\", \"14.4\", \"12.2\", \"17.9\"], [\"May-EFY 2017\", \"14.4\", \"12.1\", \"17.8\"]]}",
+            "content_markdown": "| Month/Year                       | General | Food  | Non-Food |\n|----------------------------------|---------|-------|----------|\n| May EFY2009 - June EFY2010       | 14.4    | 13.4  | 15.9     |\n| May EFY 2010 - JuneEFY2011      | 12.6    | 13.1  | 11.9     |\n| May EFY2011 - June EFY2012      | 19.9    | 23.3  | 15.9     |\n| May EFY2012 - June EFY2013      | 20.2    | 23.2  | 16.4     |\n| May EFY2013 - June EFY2014      | 33.8    | 40.3  | 25.2     |\n| May EFY2014 - June EFY2015      | 32.5    | 31.7  | 33.9     |\n| May EFY2015 - June EFY2016      | 26.6    | 28.1  | 24.3     |\n| May-EFY 2016                    | 22.8    | 25.6  | 18.8     |\n| June                             | 19.9    | 22.7  | 15.8     |\n| July                             | 18.6    | 20.6  | 15.7     |\n| August                           | 17.2    | 18.8  | 14.7     |\n| September                        | 17.5    | 19.6  | 14.4     |\n| October                          | 16.1    | 19.2  | 11.6     |\n| November                         | 16.9    | 18.5  | 14.5     |\n| December                         | 17.0    | 18.7  | 14.4     |\n| January                          | 15.5    | 15.8  | 15.0     |\n| February                         | 15.0    | 14.6  | 15.6     |\n| March                            | 13.5    | 11.7  | 16.2     |\n| April                            | 14.4    | 12.2  | 17.9     |\n| May-EFY 2017                    | 14.4    | 12.1  | 17.8     |",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:35:13.565335+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_1",
+            "content_type": "text",
+            "content_raw": "ETHIOPIAN STATISTICAL SERVICE",
+            "content_markdown": "ETHIOPIAN STATISTICAL SERVICE",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235370+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_2",
+            "content_type": "text",
+            "content_raw": "Statistical Bulletin",
+            "content_markdown": "Statistical Bulletin",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235434+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_3",
+            "content_type": "text",
+            "content_raw": "Page 3",
+            "content_markdown": "Page 3",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235455+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_4",
+            "content_type": "text",
+            "content_raw": "Issue No. 23/2017",
+            "content_markdown": "Issue No. 23/2017",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235473+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_5",
+            "content_type": "text",
+            "content_raw": "Fig 1: Food and Non-Food Inflation (%, Year-on-Year), May EFY2016 - May EFY2017",
+            "content_markdown": "Fig 1: Food and Non-Food Inflation (%, Year-on-Year), May EFY2016 - May EFY2017",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235491+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_6",
+            "content_type": "text",
+            "content_raw": "Non-Food Inflation and Alcoholic Beverages (Year-on-Year)",
+            "content_markdown": "Non-Food Inflation and Alcoholic Beverages (Year-on-Year)",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235508+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_7",
+            "content_type": "text",
+            "content_raw": "As can be seen from the above figure, both the non-food year-on-year inflation rate and Food inflation rate in-",
+            "content_markdown": "As can be seen from the above figure, both the non-food year-on-year inflation rate and Food inflation rate in-",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235534+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_8",
+            "content_type": "text",
+            "content_raw": "creased in May-ETY2017 as compared to last month. The Non-Food inflation increased by 17.8 percent during",
+            "content_markdown": "creased in May-ETY2017 as compared to last month. The Non-Food inflation increased by 17.8 percent during",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235551+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_9",
+            "content_type": "text",
+            "content_raw": "the same period. Particularly, Alcoholic Beverages and Tobacco increased by (14.7%); Housing, water, electricity",
+            "content_markdown": "the same period. Particularly, Alcoholic Beverages and Tobacco increased by (14.7%); Housing, water, electricity",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235575+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_10",
+            "content_type": "text",
+            "content_raw": "& other fuel component (18.8%); Furnishings, household equipment & routine maintenance of the House",
+            "content_markdown": "& other fuel component (18.8%); Furnishings, household equipment & routine maintenance of the House",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235599+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_11",
+            "content_type": "text",
+            "content_raw": "(14.9%); Health (7.3%); Transport (41.4%); Communication (6.2%); Education (12.6%); Restaurants and hotels",
+            "content_markdown": "(14.9%); Health (7.3%); Transport (41.4%); Communication (6.2%); Education (12.6%); Restaurants and hotels",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235616+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_12",
+            "content_type": "text",
+            "content_raw": "(18.3%) and Miscellaneous goods and services (19.1%) have contributed for the rise in non-food inflation rate in",
+            "content_markdown": "(18.3%) and Miscellaneous goods and services (19.1%) have contributed for the rise in non-food inflation rate in",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235633+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_13",
+            "content_type": "text",
+            "content_raw": "May EFY2017.",
+            "content_markdown": "May EFY2017.",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235650+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_14",
+            "content_type": "text",
+            "content_raw": "www.ess.gov.et",
+            "content_markdown": "www.ess.gov.et",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235667+00:00"
+            }
+        },
+        {
+            "uid": "Consumer Price Index May 2025_p3_15",
+            "content_type": "text",
+            "content_raw": "YOUR RELIABLE DATA SOURCE",
+            "content_markdown": "YOUR RELIABLE DATA SOURCE",
+            "provenance": {
+                "source_file": "Consumer Price Index May 2025.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:35:16.235687+00:00"
+            }
+        }
+    ]
+}

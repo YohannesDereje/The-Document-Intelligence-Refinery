@@ -1,49 +1,34 @@
-version: 1
+version: "1.0"
+metadata:
+  corpus: "Ethiopian_Public_Sector_Banking"
+  last_updated: "2023-10-27"
+
+# These thresholds are derived from our research_density.py results
 thresholds:
-	MIN_DIGITAL_DENSITY: 0.0005
-	TABLE_RECT_THRESHOLD: 50
+  MIN_DIGITAL_DENSITY: 0.0005
+  TABLE_RECT_THRESHOLD: 50
 
-rules:
-	- name: pure_image_scan
-		description: Route fully image-based pages/documents to OCR-first processing.
-		when:
-			metric: char_density
-			operator: eq
-			value: 0.0
-		action:
-			strategy: C
-			origin_type: scanned_image
-			pipeline: ocr_vision_first
+routing_rules:
+  - name: "landscape_detection"
+    priority: 1 # Check orientation first
+    condition: "width > height"
+    action: "STRATEGY_B"
+    reason: "Landscape orientation detected; high probability of wide-format tables."
 
-	- name: dense_tables
-		description: High rectangle count indicates heavy table/layout structure.
-		when:
-			metric: rects
-			operator: gt
-			value: 50
-		action:
-			strategy: A
-			origin_type: native_digital
-			pipeline: table_structure_priority
+  - name: "dense_tables"
+    priority: 2 # Specificity: High
+    condition: "rects > 50"
+    action: "STRATEGY_B"
+    reason: "High geometric count (rects) indicates complex tables needing structural parsing."
 
-	- name: standard_digital
-		description: Text-layer density above minimum threshold indicates digital-native extractability.
-		when:
-			metric: char_density
-			operator: gt
-			value: 0.0005
-		action:
-			strategy: A
-			origin_type: native_digital
-			pipeline: text_first
+  - name: "standard_digital"
+    priority: 3 # Specificity: Medium
+    condition: "char_density > 0.0005"
+    action: "STRATEGY_A"
+    reason: "Sufficient text layer detected for high-speed CPU extraction."
 
-	- name: landscape_detection
-		description: Landscape geometry often correlates with hybrid report/table layouts.
-		when:
-			metric: page_width_gt_height
-			operator: eq
-			value: true
-		action:
-			strategy: B
-			origin_type: hybrid_landscape
-			pipeline: orientation_aware
+  - name: "pure_image_scan"
+    priority: 4 # Fallback/Catch-all for images
+    condition: "char_density == 0.0"
+    action: "STRATEGY_C"
+    reason: "No searchable text layer; requires VLM/OCR-Vision pipeline."

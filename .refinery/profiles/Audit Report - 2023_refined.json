@@ -1,0 +1,145 @@
+{
+    "file_id": "Audit Report - 2023",
+    "domain_hint": "Banking/Security",
+    "metadata": {
+        "overall_origin": "scanned",
+        "layout_complexity": "Low",
+        "total_pages": 3,
+        "units_count": 11,
+        "escalations": 0
+    },
+    "units": [
+        {
+            "uid": "Audit Report - 2023_p1_1",
+            "content_type": "header",
+            "content_raw": "INDEPENDENT AUDITOR’S REPORT AND FINANCIAL STATEMENTS",
+            "content_markdown": "# INDEPENDENT AUDITOR’S REPORT AND FINANCIAL STATEMENTS",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:06.978138+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p1_2",
+            "content_type": "text",
+            "content_raw": "30 JUNE 2023",
+            "content_markdown": "30 JUNE 2023",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:06.978169+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p1_3",
+            "content_type": "text",
+            "content_raw": "DEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+            "content_markdown": "DEVELOPMENT BANK OF ETHIOPIA  \nYour Development partner!",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:06.978181+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p2_1",
+            "content_type": "header",
+            "content_raw": "DEVELOPMENT BANK OF ETHIOPIA",
+            "content_markdown": "# DEVELOPMENT BANK OF ETHIOPIA",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:12.080048+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p2_2",
+            "content_type": "header",
+            "content_raw": "INDEPENDENT AUDITOR'S REPORT",
+            "content_markdown": "## INDEPENDENT AUDITOR'S REPORT",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:12.080080+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p2_3",
+            "content_type": "text",
+            "content_raw": "AND FINANCIAL STATEMENTS",
+            "content_markdown": "AND FINANCIAL STATEMENTS",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:12.080091+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p2_4",
+            "content_type": "header",
+            "content_raw": "30 JUNE 2023",
+            "content_markdown": "### 30 JUNE 2023",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:12.080100+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p3_1",
+            "content_type": "header",
+            "content_raw": "Development Bank of Ethiopia",
+            "content_markdown": "# Development Bank of Ethiopia",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:23.093993+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p3_2",
+            "content_type": "header",
+            "content_raw": "Consolidated and separate financial statements For the year ended 30 June 2023",
+            "content_markdown": "## Consolidated and separate financial statements\n### For the year ended 30 June 2023",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:23.094035+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p3_3",
+            "content_type": "header",
+            "content_raw": "Table of contents",
+            "content_markdown": "### Table of contents",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:23.094055+00:00"
+            }
+        },
+        {
+            "uid": "Audit Report - 2023_p3_4",
+            "content_type": "table",
+            "content_raw": "{\"Independent auditor's report\": \"1 - 4\", \"Board of management, professional advisers and registered office\": \"5\", \"Report of the board of management\": \"6\", \"Statement of board of management's responsibilities\": \"7\", \"Consolidated and separate statement of profit or loss and other comprehensive income\": \"8\", \"Consolidated and separate statement of financial position\": \"9\", \"Consolidated and separate statement of changes in equity\": \"10-11\", \"Consolidated and separate statement of cash flows\": \"12\", \"Notes to the consolidated and separate financial statements\": \"13-92\"}",
+            "content_markdown": "| Item                                                                 | Page   |\n|----------------------------------------------------------------------|--------|\n| Independent auditor's report                                         | 1 - 4  |\n| Board of management, professional advisers and registered office     | 5      |\n| Report of the board of management                                    | 6      |\n| Statement of board of management's responsibilities                  | 7      |\n| Consolidated and separate statement of profit or loss and other comprehensive income | 8      |\n| Consolidated and separate statement of financial position            | 9      |\n| Consolidated and separate statement of changes in equity            | 10-11  |\n| Consolidated and separate statement of cash flows                   | 12     |\n| Notes to the consolidated and separate financial statements          | 13-92  |",
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-04T23:33:23.094108+00:00"
+            }
+        }
+    ]
+}

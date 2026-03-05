@@ -1,0 +1,997 @@
+{
+    "file_id": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work",
+    "domain_hint": "General",
+    "metadata": {
+        "overall_origin": "born_digital",
+        "layout_complexity": "Low",
+        "total_pages": 3,
+        "units_count": 82,
+        "escalations": 0
+    },
+    "units": [
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_1",
+            "content_type": "text",
+            "content_raw": "TRP1: Week 1",
+            "content_markdown": "TRP1: Week 1",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195630+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_2",
+            "content_type": "text",
+            "content_raw": "Delivery - Exercise 1",
+            "content_markdown": "Delivery - Exercise 1",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195691+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_3",
+            "content_type": "text",
+            "content_raw": "Foundations of AI-First Professional Work",
+            "content_markdown": "Foundations of AI-First Professional Work",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195708+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_4",
+            "content_type": "text",
+            "content_raw": "Final Hand-in: [February 19, 2026], 11:00 PM EAT",
+            "content_markdown": "Final Hand-in: [February 19, 2026], 11:00 PM EAT",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195723+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_5",
+            "content_type": "text",
+            "content_raw": "Background",
+            "content_markdown": "Background",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195737+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_6",
+            "content_type": "text",
+            "content_raw": "Modern professional work is increasingly AI-assisted and remote. Many global teams",
+            "content_markdown": "Modern professional work is increasingly AI-assisted and remote. Many global teams",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195751+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_7",
+            "content_type": "text",
+            "content_raw": "now use AI tools to draft communication, summarize information, and structure",
+            "content_markdown": "now use AI tools to draft communication, summarize information, and structure",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195765+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_8",
+            "content_type": "text",
+            "content_raw": "work.",
+            "content_markdown": "work.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195778+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_9",
+            "content_type": "text",
+            "content_raw": "However, AI does not replace responsibility, ownership, or clear communication.",
+            "content_markdown": "However, AI does not replace responsibility, ownership, or clear communication.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195792+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_10",
+            "content_type": "text",
+            "content_raw": "Professionals are still expected to think critically, verify information, and",
+            "content_markdown": "Professionals are still expected to think critically, verify information, and",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195806+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_11",
+            "content_type": "text",
+            "content_raw": "communicate clearly.",
+            "content_markdown": "communicate clearly.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195820+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_12",
+            "content_type": "text",
+            "content_raw": "In remote and AI-supported work environments, most collaboration happens",
+            "content_markdown": "In remote and AI-supported work environments, most collaboration happens",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195834+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_13",
+            "content_type": "text",
+            "content_raw": "through written messages, async updates, and shared documents. Poor",
+            "content_markdown": "through written messages, async updates, and shared documents. Poor",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195847+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_14",
+            "content_type": "text",
+            "content_raw": "communication or careless AI usage can lead to misunderstandings and errors.",
+            "content_markdown": "communication or careless AI usage can lead to misunderstandings and errors.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195861+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_15",
+            "content_type": "text",
+            "content_raw": "Being job-ready means showing professionalism, clarity, and accountability in how",
+            "content_markdown": "Being job-ready means showing professionalism, clarity, and accountability in how",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195876+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_16",
+            "content_type": "text",
+            "content_raw": "you communicate and deliver work.",
+            "content_markdown": "you communicate and deliver work.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195889+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_17",
+            "content_type": "text",
+            "content_raw": "This week focuses on building strong foundations for professional work in an AI-first",
+            "content_markdown": "This week focuses on building strong foundations for professional work in an AI-first",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195903+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_18",
+            "content_type": "text",
+            "content_raw": "environment.",
+            "content_markdown": "environment.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195916+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_19",
+            "content_type": "text",
+            "content_raw": "Exercise",
+            "content_markdown": "Exercise",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195929+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_20",
+            "content_type": "text",
+            "content_raw": "This exercise has three parts. AI tools (ChatGPT, Claude, Copilot, etc.) are allowed and",
+            "content_markdown": "This exercise has three parts. AI tools (ChatGPT, Claude, Copilot, etc.) are allowed and",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195943+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p1_21",
+            "content_type": "text",
+            "content_raw": "encouraged. However, you are responsible for the quality of your final work.",
+            "content_markdown": "encouraged. However, you are responsible for the quality of your final work.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:30.195957+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_1",
+            "content_type": "text",
+            "content_raw": "Part 1 - AI-Assisted Professional Rewrite",
+            "content_markdown": "Part 1 - AI-Assisted Professional Rewrite",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167004+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_2",
+            "content_type": "text",
+            "content_raw": "You will receive a poorly written project update from your tutor. The update contains",
+            "content_markdown": "You will receive a poorly written project update from your tutor. The update contains",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167068+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_3",
+            "content_type": "text",
+            "content_raw": "unclear structure, informal tone, and missing details.",
+            "content_markdown": "unclear structure, informal tone, and missing details.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167086+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_4",
+            "content_type": "text",
+            "content_raw": "Your task is to rewrite the message so it is suitable for a professional client.",
+            "content_markdown": "Your task is to rewrite the message so it is suitable for a professional client.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167100+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_5",
+            "content_type": "text",
+            "content_raw": "Your version must:",
+            "content_markdown": "Your version must:",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167117+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_6",
+            "content_type": "text",
+            "content_raw": "● Be clear and structured",
+            "content_markdown": "● Be clear and structured",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167162+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_7",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167194+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_8",
+            "content_type": "text",
+            "content_raw": "Use professional tone",
+            "content_markdown": "Use professional tone",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167210+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_9",
+            "content_type": "text",
+            "content_raw": "● Highlight key information",
+            "content_markdown": "● Highlight key information",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167225+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_10",
+            "content_type": "text",
+            "content_raw": "● Remove ambiguity",
+            "content_markdown": "● Remove ambiguity",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167240+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_11",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167254+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_12",
+            "content_type": "text",
+            "content_raw": "Be concise but complete",
+            "content_markdown": "Be concise but complete",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167269+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_13",
+            "content_type": "text",
+            "content_raw": "You may use AI to help draft or refine your message.",
+            "content_markdown": "You may use AI to help draft or refine your message.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167283+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_14",
+            "content_type": "text",
+            "content_raw": "Part 2 - Ownership & Quality Check",
+            "content_markdown": "Part 2 - Ownership & Quality Check",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167297+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_15",
+            "content_type": "text",
+            "content_raw": "Review your rewritten message and provide a short note (150–200 words):",
+            "content_markdown": "Review your rewritten message and provide a short note (150–200 words):",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167311+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_16",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167326+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_17",
+            "content_type": "text",
+            "content_raw": "What you improved compared to the original",
+            "content_markdown": "What you improved compared to the original",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167339+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_18",
+            "content_type": "text",
+            "content_raw": "● What you checked for clarity or accuracy",
+            "content_markdown": "● What you checked for clarity or accuracy",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167354+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_19",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167368+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_20",
+            "content_type": "text",
+            "content_raw": "Any AI suggestions you rejected and why",
+            "content_markdown": "Any AI suggestions you rejected and why",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167382+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_21",
+            "content_type": "text",
+            "content_raw": "Part 3 — Async Standup Simulation",
+            "content_markdown": "Part 3 — Async Standup Simulation",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167396+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_22",
+            "content_type": "text",
+            "content_raw": "Write three daily async standup updates for a fictional project.",
+            "content_markdown": "Write three daily async standup updates for a fictional project.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167411+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_23",
+            "content_type": "text",
+            "content_raw": "Each update must include:",
+            "content_markdown": "Each update must include:",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167426+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_24",
+            "content_type": "text",
+            "content_raw": "● What you completed",
+            "content_markdown": "● What you completed",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167440+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_25",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167454+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_26",
+            "content_type": "text",
+            "content_raw": "What you will do next",
+            "content_markdown": "What you will do next",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167469+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_27",
+            "content_type": "text",
+            "content_raw": "● Any blockers",
+            "content_markdown": "● Any blockers",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167482+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_28",
+            "content_type": "text",
+            "content_raw": "Standups must be:",
+            "content_markdown": "Standups must be:",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167497+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_29",
+            "content_type": "text",
+            "content_raw": "● Clear",
+            "content_markdown": "● Clear",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167511+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_30",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167524+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_31",
+            "content_type": "text",
+            "content_raw": "Professional",
+            "content_markdown": "Professional",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167538+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_32",
+            "content_type": "text",
+            "content_raw": "● Concise",
+            "content_markdown": "● Concise",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167551+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p2_33",
+            "content_type": "text",
+            "content_raw": "AI may be used to draft, but you must refine it.",
+            "content_markdown": "AI may be used to draft, but you must refine it.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:31.167565+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_1",
+            "content_type": "text",
+            "content_raw": "Other Items to Hand In",
+            "content_markdown": "Other Items to Hand In",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083509+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_2",
+            "content_type": "text",
+            "content_raw": "● Rewritten update",
+            "content_markdown": "● Rewritten update",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083570+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_3",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083588+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_4",
+            "content_type": "text",
+            "content_raw": "Ownership & quality note",
+            "content_markdown": "Ownership & quality note",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083603+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_5",
+            "content_type": "text",
+            "content_raw": "● Three standup updates",
+            "content_markdown": "● Three standup updates",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083617+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_6",
+            "content_type": "text",
+            "content_raw": "Combine all into one document.",
+            "content_markdown": "Combine all into one document.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083631+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_7",
+            "content_type": "text",
+            "content_raw": "Support, Meetings and Tutorials",
+            "content_markdown": "Support, Meetings and Tutorials",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083644+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_8",
+            "content_type": "text",
+            "content_raw": "A tutorial session will be held this week to explain expectations and provide",
+            "content_markdown": "A tutorial session will be held this week to explain expectations and provide",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083658+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_9",
+            "content_type": "text",
+            "content_raw": "examples.",
+            "content_markdown": "examples.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083671+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_10",
+            "content_type": "text",
+            "content_raw": "If you have questions, contact your tutors on Slack.",
+            "content_markdown": "If you have questions, contact your tutors on Slack.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083685+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_11",
+            "content_type": "text",
+            "content_raw": "Marking Rubric",
+            "content_markdown": "Marking Rubric",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083698+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_12",
+            "content_type": "text",
+            "content_raw": "● Quality of writing — Is the writing clear, professional, and well-structured?",
+            "content_markdown": "● Quality of writing — Is the writing clear, professional, and well-structured?",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083712+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_13",
+            "content_type": "text",
+            "content_raw": "(25%)",
+            "content_markdown": "(25%)",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083725+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_14",
+            "content_type": "text",
+            "content_raw": "● Responsible AI usage — Has the trainee used AI thoughtfully and reviewed",
+            "content_markdown": "● Responsible AI usage — Has the trainee used AI thoughtfully and reviewed",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083738+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_15",
+            "content_type": "text",
+            "content_raw": "outputs? (25%)",
+            "content_markdown": "outputs? (25%)",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083755+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_16",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083767+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_17",
+            "content_type": "text",
+            "content_raw": "Ownership & accountability — Has the trainee taken responsibility for quality?",
+            "content_markdown": "Ownership & accountability — Has the trainee taken responsibility for quality?",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083781+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_18",
+            "content_type": "text",
+            "content_raw": "(25%)",
+            "content_markdown": "(25%)",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083794+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_19",
+            "content_type": "text",
+            "content_raw": "●",
+            "content_markdown": "●",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083807+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_20",
+            "content_type": "text",
+            "content_raw": "Quality of execution — Has the trainee followed instructions and completed all",
+            "content_markdown": "Quality of execution — Has the trainee followed instructions and completed all",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083820+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_21",
+            "content_type": "text",
+            "content_raw": "parts? (25%)",
+            "content_markdown": "parts? (25%)",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083832+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_22",
+            "content_type": "text",
+            "content_raw": "Usefulness in Real Life",
+            "content_markdown": "Usefulness in Real Life",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083845+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_23",
+            "content_type": "text",
+            "content_raw": "This exercise prepares you for real work environments where clear communication,",
+            "content_markdown": "This exercise prepares you for real work environments where clear communication,",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083858+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_24",
+            "content_type": "text",
+            "content_raw": "ownership, and responsible AI usage are essential.",
+            "content_markdown": "ownership, and responsible AI usage are essential.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083966+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_25",
+            "content_type": "text",
+            "content_raw": "Many global teams rely on async communication and AI-supported workflows.",
+            "content_markdown": "Many global teams rely on async communication and AI-supported workflows.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.083987+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_26",
+            "content_type": "text",
+            "content_raw": "Strong habits here will support your professional growth.",
+            "content_markdown": "Strong habits here will support your professional growth.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.084000+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_27",
+            "content_type": "text",
+            "content_raw": "Submission",
+            "content_markdown": "Submission",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.084011+00:00"
+            }
+        },
+        {
+            "uid": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work_p3_28",
+            "content_type": "text",
+            "content_raw": "Submit your document link on tenx. The deadline is on Thursday, Feb 19 at 11PM.",
+            "content_markdown": "Submit your document link on tenx. The deadline is on Thursday, Feb 19 at 11PM.",
+            "provenance": {
+                "source_file": "TRP1_ Week 1 Delivery - Exercise 1 - Foundations of AI-First Professional Work.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_A",
+                "timestamp": "2026-03-04T23:39:32.084023+00:00"
+            }
+        }
+    ]
+}
