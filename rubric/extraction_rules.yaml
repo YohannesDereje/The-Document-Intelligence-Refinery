@@ -1,34 +1,100 @@
-version: "1.0"
+version: "2.0"
 metadata:
   corpus: "Ethiopian_Public_Sector_Banking"
-  last_updated: "2023-10-27"
+  last_updated: "2026-03-05"
+  owner: "Document Intelligence Refinery"
 
-# These thresholds are derived from our research_density.py results
+# -----------------------------------------------------------------------------
+# THRESHOLDS
+# -----------------------------------------------------------------------------
+# char_density.min_digital:
+#   Minimum text density to consider a page digitally extractable.
+#   Increasing this value makes Strategy A selection stricter.
+# rect_count.table_high:
+#   Rectangle count threshold above which layout/table complexity is considered high.
+# triage_confidence_gate:
+#   If triage confidence falls below this gate, cost tier is promoted one level.
 thresholds:
-  MIN_DIGITAL_DENSITY: 0.0005
-  TABLE_RECT_THRESHOLD: 50
+  char_density:
+    min_digital: 0.0005
+  rect_count:
+    table_high: 50
+    medium_complexity: 10
+  triage_confidence_gate: 0.70
+  mixed_mode_sample_size: 6
+  contradictory_image_ratio_threshold: 0.30
 
+# -----------------------------------------------------------------------------
+# DOMAIN REGISTRY
+# -----------------------------------------------------------------------------
+# domain_keywords are matched case-insensitively against page text and metadata.
+domain_registry:
+  - domain_hint: "Banking/Security"
+    domain_keywords: ["CBE", "Bank", "Disclosure", "Vulnerability", "Security"]
+  - domain_hint: "Public_Sector"
+    domain_keywords: ["Ministry", "FTA", "Woreda", "Survey", "Government"]
+
+# -----------------------------------------------------------------------------
+# ECONOMIC GUARDS
+# -----------------------------------------------------------------------------
+# vlm_budget_cap:
+#   Hard stop-loss for cumulative Strategy C spend.
+# default_dpi:
+#   Rendering DPI for page-to-image conversion in Vision extraction.
+economic_guards:
+  vlm_budget_cap: 30.00
+  default_dpi: 140
+
+# -----------------------------------------------------------------------------
+# CHUNKING CONSTITUTION
+# -----------------------------------------------------------------------------
+# max_chunk_size:
+#   Maximum characters per chunk before chunk splitting.
+# semantic_boundary_indicators:
+#   Markers that indicate natural chunk boundaries.
+chunking_constitution:
+  max_chunk_size: 1500
+  semantic_boundary_indicators:
+    - "#"
+    - "Table of Contents"
+    - "Executive Summary"
+    - "Appendix"
+
+# -----------------------------------------------------------------------------
+# STRATEGY MAPPING
+# -----------------------------------------------------------------------------
+# cost_tier_to_model maps triage cost tier to strategy/model target.
+# LOW/MEDIUM can route to non-VLM strategies, HIGH routes to VLM model.
+strategy_mapping:
+  cost_tier_to_model:
+    LOW: "FastText"
+    MEDIUM: "LayoutExtractor"
+    HIGH: "openai/gpt-4o-mini"
+
+# -----------------------------------------------------------------------------
+# PAGE-LEVEL ROUTING RULES (TRIAGE)
+# -----------------------------------------------------------------------------
 routing_rules:
   - name: "landscape_detection"
-    priority: 1 # Check orientation first
+    priority: 1
     condition: "width > height"
     action: "STRATEGY_B"
-    reason: "Landscape orientation detected; high probability of wide-format tables."
+    reason: "Landscape orientation detected; likely wide tables/layout structures."
 
   - name: "dense_tables"
-    priority: 2 # Specificity: High
-    condition: "rects > 50"
+    priority: 2
+    condition: "rects > TABLE_RECT_THRESHOLD"
     action: "STRATEGY_B"
-    reason: "High geometric count (rects) indicates complex tables needing structural parsing."
+    reason: "High rect count indicates table/layout-heavy content."
 
   - name: "standard_digital"
-    priority: 3 # Specificity: Medium
-    condition: "char_density > 0.0005"
+    priority: 3
+    condition: "char_density > MIN_DIGITAL_DENSITY"
     action: "STRATEGY_A"
-    reason: "Sufficient text layer detected for high-speed CPU extraction."
+    reason: "Sufficient text density for fast digital extraction."
 
   - name: "pure_image_scan"
-    priority: 4 # Fallback/Catch-all for images
+    priority: 4
     condition: "char_density == 0.0"
     action: "STRATEGY_C"
-    reason: "No searchable text layer; requires VLM/OCR-Vision pipeline."
+    reason: "No searchable text layer; use OCR/VLM pipeline."

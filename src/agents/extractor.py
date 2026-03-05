@@ -9,6 +9,7 @@ from typing import Any, Dict, List
 import pdfplumber
 
 from models import DocumentProfile, ExtractedDocument, ExtractionLedgerEntry, LDU
+from src.config import ConfigLoader
 from src.strategies.fast_text import FastTextExtractor
 from src.strategies.layout_extractor import LayoutExtractor
 from src.strategies.vision_extractor import VisionExtractor
@@ -18,21 +19,41 @@ class ExtractionRouter:
     def __init__(
         self,
         api_key: str | None = None,
-        model_name: str = "openai/gpt-4o-mini",
-        confidence_threshold: float = 0.65,
-        max_budget: float = 5.0,
-        per_page_timeout_seconds: float = 60.0,
+        model_name: str | None = None,
+        confidence_threshold: float | None = None,
+        max_budget: float | None = None,
+        per_page_timeout_seconds: float | None = None,
+        rules_path: str | Path = "rubric/extraction_rules.yaml",
     ) -> None:
         self.logger = logging.getLogger(__name__)
-        self.confidence_threshold = confidence_threshold
-        self.per_page_timeout_seconds = per_page_timeout_seconds
+        self.config_loader = ConfigLoader(rules_path)
+
+        self.vlm_budget_cap = float(self.config_loader.get("economic_guards.vlm_budget_cap", 30.0))
+        self.default_dpi = int(self.config_loader.get("economic_guards.default_dpi", 140))
+        self.cost_tier_to_model = dict(self.config_loader.get("strategy_mapping.cost_tier_to_model", {}))
+
+        self.confidence_threshold = (
+            float(confidence_threshold)
+            if confidence_threshold is not None
+            else float(self.config_loader.get("thresholds.triage_confidence_gate", 0.70))
+        )
+        self.per_page_timeout_seconds = (
+            float(per_page_timeout_seconds)
+            if per_page_timeout_seconds is not None
+            else float(self.config_loader.get("economic_guards.per_page_timeout_seconds", 60.0))
+        )
+
+        effective_max_budget = float(max_budget) if max_budget is not None else self.vlm_budget_cap
+        default_model = str(self.cost_tier_to_model.get("HIGH", "openai/gpt-4o-mini"))
+        effective_model = model_name or default_model
 
         self.fast_text_extractor = FastTextExtractor()
         self.layout_extractor = LayoutExtractor()
         self.vision_extractor = VisionExtractor(
             api_key=api_key,
-            model_name=model_name,
-            max_budget=max_budget,
+            model_name=effective_model,
+            max_budget=effective_max_budget,
+            dpi=self.default_dpi,
         )
 
         self.strategy_order = ["STRATEGY_A", "STRATEGY_B", "STRATEGY_C"]
@@ -102,6 +123,17 @@ class ExtractionRouter:
     def _extract_page(self, extractor: Any, pdf_path: Path, page_number: int) -> List[LDU]:
         return extractor.extract(pdf_path=pdf_path, page_numbers=[page_number])
 
+    @staticmethod
+    def _is_vlm_model(value: str) -> bool:
+        return "/" in value
+
+    def _resolve_vision_model_for_profile(self, profile: DocumentProfile) -> str:
+        tier = str(getattr(profile, "cost_tier", "HIGH") or "HIGH").upper()
+        mapped = str(self.cost_tier_to_model.get(tier, self.vision_extractor.model_name))
+        if self._is_vlm_model(mapped):
+            return mapped
+        return self.vision_extractor.model_name
+
     def _extract_page_with_timeout(self, extractor: Any, pdf_path: Path, page_number: int) -> List[LDU]:
         executor = ThreadPoolExecutor(max_workers=1)
         future = executor.submit(self._extract_page, extractor, pdf_path, page_number)
@@ -118,6 +150,8 @@ class ExtractionRouter:
     def process_document(self, pdf_path: Path, profile: DocumentProfile) -> ExtractedDocument:
         if not pdf_path.exists() or pdf_path.suffix.lower() != ".pdf":
             raise ValueError(f"Invalid PDF path: {pdf_path}")
+
+        self.vision_extractor.model_name = self._resolve_vision_model_for_profile(profile)
 
         all_units: List[LDU] = []
         escalations = 0
@@ -138,29 +172,40 @@ class ExtractionRouter:
                 strategy_start = time.perf_counter()
                 vision_spend_before = float(self.vision_extractor.total_spend)
 
-                try:
-                    units = self._extract_page_with_timeout(extractor, pdf_path, page_number)
-                    confidence = self._confidence_for_strategy(strategy_name, extractor, page_metrics, units)
-                except TimeoutError:
+                if strategy_name == "STRATEGY_C" and self.vision_extractor.total_spend >= self.vlm_budget_cap:
                     units = []
                     confidence = 0.0
-                    self.logger.warning(
-                        "Timeout on %s page %s via %s after %.0fs. Escalating to next strategy.",
+                    self.logger.error(
+                        "VLM stop-loss triggered at $%.4f (cap: $%.4f) on %s page %s. Skipping Strategy C.",
+                        self.vision_extractor.total_spend,
+                        self.vlm_budget_cap,
                         pdf_path.name,
                         page_number,
-                        strategy_name,
-                        self.per_page_timeout_seconds,
                     )
-                except Exception as exc:
-                    units = []
-                    confidence = 0.0
-                    self.logger.exception(
-                        "Strategy failure on %s page %s via %s. Escalating to next strategy. Error: %s",
-                        pdf_path.name,
-                        page_number,
-                        strategy_name,
-                        exc,
-                    )
+                else:
+                    try:
+                        units = self._extract_page_with_timeout(extractor, pdf_path, page_number)
+                        confidence = self._confidence_for_strategy(strategy_name, extractor, page_metrics, units)
+                    except TimeoutError:
+                        units = []
+                        confidence = 0.0
+                        self.logger.warning(
+                            "Timeout on %s page %s via %s after %.0fs. Escalating to next strategy.",
+                            pdf_path.name,
+                            page_number,
+                            strategy_name,
+                            self.per_page_timeout_seconds,
+                        )
+                    except Exception as exc:
+                        units = []
+                        confidence = 0.0
+                        self.logger.exception(
+                            "Strategy failure on %s page %s via %s. Escalating to next strategy. Error: %s",
+                            pdf_path.name,
+                            page_number,
+                            strategy_name,
+                            exc,
+                        )
 
                 processing_time_ms = (time.perf_counter() - strategy_start) * 1000.0
                 vision_spend_after = float(self.vision_extractor.total_spend)

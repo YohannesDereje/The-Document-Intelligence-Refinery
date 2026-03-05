@@ -49,7 +49,7 @@ def main() -> None:
     triage_agent = TriageAgent(rules_path=RULES_PATH)
 
     api_key = os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
-    extraction_router = ExtractionRouter(api_key=api_key, max_budget=30.0)
+    extraction_router = ExtractionRouter(api_key=api_key, rules_path=RULES_PATH)
 
     total_processed = 0
     total_pages = 0
