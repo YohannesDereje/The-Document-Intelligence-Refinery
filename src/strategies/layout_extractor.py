@@ -1,16 +1,25 @@
 from __future__ import annotations
 
+import inspect
 import json
 import logging
-import inspect
 import os
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Iterable, List
+from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import pdfplumber
-import yaml
-from docling.document_converter import DocumentConverter
+
+from models import BBox, LDU, ProvenanceChain
+from src.config import ConfigLoader
+
+from .base_strategy import BaseExtractor
+from .vision_extractor import VisionExtractor
+
+try:
+    from docling.document_converter import DocumentConverter
+except Exception:  # pragma: no cover
+    DocumentConverter = None
 
 try:
     from docling.backend.pypdfium2_backend import PyPdfiumDocumentBackend
@@ -21,10 +30,20 @@ except Exception:  # pragma: no cover
     InputFormat = None
     PdfFormatOption = None
 
-from models import LDU, ProvenanceChain
+try:
+    from docling.datamodel.pipeline_options import PdfPipelineOptions
+except Exception:  # pragma: no cover
+    PdfPipelineOptions = None
 
-from .base_strategy import BaseExtractor
-from .vision_extractor import VisionExtractor
+try:
+    from docling.datamodel.pipeline_options import TesseractCliOcrOptions
+except Exception:  # pragma: no cover
+    TesseractCliOcrOptions = None
+
+try:
+    from docling.datamodel.pipeline_options import TesseractOcrOptions
+except Exception:  # pragma: no cover
+    TesseractOcrOptions = None
 
 
 class DoclingDocumentAdapter:
@@ -59,10 +78,8 @@ class DoclingDocumentAdapter:
         for attr in ("page_no", "page_number", "page", "page_idx", "page_index"):
             if hasattr(piece, attr):
                 try:
-                    number = int(getattr(piece, attr))
-                    if number >= 1:
-                        return number
-                    return number + 1
+                    raw_number = int(getattr(piece, attr))
+                    return raw_number if raw_number >= 1 else raw_number + 1
                 except (TypeError, ValueError):
                     pass
 
@@ -71,10 +88,8 @@ class DoclingDocumentAdapter:
             for attr in ("page_no", "page_number", "page", "page_idx", "page_index"):
                 if hasattr(provenance, attr):
                     try:
-                        number = int(getattr(provenance, attr))
-                        if number >= 1:
-                            return number
-                        return number + 1
+                        raw_number = int(getattr(provenance, attr))
+                        return raw_number if raw_number >= 1 else raw_number + 1
                     except (TypeError, ValueError):
                         pass
 
@@ -86,6 +101,8 @@ class DoclingDocumentAdapter:
         class_name = piece.__class__.__name__.lower()
         if "table" in raw_type or "table" in class_name:
             return "table"
+        if "header" in raw_type or "title" in raw_type:
+            return "header"
         if "figure" in raw_type or "image" in raw_type or "figure" in class_name:
             return "figure"
         return "text"
@@ -144,55 +161,150 @@ class DoclingDocumentAdapter:
         elif hasattr(piece, "export_to_dict") and callable(piece.export_to_dict):
             payload = piece.export_to_dict()
         elif hasattr(piece, "__dict__"):
-            payload = {k: v for k, v in vars(piece).items() if not k.startswith("_")}
+            payload = {key: value for key, value in vars(piece).items() if not key.startswith("_")}
         else:
             payload = str(piece)
 
         return json.dumps(payload, ensure_ascii=False, default=str)
 
+    @staticmethod
+    def piece_bbox(piece: Any, page_width: float, page_height: float) -> BBox:
+        bbox_value = None
+        for attr in ("bbox", "box", "rect"):
+            if hasattr(piece, attr):
+                bbox_value = getattr(piece, attr)
+                if bbox_value is not None:
+                    break
+
+        coords: Optional[Tuple[float, float, float, float]] = None
+        if isinstance(bbox_value, (tuple, list)) and len(bbox_value) >= 4:
+            coords = (
+                float(bbox_value[0]),
+                float(bbox_value[1]),
+                float(bbox_value[2]),
+                float(bbox_value[3]),
+            )
+        elif bbox_value is not None:
+            x1 = getattr(bbox_value, "x0", getattr(bbox_value, "left", None))
+            y1 = getattr(bbox_value, "y0", getattr(bbox_value, "top", None))
+            x2 = getattr(bbox_value, "x1", getattr(bbox_value, "right", None))
+            y2 = getattr(bbox_value, "y1", getattr(bbox_value, "bottom", None))
+            if None not in (x1, y1, x2, y2):
+                coords = (float(x1), float(y1), float(x2), float(y2))
+
+        if coords is None:
+            return BBox(x1=0.0, y1=0.0, x2=max(page_width, 1.0), y2=max(page_height, 1.0))
+
+        return BBox(x1=coords[0], y1=coords[1], x2=coords[2], y2=coords[3])
+
 
 class LayoutExtractor(BaseExtractor):
-    def __init__(self, rules_path: Path | None = None, warning_confidence_threshold: float = 0.7) -> None:
+    def __init__(
+        self,
+        rules_path: Path | None = None,
+        warning_confidence_threshold: float = 0.7,
+    ) -> None:
         self.logger = logging.getLogger(__name__)
         self.warning_confidence_threshold = warning_confidence_threshold
-        self.min_digital_density = 0.0005
 
         default_rules_path = Path(__file__).resolve().parents[2] / "rubric" / "extraction_rules.yaml"
         self.rules_path = rules_path or default_rules_path
-        self.min_digital_density = self._load_min_digital_density()
+        self.config_loader = ConfigLoader(self.rules_path)
 
-        if PyPdfiumDocumentBackend is not None and InputFormat is not None and PdfFormatOption is not None:
-            self.converter = DocumentConverter(
-                format_options={
-                    InputFormat.PDF: PdfFormatOption(backend=PyPdfiumDocumentBackend),
-                }
-            )
-            self.logger.info("LayoutExtractor initialized with PyPdfiumDocumentBackend")
-        else:
-            self.converter = DocumentConverter()
-            self.logger.warning(
-                "PyPdfiumDocumentBackend not available; falling back to default Docling backend."
-            )
+        self.min_digital_density = float(
+            self.config_loader.get("thresholds.char_density.min_digital", 0.0005)
+        )
+        self.ocr_min_text_clarity = float(
+            self.config_loader.get("thresholds.ocr_min_text_clarity", 0.35)
+        )
+        self.ocr_policy: Dict[str, Any] = dict(self.config_loader.get("ocr_policy", {}))
 
+        self.converter = self._build_converter()
         self.vision_fallback: VisionExtractor | None = None
+
+    def _build_converter(self) -> Any:
+        if DocumentConverter is None:
+            raise RuntimeError("Docling is not available. Install docling to use LayoutExtractor.")
+
+        if PyPdfiumDocumentBackend is None or InputFormat is None or PdfFormatOption is None:
+            self.logger.warning(
+                "Docling backend extension unavailable; using default converter without explicit backend config."
+            )
+            return DocumentConverter()
+
+        format_option_kwargs: Dict[str, Any] = {"backend": PyPdfiumDocumentBackend}
+        pipeline_options = self._build_ocr_pipeline_options()
+        if pipeline_options is not None:
+            format_option_kwargs["pipeline_options"] = pipeline_options
+
+        converter = DocumentConverter(
+            format_options={
+                InputFormat.PDF: PdfFormatOption(**format_option_kwargs),
+            }
+        )
+
+        self.logger.info(
+            "LayoutExtractor initialized with OCR-enabled Docling backend (engine=%s).",
+            str(self.ocr_policy.get("engine", "tesseract")),
+        )
+        return converter
+
+    def _build_ocr_pipeline_options(self) -> Any:
+        if not bool(self.ocr_policy.get("force_enable", True)):
+            return None
+
+        if PdfPipelineOptions is None:
+            self.logger.warning("PdfPipelineOptions not available; cannot explicitly enable OCR flags.")
+            return None
+
+        options = PdfPipelineOptions()
+
+        for attr in ("do_ocr", "ocr_enabled", "enable_ocr"):
+            if hasattr(options, attr):
+                setattr(options, attr, True)
+
+        ocr_option = self._build_tesseract_ocr_options()
+        if ocr_option is not None and hasattr(options, "ocr_options"):
+            setattr(options, "ocr_options", ocr_option)
+
+        return options
+
+    def _build_tesseract_ocr_options(self) -> Any:
+        ocr_languages = self.ocr_policy.get("languages", ["eng"])
+        if not isinstance(ocr_languages, list):
+            ocr_languages = ["eng"]
+
+        for option_class in (TesseractCliOcrOptions, TesseractOcrOptions):
+            if option_class is None:
+                continue
+            try:
+                option = option_class()
+                for attr in ("lang", "languages", "language"):
+                    if hasattr(option, attr):
+                        setattr(option, attr, ocr_languages)
+                return option
+            except Exception:
+                continue
+
+        return None
 
     def _get_vision_fallback(self) -> VisionExtractor:
         if self.vision_fallback is None:
             self.vision_fallback = VisionExtractor(
                 api_key=os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY"),
-                model_name="google/gemini-flash-1.5",
+                model_name="openai/gpt-4o-mini",
             )
         return self.vision_fallback
 
-    def _load_min_digital_density(self) -> float:
-        if not self.rules_path.exists():
-            return 0.0005
-
-        raw_yaml = self.rules_path.read_text(encoding="utf-8")
-        normalized_yaml = raw_yaml.replace("\t", "  ")
-        config = yaml.safe_load(normalized_yaml) or {}
-        thresholds = config.get("thresholds", {}) if isinstance(config, dict) else {}
-        return float(thresholds.get("MIN_DIGITAL_DENSITY", 0.0005))
+    @staticmethod
+    def _page_geometry_map(pdf_path: Path, page_numbers: set[int] | None) -> dict[int, tuple[float, float]]:
+        geometry: dict[int, tuple[float, float]] = {}
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_number, page in enumerate(pdf.pages, start=1):
+                if page_numbers is not None and page_number not in page_numbers:
+                    continue
+                geometry[page_number] = (float(page.width or 0.0), float(page.height or 0.0))
+        return geometry
 
     @staticmethod
     def _page_density_map(pdf_path: Path, page_numbers: set[int] | None) -> dict[int, float]:
@@ -221,7 +333,7 @@ class LayoutExtractor(BaseExtractor):
         ]
 
         for kwargs in candidate_kwargs:
-            filtered = {k: v for k, v in kwargs.items() if k in supported_params}
+            filtered = {key: value for key, value in kwargs.items() if key in supported_params}
             if not filtered:
                 continue
             try:
@@ -232,27 +344,67 @@ class LayoutExtractor(BaseExtractor):
         self.logger.warning("Falling back to full-document Docling conversion for %s", pdf_path.name)
         return self.converter.convert(str(pdf_path))
 
+    @staticmethod
+    def _text_clarity_score(text: str) -> float:
+        if not text:
+            return 0.0
+
+        visible_chars = [char for char in text if not char.isspace()]
+        if not visible_chars:
+            return 0.0
+
+        alnum_ratio = sum(1 for char in visible_chars if char.isalnum()) / len(visible_chars)
+        word_lengths = [len(word) for word in text.split() if word]
+        avg_word_len = (sum(word_lengths) / len(word_lengths)) if word_lengths else 0.0
+        word_score = min(1.0, avg_word_len / 5.0)
+
+        return max(0.0, min(1.0, (0.7 * alnum_ratio) + (0.3 * word_score)))
+
+    def calculate_ocr_confidence(self, page_data: Dict[str, Any]) -> float:
+        text_clarity = float(page_data.get("text_clarity", 0.0) or 0.0)
+        table_count = int(page_data.get("table_count", 0) or 0)
+        text_count = int(page_data.get("text_count", 0) or 0)
+        page_density = float(page_data.get("char_density", 0.0) or 0.0)
+        parsed_ok = bool(page_data.get("parsed_ok", False))
+
+        table_signal = 1.0 if table_count > 0 else (0.65 if text_count > 0 else 0.2)
+        density_signal = min(1.0, page_density / max(self.min_digital_density * 1.5, 1e-9))
+
+        confidence = (0.6 * text_clarity) + (0.25 * table_signal) + (0.15 * density_signal)
+        if not parsed_ok:
+            confidence *= 0.5
+        if text_clarity < self.ocr_min_text_clarity:
+            confidence *= 0.7
+
+        return max(0.0, min(1.0, confidence))
+
     def extract(self, pdf_path: Path, page_numbers: List[int]) -> List[LDU]:
         if not pdf_path.exists() or pdf_path.suffix.lower() != ".pdf":
             raise ValueError(f"Invalid PDF path: {pdf_path}")
 
         selected_pages = set(page_numbers) if page_numbers else None
         density_map = self._page_density_map(pdf_path, selected_pages)
+        geometry_map = self._page_geometry_map(pdf_path, selected_pages)
 
         try:
             conversion_result = self._convert_pdf(pdf_path, selected_pages)
         except Exception as exc:
             self.logger.exception(
-                "Docling Strategy B failed for %s. Falling back to Strategy C Vision. Error: %s",
+                "Docling Strategy B failed for %s. Returning failure to router for explicit escalation. Error: %s",
                 pdf_path.name,
                 exc,
             )
-            vision_fallback = self._get_vision_fallback()
-            return vision_fallback.extract(pdf_path=pdf_path, page_numbers=page_numbers)
+            raise RuntimeError(
+                f"LayoutExtractor OCR backend failed for {pdf_path.name}; router should escalate to Strategy C."
+            ) from exc
 
         adapter = DoclingDocumentAdapter(conversion_result)
 
         units: List[LDU] = []
+        page_table_counts: dict[int, int] = {}
+        page_text_counts: dict[int, int] = {}
+        page_text_blobs: dict[int, list[str]] = {}
+
         for index, (page_no, piece) in enumerate(adapter.iter_pieces(selected_pages), start=1):
             content_type = adapter.piece_type(piece)
 
@@ -263,22 +415,16 @@ class LayoutExtractor(BaseExtractor):
                 content_markdown = adapter.piece_to_markdown(piece)
                 content_raw = adapter.piece_to_text(piece)
 
-            page_density = density_map.get(page_no, 0.0)
-            confidence = self.calculate_confidence(
-                {
-                    "parsed_ok": True,
-                    "char_density": page_density,
-                    "content_type": content_type,
-                }
-            )
-            if confidence < self.warning_confidence_threshold:
-                self.logger.warning(
-                    "Low layout confidence %.3f on %s page %s (%s)",
-                    confidence,
-                    pdf_path.name,
-                    page_no,
-                    content_type,
-                )
+            content_markdown = content_markdown or content_raw
+            if not content_markdown.strip():
+                continue
+
+            width, height = geometry_map.get(page_no, (1.0, 1.0))
+            bbox = adapter.piece_bbox(piece, page_width=width, page_height=height)
+
+            page_table_counts[page_no] = page_table_counts.get(page_no, 0) + (1 if content_type == "table" else 0)
+            page_text_counts[page_no] = page_text_counts.get(page_no, 0) + (1 if content_type in {"text", "header"} else 0)
+            page_text_blobs.setdefault(page_no, []).append(content_markdown)
 
             units.append(
                 LDU(
@@ -286,6 +432,7 @@ class LayoutExtractor(BaseExtractor):
                     content_type=content_type,
                     content_raw=content_raw,
                     content_markdown=content_markdown,
+                    bbox=bbox,
                     provenance=ProvenanceChain(
                         source_file=pdf_path.name,
                         page_number=page_no,
@@ -295,26 +442,30 @@ class LayoutExtractor(BaseExtractor):
                 )
             )
 
+        for page_no, text_chunks in page_text_blobs.items():
+            page_density = density_map.get(page_no, 0.0)
+            clarity = self._text_clarity_score("\n".join(text_chunks))
+            ocr_confidence = self.calculate_ocr_confidence(
+                {
+                    "parsed_ok": bool(text_chunks),
+                    "char_density": page_density,
+                    "table_count": page_table_counts.get(page_no, 0),
+                    "text_count": page_text_counts.get(page_no, 0),
+                    "text_clarity": clarity,
+                }
+            )
+            if ocr_confidence < self.warning_confidence_threshold:
+                self.logger.warning(
+                    "Low OCR confidence %.3f on %s page %s",
+                    ocr_confidence,
+                    pdf_path.name,
+                    page_no,
+                )
+
         return units
 
     def calculate_confidence(self, page_data: Any) -> float:
         if isinstance(page_data, dict):
-            parsed_ok = bool(page_data.get("parsed_ok", False))
-            density = float(page_data.get("char_density", page_data.get("density", 0.0)) or 0.0)
-            content_type = str(page_data.get("content_type", "text")).lower()
-        else:
-            parsed_ok = bool(getattr(page_data, "parsed_ok", False))
-            density = float(
-                getattr(page_data, "char_density", getattr(page_data, "density", 0.0)) or 0.0
-            )
-            content_type = str(getattr(page_data, "content_type", "text")).lower()
-
-        confidence = 0.9 if parsed_ok else 0.5
-
-        if density < self.min_digital_density:
-            confidence -= 0.35
-
-        if content_type == "table":
-            confidence += 0.05
-
-        return max(0.0, min(1.0, confidence))
+            return self.calculate_ocr_confidence(page_data)
+        parsed_ok = bool(getattr(page_data, "parsed_ok", False))
+        return self.calculate_ocr_confidence({"parsed_ok": parsed_ok})

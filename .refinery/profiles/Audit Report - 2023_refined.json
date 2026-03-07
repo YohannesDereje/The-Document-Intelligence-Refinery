@@ -1,145 +1,242 @@
 {
     "file_id": "Audit Report - 2023",
     "domain_hint": "Banking/Security",
+    "document_type": "unknown",
     "metadata": {
         "overall_origin": "scanned",
         "layout_complexity": "Low",
         "total_pages": 3,
-        "units_count": 11,
-        "escalations": 0
+        "units_count": 5,
+        "escalations": 3,
+        "extraction_results": [
+            {
+                "page_number": 1,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "fail",
+                        "confidence_score": 0.0,
+                        "processing_time_ms": 547.213699988788,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    },
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "success",
+                        "confidence_score": 0.95,
+                        "processing_time_ms": 4938.187300023856,
+                        "estimated_cost_usd": 0.012416999999999997,
+                        "prompt_tokens": 36935,
+                        "image_tokens": 1020,
+                        "completion_tokens": 187
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "success",
+                "final_confidence_score": 0.95,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
+                "cumulative_processing_time_ms": 5485.401,
+                "cumulative_cost_usd": 0.012417,
+                "total_cost_usd": 0.012417,
+                "final_success_cost_usd": 0.012417,
+                "final_vlm_cost_usd": 0.012417
+            },
+            {
+                "page_number": 2,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "fail",
+                        "confidence_score": 0.0,
+                        "processing_time_ms": 515.6480000005104,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    },
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "success",
+                        "confidence_score": 0.95,
+                        "processing_time_ms": 6258.112200011965,
+                        "estimated_cost_usd": 0.012400999999999995,
+                        "prompt_tokens": 36935,
+                        "image_tokens": 1020,
+                        "completion_tokens": 160
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "success",
+                "final_confidence_score": 0.95,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
+                "cumulative_processing_time_ms": 6773.76,
+                "cumulative_cost_usd": 0.012401,
+                "total_cost_usd": 0.012401,
+                "final_success_cost_usd": 0.012401,
+                "final_vlm_cost_usd": 0.012401
+            },
+            {
+                "page_number": 3,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "fail",
+                        "confidence_score": 0.0,
+                        "processing_time_ms": 557.8643000044394,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    },
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "fail",
+                        "confidence_score": 0.0,
+                        "processing_time_ms": 744.2181000078563,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "fail",
+                "final_confidence_score": 0.0,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Fail)",
+                "cumulative_processing_time_ms": 1302.082,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            }
+        ]
     },
     "units": [
         {
             "uid": "Audit Report - 2023_p1_1",
-            "content_type": "header",
+            "unit_type": "header",
             "content_raw": "INDEPENDENT AUDITOR’S REPORT AND FINANCIAL STATEMENTS",
             "content_markdown": "# INDEPENDENT AUDITOR’S REPORT AND FINANCIAL STATEMENTS",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:06.978138+00:00"
-            }
+                "timestamp": "2026-03-06T13:48:36.617628+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "0451a068beb42205b5d36b4e9e32f752f18cf06e9ec7ec6fe7bfc4e070895ce7"
+            },
+            "content_hash": "c6204b2fbda026c65140ce0f6ca374c70d7bc9e311eeb9b26b0d4a9cb7b6e6e2"
         },
         {
             "uid": "Audit Report - 2023_p1_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "30 JUNE 2023",
-            "content_markdown": "30 JUNE 2023",
+            "content_markdown": "## 30 JUNE 2023",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:06.978169+00:00"
-            }
+                "timestamp": "2026-03-06T13:48:36.617737+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "acd3745010c8ba47cfa91c1b76a24b09bb47bd5c2b9c484b8663236cde3833b1"
+            },
+            "content_hash": "6c46ab06b7503519437b1a8c1939f3af4cd3bb324bc3c114a880eef2a4abd7b6"
         },
         {
             "uid": "Audit Report - 2023_p1_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "DEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
-            "content_markdown": "DEVELOPMENT BANK OF ETHIOPIA  \nYour Development partner!",
+            "content_markdown": "### DEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:06.978181+00:00"
-            }
+                "timestamp": "2026-03-06T13:48:36.617789+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "5b8aa78679bf05b615d6c58d2c39b8d20614a42be0b64bad16d2ee6d23c0f473"
+            },
+            "content_hash": "ef30456452bd0eb71ecd08fe1b8f9f8a86b37292f3f620b98f235d2a65022087"
         },
         {
             "uid": "Audit Report - 2023_p2_1",
-            "content_type": "header",
-            "content_raw": "DEVELOPMENT BANK OF ETHIOPIA",
-            "content_markdown": "# DEVELOPMENT BANK OF ETHIOPIA",
+            "unit_type": "header",
+            "content_raw": "DEVELOPMENT BANK OF ETHIOPIA\nINDEPENDENT AUDITOR'S REPORT\nAND\nFINANCIAL STATEMENTS\n30 JUNE 2023",
+            "content_markdown": "# DEVELOPMENT BANK OF ETHIOPIA\n## INDEPENDENT AUDITOR'S REPORT\n### AND\n### FINANCIAL STATEMENTS\n#### 30 JUNE 2023",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:12.080048+00:00"
-            }
+                "timestamp": "2026-03-06T13:48:43.648221+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "66d702f2dcd85e84420a6fba158b28815c86584f488ef9e1be77bf32b26be126"
+            },
+            "content_hash": "6c357ecc4e32a449605155423ebd1f0659d9dd0bb9b582a84de34bf723f25ca9"
         },
         {
             "uid": "Audit Report - 2023_p2_2",
-            "content_type": "header",
-            "content_raw": "INDEPENDENT AUDITOR'S REPORT",
-            "content_markdown": "## INDEPENDENT AUDITOR'S REPORT",
+            "unit_type": "text",
+            "content_raw": "Audit Services Corporation",
+            "content_markdown": "Audit Services Corporation",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:12.080080+00:00"
-            }
-        },
-        {
-            "uid": "Audit Report - 2023_p2_3",
-            "content_type": "text",
-            "content_raw": "AND FINANCIAL STATEMENTS",
-            "content_markdown": "AND FINANCIAL STATEMENTS",
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 2,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:12.080091+00:00"
-            }
-        },
-        {
-            "uid": "Audit Report - 2023_p2_4",
-            "content_type": "header",
-            "content_raw": "30 JUNE 2023",
-            "content_markdown": "### 30 JUNE 2023",
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 2,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:12.080100+00:00"
-            }
-        },
-        {
-            "uid": "Audit Report - 2023_p3_1",
-            "content_type": "header",
-            "content_raw": "Development Bank of Ethiopia",
-            "content_markdown": "# Development Bank of Ethiopia",
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 3,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:23.093993+00:00"
-            }
-        },
-        {
-            "uid": "Audit Report - 2023_p3_2",
-            "content_type": "header",
-            "content_raw": "Consolidated and separate financial statements For the year ended 30 June 2023",
-            "content_markdown": "## Consolidated and separate financial statements\n### For the year ended 30 June 2023",
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 3,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:23.094035+00:00"
-            }
-        },
-        {
-            "uid": "Audit Report - 2023_p3_3",
-            "content_type": "header",
-            "content_raw": "Table of contents",
-            "content_markdown": "### Table of contents",
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 3,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:23.094055+00:00"
-            }
-        },
-        {
-            "uid": "Audit Report - 2023_p3_4",
-            "content_type": "table",
-            "content_raw": "{\"Independent auditor's report\": \"1 - 4\", \"Board of management, professional advisers and registered office\": \"5\", \"Report of the board of management\": \"6\", \"Statement of board of management's responsibilities\": \"7\", \"Consolidated and separate statement of profit or loss and other comprehensive income\": \"8\", \"Consolidated and separate statement of financial position\": \"9\", \"Consolidated and separate statement of changes in equity\": \"10-11\", \"Consolidated and separate statement of cash flows\": \"12\", \"Notes to the consolidated and separate financial statements\": \"13-92\"}",
-            "content_markdown": "| Item                                                                 | Page   |\n|----------------------------------------------------------------------|--------|\n| Independent auditor's report                                         | 1 - 4  |\n| Board of management, professional advisers and registered office     | 5      |\n| Report of the board of management                                    | 6      |\n| Statement of board of management's responsibilities                  | 7      |\n| Consolidated and separate statement of profit or loss and other comprehensive income | 8      |\n| Consolidated and separate statement of financial position            | 9      |\n| Consolidated and separate statement of changes in equity            | 10-11  |\n| Consolidated and separate statement of cash flows                   | 12     |\n| Notes to the consolidated and separate financial statements          | 13-92  |",
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 3,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:33:23.094108+00:00"
-            }
+                "timestamp": "2026-03-06T13:48:43.648329+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "70293552a2978d0498802805f4e66fff2b9e18dfcb7f3d6da50c80ac0ca9bd4c"
+            },
+            "content_hash": "821e0dd5c1f24cbc76dde33bf17aeecd3bdde8a502227324d2ef4a148163baff"
         }
-    ]
+    ],
+    "page_index": []
 }

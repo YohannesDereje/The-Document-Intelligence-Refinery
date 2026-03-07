@@ -6,6 +6,7 @@ from hashlib import sha256
 from typing import Any, Dict, List, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
+from src.utils.hashing import generate_content_hash
 
 
 class StrategyName(str, Enum):
@@ -48,13 +49,19 @@ class PageIndex(BaseModel):
 
 	page_number: int
 	bbox: BBox
+	node_id: str = ""
+	node_type: Literal["root", "section", "subsection", "chunk", "page"] = "page"
+	title: str = ""
+	summary: str = ""
+	metadata: Dict[str, Any] = Field(default_factory=dict)
+	chunk_hashes: List[str] = Field(default_factory=list)
 	children: List["PageIndex"] = Field(default_factory=list)
 
 	@field_validator("page_number")
 	@classmethod
 	def page_number_positive(cls, value: int) -> int:
-		if value <= 0:
-			raise ValueError("page_number must be positive.")
+		if value < 0:
+			raise ValueError("page_number must be non-negative.")
 		return value
 
 
@@ -82,6 +89,7 @@ class DocumentProfile(BaseModel):
 	file_name: str
 	total_pages: int
 	overall_origin: DocumentType
+	origin_type: Literal["born_digital", "scanned_image", "hybrid", "unknown"] = "unknown"
 	domain_hint: str
 	layout_complexity: LayoutComplexity
 	cost_tier: CostTier = "MEDIUM"
@@ -161,11 +169,15 @@ class LDU(BaseModel):
 
 	@model_validator(mode="after")
 	def validate_content_hash(self) -> "LDU":
-		expected = sha256(self.content_raw.encode("utf-8")).hexdigest()
+		expected = generate_content_hash(
+			text=self.content_raw,
+			page_number=self.provenance.page_number,
+			bbox=self.bbox,
+		)
 		if not self.content_hash:
 			self.content_hash = expected
 		elif self.content_hash != expected:
-			raise ValueError("LDU.content_hash does not match hash(content_raw).")
+			raise ValueError("LDU.content_hash does not match spatial content hash.")
 		return self
 
 
@@ -180,14 +192,166 @@ class ExtractedDocument(BaseModel):
 	page_index: List[PageIndex] = Field(default_factory=list)
 
 
+class SemanticChunk(BaseModel):
+	model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+	content: str
+	page_numbers: List[int]
+	bbox_bounds: BBox
+	section_context: str
+	token_count: int
+	content_hash: str = ""
+	page_index: List[PageIndex] = Field(default_factory=list)
+
+	@field_validator("content", "section_context")
+	@classmethod
+	def non_empty_text(cls, value: str) -> str:
+		if not value or not value.strip():
+			raise ValueError("chunk text fields cannot be empty.")
+		return value
+
+	@field_validator("page_numbers")
+	@classmethod
+	def non_empty_pages(cls, value: List[int]) -> List[int]:
+		if not value:
+			raise ValueError("page_numbers must contain at least one page.")
+		if any(page <= 0 for page in value):
+			raise ValueError("page_numbers must be positive integers.")
+		return sorted(set(value))
+
+	@field_validator("token_count")
+	@classmethod
+	def positive_tokens(cls, value: int) -> int:
+		if value <= 0:
+			raise ValueError("token_count must be positive.")
+		return value
+
+	@model_validator(mode="after")
+	def validate_content_hash(self) -> "SemanticChunk":
+		reference_page = self.page_numbers[0]
+		expected = generate_content_hash(
+			text=self.content,
+			page_number=reference_page,
+			bbox=self.bbox_bounds,
+		)
+		if not self.content_hash:
+			self.content_hash = expected
+		elif self.content_hash != expected:
+			raise ValueError("SemanticChunk.content_hash does not match spatial content hash.")
+		return self
+
+
+class ExtractionAttempt(BaseModel):
+	model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+	strategy: StrategyName
+	status: Literal["success", "fail"]
+	confidence_score: float
+	processing_time_ms: float
+	estimated_cost_usd: float
+	prompt_tokens: int = 0
+	image_tokens: int = 0
+	completion_tokens: int = 0
+
+	@field_validator("confidence_score")
+	@classmethod
+	def confidence_range(cls, value: float) -> float:
+		if value < 0.0 or value > 1.0:
+			raise ValueError("confidence_score must be between 0.0 and 1.0.")
+		return value
+
+	@field_validator("processing_time_ms", "estimated_cost_usd")
+	@classmethod
+	def non_negative_metric(cls, value: float) -> float:
+		if value < 0.0:
+			raise ValueError("attempt metrics must be non-negative.")
+		return value
+
+	@field_validator("prompt_tokens", "image_tokens", "completion_tokens")
+	@classmethod
+	def non_negative_tokens(cls, value: int) -> int:
+		if value < 0:
+			raise ValueError("token counters must be non-negative.")
+		return value
+
+
+class ExtractionResult(BaseModel):
+	model_config = ConfigDict(extra="forbid", validate_assignment=True)
+
+	page_number: int
+	origin_type: str
+	attempts: List[ExtractionAttempt]
+	final_strategy: StrategyName
+	final_status: Literal["success", "fail"]
+	final_confidence_score: float
+	escalation_path: str
+	cumulative_processing_time_ms: float = 0.0
+	cumulative_cost_usd: float = 0.0
+	total_cost_usd: float = 0.0
+	final_success_cost_usd: float = 0.0
+	final_vlm_cost_usd: float = 0.0
+
+	@field_validator("page_number")
+	@classmethod
+	def page_number_positive(cls, value: int) -> int:
+		if value <= 0:
+			raise ValueError("page_number must be positive.")
+		return value
+
+	@field_validator("final_confidence_score")
+	@classmethod
+	def final_confidence_range(cls, value: float) -> float:
+		if value < 0.0 or value > 1.0:
+			raise ValueError("final_confidence_score must be between 0.0 and 1.0.")
+		return value
+
+	@field_validator(
+		"cumulative_processing_time_ms",
+		"cumulative_cost_usd",
+		"total_cost_usd",
+		"final_success_cost_usd",
+		"final_vlm_cost_usd",
+	)
+	@classmethod
+	def non_negative_aggregate_metrics(cls, value: float) -> float:
+		if value < 0.0:
+			raise ValueError("aggregate cost/time metrics must be non-negative.")
+		return value
+
+
 class ExtractionLedgerEntry(BaseModel):
 	model_config = ConfigDict(extra="forbid", validate_assignment=True)
 
 	file_name: str
+	page_number: int = 0
+	origin_type: str = "unknown"
 	strategy_selected: StrategyName
 	confidence_score: float
 	processing_time_ms: float
 	estimated_cost_usd: float
+	final_success_cost_usd: float = 0.0
+	final_vlm_cost_usd: float = 0.0
+	attempt_chain: List[ExtractionAttempt] = Field(default_factory=list)
+	escalation_path: str = ""
+
+	@field_validator("page_number")
+	@classmethod
+	def ledger_page_number_non_negative(cls, value: int) -> int:
+		if value < 0:
+			raise ValueError("page_number cannot be negative.")
+		return value
+
+	@field_validator(
+		"processing_time_ms",
+		"estimated_cost_usd",
+		"final_success_cost_usd",
+		"final_vlm_cost_usd",
+	)
+	@classmethod
+	def ledger_metrics_non_negative(cls, value: float) -> float:
+		if value < 0.0:
+			raise ValueError("ledger metrics must be non-negative.")
+		return value
 
 
 PageIndex.model_rebuild()

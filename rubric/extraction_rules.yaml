@@ -21,6 +21,8 @@ thresholds:
     table_high: 50
     medium_complexity: 10
   triage_confidence_gate: 0.70
+  strategy_b_escalation_confidence: 0.75
+  ocr_min_text_clarity: 0.35
   mixed_mode_sample_size: 6
   contradictory_image_ratio_threshold: 0.30
 
@@ -44,16 +46,46 @@ domain_registry:
 economic_guards:
   vlm_budget_cap: 30.00
   default_dpi: 140
+  vlm_max_output_tokens: 1200
+  vlm_input_cost_per_1k_tokens: 0.00030
+  vlm_image_cost_per_1k_tokens: 0.00120
+  vlm_output_cost_per_1k_tokens: 0.00060
+  vlm_image_tile_size: 512
+  vlm_tokens_per_image_tile: 85
+  vlm_chars_per_token: 4
+
+# -----------------------------------------------------------------------------
+# OCR POLICY
+# -----------------------------------------------------------------------------
+# force_enable:
+#   Always turn OCR on for Strategy B converters when backend supports it.
+# backend:
+#   Preferred OCR-capable local layout engine. Supported by this project: docling.
+# engine:
+#   OCR engine hint for local extractor setup. Example: tesseract.
+# languages:
+#   OCR language hints for local OCR pipeline.
+ocr_policy:
+  force_enable: true
+  backend: "docling"
+  engine: "tesseract"
+  languages: ["eng"]
 
 # -----------------------------------------------------------------------------
 # CHUNKING CONSTITUTION
 # -----------------------------------------------------------------------------
 # max_chunk_size:
-#   Maximum characters per chunk before chunk splitting.
+#   Maximum tokens per chunk before chunk splitting.
+# min_chunk_size:
+#   Minimum tokens per chunk. Orphans below this are merged unless final chunk.
 # semantic_boundary_indicators:
 #   Markers that indicate natural chunk boundaries.
 chunking_constitution:
-  max_chunk_size: 1500
+  max_chunk_size: 1000
+  min_chunk_size: 50
+  header_detection:
+    min_font_size: 12.0
+    bold_weight_threshold: 600
   semantic_boundary_indicators:
     - "#"
     - "Table of Contents"

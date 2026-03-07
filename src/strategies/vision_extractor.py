@@ -6,17 +6,22 @@ import logging
 import os
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
 
 import fitz
 from openai import OpenAI
 
 from models import LDU, ProvenanceChain
+from src.config import ConfigLoader
 
 from .base_strategy import BaseExtractor
 
 
 class BudgetExceededError(RuntimeError):
+    pass
+
+
+class ConfigurationError(RuntimeError):
     pass
 
 
@@ -27,23 +32,77 @@ class VisionExtractor(BaseExtractor):
         model_name: str = "openai/gpt-4o-mini",
         max_budget: float = 5.0,
         dpi: int = 140,
+        rules_path: str | Path = "rubric/extraction_rules.yaml",
     ) -> None:
         resolved_key = api_key or os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
         if not resolved_key:
-            raise ValueError("Missing API key. Provide api_key or set OPENROUTER_API_KEY.")
+            raise ConfigurationError("Missing API key. Provide api_key or set OPENROUTER_API_KEY.")
 
-        self.client = OpenAI(api_key=resolved_key, base_url="https://openrouter.ai/api/v1")
+        self.config_loader = ConfigLoader(rules_path)
+        try:
+            self.client = OpenAI(api_key=resolved_key, base_url="https://openrouter.ai/api/v1")
+        except Exception as exc:
+            raise ConfigurationError(f"Failed to initialize OpenRouter client: {exc}") from exc
         self.model_name = model_name
         self.max_budget = max_budget
         self.total_spend = 0.0
         self.dpi = dpi
         self.logger = logging.getLogger(__name__)
+        self.last_call_cost_usd = 0.0
+        self.last_usage: Dict[str, int] = {
+            "prompt_tokens": 0,
+            "image_tokens": 0,
+            "completion_tokens": 0,
+        }
 
-    def _estimate_call_cost(self, image_bytes: bytes, prompt_text: str) -> float:
-        image_mb = len(image_bytes) / (1024 * 1024)
-        prompt_kchars = len(prompt_text) / 1000
-        estimated = (0.010 * image_mb) + (0.0015 * prompt_kchars) + 0.003
-        return max(0.003, round(estimated, 6))
+        guards = dict(self.config_loader.get("economic_guards", {}))
+        self.vlm_input_cost_per_1k_tokens = self._load_positive_float(
+            guards, "vlm_input_cost_per_1k_tokens", 0.00030
+        )
+        self.vlm_image_cost_per_1k_tokens = self._load_positive_float(
+            guards, "vlm_image_cost_per_1k_tokens", 0.00120
+        )
+        self.vlm_output_cost_per_1k_tokens = self._load_positive_float(
+            guards, "vlm_output_cost_per_1k_tokens", 0.00060
+        )
+        self.vlm_image_tile_size = int(self._load_positive_float(guards, "vlm_image_tile_size", 512.0))
+        self.vlm_tokens_per_image_tile = int(
+            self._load_positive_float(guards, "vlm_tokens_per_image_tile", 85.0)
+        )
+        self.vlm_chars_per_token = self._load_positive_float(guards, "vlm_chars_per_token", 4.0)
+        self.vlm_max_output_tokens = int(self._load_positive_float(guards, "vlm_max_output_tokens", 1200.0))
+
+    def _load_positive_float(self, config: Dict[str, Any], key: str, default: float) -> float:
+        try:
+            value = float(config.get(key, default))
+            if value > 0.0:
+                return value
+        except (TypeError, ValueError):
+            pass
+
+        self.logger.warning(
+            "Invalid economic guard '%s' in extraction_rules.yaml; using fallback %.6f",
+            key,
+            default,
+        )
+        return float(default)
+
+    def _estimate_text_tokens(self, text: str) -> int:
+        if not text:
+            return 1
+        return max(1, int(len(text) / max(self.vlm_chars_per_token, 1.0)))
+
+    def _estimate_image_tokens(self, width_px: int, height_px: int) -> int:
+        tile_size = max(1, self.vlm_image_tile_size)
+        tile_count_x = max(1, (width_px + tile_size - 1) // tile_size)
+        tile_count_y = max(1, (height_px + tile_size - 1) // tile_size)
+        return tile_count_x * tile_count_y * max(1, self.vlm_tokens_per_image_tile)
+
+    def calculate_final_cost(self, input_tokens: int, image_tokens: int, output_tokens: int) -> float:
+        input_cost = (max(0, input_tokens) / 1000.0) * self.vlm_input_cost_per_1k_tokens
+        image_cost = (max(0, image_tokens) / 1000.0) * self.vlm_image_cost_per_1k_tokens
+        output_cost = (max(0, output_tokens) / 1000.0) * self.vlm_output_cost_per_1k_tokens
+        return round(input_cost + image_cost + output_cost, 6)
 
     def _check_budget_or_raise(self, estimated_cost: float, page_number: int) -> None:
         remaining = self.max_budget - self.total_spend
@@ -52,7 +111,7 @@ class VisionExtractor(BaseExtractor):
                 f"Budget exceeded before page {page_number}. Estimated ${estimated_cost:.4f}, remaining ${remaining:.4f}."
             )
 
-    def _render_page_png(self, pdf_path: Path, page_number: int) -> bytes:
+    def _render_page_png(self, pdf_path: Path, page_number: int) -> Tuple[bytes, int, int]:
         with fitz.open(pdf_path) as document:
             if page_number < 1 or page_number > document.page_count:
                 raise ValueError(
@@ -63,7 +122,7 @@ class VisionExtractor(BaseExtractor):
             zoom = self.dpi / 72.0
             matrix = fitz.Matrix(zoom, zoom)
             pix = page.get_pixmap(matrix=matrix, alpha=False)
-            return pix.tobytes("png")
+            return pix.tobytes("png"), int(pix.width), int(pix.height)
 
     def _build_messages(self, image_bytes: bytes) -> list[dict[str, Any]]:
         system_prompt = (
@@ -106,10 +165,23 @@ class VisionExtractor(BaseExtractor):
             return cleaned[start : end + 1]
         return cleaned
 
-    def _call_vlm(self, image_bytes: bytes, page_number: int) -> Dict[str, Any]:
+    def _call_vlm(
+        self,
+        image_bytes: bytes,
+        page_number: int,
+        width_px: int,
+        height_px: int,
+    ) -> Dict[str, Any]:
         messages = self._build_messages(image_bytes)
         prompt_text = json.dumps(messages, default=str)
-        estimated_cost = self._estimate_call_cost(image_bytes, prompt_text)
+        estimated_input_tokens = self._estimate_text_tokens(prompt_text)
+        estimated_image_tokens = self._estimate_image_tokens(width_px, height_px)
+        estimated_output_tokens = 256
+        estimated_cost = self.calculate_final_cost(
+            input_tokens=estimated_input_tokens,
+            image_tokens=estimated_image_tokens,
+            output_tokens=estimated_output_tokens,
+        )
         self._check_budget_or_raise(estimated_cost, page_number)
 
         self.logger.info(
@@ -125,28 +197,47 @@ class VisionExtractor(BaseExtractor):
                 model=self.model_name,
                 messages=messages,
                 temperature=0,
+                max_tokens=self.vlm_max_output_tokens,
                 response_format={"type": "json_object"},
             )
         except Exception as exc:
             self.logger.exception(
-                "Vision API call failed on page %s with model %s: %s",
+                "Vision API connectivity/config failure on page %s with model %s: %s",
                 page_number,
                 self.model_name,
                 exc,
             )
-            return {
-                "sections": [
-                    {
-                        "content_type": "text",
-                        "content_raw": f"Vision API error: {exc}",
-                        "content_markdown": "",
-                        "uncertainty": True,
-                    }
-                ],
-                "uncertainty": True,
-            }
+            raise ConfigurationError(
+                f"Vision API cannot be reached for page {page_number} using model {self.model_name}: {exc}"
+            ) from exc
 
-        self.total_spend += estimated_cost
+        raw = response.choices[0].message.content or "{}"
+        usage = getattr(response, "usage", None)
+
+        input_tokens = estimated_input_tokens
+        if usage is not None and getattr(usage, "prompt_tokens", None) is not None:
+            input_tokens = max(1, int(getattr(usage, "prompt_tokens")))
+
+        output_tokens = self._estimate_text_tokens(raw)
+        if usage is not None and getattr(usage, "completion_tokens", None) is not None:
+            output_tokens = max(1, int(getattr(usage, "completion_tokens")))
+
+        image_tokens = estimated_image_tokens
+
+        final_cost = self.calculate_final_cost(
+            input_tokens=input_tokens,
+            image_tokens=image_tokens,
+            output_tokens=output_tokens,
+        )
+
+        self.total_spend += final_cost
+        self.last_call_cost_usd = final_cost
+        self.last_usage = {
+            "prompt_tokens": max(0, int(input_tokens)),
+            "image_tokens": max(0, int(image_tokens)),
+            "completion_tokens": max(0, int(output_tokens)),
+        }
+
         raw = response.choices[0].message.content or "{}"
         json_payload = self._extract_json_text(raw)
 
@@ -173,8 +264,13 @@ class VisionExtractor(BaseExtractor):
         normalized_pages = sorted(set(page_numbers))
 
         for page_number in normalized_pages:
-            image_bytes = self._render_page_png(pdf_path, page_number)
-            payload = self._call_vlm(image_bytes=image_bytes, page_number=page_number)
+            image_bytes, width_px, height_px = self._render_page_png(pdf_path, page_number)
+            payload = self._call_vlm(
+                image_bytes=image_bytes,
+                page_number=page_number,
+                width_px=width_px,
+                height_px=height_px,
+            )
 
             page_uncertainty = bool(payload.get("uncertainty", False))
             confidence = self.calculate_confidence({"uncertainty": page_uncertainty})

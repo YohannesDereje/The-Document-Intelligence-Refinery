@@ -16,3 +16,6 @@ __pycache__/
 .pytest_cache/
 venv/
 .venv/
+
+# OS files
+.DS_Store

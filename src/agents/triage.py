@@ -362,10 +362,15 @@ class TriageAgent:
             triage_confidence=triage_confidence,
         )
 
+        normalized_origin_type = "scanned_image" if overall_origin == "scanned" else overall_origin
+        if mixed_mode:
+            normalized_origin_type = "hybrid"
+
         return DocumentProfile(
             file_name=pdf_path.name,
             total_pages=len(page_profiles),
             overall_origin=overall_origin,
+            origin_type=normalized_origin_type,
             domain_hint=domain_hint,
             layout_complexity=layout_complexity,
             pages=page_profiles,

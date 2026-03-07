@@ -1,445 +1,897 @@
 {
     "file_id": "tax_expenditure_ethiopia_2021_22",
-    "domain_hint": "Public_Sector",
+    "domain_hint": "Banking/Security",
+    "document_type": "unknown",
     "metadata": {
         "overall_origin": "born_digital",
         "layout_complexity": "High",
         "total_pages": 3,
-        "units_count": 36,
-        "escalations": 0
+        "units_count": 35,
+        "escalations": 0,
+        "extraction_results": [
+            {
+                "page_number": 1,
+                "origin_type": "hybrid",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "fail",
+                        "confidence_score": 0.0,
+                        "processing_time_ms": 495.17959999502636,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "fail",
+                "final_confidence_score": 0.0,
+                "escalation_path": "hybrid -> Strategy C (Fail)",
+                "cumulative_processing_time_ms": 495.18,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 2,
+                "origin_type": "hybrid",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 0.7829552814445581,
+                        "processing_time_ms": 292.7878999907989,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 0.7829552814445581,
+                "escalation_path": "hybrid -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 292.788,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 3,
+                "origin_type": "hybrid",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 1.0,
+                        "processing_time_ms": 451.24870000290684,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 1.0,
+                "escalation_path": "hybrid -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 451.249,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            }
+        ]
     },
     "units": [
         {
-            "uid": "tax_expenditure_ethiopia_2021_22_p1_1",
-            "content_type": "text",
-            "content_raw": "Vision API error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14517. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_39zcrckkqRnpI93FTI7V9H8qrqE'}",
-            "content_markdown": "Vision API error: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 16384 tokens, but can only afford 14517. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_39zcrckkqRnpI93FTI7V9H8qrqE'}",
-            "provenance": {
-                "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
-                "page_number": 1,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-04T23:38:52.331836+00:00"
-            }
-        },
-        {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Import tax expenditure report: FY 2018/19 – 2020/21 2",
             "content_markdown": "Import tax expenditure report: FY 2018/19 – 2020/21 2",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985149+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.251624+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2c9fe2cde1e03dbeb16292f854257a065453b53141a3421a728c4eeda1a31c3f"
+            },
+            "content_hash": "c6847c54ae8f871c1dd04f603bd902937a36e1804b442e8a9bd0e064f38ef711"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Preface",
             "content_markdown": "Preface",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985205+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.251793+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "271cb7fbb838058f0bc2a1030cc425b5914705b35e8a4c52d5bef4f2c58468de"
+            },
+            "content_hash": "7a931891ebbb61a7201470a43a8d9ce76bba4d3e147b44af701917422ef5e81f"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "This report has been prepared by the IFS Centre for Tax Analysis in Developing Countries",
             "content_markdown": "This report has been prepared by the IFS Centre for Tax Analysis in Developing Countries",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985221+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.251845+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a4ec8bf156a4f5e6e7b4a77c936ce9cca17e29d9e88ce3c156335c69b5eedd39"
+            },
+            "content_hash": "d0b7d36b8e2ded16d9f1cb5d5aeeb5a77751bef12bfa2f48b6ad4f804d67e4c9"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "(TaxDev) team (Daniel Prinz, Edris Seid and Ben Waltmann) in collaboration with the Ethiopian",
             "content_markdown": "(TaxDev) team (Daniel Prinz, Edris Seid and Ben Waltmann) in collaboration with the Ethiopian",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985246+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.251895+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "b4324e2673260c3c777b332a8c9bbda0779eec437f34b9d9530781ca540a3a72"
+            },
+            "content_hash": "02de1518a1a50691b6d553574449782e3570eaf8d9d6d5bf39235c6d6eca42c7"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Ministry of Finance Tax Policy Directorate team (led by Mulay Weldu).",
             "content_markdown": "Ministry of Finance Tax Policy Directorate team (led by Mulay Weldu).",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985258+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.251940+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4e1f8278e8d95a490baacf600d724f896f7d40a3f39cf7624a2826ada7c5280c"
+            },
+            "content_hash": "775bf139adc0625214566f652bb546adf0910ee649d3b4a491d4c1149099b873"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The authors would like to thank David Phillips (IFS) for useful comments and feedback. They",
             "content_markdown": "The authors would like to thank David Phillips (IFS) for useful comments and feedback. They",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985269+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.251980+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "749cc26780394653049182f1316dccf32ca5e5b1aa992d892bb645936ad463a5"
+            },
+            "content_hash": "7e518f3b44616b5fbe50af32e7c6d17b329bf44f314c06702683cabbff953cb9"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "also thank the staff of the Ministry of Finance Tax Policy Directorate and the staff of the",
             "content_markdown": "also thank the staff of the Ministry of Finance Tax Policy Directorate and the staff of the",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985280+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.252019+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "64a87753e8f2507563b3a5a7fef5198a2bbfdb91c021c94c03cdd84849f1d4b5"
+            },
+            "content_hash": "a95e884d74dd03deed2cfdd9d97f41ba2aeb520b1afae2699d6e2960f494cfd6"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Ethiopian Customs Commission for providing access to data and clarifying certain data issues.",
             "content_markdown": "Ethiopian Customs Commission for providing access to data and clarifying certain data issues.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985291+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.252058+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "648396fc5d7c025b4fc4fbce60cc9348f117e160029b9bd0abf4e772ce0a0a92"
+            },
+            "content_hash": "6453158058ad646419780888a4efbed60b0ddf4c5e5f56e7f8782e0dd2e25e4b"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "This report has been funded by UK aid from the UK government through a grant to TaxDev.",
             "content_markdown": "This report has been funded by UK aid from the UK government through a grant to TaxDev.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985301+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.252098+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "586cbd8ba40ac33e82a7d20ad75cbbc1e13a1fcd5de5a144c458892c79576d50"
+            },
+            "content_hash": "b055d044ce3c038c4c5ba0b80e710c893b09c7edca23d5ad4e3b7fdeb7f0af60"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p2_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": " Ministry of Finance, Ethiopia",
             "content_markdown": " Ministry of Finance, Ethiopia",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:52.985311+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:48.252136+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a66f853ce259f5017d40ffdd072292d82c6cd5446bf7d838ea44821482124939"
+            },
+            "content_hash": "8fe318712b821f713c4a8e2946993159ed5a35faf8ad346667e543777e3df2bc"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Import tax expenditure report: FY 2018/19 – 2020/21 3",
             "content_markdown": "Import tax expenditure report: FY 2018/19 – 2020/21 3",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456440+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.293866+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5c7b8d4fe2d842c842ae78ce6223ed5c68f85ac6c39d24abe65a65e30bed5978"
+            },
+            "content_hash": "ab7990c62e6fa681a254f16bed1d976d1c22b0395bdaa4781fdc696979e33aab"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Contents",
             "content_markdown": "Contents",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456589+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294039+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "cc04383632e0c280a81bb9a0bfcc71202edebaf20d336258cea677f50db470ba"
+            },
+            "content_hash": "437aea62a5bd6ad4762e494c81b88532809a231477c82bdecf6fd6636908b7ab"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Executive summary ...................................................................................................................... 4",
             "content_markdown": "Executive summary ...................................................................................................................... 4",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456640+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294134+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3faf644bca97305732082e74a8ebd6945a32b74fd4deb600e5937619c102ba84"
+            },
+            "content_hash": "25ef9fd3061be62e68be58485b43be057cf978f07a41c94bd788f4be9c9c991c"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "1. Introduction .......................................................................................................................... 6",
             "content_markdown": "1. Introduction .......................................................................................................................... 6",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456679+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294179+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a4ac965a5470477ceb336eacdaf40b407871e54e26c2de3bd2eed3f2c911ce6e"
+            },
+            "content_hash": "88c5cfbd147741955a451c7468a661ec50651bcf7be9aa58cf723374d7706a9c"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "2. Policy rationale for and issues with tax expenditures ....................................................... 7",
             "content_markdown": "2. Policy rationale for and issues with tax expenditures ....................................................... 7",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456705+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294233+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "1038a82dbbc561f689e3db1a7b80814c936a3f8cf88d166cbfefb90ae68fb8a7"
+            },
+            "content_hash": "49b5ed9971e3a6391b96c9cd46ce8977545fdecf9dc2f7ff282dde96d8eb9346"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "3. Definitions and data ............................................................................................................. 9",
             "content_markdown": "3. Definitions and data ............................................................................................................. 9",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456731+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294274+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ec53beaba1556e3412abec98541117b6c1bb6197ff383d30fb580edcea49b444"
+            },
+            "content_hash": "cb9fbfad014169e609247b5f120e03abaa7f288968d94984daddefd8cdf05d02"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "3.1 Defining the benchmark tax system ............................................................................. 9",
             "content_markdown": "3.1 Defining the benchmark tax system ............................................................................. 9",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456762+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294313+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c34e5e4509a2494781b73099788838a4964c224df8eca7c35a5796ce9cafcf32"
+            },
+            "content_hash": "eb3a2805525743df231a77cc4bc68261bb7cc432a89f77faf69c9dc233ae683e"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "3.2 Estimating tax expenditures ....................................................................................... 13",
             "content_markdown": "3.2 Estimating tax expenditures ....................................................................................... 13",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456786+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294352+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "01e9a5b41b86d13fe669a76eb767d97c88ef030afffeb5b4a4033ca520b9e47b"
+            },
+            "content_hash": "1863b572effc17d44c51b0d385f106454ff70fd08fefcdcd74b8a74230bad174"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "3.3 Data ............................................................................................................................ 15",
             "content_markdown": "3.3 Data ............................................................................................................................ 15",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456812+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294394+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "59ce4394317538d9b5e11372af44b77ea6f6928cca51e4ee539f2a9c3f25f18f"
+            },
+            "content_hash": "7a2b01bc8dd11298e22bfe42735d9525fbd54d616309372a2ad907299fa3da07"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "4. Tax expenditure estimates ................................................................................................. 16",
             "content_markdown": "4. Tax expenditure estimates ................................................................................................. 16",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456836+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294433+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "77bbbbba72bd4108593f1b64521119df7fd69a59e957fe13404addef941d4354"
+            },
+            "content_hash": "65ee91038cad898557e8967a2e173d70dda8c1a490446b68d9f38d4f12aa1a21"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_11",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "4.1 Overall tax expenditures ............................................................................................. 16",
             "content_markdown": "4.1 Overall tax expenditures ............................................................................................. 16",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456858+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294473+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7b7dd7b943f6d0fdf5f2f1226fcddc79dc7bc55b8d5f9baf45bcfb7f8f8c0192"
+            },
+            "content_hash": "1bf3322ae02f93d823b78e8724655a0eefac1274584e04e6cb880d9710e1f041"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_12",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "4.2 Customs duty .............................................................................................................. 22",
             "content_markdown": "4.2 Customs duty .............................................................................................................. 22",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456880+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294512+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "8c74b9dde263fdf469471acf2659599bec110082ec2b23e7a12190abb44ca88a"
+            },
+            "content_hash": "411cdbc777af2d752842cdaedc8ec7af1cde7e83644efb5029266489841e897e"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_13",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "4.3 Excise duty ................................................................................................................. 27",
             "content_markdown": "4.3 Excise duty ................................................................................................................. 27",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456901+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294551+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "eaaa03c8ff1913c16db4cf0a476e9ad0b094310cc990b429c57c953b8f3f9193"
+            },
+            "content_hash": "ae481c9095b8f3c8c4ffec2b214ac9f80b374561e3cf8b424fb7954decbcc4ac"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_14",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "4.4 VAT ............................................................................................................................ 33",
             "content_markdown": "4.4 VAT ............................................................................................................................ 33",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456922+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294589+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c099b572ef7fb73a2606bf01345198b1675e6c7f5e4eb91d6e4dcd49ef679b63"
+            },
+            "content_hash": "6e5d8ee174497e88c9af390cd2dbd4d9adeb0070a19a45536db8230797ef926a"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_15",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "4.5 Surtax ......................................................................................................................... 36",
             "content_markdown": "4.5 Surtax ......................................................................................................................... 36",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456947+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294627+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "cd21906b3de62cce6d138eca6798366161775784685204dd84b510ab9ccfcc02"
+            },
+            "content_hash": "3fa73212e61f64b49b691966df69106a2ef84ebc0184a9c7676f3af6f5a031de"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_16",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "5. Conclusions and recommendations ................................................................................... 41",
             "content_markdown": "5. Conclusions and recommendations ................................................................................... 41",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456968+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294666+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a5e6406cbde2188c2467ef54183dab00a6c13ec07c47e3aade4d2be8f1698f3c"
+            },
+            "content_hash": "09df9a49b888716d3d3dd40931c7cc535e014ecc2299ffaa038b99f1fc5efebd"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_17",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Appendices .................................................................................................................................. 43",
             "content_markdown": "Appendices .................................................................................................................................. 43",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.456987+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294703+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "84636959a8f30da50e160b1db8c68e7ec018f67c04b0278e123338626e05ba1d"
+            },
+            "content_hash": "a9c333e43b74606912b19840f6e64e18972bff4c365771fcb56bec4b1078def5"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_18",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "A. Negative tax expenditures .......................................................................................... 43",
             "content_markdown": "A. Negative tax expenditures .......................................................................................... 43",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457008+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294741+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "531eab66b4f4caaf9fc99dacc422b8097c6274d15d3ac8c43cd43b0e2d4d8c29"
+            },
+            "content_hash": "5896f928f36ba881d1dfaa2a3ef2924d87d56270790f1f6f64a54bf9d38e634f"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_19",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "B. Details on the calculation of indirect effects of tax expenditures............................... 44",
             "content_markdown": "B. Details on the calculation of indirect effects of tax expenditures............................... 44",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457027+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294779+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "36d518f7a5153b25b76ad1a3980d2c2daaad585064f5295b46754e1d32612e04"
+            },
+            "content_hash": "e953d11b5792a0dff78d6acb9cef6edd484aac11766e1f291054bfa04430ef64"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_20",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "C. Alternative measures of tax expenditures .................................................................. 45",
             "content_markdown": "C. Alternative measures of tax expenditures .................................................................. 45",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457054+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294817+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "875a5183a46bcc8faa2694c7ae2a32ff0ab60fac424445a50c9a47584a9b66d3"
+            },
+            "content_hash": "5a385181bfd543c180b1686844f2c9039ee5b87ab96639b56bd34de01a870944"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_21",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "D. Duplicate records in customs microdata .................................................................... 46",
             "content_markdown": "D. Duplicate records in customs microdata .................................................................... 46",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457074+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294854+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c80a91e60dc8eec4b00b185cd9cb027ac9fe649edccf56e16c9e61a405428e82"
+            },
+            "content_hash": "02ed851ef6efdd6cbc8c311ce4abc8b1de22c111c38301000c3c43fd3e44d615"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_22",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "E. Commodity categorisation based on two-digit HS code ............................................ 48",
             "content_markdown": "E. Commodity categorisation based on two-digit HS code ............................................ 48",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457093+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294891+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2585ecbd48d1e1d25029d16af0dd74ae8d449888ee7d9624b17c90f52aa6b943"
+            },
+            "content_hash": "d39e3ee1e9a8f8e9ac96a08b2b7cc25aa7afc857de55c3c00e4901a43b7f1b70"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_23",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "F. Supplementary tables ................................................................................................. 49",
             "content_markdown": "F. Supplementary tables ................................................................................................. 49",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457113+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294927+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "15581aacc314317c306eb13c1bcd132b53f769676d3bfda51a46e3b596171196"
+            },
+            "content_hash": "2407aaa4279685ffb7d18fdf6032dc86f28c34d38373d494c1a9c36239153a7d"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_24",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "References ................................................................................................................................... 59",
             "content_markdown": "References ................................................................................................................................... 59",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457133+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.294967+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "aa5714620659705e46c0b45b5d9d5cf3ed228d52f53fa1c52d82758b1a3fa25d"
+            },
+            "content_hash": "a2356448ed8aa68b3ff7afa53a46bf7d71966c019f3cdf49a3b7a44469c49f7c"
         },
         {
             "uid": "tax_expenditure_ethiopia_2021_22_p3_25",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": " Ministry of Finance, Ethiopia",
             "content_markdown": " Ministry of Finance, Ethiopia",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "tax_expenditure_ethiopia_2021_22.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:54.457154+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:49.295005+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "9802954bc9e24a3b9c037981fcb1add478ccbd7dd23c6fc7727988892eb48f32"
+            },
+            "content_hash": "8fe318712b821f713c4a8e2946993159ed5a35faf8ad346667e543777e3df2bc"
         }
-    ]
+    ],
+    "page_index": []
 }

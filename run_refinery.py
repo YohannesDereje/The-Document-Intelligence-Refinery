@@ -85,7 +85,7 @@ def main() -> None:
             failures.append((pdf_path.name, str(exc)))
             logger.exception("Failed processing %s", pdf_path.name)
 
-    total_cost = float(extraction_router.vision_extractor.total_spend)
+    total_cost = float(getattr(extraction_router, "total_cost_usd", extraction_router.vision_extractor.total_spend))
 
     print("\nRun Summary")
     print(f"- Total documents processed: {total_processed}")

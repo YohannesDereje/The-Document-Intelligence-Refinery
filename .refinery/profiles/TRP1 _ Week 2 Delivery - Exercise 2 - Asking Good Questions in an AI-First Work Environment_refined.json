@@ -1,1045 +1,2070 @@
 {
     "file_id": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment",
     "domain_hint": "General",
+    "document_type": "unknown",
     "metadata": {
         "overall_origin": "born_digital",
         "layout_complexity": "Low",
         "total_pages": 3,
         "units_count": 86,
-        "escalations": 0
+        "escalations": 0,
+        "extraction_results": [
+            {
+                "page_number": 1,
+                "origin_type": "hybrid",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 1.0,
+                        "processing_time_ms": 301.2775999959558,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 1.0,
+                "escalation_path": "hybrid -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 301.278,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 2,
+                "origin_type": "hybrid",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 0.9493959199841553,
+                        "processing_time_ms": 314.4998000061605,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 0.9493959199841553,
+                "escalation_path": "hybrid -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 314.5,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 3,
+                "origin_type": "hybrid",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 1.0,
+                        "processing_time_ms": 378.4629000001587,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 1.0,
+                "escalation_path": "hybrid -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 378.463,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            }
+        ]
     },
     "units": [
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "TRP1: Week 2",
             "content_markdown": "TRP1: Week 2",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797377+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.127558+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "62757774e881dd0339d2f45f9afd43e77853ae7b257266a243a68eb7b449dfca"
+            },
+            "content_hash": "ee7768ee2cc8ec6a0f8f9108c97f374a302c0a82168cbf715d5a5923c4954b41"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Delivery - Exercise 2",
             "content_markdown": "Delivery - Exercise 2",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797459+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.127727+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7897e8589b615bf910122bce1e358d5ed3b0641efefd36fcba49460254dd7364"
+            },
+            "content_hash": "5ef76d814415d050a2dcf6516080dd9cf6ad4b91c6d6584f6b6c3a22ccad8c25"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Asking Good Questions in an AI-First Work",
             "content_markdown": "Asking Good Questions in an AI-First Work",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797486+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.127778+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "176fcbb906afabc2770dd5c0bbe7907c25f17b7ba03e463f50c5c681c54f587a"
+            },
+            "content_hash": "60cff6f262c0cf9599a5dc2ef4bab9ab4ac0d1dcc9253e758051b7377e2077ea"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Environment",
             "content_markdown": "Environment",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797512+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.127842+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "be478cd2e4f854cf3ea82051fbe4adc2ea3d5918c01d862d89e80ddce34a081a"
+            },
+            "content_hash": "9e471951a1b4106e54be128a21112b02914fe98cc79b2c92b49ee80c5464487c"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Final Hand-in: [February 26, 2026], 11:00 PM EAT",
             "content_markdown": "Final Hand-in: [February 26, 2026], 11:00 PM EAT",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797535+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.127884+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6597d2406ff3ad2acfeab9059c0789abed927c21583ae469c280ff7d59d5d9e5"
+            },
+            "content_hash": "795197e77b1788cfc91d39c884d0a00ef6737dd216c91b1fd3aab2a867213ceb"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Background",
             "content_markdown": "Background",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797559+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.127925+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6d7a50169c9cf8d9ac512ff8e67673bee99ce60e1e07ba6da3b5212d654a6ebb"
+            },
+            "content_hash": "ea2b8a878841df5955c78edc6cae47446483b86e3f5ccb04e1a8d940cf7e59fd"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "In modern professional environments, especially those that are remote and",
             "content_markdown": "In modern professional environments, especially those that are remote and",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797582+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.127965+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "d57268ff8466943a7b26fc4ab9bf87f38250411418855599a92dbdc722f15c98"
+            },
+            "content_hash": "4d88c649ac16fde0112638a80af79dae4a57d4333563c23884ad3dd72e90fa80"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "AI-assisted, the ability to ask clear, structured, and thoughtful questions is a critical",
             "content_markdown": "AI-assisted, the ability to ask clear, structured, and thoughtful questions is a critical",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797605+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128004+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "45bfab5c3fc9163a84b2acee8746d96c210fb4561359d45891e3ccbcb74cfd84"
+            },
+            "content_hash": "49fb2a76905bfa6bda3523ed25b364068a5da479501955c97f7838795ccc4c2a"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "skill.",
             "content_markdown": "skill.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797630+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128045+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7f12d4a35a357e95b3ae87e1cbd9c48a14d65af82387b604303d2a82bcb722db"
+            },
+            "content_hash": "78d5a2aee9e533ff2682f477a7580be535578008de8ea6f27014c74f2307a2de"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Many early-career professionals focus on producing outputs quickly. However, in real",
             "content_markdown": "Many early-career professionals focus on producing outputs quickly. However, in real",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797653+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128088+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "8ab9f938f1f69ee3c5c939c99b11e9960dc1f87539205ddf1cb1f50f829123d8"
+            },
+            "content_hash": "93d16f12ad8e87392b0074423e70a1610d2fb685ca1bff0528dfbfbffc91cd32"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_11",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "work environments, a poor understanding of the problem leads to incorrect outputs,",
             "content_markdown": "work environments, a poor understanding of the problem leads to incorrect outputs,",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797676+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128129+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "071c98e21eed8f9c715d521e66ab8cdbd07dee8110563fa938b026daec49c8f6"
+            },
+            "content_hash": "310805d72a306bb246040f517cda3ce0e8015b9e0204fb642b04997fa21abdea"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_12",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "delays, and rework. Strong professionals prioritize clarity before execution.",
             "content_markdown": "delays, and rework. Strong professionals prioritize clarity before execution.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797701+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128169+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "822aa4c3ae64f314d9257c2dd01f2c140d321843549c2829d6e00768b11f3fb2"
+            },
+            "content_hash": "9e9e35acef82a1cb113c886d1cbd6a1a84bf5f137e3092ae557057cfaec60d64"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_13",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "AI tools can generate answers quickly, but they do not eliminate ambiguity. In fact,",
             "content_markdown": "AI tools can generate answers quickly, but they do not eliminate ambiguity. In fact,",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797731+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128209+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "85146e4b2b83b614794c86799ccf46abd79b6e7df8ea0a8e042f348910098242"
+            },
+            "content_hash": "958b4d27c32effa08973410436f78ff20acb44f3810608a75cb401b5f923866a"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_14",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "poorly framed questions often result in misleading or incomplete AI responses. This",
             "content_markdown": "poorly framed questions often result in misleading or incomplete AI responses. This",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797756+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128248+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6563d23463c8aba760c14b46ffc698fd9ed95eb2140bf87cf11b3b676d7df8a5"
+            },
+            "content_hash": "e01f5a08f5930868a44f4d8a651d88f9b1b1a8c95cfd8c4d4f75c3d89984363f"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_15",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "makes questioning even more important in AI-first workflows.",
             "content_markdown": "makes questioning even more important in AI-first workflows.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797775+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128292+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "196208d3d8d49ea8aac40c7a56937268aa722a02c4d84a35b56ffc8a8b43cddc"
+            },
+            "content_hash": "ba3a95fc9965b9925e7fad02b0577c483de88396c8a41282d214d8e97574de0f"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_16",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Effective questioning enables professionals to:",
             "content_markdown": "Effective questioning enables professionals to:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797791+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128336+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ec2ba1b381086886bb7e2d8dd34647b4f581f7978ce562ae93761ffaaccf2f59"
+            },
+            "content_hash": "fc1eba1a7af2089ee2681454d44e340fa653fc0799ab9dbdd8c5677cb9a14ebd"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_17",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Clarify requirements and expectations",
             "content_markdown": "● Clarify requirements and expectations",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797806+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128375+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "0df4e1f09b8d39b494a9578adfe318ff8401f71f4b33dc70f440cd2788c0e80c"
+            },
+            "content_hash": "9c7006d9d131e62961351268c106133d0bb1a0240455828fd68a3961908677ab"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_18",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Identify missing information early",
             "content_markdown": "● Identify missing information early",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797830+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128417+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a2ef6ae4329959aee2fd12d8e95e0a3e823ddec5ee94688791c0dcb21aed9d62"
+            },
+            "content_hash": "e9f7849b742c1c6aeebffa390ecd1f73ec8df9af541469e646fab900a986f3b7"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_19",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797852+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128457+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "0c196bb24e7ce0e87a12d3de2c6c5757d9d93fb25bed334e4d2c97badbfd3465"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_20",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Reduce assumptions and avoid errors",
             "content_markdown": "Reduce assumptions and avoid errors",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797871+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128496+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "57ff65743c6cf111c63ac60b07f57c51985088c6b7a049ebb6d75892bfff640f"
+            },
+            "content_hash": "1ae2b895e4292f2c86c9c960a4e296981408acc015f10f349baf1c71847207b4"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_21",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Improve collaboration with teammates and clients",
             "content_markdown": "● Improve collaboration with teammates and clients",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797891+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128536+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5301799248cffdb2580d0a7601652570390eb49008ccf44e37972421c9264084"
+            },
+            "content_hash": "d20697d97453cb6547a7034159ee57d4e63ea86f4c7cfd5a05b2e88dc232ffde"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_22",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797928+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128579+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "9ecc2e51a2f483f25e7d881d05e85ecbbaa05d62cc8a1c462ff72cd9d6d84237"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_23",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Deliver higher-quality work with fewer iterations",
             "content_markdown": "Deliver higher-quality work with fewer iterations",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797950+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128618+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "fc3c5794fff4abaadc5c88ddf94294f70faef2f34fcd35864f77e860ecf6c37d"
+            },
+            "content_hash": "b20f92d8ddfe13db21a4b79889f3f566db122f6e7dc80c7faa18e9955edcb811"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_24",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "In remote work environments, where communication is often asynchronous and",
             "content_markdown": "In remote work environments, where communication is often asynchronous and",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.797972+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128658+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e3294349dbd9b465f239ac2f55ddaa97f727657606d25cfd88d8b3f6f0d143b6"
+            },
+            "content_hash": "865529e756b156906079b709f50c8e95f4a68c2f1f6aa67a38b80c3ce5196a37"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_25",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "context is limited, the ability to ask the right questions becomes even more",
             "content_markdown": "context is limited, the ability to ask the right questions becomes even more",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.798003+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128697+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "8b18f753bfdaa74d41f0688a684882a50f6ff5eec9a542ddebf64b702c64502f"
+            },
+            "content_hash": "cd30a188fc4d73fd6d854444047a3cbee1acd09185b60ba8dbc6f30e1369d25b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p1_26",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "important.",
             "content_markdown": "important.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:38:59.798032+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.128739+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "10e1241fa84e2c1a4b1a4785aafb985261cd29e88b7314d14d4f9a5b1ab1c44a"
+            },
+            "content_hash": "57cd3ea17147997c63aa48a726c60228bd9b99f1906b508ba2d02f99f8ec165b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "This week focuses on developing curiosity, improving clarity, and building the habit",
             "content_markdown": "This week focuses on developing curiosity, improving clarity, and building the habit",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061568+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.714796+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "85f26e730cd363808668750acc3fad77fb603d9c89ad5c0f640598d00c4ee953"
+            },
+            "content_hash": "bb186c2aa2078723c28c458c99479d4aa8cdc708fd08fb224e52096b00e63c37"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "of asking high-quality questions before taking action.",
             "content_markdown": "of asking high-quality questions before taking action.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061632+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.714971+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "796caa14de0df38b199f966e8bcb5c51503980d96343d6c4beab365b2e8a70aa"
+            },
+            "content_hash": "5df473a282b2d9aa662e4c93105ae8ec08fca39d130e01bb0daf4d0257506ede"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "What Strong Performers Demonstrate",
             "content_markdown": "What Strong Performers Demonstrate",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061652+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715032+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "639e71352b5bbe930fa1bc6ab2633e98907bc7dbd82883e5d7dcebb28f98513b"
+            },
+            "content_hash": "a66854cae69fb6341faae43c91046b65f2d1f7cca911736fa48bb2151b5a635e"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Ask clear, specific, and relevant questions",
             "content_markdown": "● Ask clear, specific, and relevant questions",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061670+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715077+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "132e3753dec143d479bb9b21d521432982f61b4cc1d46a74f7662872a0e33164"
+            },
+            "content_hash": "f0bbbbee714fff028eafa42d1f4acaff220af60fd057a0f9f36369d30a2f66f0"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061687+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715118+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "701da290cd478f4a055d9490fed6148fe7bad9db5dc52945e153d70c0f35ca16"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Identify key uncertainties early",
             "content_markdown": "Identify key uncertainties early",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061702+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715161+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3d9f157fcb6e610bc5554e47ace2017eebd44da8c37dae05c36fda5bf44a6a44"
+            },
+            "content_hash": "1f2bf9a3fb4aa8107f1f2df3e66d65716ac5e27f02f933d49da4257620a0afa2"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Show structured thinking",
             "content_markdown": "● Show structured thinking",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061718+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715202+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3c7e1b7e897715b0d2d26899b764dc5bc8ec8572d40f4bb6401ce62615c01819"
+            },
+            "content_hash": "d85753aa71c79a141e4a01fcc469be3051c1e6e44ece5f377dd5befdab9903c8"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Use AI to enhance, not replace thinking",
             "content_markdown": "● Use AI to enhance, not replace thinking",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061735+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715240+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6c86138d7842c5c126a0f9288cf0719acea8d9294a8715f2a0506af5e6e9ea2e"
+            },
+            "content_hash": "b4a1a9ea55ae446179748db45aa708396c4ccc517ecb91a72e6dabdc378e007b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061752+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715291+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5d1dac6b6676355e87e3b4ac0df804016ed264d88a8e84424b6b1834edd59289"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Demonstrate curiosity and depth",
             "content_markdown": "Demonstrate curiosity and depth",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061768+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715331+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5a5444379a1819d94972feb735aa30ba4fd94748713c8c1d4f74f862e492051f"
+            },
+            "content_hash": "6af3c4ec3150bdd4cd9d0f04a6765daa98edf5ac062fcb8616e7288a105d7731"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_11",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "What Weak Performers Demonstrate",
             "content_markdown": "What Weak Performers Demonstrate",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061784+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715370+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "eda23a8e3de38374f7955bfbb95ec6facc24e6604a702d38b638ccc72f1e608f"
+            },
+            "content_hash": "c4b394fcf9cec1c986744f37cf6a5799e4a30e3541d4790ff590e1be255c1dcf"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_12",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061801+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715411+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7983015433948a14939487b09c6a5a886172e46b8d4c9d6724799595a876669a"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_13",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Ask generic or obvious questions",
             "content_markdown": "Ask generic or obvious questions",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061817+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715454+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2c51d038e858c9cc251c3b213540f1c4788617e5f71973c966e9fc810edf6d89"
+            },
+            "content_hash": "4a09007f1dea1f7235ec0bb5cf03bf3bfea9801676612a2c521be25cd1ec28ee"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_14",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Show little effort in refinement",
             "content_markdown": "● Show little effort in refinement",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061833+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715493+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "bdc7d0b189ad5242b01d5fcd7a04e2dc668b67c0c172f215ff0959880b4afad1"
+            },
+            "content_hash": "ec7775864de6e0f078b2ae176b7606f801e774d172b1268b372c88bc9f6ed0ce"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_15",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061850+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715535+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2f07fcdce7d447b4d178670a4771ae16bf18fb829189fdf1e7c878d8c0e25202"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_16",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Rely heavily on AI without evaluation",
             "content_markdown": "Rely heavily on AI without evaluation",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.061867+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715574+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e15e838ccb073e7a8509137db4658a02cfc46fe86d5e9057e1d4932cd4d69959"
+            },
+            "content_hash": "fc7f6c00aad43e2624dc910ee5b820c57f24eb8217ed531905e26036eff541a8"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_17",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Miss critical ambiguities",
             "content_markdown": "● Miss critical ambiguities",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062017+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715614+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6b1d250d0895d200f4540736cda9e8b6d00050906b6da836f3d24088d943680a"
+            },
+            "content_hash": "d06acf9e7b3ba45e0ff304bb0d778a5042b2d7ff50650dc64926d118ec589358"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_18",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Provide unstructured or incomplete responses",
             "content_markdown": "● Provide unstructured or incomplete responses",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062048+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715658+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "0be15e46af20a6bb7fdbad934a7c40340278e3499a1ca89b878c0a226c5d9984"
+            },
+            "content_hash": "59e70ee867489141cd9e19fccff0d4f99c57d1c59e0d8a5b047d745f0c395a9c"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_19",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Usefulness in Real Life",
             "content_markdown": "Usefulness in Real Life",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062071+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715699+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f5ac2014eae84d5f3ea6cd1fd75efb0b408925a6910aaf00b51e75ed76179de5"
+            },
+            "content_hash": "7f78858f4837a90792b8b8c8160fb9635b4193039e8ef4f370b97f4b172db05e"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_20",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "This exercise reflects real-world professional behavior.",
             "content_markdown": "This exercise reflects real-world professional behavior.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062088+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715743+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3f27d343b40d63831579bbbe7e6302cba942bed92394828977a64c55faeb7d39"
+            },
+            "content_hash": "45aff9eaf361ba6fce33378ad838274ea89eefd1987309d8432e36231c653ee1"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_21",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "In global teams:",
             "content_markdown": "In global teams:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062104+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715790+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "58e9451281aa47709b669807e543980e35716eb5c95854093fd91641a619abd1"
+            },
+            "content_hash": "711b96472523c8dec4e6e9057f3a175dd0bbf112d40efd46cc5d325d0cb9be86"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_22",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Strong professionals clarify before executing",
             "content_markdown": "● Strong professionals clarify before executing",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062120+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715832+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "38a898c18bc96d3ed4f3ce46e796582633aae8c9c6f5cd266cdf18f8b3b667eb"
+            },
+            "content_hash": "e05b85569e69aef44c744c34003cc7ea36de81f3b0cd93215bc65617874807fe"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_23",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Poor questioning leads to incorrect work",
             "content_markdown": "● Poor questioning leads to incorrect work",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062137+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715871+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "31c6ee9d678e5ae8cd34bca8c01e6a863986aeff27d0e6cbec94e3520762f102"
+            },
+            "content_hash": "b50d626ec8f354e61c4c5bada29344bdf568bbb93f3ecae759de69709ebe7ffc"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_24",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062153+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715910+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "0ee762d47df29d39a785c18fb4141fb4068734bc46b3f82d379ae449943ccee4"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_25",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Clear questions reduce rework and increase trust",
             "content_markdown": "Clear questions reduce rework and increase trust",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062169+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715952+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "38046772f2ab9aef31e3e3e8983ce94c6fb2e0223619cb0d54c6a16054970366"
+            },
+            "content_hash": "b829f964dd84d6403086fe616569c726788fd3832abe8343f3e0406daa08b550"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p2_26",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "This skill is essential for working effectively in AI-assisted and remote environments.",
             "content_markdown": "This skill is essential for working effectively in AI-assisted and remote environments.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:01.062184+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:52.715991+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "d849574eb90adf45202e0017f08dce0aa00f713542a8d1775a7c246a85d40396"
+            },
+            "content_hash": "5a571a47e6ec5580db72b5c9eb5e508c9110b54c03139dffa8c03cd391e105ef"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Exercise",
             "content_markdown": "Exercise",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619220+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.630944+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5d3639662b4b618ad60bc5878432aa3716a00f5d33dbd5c84f846a08f6d539c3"
+            },
+            "content_hash": "9bc3516b784aceb156fb7e182b697e3f2aae96fa300e13aaad39085a986f02a6"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "This exercise has three parts. AI tools (ChatGPT, Claude, Copilot, etc.) are allowed and",
             "content_markdown": "This exercise has three parts. AI tools (ChatGPT, Claude, Copilot, etc.) are allowed and",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619284+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631104+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2467f4a0397d520180006a70384cbadb760c5edda6cee743192a0fb2ff7e9767"
+            },
+            "content_hash": "0f77f4576196b11b5f4917130a1cee4c4605bb157c73dcd8477b724f95ca9ab1"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "encouraged. However, you are responsible for the clarity, quality, and reasoning",
             "content_markdown": "encouraged. However, you are responsible for the clarity, quality, and reasoning",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619301+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631156+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e863b5c15781b23c16a085855262b4d4b7888f2d85ce0f29615e23997581e798"
+            },
+            "content_hash": "84f8e574e07d1cd997d49284c4bb21b160153c12670664e9258acfdeb12fae84"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "behind your work.",
             "content_markdown": "behind your work.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619315+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631199+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "adab94dc394f60cbdaee58a7ecafd0997d56b2d94f29dd18e6f8c1332003ddd6"
+            },
+            "content_hash": "2758470572fc9a3c66959293465fa19c87c899772cd5a570e6bdedfeb5160932"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Part 1 - Structured Question Generation (Understanding Before",
             "content_markdown": "Part 1 - Structured Question Generation (Understanding Before",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619328+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631239+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3da311e671b000f57b469ade8afd0247ace743e0e149feb20a78945d0ab1ecdc"
+            },
+            "content_hash": "e15ba74b0481170d718d4c99c6c6f4cc3e9ee26a0d1aa3798fc7e80276774f5b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Execution)",
             "content_markdown": "Execution)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619340+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631280+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "caa2ea228939d410592016057a5a1fd4568ccf4ed2bf653f6510d78cdd5b8845"
+            },
+            "content_hash": "6e0757da9cf3873b62cc09c57af00e55001a24d36e9640d8131de68216a43950"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "You will be given a project scenario below:",
             "content_markdown": "You will be given a project scenario below:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619353+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631320+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "55d7395b5bacf7e95ab53c0258324cb5d8cebb4dc25dca88af4ef245095db649"
+            },
+            "content_hash": "368adacbf1751128d34fbdf2f339b5127ee4e1ec08376c850761af7e0babe07a"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Project Scenario (Detailed Version)",
             "content_markdown": "Project Scenario (Detailed Version)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619366+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631362+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "56a526483e787c4216901360ba81b8f5960bac5d361aa3d010bb9b23b3989df2"
+            },
+            "content_hash": "9fcb07a5707d82a0f8841e2a9296d91b460a60743a6c85df3ad9b02ecc68a56a"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "You have recently joined a data team working on a client-facing performance",
             "content_markdown": "You have recently joined a data team working on a client-facing performance",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619379+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631401+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5e63c8a3dc9ec7dec9750e91a1c7e411a9f656201132ba29ecd825923ae19cec"
+            },
+            "content_hash": "49accc9b251c4ef3feec4795584a455540123004a0ea334dd242860d1412b22e"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "dashboard for a mid-sized logistics company operating across multiple cities.",
             "content_markdown": "dashboard for a mid-sized logistics company operating across multiple cities.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619393+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631440+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "b42c33e29d0bfbfb7f0e2e2dbeb6921600d67db943987df3271e0d3a4a269184"
+            },
+            "content_hash": "742d847c704b27197d60ee5b936aaeb8c5e33ae39262b3b0766ecb39ad4dacd2"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_11",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The dashboard is intended for internal business stakeholders (operations + finance",
             "content_markdown": "The dashboard is intended for internal business stakeholders (operations + finance",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619406+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631479+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3f80f47686f4cc020745bf4e5f010042e7fd75274af444115f93a276a0d2c2ca"
+            },
+            "content_hash": "604f77f99ce3df06b8d5f7b6a128e51eba90c5b2f6fa816e071a193b69d38c90"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_12",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "teams) to track delivery performance and revenue metrics.",
             "content_markdown": "teams) to track delivery performance and revenue metrics.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619419+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631519+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a6b4c7d291fec4c48620f0b5961cf98ec3197e115586d06248fdfee5bbaf8c5d"
+            },
+            "content_hash": "47cdc5c6c13815e00e9575570e7292cafc82e25768d03fa6de24373628e29c21"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_13",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The client has provided a high-level brief, summarized below:",
             "content_markdown": "The client has provided a high-level brief, summarized below:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619431+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631557+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4493483ea6243dcf2e6238d2370784d3ca4cdb77cf68c03b4a4168ec72479ca3"
+            },
+            "content_hash": "869dc11ddbef5cfa70ecba86d8d9e23a1e6b6b8b3a24bdb93b32f797d4608686"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_14",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Client Brief (Initial Information Provided)",
             "content_markdown": "Client Brief (Initial Information Provided)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619444+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631603+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4cd919705b348282dc521876da947b92be1ce5745a3032ee3f5ef2b16f381af0"
+            },
+            "content_hash": "aaa892b7b0dac1794244cb2977b15d861346eeff81b0eb64305d3975980d0437"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_15",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619455+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631642+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "65131143221e5d3759d1775b3b453c2ed2e44f99fa1dcc4104cc243623a22bda"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_16",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The dashboard should show delivery performance and financial metrics.",
             "content_markdown": "The dashboard should show delivery performance and financial metrics.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619468+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631683+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "159fbafca7e15b2e7d77b03ad0b971bdaf885308ae36886961052d5f97cc39a6"
+            },
+            "content_hash": "6aeadca366e8064b656b102596b144b50193b95c41264e9b3bf57ab08ae9a29d"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_17",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● It should help the team identify inefficiencies and improve",
             "content_markdown": "● It should help the team identify inefficiencies and improve",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619480+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631722+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "19cfb42a679ffa40c4da4aa61907234f73f69524e85b06621a9771c8055030aa"
+            },
+            "content_hash": "679837b611d24008984bffc1381fc3f42f3888ce67894ff16b672093e18390c1"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_18",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "decision-making.",
             "content_markdown": "decision-making.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619493+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631761+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3ee9fa705997af28af1de327042b52e1624ec067daab549b08bbe658aa2714c8"
+            },
+            "content_hash": "9d0aeedb645b6b6262dac9ff7fc79583e4b215397f5d6266fabb94beb37bf58b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_19",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619505+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631800+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e2a5e0b5949522ab8bd0005963c0193a636fda73957c1fb54e8291674ceac504"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_20",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Data will come from multiple internal systems.",
             "content_markdown": "Data will come from multiple internal systems.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619518+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631838+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "22525b4b69848e8821f98de088c751a30338b18823fd62dbdd75d47b3df4bf8b"
+            },
+            "content_hash": "ac037e676290c54d78d13ab78413a5bf8dc5df292c7b0df9024bf5bb16d561a3"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_21",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● The dashboard should be updated regularly.",
             "content_markdown": "● The dashboard should be updated regularly.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619530+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631895+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4780d84800341e734ea69d6aefad2bf025e60f3867d8908e5ca3152ee71a165f"
+            },
+            "content_hash": "bf805d8625748c627c397b57cb94a5eed63b0827c01c3c6102e0ef71796ac2ae"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_22",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619542+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631934+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ae78a3539d62a4c9e28c11402a35fe04b72b9cbf768abae6052a8affdba4a3a8"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_23",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The end users are non-technical stakeholders.",
             "content_markdown": "The end users are non-technical stakeholders.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619554+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.631979+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ae209acf46279d35f7a6d8917c4609c3211a1de8364d33626b66c699eecd449d"
+            },
+            "content_hash": "6fd3a96081357031a2ffdebbea7dee33d1a0b3efe329b255bf0c7d7c9f251b5d"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_24",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● The client would like the first version delivered within 2–3 weeks.",
             "content_markdown": "● The client would like the first version delivered within 2–3 weeks.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619566+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632017+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4dbafc8a00d323575edc43a4e657ae23ac811c384bac0cad2ac4b271f5419631"
+            },
+            "content_hash": "c2a39a04eb942d7781e184db3dd12a7ce8aa674d0edbbe12f3f97db4f1fdc2f6"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_25",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Additional Context from Internal Team",
             "content_markdown": "Additional Context from Internal Team",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619579+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632055+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3673079fb8f43ff0ee83e1ca508c7fac3f663a229dd727855f43bbbfe3c29aa2"
+            },
+            "content_hash": "60fa4f87558e77e6a5ffb88451df4aad3283e5d10e3ec9dd2656d5968dcc477c"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_26",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● There are two main datasets:",
             "content_markdown": "● There are two main datasets:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619591+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632093+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3260e0a85f6d96522edb3741c2d0d14c13a436f184f9ed043ba2c30c0d8da927"
+            },
+            "content_hash": "428aa1972c63583a5586cc9934dca338bbc5f44576fc8ab27b9938d6cb491482"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_27",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "○ Delivery data (packages, delivery status, timestamps)",
             "content_markdown": "○ Delivery data (packages, delivery status, timestamps)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619603+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632132+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "9f42989afcea7430a6ce1e7003b9f18ae688b9a512586e8a7d43f7c66cf23bcf"
+            },
+            "content_hash": "21bb9ac1ef5133917384fea0143a4a871f60d4b2d69356f40547e480cdd582f4"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_28",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "○",
             "content_markdown": "○",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619615+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632175+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "d1018b05e7242a27d88e5f893483710f1a0d0f37f259456b010b5adfd45a2480"
+            },
+            "content_hash": "1f444cd5d56c5aa0895aaeecc7a4ab9dde91b1b16bb1bb2fa4a7a1bc44619cc5"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_29",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Finance data (payments, invoices, transaction logs)",
             "content_markdown": "Finance data (payments, invoices, transaction logs)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619628+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632217+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "00a2007116894367342c8119a3176b50a56c3b695c0d9cb089d2490070b44b1d"
+            },
+            "content_hash": "25d684601a34caad73abc6911b2016947faae3e06faaa57ba296711a44a12eb6"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_30",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Previous attempts to combine these datasets showed inconsistencies",
             "content_markdown": "● Previous attempts to combine these datasets showed inconsistencies",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619640+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632255+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "182d7135bb728fc5e3852ea857365b42a3dbe1c897c317ad3a973fcbaefb1c60"
+            },
+            "content_hash": "98ebffe082e91d1cd8267972d1f2b6f4284bd03d2111b007bf655c0a173fd423"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_31",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619653+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632295+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "477adf5ade17c075a2d127defb4cb53c25af1fa01fb1d91a4d5bf2a5dbbf0334"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_32",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Some fields across datasets do not match cleanly",
             "content_markdown": "Some fields across datasets do not match cleanly",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619666+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632337+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "fb9a6b62f4c0a5134769c9ed95364ded2a18523c090e3bd2d7d770db88ed0ceb"
+            },
+            "content_hash": "dcc3b98403e1753a68566f4057a374f9d2c2c58f506ab7e587240b844b6e3502"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_33",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● There is no clear documentation for the data sources",
             "content_markdown": "● There is no clear documentation for the data sources",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619678+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632376+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "076c23a350a44038c23b8a7f097cc671e67bbbaf1860bbbd246ad4296a878c28"
+            },
+            "content_hash": "3c2d597701f187a1224d4cec22354a1d66f76538c1ffe47034b0353bdf807537"
         },
         {
             "uid": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment_p3_34",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● The client has changed requirements multiple times in the past",
             "content_markdown": "● The client has changed requirements multiple times in the past",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 _ Week 2 Delivery - Exercise 2 - Asking Good Questions in an AI-First Work Environment.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:02.619691+00:00"
-            }
+                "timestamp": "2026-03-06T13:49:53.632419+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "abe2ddf2bbd49fa0b68bf446067ede741f50b0574be561694b5d40aa6b097714"
+            },
+            "content_hash": "cd98fb3a5ede18854c20a6d4c620e9ee37bbbde96dccc24aca251de3423c4969"
         }
-    ]
+    ],
+    "page_index": []
 }

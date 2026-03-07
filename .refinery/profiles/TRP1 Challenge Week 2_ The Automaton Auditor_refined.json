@@ -1,1405 +1,2760 @@
 {
     "file_id": "TRP1 Challenge Week 2_ The Automaton Auditor",
     "domain_hint": "Banking/Security",
+    "document_type": "unknown",
     "metadata": {
         "overall_origin": "born_digital",
         "layout_complexity": "Low",
         "total_pages": 3,
         "units_count": 116,
-        "escalations": 0
+        "escalations": 0,
+        "extraction_results": [
+            {
+                "page_number": 1,
+                "origin_type": "born_digital",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 1.0,
+                        "processing_time_ms": 443.85919999331236,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 1.0,
+                "escalation_path": "born_digital -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 443.859,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 2,
+                "origin_type": "born_digital",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 1.0,
+                        "processing_time_ms": 722.8348999924492,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 1.0,
+                "escalation_path": "born_digital -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 722.835,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 3,
+                "origin_type": "born_digital",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_A",
+                        "status": "success",
+                        "confidence_score": 1.0,
+                        "processing_time_ms": 621.7496000172105,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_A",
+                "final_status": "success",
+                "final_confidence_score": 1.0,
+                "escalation_path": "born_digital -> Strategy A (Success)",
+                "cumulative_processing_time_ms": 621.75,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            }
+        ]
     },
     "units": [
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "FDE Challenge Week 2: The Automaton Auditor",
             "content_markdown": "FDE Challenge Week 2: The Automaton Auditor",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175733+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.207316+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f9938ee6cca9d3ddf3eb66ab9973f2cf5349500b988b603140e73fc2df38425e"
+            },
+            "content_hash": "01fe9b1fde574b8477d19e1a00e6885d0b8a090c7c8c7af020696e5284e44456"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Orchestrating Deep LangGraph Swarms for Autonomous",
             "content_markdown": "Orchestrating Deep LangGraph Swarms for Autonomous",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175799+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.207543+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "40bd3204e4dd1cc5a9598f05711a44b748c829f78ed6d22ed48b3566805bf119"
+            },
+            "content_hash": "32cd6a650bb5a1d456bd2881ab05a086439d2f9303444e3651985fa6ed9fad65"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Governance",
             "content_markdown": "Governance",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175815+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.207637+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a126c59c432cec13f49173aff0091f20489ffaaf867437a0410d189cc7c408fc"
+            },
+            "content_hash": "86f8a694159b712f78f3b3c032028b92786201c5eec04c1d2cc234464127a429"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The Business Objective",
             "content_markdown": "The Business Objective",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175827+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.207723+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6e6317352a44ba4738f7bdd0b7b807886fb958136ad5cf1d67b55e9bf8be0ecc"
+            },
+            "content_hash": "bcba9bcad39accc8536bfca7240c1fda387402d57281da759cde8af4790c6712"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The Paradigm Shift: From Generation to Governance In Week 1, you learned to manage",
             "content_markdown": "The Paradigm Shift: From Generation to Governance In Week 1, you learned to manage",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175839+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.207808+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "492572fecf6bf153721c0aa92eb2d9620d851cb5e3dd2347824de39983b87b39"
+            },
+            "content_hash": "52ca65aa8b35fdf77cd477d33dfc12938a3fd3d8f2a74f1fb176c107c522ad05"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "a single \"Silicon Worker.\" Now, we face the scaling problem.",
             "content_markdown": "a single \"Silicon Worker.\" Now, we face the scaling problem.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175852+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.207893+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "eb44dab6f5f8f83a9ae4d9d518028f1bdbd674d65f60292a992330d838d2dd65"
+            },
+            "content_hash": "9409466f8a9fc9f2b4854ce1f4125753f9d30c588a436149e18c04bd99d8da6f"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "In a mature AI-Native Enterprise, the volume of code generated by autonomous agents",
             "content_markdown": "In a mature AI-Native Enterprise, the volume of code generated by autonomous agents",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175862+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.207978+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "cd4d46eb6af89d0c7ade23cd6db7be09cec054fa41dae091034a5c543c1e0c12"
+            },
+            "content_hash": "96330ce6d49d1cd3c1641ed1328dc8936fea9acc2a75c8be23394caad08ffcde"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "will outpace human review capacity by orders of magnitude. If 1,000 agents are",
             "content_markdown": "will outpace human review capacity by orders of magnitude. If 1,000 agents are",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175874+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208063+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6fbb2c08e9f8d7a59efdf550a3db0095868140bf418f293317241f4c9b36ff4c"
+            },
+            "content_hash": "219dc9b14b42237396eef4b1b141c1fb525df224d603907370f141fb4639aaeb"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "generating features concurrently, humans cannot manually review every pull request.",
             "content_markdown": "generating features concurrently, humans cannot manually review every pull request.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175890+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208146+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "fbabccee14872dfd41f7804fd5d00b0b255deeaf0e019afe24fbf0bec1b5340c"
+            },
+            "content_hash": "f1c2af9f89f6d62bf680c2286f03afda32ac15c4779f51820bb5edf2427d197a"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The bottleneck shifts from generating code to evaluating it.",
             "content_markdown": "The bottleneck shifts from generating code to evaluating it.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175901+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208231+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e8f861896eeb4b9ac4b388d9b7047e100903d0f6dfe9b262aff43279370c1253"
+            },
+            "content_hash": "c710f1cae00d8a0b5584b6f400058fd3fa43c06ca61bd1c094e44a3cf7ee5552"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_11",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The Solution: Automated Quality Assurance Swarms To maintain quality at scale, we",
             "content_markdown": "The Solution: Automated Quality Assurance Swarms To maintain quality at scale, we",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175912+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208311+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "177d1f283173b1b14b6c407b1105e65331dd733801f893beb94fc01f64b0de76"
+            },
+            "content_hash": "fd721dd5f59f7f5cfe0a69cd7f3e7d794781ad84f689bb46c9569273e6681a3e"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_12",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "must engineer Automated Auditor Swarms: deep, multi-agent systems capable of:",
             "content_markdown": "must engineer Automated Auditor Swarms: deep, multi-agent systems capable of:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175923+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208390+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3c4770406bd6ac666efdec2a3c57d8617159f6818c030dd93796852aab39bf5a"
+            },
+            "content_hash": "72b68ce5330a626c6c7d3d0ef4ef6e6fd5749bf67ee4cd99366103992b67cd12"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_13",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "1. Forensic Analysis: objectively verifying the existence and structure of code",
             "content_markdown": "1. Forensic Analysis: objectively verifying the existence and structure of code",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175934+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208471+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c0b68cc3c36ec61fb892ed277074ca08601ef97f611f07f96bb1c9d3dec6ebb3"
+            },
+            "content_hash": "2f3ba9d44d76a23f74eae3aaa70b10622cfb0f07ff3ff4ec9019c3c0c55ef906"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_14",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "artifacts.",
             "content_markdown": "artifacts.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175945+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208598+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "473cf3a4ae88650689ff283b69a139ae262277414a3ef2d5f80e52954e0d507f"
+            },
+            "content_hash": "add5504f2c1242d8f705527ecf3ad26c296fe45f058afd6f3744e0058eab8b87"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_15",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "2. Nuanced Judgment: applying complex rubrics that require interpretation (e.g., \"Is",
             "content_markdown": "2. Nuanced Judgment: applying complex rubrics that require interpretation (e.g., \"Is",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175956+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208660+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f80c7a3041de23ce4d68e4bd74b1d2566a464da66f8065be5118f2bcbf1cf7ca"
+            },
+            "content_hash": "0fae9876301893cf9e7bf5dabd6d0a785884cde8c2871b3b83c99beaec8a8431"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_16",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "this architecture modular?\").",
             "content_markdown": "this architecture modular?\").",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175972+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208715+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4dc0aad733163913527b890b35c6dd6edc6b5c7848b062fe4c15f29816d6a97a"
+            },
+            "content_hash": "5646ee3a66ff133a7a31a8a5f4441752cdf9e10558d183df0eab6b818bcf8c0b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_17",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "3. Constructive Feedback: providing actionable remediation steps, not just pass/fail",
             "content_markdown": "3. Constructive Feedback: providing actionable remediation steps, not just pass/fail",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175983+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208769+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "105d0deb1a06fcf131198babe1a87e5f827069ba95c8fcb2ac42354309d05b03"
+            },
+            "content_hash": "8f2456622b7744fd7ec17d40e05aca5edf9a18dffb9ff144d0d46bd0470b44e2"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_18",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "grades.",
             "content_markdown": "grades.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.175995+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208823+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "57ddc283b74215d16ece2eba65e63834dbc97142a55312c6d1e8132d0f5909e9"
+            },
+            "content_hash": "00b38fb27631746feab1fd84a6660b18c1c197c64c5861679feb244e4030ca68"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_19",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The Meta-Game (MinMax Optimization): This week, you will build the very system that",
             "content_markdown": "The Meta-Game (MinMax Optimization): This week, you will build the very system that",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176006+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208879+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a155191149b765bd2b4d15eae61dea86b1d1e9dcd87a1dda7cfe777cc6290978"
+            },
+            "content_hash": "4189158fcd1933851af6f4d9748f90b3b3d5b3b556b5457ef41272d81e0adf84"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_20",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "judges you.",
             "content_markdown": "judges you.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176017+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208934+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "78ceecce7b849d5f3332a7e44a420485e10dcadcddf1ac99086839caf85d094a"
+            },
+            "content_hash": "6093b88e24fdc5cb9244643d20a98a879af0c95331b7aabcdfe2ecf7c975e761"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_21",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "1. Build: You will architect a Deep LangGraph Agent designed to grade Week 2",
             "content_markdown": "1. Build: You will architect a Deep LangGraph Agent designed to grade Week 2",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176028+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.208990+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "93d194dc0bd3dfe21b72834bf396751a3f3638234c4e59eb0f3e95c239c41ec5"
+            },
+            "content_hash": "ccd95daf85c56dbefea88f3ef51c29995b3fe8b79fb18809bf1295ac15088c0b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_22",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "submissions (the auditor itself) based on a strict \"Forensic Expert\" rubric.",
             "content_markdown": "submissions (the auditor itself) based on a strict \"Forensic Expert\" rubric.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176039+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209044+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "b7d200e304a6d572d3941b155b820709d615afbba8bdf81e28148364919de161"
+            },
+            "content_hash": "45f9298e5bba0b82f06730a33f19a82d1bd06b39c922ea424bbdb3e65ace0796"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_23",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "2.",
             "content_markdown": "2.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176055+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209099+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2fa85452c622cc4c7126e6764846c6342ec83b188a194d179cba3c35d3fa76c8"
+            },
+            "content_hash": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_24",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Deploy: You will unleash your agent to audit the Week 2 repository of your peers",
             "content_markdown": "Deploy: You will unleash your agent to audit the Week 2 repository of your peers",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176066+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209154+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "948aa19579fa95f0e5f8906c4baf54324c05c2b8eee7284d6efa1094658a1bd7"
+            },
+            "content_hash": "ed147ce513ef6d8580d817dcf518a04435b633d17a76c4ed14d9fbe15d6c98be"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_25",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "to test if their code works and identify gaps in their implementation.",
             "content_markdown": "to test if their code works and identify gaps in their implementation.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176077+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209209+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5a0e4cc0700c2afb2c09f24d923fdce9b2a595f6b35527c789a5d66a76b54a47"
+            },
+            "content_hash": "ac50abef2fd155c92304a9cec837c54ba598ca9504b68150a5f0044ce61048d3"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_26",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "3. Refine: Simultaneously, your peers' agents will audit your work. You will use their",
             "content_markdown": "3. Refine: Simultaneously, your peers' agents will audit your work. You will use their",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176088+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209263+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "34660004da5abbc9f9b1868cdf7bb962ae828c78c7796e35ac02fca96bae1049"
+            },
+            "content_hash": "de3bf24be49de5caf54de8911bf2c46ffb9e682f1c5816efd5846ff7128ee32c"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_27",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "automated feedback to fix bugs in your Week 2 repository (improving your score)",
             "content_markdown": "automated feedback to fix bugs in your Week 2 repository (improving your score)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176099+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209317+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6e706623908ef01130b6fa548e3eecb4a7e3662d9a6f3e4c9c8a265876e744a5"
+            },
+            "content_hash": "82fdcfb800476532502d320a16353809e8d943cf83c1ac49535443c6f6949762"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_28",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "and refine your Week 2 agent to catch issues you missed (improving your grading",
             "content_markdown": "and refine your Week 2 agent to catch issues you missed (improving your grading",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176111+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209373+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "1703dccec3347bff8fce5c9cdbd8b1db77be694e51ef246c3e2f69820f20af25"
+            },
+            "content_hash": "2355a35574600a7a68810c602df324cb746d885c55adf5187d47db5f6987e542"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_29",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "capability). This creates an adversarial \"MinMax\" loop where the auditor improves",
             "content_markdown": "capability). This creates an adversarial \"MinMax\" loop where the auditor improves",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176122+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209428+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "02d98424a1af24025ad5574dba04e770b72113da4d176b1276aced83e73d1065"
+            },
+            "content_hash": "7d922bc96b07f067c75c6acb98893d1a6db2085ce61e6d94adbcc0ba632ffad2"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_30",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "the auditor.",
             "content_markdown": "the auditor.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176133+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209482+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f74aa8d045bbc65674fc295de6f957a0838aae034ad9fb388eadcb0679391aa2"
+            },
+            "content_hash": "8327e7b5bc26182eb68b9d3c596e2f519d34cf787ad04566bda86070d3d64114"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_31",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Your Mission:",
             "content_markdown": "Your Mission:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176149+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209536+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "1bc1e0cd4a46042ab4caeece84c2e2e4af6e48818c9ba9768ec297eb31deadc9"
+            },
+            "content_hash": "dff00f4aa33508213466bf7b6ae99e724eec07f44ee40c895110a690852898d5"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_32",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "You are building a Digital Courtroom.",
             "content_markdown": "You are building a Digital Courtroom.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176159+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209589+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "dc622e0058eea9276900fd8dc64f6a87084ef2759385cd758264db08d64c541c"
+            },
+            "content_hash": "f70d432342811dd16c7901489977b10ba5e1eea3814eea7d1990e078867a6646"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p1_33",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Input: A single GitHub Repository URL and a PDF Report.",
             "content_markdown": "● Input: A single GitHub Repository URL and a PDF Report.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 1,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:22.176171+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:05.209642+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "fb5817f53cd7ce5f500a5db7b313dba1dd4e35953664877f92a937b69c2b6651"
+            },
+            "content_hash": "74e3a9bf4ab82ad42d5d1d72572d7893e73fa1381975114bfbd35207301f3254"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Process: A hierarchical swarm of \"Detective\" agents collects evidence, passes it to",
             "content_markdown": "● Process: A hierarchical swarm of \"Detective\" agents collects evidence, passes it to",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838027+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553051+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "17b3aa4cc6569055923c204edae75d634c107efd304054e920fb494361dd2904"
+            },
+            "content_hash": "20fa2ee6e4dddc9423b2c3553984b7b52b899366eae774686880a1c734502ca2"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "\"Judge\" agents with distinct personas (Prosecutor, Defense, Tech Lead), and a",
             "content_markdown": "\"Judge\" agents with distinct personas (Prosecutor, Defense, Tech Lead), and a",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838094+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553285+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "0a6bcc586a497e839063d33c6e252f90db981b6e90228ff56bff32a5c5edc485"
+            },
+            "content_hash": "c40324029dc0ef90f5d88dd53a5554da50967ee55302ae1f4cdc090e0e111a84"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "\"Chief Justice\" synthesizes a final verdict.",
             "content_markdown": "\"Chief Justice\" synthesizes a final verdict.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838118+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553387+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "05550c848287fdc89f032b64104641d81a5ac095b6910fe876ab842cc844110a"
+            },
+            "content_hash": "59cbdaeb70e01cca16a580bba77b64c3f8804baa668b7329e7a7c162724c40be"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Output: A production-grade Audit Report that stands up to scrutiny.",
             "content_markdown": "● Output: A production-grade Audit Report that stands up to scrutiny.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838139+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553482+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4bd54df3aa7468125a0075065ddd3a64526260dee93f218303c79ddb3385a16b"
+            },
+            "content_hash": "4cc35ce0786ce864f42a934dca2371e5431b4dcd55a1869478f278d914cf1b1f"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Applicability: This architecture is not just for grading homework. It is the blueprint for:",
             "content_markdown": "Applicability: This architecture is not just for grading homework. It is the blueprint for:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838159+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553578+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ae7f7e34318197a74a2f7a56dee22a9f8e3363d5d3ae86d30cc9d8543712f824"
+            },
+            "content_hash": "ec0b6ad3c2b07aedbcc9a7f54b78e43fcf17dd5042517e2a9ac82b39f967fc68"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Automated Security Audits: Swarms that hunt for vulnerabilities in every PR.",
             "content_markdown": "● Automated Security Audits: Swarms that hunt for vulnerabilities in every PR.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838179+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553662+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "1f46fe8edd31eaaae7c1277f413014661254d20e3a1d864bb6e1147bfa56d409"
+            },
+            "content_hash": "d3e17c2669855c08a2cd989b2394f412eaad994b6d284a2c9789113f0c5de3b3"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838199+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553751+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "23376ce5916b19f6add8eeab7124482ccd456a63c42bd1f954f81fa0cd239773"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Compliance Governance: Agents that ensure ISO/SOC2 compliance in real-time.",
             "content_markdown": "Compliance Governance: Agents that ensure ISO/SOC2 compliance in real-time.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838219+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553836+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a0abaffab01664c969ee386f45255a6e1a06d3c4ab5da6ad384e1736eddf49d4"
+            },
+            "content_hash": "7d6664636ed7743d45d4ba1361269bd838a09f2334713c7307afce21bb42636f"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838239+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.553982+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "84da669b54e6432be847be721738df53848e35eecff09422403402adccf8aeb8"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Architectural Review: Systems that prevent \"Spaghetti Code\" before it merges.",
             "content_markdown": "Architectural Review: Systems that prevent \"Spaghetti Code\" before it merges.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838259+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554084+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "256acde551baa8f5af92c48e538d8fad1781c270bb03e9fcd4df05a2361b6dfa"
+            },
+            "content_hash": "0ca9601c7476eac429552abf86d5062cfca21cb5e3d222e2982798dd2f879d99"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_11",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Mandatory Research & Conceptual Foundation",
             "content_markdown": "Mandatory Research & Conceptual Foundation",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838279+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554178+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c0e7e9636d4596a6a99f82a7ac8659e453f68923f28919d81b136f05be10b648"
+            },
+            "content_hash": "fcad906e298da3c9d8e5a13f4c3b8d8de8408f3519bbd084de23fdfdf0f49b7f"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_12",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Core Concepts:",
             "content_markdown": "Core Concepts:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838299+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554274+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "992f27d18e134193a4bc0424aa25cc65d4183fef3c9163e1563ff00ebe14fb62"
+            },
+            "content_hash": "6c6740c1d8c2e334af28aced500681d83907d1748415ceaae82e4c17668940f6"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_13",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Deep Agents & Orchestration:",
             "content_markdown": "● Deep Agents & Orchestration:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838318+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554371+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "370ed29293e03d3ba839e2e7532c4c7791757c185be1135853bf1710dded1a49"
+            },
+            "content_hash": "dcc04548f47ba595cf6ee340e7939cdf5f796619b85009c591fffb73a3dda43e"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_14",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● LangGraph Documentation (Master the StateGraph, nodes, parallel",
             "content_markdown": "● LangGraph Documentation (Master the StateGraph, nodes, parallel",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838338+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554495+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "26baff77eb2beadb0ea31cc4a5d4cb630666e2b9fdd5d18ab1a115539396340c"
+            },
+            "content_hash": "ecc60f4d77f03002a4502c32eb978de9f20f51a98eaeb40725f9e0ed3bb63d91"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_15",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "execution, and conditional_edges).",
             "content_markdown": "execution, and conditional_edges).",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838358+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554589+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c64182b60125ed3f34bbcba4ad707e59d59757af05473f9a9a793ea4ea07a7c7"
+            },
+            "content_hash": "90872af4b2667f0ea2eceee210934350e453875290305bbe0a63c518f7655e87"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_16",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838377+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554676+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7e26881e2e8330e0b41b67d586e87dbefed018a40c60af87ec2049b9455ed31e"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_17",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Multi-Agent Systems (MAS) - Understanding how specialized agents",
             "content_markdown": "Multi-Agent Systems (MAS) - Understanding how specialized agents",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838396+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554771+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "b83b28f8acc7b8a257863b20481f5a3cd041f5a645bcef766f6cd2b18b6aad5f"
+            },
+            "content_hash": "8a29b50dc922e31a3ddcc3586de0e4de7de3f9ddb7cb1a33c719200fd9e8e0f8"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_18",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "collaborate to solve problems single LLMs cannot.",
             "content_markdown": "collaborate to solve problems single LLMs cannot.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838415+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554847+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "4a9bcadf406eb96a2fd75b11a54689e573b1895ad9481eb566cfe95ece1b1415"
+            },
+            "content_hash": "6e471814adb5edadcea8a836409717edd37286bbef84bcf75829e450af252a14"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_19",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● The Forensic Mindset:",
             "content_markdown": "● The Forensic Mindset:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838436+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.554938+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "30bf42441b42d4dcd5dd189898513ed383f68cef99eb0bddb784bb21987ef09b"
+            },
+            "content_hash": "fa131f1e54a6e390a6be3bdbf5ad1a41dd6b76460f9f39c41ac716c656f8893d"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_20",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Objective Evidence vs. Subjective Opinion: Your agents must distinguish",
             "content_markdown": "● Objective Evidence vs. Subjective Opinion: Your agents must distinguish",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838456+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555033+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3d8ecede228e939f5100b9af478cce3d1f167da179c629d06ef651faf5d494d2"
+            },
+            "content_hash": "d6df047d38282c40a59bc2a31b65aad79e6545df8f45998da88ad2c14eb4bf2a"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_21",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "between facts (file exists) and judgments (code is clean).",
             "content_markdown": "between facts (file exists) and judgments (code is clean).",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838475+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555134+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f6e198d7b952321b09cb2d68c7a9de5c86b46e00991693a362b1d70fd3fc59f3"
+            },
+            "content_hash": "2740b1242ae74ba8c7a68e65046b0eb5a8021a1a695224f0d35c32efc2d720d7"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_22",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Review the Week 2 Rubric (attached below). This is your agent's",
             "content_markdown": "● Review the Week 2 Rubric (attached below). This is your agent's",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838494+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555225+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e08505eb6401c911e6a771849d39c517b719ab6ae70b3d2469bdfb278ced8018"
+            },
+            "content_hash": "98e2a87002f4bb2ddfef2a3b47d1d67fbf2d294cd6692ac64a3303d9b0db9b0b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_23",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "\"Constitution.\" Your agents must be programmed to execute the specific",
             "content_markdown": "\"Constitution.\" Your agents must be programmed to execute the specific",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838513+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555337+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6bff1938562f185f915f5f50ffcc4a1437534ce551272909f10e057eb350ab1d"
+            },
+            "content_hash": "2469fea298235c25b23def63de5f461a033b6f2562145ffe41b12b564bfad124"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_24",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "\"Evidence Collection Instructions\" defined there.",
             "content_markdown": "\"Evidence Collection Instructions\" defined there.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838532+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555424+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7a75fff4765e8ded728d7a9d7e5daac6275a8d8254073d34bfa9fa6a518749c8"
+            },
+            "content_hash": "422a7d0a7043134bc05d69f83492e62b48cf41ebcbe672fee7e403f386b69c0d"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_25",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Critique & Evaluation:",
             "content_markdown": "● Critique & Evaluation:",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838552+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555506+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "0a299c32fb36659d5a94b2719c3cb33ba5a7c54780ff8fe5f31af3f3a9a06b45"
+            },
+            "content_hash": "88593100fa2c084ab886373e85258c9919c0a2b3b09da7a0f56a10ca5ca2bb25"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_26",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● LLMs as Judges - How to prompt models to evaluate other models",
             "content_markdown": "● LLMs as Judges - How to prompt models to evaluate other models",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838571+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555636+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "893c05a87ff9bc1c2dd41c50598933a60066ab1d5dbf2b4b2e77d88fd7493499"
+            },
+            "content_hash": "bd9bd2434a265ae156c5c9e10ce34ba8f414cac63fe7ccf9208a0376e2e0886f"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_27",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "effectively.",
             "content_markdown": "effectively.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838590+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555794+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "486589b7809c68fe766f9e79e7fe72a82e44ce81a0563e00cdd367584633a40a"
+            },
+            "content_hash": "950f1d74f2a8a6c22b8877c80285d9a2b5a8bb1dc3c13fc44ff11f5d6f5d81b9"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_28",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Constitutional AI - Using a set of principles (the rubric) to guide AI behavior.",
             "content_markdown": "● Constitutional AI - Using a set of principles (the rubric) to guide AI behavior.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838609+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555898+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "fbfb0497d3d9ad057db15b59b430aa9eafecc08b79c5f04dc3c57d3b34dcaf6a"
+            },
+            "content_hash": "114baf516927fec23085f01d5f5ac77c1e3386b363066f26d6ada9c305ca5183"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_29",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Why This Matters: Building an evaluator is harder than building a generator. It requires",
             "content_markdown": "Why This Matters: Building an evaluator is harder than building a generator. It requires",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838628+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.555988+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "d49f2e5321cb5a8c872b032ca74944ec8cde9904e5ad95d83668056bb8f8eccd"
+            },
+            "content_hash": "901573c39c71853db0caafe78091a6b972d7988a986ece31fa95b12060fba312"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_30",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Metacognition: the ability to think about thinking. You are building a system that",
             "content_markdown": "Metacognition: the ability to think about thinking. You are building a system that",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838648+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556066+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "60d60216de779cb79936a8a0e156ef2402368c4dd08d78ca2c0564c0f9379408"
+            },
+            "content_hash": "dade0e70e0c4d323ee61c179a6db46ce0169afa0a37f8f3ee34afc51c0d60fbc"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_31",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "understands quality.",
             "content_markdown": "understands quality.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838667+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556123+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ce0c0b5fd20bb4a19eb6f5d2e1c8b365bc5e0f4b541e4906633709d1284ba6d4"
+            },
+            "content_hash": "d8bf5f9e5c2fe0b19215d4eb3e71d7769954641b600cbd1faba681617d9df5ac"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_32",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The Architecture: The Digital Courtroom",
             "content_markdown": "The Architecture: The Digital Courtroom",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838686+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556179+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "b0ad76c9ba1645d941cb30502663f0f42f9ffcfc130849ced071248d54169931"
+            },
+            "content_hash": "7eeb7d160b6d87390b8542632340eb9a8d1615482b905c6df82cb895954317d2"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_33",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "You must implement a Hierarchical State Graph using LangGraph. A single LLM cannot",
             "content_markdown": "You must implement a Hierarchical State Graph using LangGraph. A single LLM cannot",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838705+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556257+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "96a324629b70f395cfd066a95c5dc1941fcc00e527f8106db391b2ad52f412da"
+            },
+            "content_hash": "81cb942147870c20208677733fb68f61906f4934183877dc36662310992d8e6c"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_34",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "do this job; it requires specialized roles.",
             "content_markdown": "do this job; it requires specialized roles.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838725+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556321+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "05b107d0caa3096e6009faac01caac78bffabbb6d33c5addf94ec90988adc757"
+            },
+            "content_hash": "c7970e636337f2bbad87e515b52b616f942b07ce37c569c83982150f879cffb7"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_35",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Layer 1: The Detective Layer (Forensic Sub-Agents)",
             "content_markdown": "Layer 1: The Detective Layer (Forensic Sub-Agents)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838744+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556375+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "593ceba0e56fe3a8dd10ac1e25d1e2549ceda484cd69bfcf1ec65ee47f8f09b2"
+            },
+            "content_hash": "2c4e6c2ca914d73747b68503f7e0e914a0d94f6f37ed4c0f82d5103178a6aa00"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_36",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "These agents do not opinionate. They only collect facts based on strict forensic",
             "content_markdown": "These agents do not opinionate. They only collect facts based on strict forensic",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838762+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556414+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7bbb2a1d86587c5600a433e1cbdfc225f3dfefd427e099669ca9d29b0369ab8c"
+            },
+            "content_hash": "0eaabdb1b3e47c1e1e69533ded9e77c5627a3e8ffa5936fa5a299321eec2be43"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_37",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "protocols. Their output is a structured JSON Evidence object, untainted by bias.",
             "content_markdown": "protocols. Their output is a structured JSON Evidence object, untainted by bias.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838781+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556465+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "d73e1750268b94acb8cbd08774a378d346af5c9a1d5bd6ce02104b32cafbd779"
+            },
+            "content_hash": "8aea0628fccccd02be4c2907fe7948d013692b84deb9e857c29975488bfa9db9"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p2_38",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● RepoInvestigator (The Code Detective):",
             "content_markdown": "● RepoInvestigator (The Code Detective):",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 2,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:23.838800+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:06.556516+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ba879e1675ca5ea10749fb91817fe03cd019b4534e02c170b012dd92c4e8f74d"
+            },
+            "content_hash": "a3492db58cd0fdd3c43119b4a914856795aaada592570f14e4c55985af426af2"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_1",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Tools: git clone, git log, file_read, ast_parse (using Python's ast module or",
             "content_markdown": "● Tools: git clone, git log, file_read, ast_parse (using Python's ast module or",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138210+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.996789+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "0f120918830c98b90087bb596a1eda81d9d200a03889c5d6681e5e83c9940f91"
+            },
+            "content_hash": "cd4324e7c4ad0f1ee8ba4770267a4bf934c2075ab739501a181a3c27c8a6889e"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_2",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "tree-sitter).",
             "content_markdown": "tree-sitter).",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138291+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.996948+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3430ceffcfc0f0db9f511c7c919c08b0f2cceb2461ad09f27678a051a525670d"
+            },
+            "content_hash": "03717ed0463e13151f64346e41c5fb15ae09c632a088eaedcba72c3244d416d5"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_3",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138316+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.996998+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f2b4b0c75f793c9fe01af5b258c601648a6b7f7a1eb24400d19e042a3b26bf0b"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_4",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Forensic Protocol A (State Structure): Verify the existence of typed state.",
             "content_markdown": "Forensic Protocol A (State Structure): Verify the existence of typed state.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138339+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997041+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2d6f20565571ef38735b9104d973acc67218fc70f2931cbeadc5d5ce16a06731"
+            },
+            "content_hash": "966b6bfd049a282e589e18443f20da5c13c60ca4b6d3c09de61069c5e5982a9c"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_5",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Does src/state.py or src/graph.py exist? Do they contain valid Pydantic",
             "content_markdown": "Does src/state.py or src/graph.py exist? Do they contain valid Pydantic",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138359+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997083+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "9bad0b28d41a0e116f2feec3cee3a7ca13b459725dca4ffa55d690cee297ff67"
+            },
+            "content_hash": "084b54f6d680773b00bced1e1c9fc717a2344ca7bf658319c4c3b12e398d92d6"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_6",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "BaseModel or TypedDict schemas?",
             "content_markdown": "BaseModel or TypedDict schemas?",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138381+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997122+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e4d38e14f2ad58e363d4f61310106d736c475cfd43ddf2fb20c21bb5b0e48705"
+            },
+            "content_hash": "3e9ef0cd957fe94c1531e1f8e09da007089f08bb3d4f911c37763a98a5f208fc"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_7",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Forensic Protocol B (Graph Wiring): Do not just check for the string",
             "content_markdown": "● Forensic Protocol B (Graph Wiring): Do not just check for the string",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138402+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997161+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "a6090fb91f00c9361535b9dd5946bc7668a266db892737170c8f96c155c2af87"
+            },
+            "content_hash": "5c4db65917cc01eeec4767ce0f28bd778d4a802d73c8a261d0d1c538691ae134"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_8",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "\"StateGraph\". You must verify if the graph is functionally wired for",
             "content_markdown": "\"StateGraph\". You must verify if the graph is functionally wired for",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138424+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997201+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "8e68c09d2ec9d44a391ce6384c4f90ec218f68d3b32a7955a4da67b79d60dd01"
+            },
+            "content_hash": "83652c5ffa101f3296b8471add9fce38f591eba4df4e0732c80d29cae2307c3b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_9",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "parallelism. Does the AST reveal builder.add_edge() creating a fan-out",
             "content_markdown": "parallelism. Does the AST reveal builder.add_edge() creating a fan-out",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138445+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997239+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "ebd734481a56ed5f62e5cdb10d978150f3633e1c682edfb573dff0c69844df8f"
+            },
+            "content_hash": "d854a3f5923761d94750718b7b47d12cc427ff2149f5eb52dc1d2c789f452350"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_10",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "architecture?",
             "content_markdown": "architecture?",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138466+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997278+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "343bd72d76ead6077706989f1834d12955990f6ede388d7e48358946dbe93d73"
+            },
+            "content_hash": "e3f63aaa7ade5a5e7be33e090c6879b067050832d3a8929cac65d6f0e3b5a73b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_11",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138487+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997317+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "38920c7df121394b07b28461002b033f992403449d1c4cafb183544f1d93946f"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_12",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Forensic Protocol C (The Git Narrative): Specific analysis of git log. Is the",
             "content_markdown": "Forensic Protocol C (The Git Narrative): Specific analysis of git log. Is the",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138511+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997358+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6c41cee02b090f4b46e8dd0ffde2cf1f0eeac40f2b35f6c226410a3940297777"
+            },
+            "content_hash": "4dab32302cce3d156d0712aa04edfa947d31a0f911d9d131812c8b83c2f1fa12"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_13",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "history atomic (step-by-step) or monolithic (one \"init\" commit)? Extract the",
             "content_markdown": "history atomic (step-by-step) or monolithic (one \"init\" commit)? Extract the",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138534+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997396+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3bca5bd5b3c72ba2a3cab68e51a0c25d86176199a91715a3da47f86c957a6835"
+            },
+            "content_hash": "32bacf98672948f86ca63b1caaebacaaefbd0cbf6c0c7a82dfa5b94152d39880"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_14",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "timestamps.",
             "content_markdown": "timestamps.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138556+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997433+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "b4bfb22dcaaa7146b1f8e5829ec1c311dc3dcd00b4c35af03260f2a20f80d2ff"
+            },
+            "content_hash": "b729d2a0d17a9f1ee461da2240ccea48012888977aceb523e8f036808e5c2b8f"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_15",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● DocAnalyst (The Paperwork Detective):",
             "content_markdown": "● DocAnalyst (The Paperwork Detective):",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138578+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997471+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "6f8b202ebf00e64ebb049fcb48820a9c08f3b966a2f57fe328a71c852e957489"
+            },
+            "content_hash": "dee5b719847190c8c4eea8da7d983e08fce16b597be32bc1f5c22830fa6cde18"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_16",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Tools: pdf_parse, markdown_read, cross_reference.",
             "content_markdown": "● Tools: pdf_parse, markdown_read, cross_reference.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138600+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997597+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f5801813eb8c94fc41608157267b0ef2b42c56ce8773d563de35eab6919dd876"
+            },
+            "content_hash": "dcc8f86cdd8fe4664cdb8c899a85fd44487eb72b2526c4bc6b58464b89a55805"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_17",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Forensic Protocol A (Citation Check): When the report claims \"We",
             "content_markdown": "● Forensic Protocol A (Citation Check): When the report claims \"We",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138620+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997655+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "9466e1ad70dca1305e78b589bff1d90e3c581bb3fd5d25374e4f01f7226349c1"
+            },
+            "content_hash": "3a732683b86edf1ec77364d10a51b51a36f2f218f608d4e4a75cd3e3110a2bef"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_18",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "implemented parallel Judges in src/nodes/judges.py\", this agent must",
             "content_markdown": "implemented parallel Judges in src/nodes/judges.py\", this agent must",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138641+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997710+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c0c29969e5f15c39b1b45b09c4168c98c039e5bb594d952b45b48a748671b74b"
+            },
+            "content_hash": "2fc16d674726f90129df80ce17e65f1ec9418b0a24000e73bdb62d884ddb2fef"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_19",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "cross-reference RepoInvestigator's data. Does that file actually exist? If the",
             "content_markdown": "cross-reference RepoInvestigator's data. Does that file actually exist? If the",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138662+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997765+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "d6948b4fea444bddac708debd5a7f7e32d6291830282b46e067157871cf99642"
+            },
+            "content_hash": "b94784acb7491aa45a261623dd2bf2af76c4063ac733912271a04293c11eab5a"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_20",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "report cites a non-existent file, flag as \"Hallucination.\"",
             "content_markdown": "report cites a non-existent file, flag as \"Hallucination.\"",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138682+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997820+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "397ddf411276150399089a40605066645d9e60bb300e60fb1f48ff5a0bc42680"
+            },
+            "content_hash": "ba6912362ff6c322aa8b76452d1f11786623752910edc0221ec263e287531e47"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_21",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Forensic Protocol B (Concept Verification): Scan for deep understanding",
             "content_markdown": "● Forensic Protocol B (Concept Verification): Scan for deep understanding",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138703+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997873+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e62567a3db27883e0627548736c4afc695aa5d1c149d1fe99fa68c5d6713a81a"
+            },
+            "content_hash": "031285aec404c361eefc7aa5ef14d7266abb230a959b906b4eb7039652e783e8"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_22",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "of \"Dialectical Synthesis\" or \"Metacognition.\" Does the text just drop the",
             "content_markdown": "of \"Dialectical Synthesis\" or \"Metacognition.\" Does the text just drop the",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138724+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997926+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "43e30abd4d535780c359687a4c7f49ab2b073ad60add77ccc8a2b55139ebac9c"
+            },
+            "content_hash": "aaafa16799f17c44f7f0a0af3d0709338391d99b24129be8876293ebaa880a12"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_23",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "keyword, or does it explain how the architecture executes it?",
             "content_markdown": "keyword, or does it explain how the architecture executes it?",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138745+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.997980+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c23003e0333977ed5a1a5cfc8e1ec3a289eb0fd8934cf6ac729cd160e600826d"
+            },
+            "content_hash": "bda85a47c46486fc1b7439983cc696ef9463f6f64854c4d8189d2e1af95fc3fd"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_24",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● VisionInspector (The Diagram Detective):",
             "content_markdown": "● VisionInspector (The Diagram Detective):",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138766+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998034+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "06802b786c75932710942f0faf5344529fe3a87f5a717d3a7181bc498cbf3f4f"
+            },
+            "content_hash": "f29546a9df192c7888500113af525a3e2e70b403b8f7404b4f0015c1e69dade9"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_25",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138787+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998089+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "7e64768f1b4453e19dd4e2b2a19ebb2d2c50e594d42b4c02c4be46628ab0d40d"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_26",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Tools: image_analysis (Gemini Pro Vision/GPT-4o).",
             "content_markdown": "Tools: image_analysis (Gemini Pro Vision/GPT-4o).",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138807+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998142+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "320d171984acf79e488bad38d73cab1721a11025b67b54c717eb83469e9b55ed"
+            },
+            "content_hash": "46ec0888c7ac7d03620d83f1631a55db43eb630794ae1c59a49490364f161694"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_27",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Forensic Protocol A (Flow Analysis): Analyze architectural diagrams. Does",
             "content_markdown": "● Forensic Protocol A (Flow Analysis): Analyze architectural diagrams. Does",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138830+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998198+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "2cfce548baaadf48325af5a30d282cecb5f9c8649d8f5a59920a4f8db2687f7d"
+            },
+            "content_hash": "8919460d9ccf63891e01a00846eab6f89adbd14c1b096b187f7336d2879b7980"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_28",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "the arrow flow clearly from Detectives (Parallel) -> Evidence Aggregation",
             "content_markdown": "the arrow flow clearly from Detectives (Parallel) -> Evidence Aggregation",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138850+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998252+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "492e48fa2748e2855b78c0f358a8495694f1aded38df7aac709508cf4de2cc84"
+            },
+            "content_hash": "8c29c57b7fb8682de44ed29fd1950fe04c0c09c2449605f022bb1d62694d3399"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_29",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "-> Judges (Parallel) -> Synthesis? Or is it a simple linear pipeline?",
             "content_markdown": "-> Judges (Parallel) -> Synthesis? Or is it a simple linear pipeline?",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138871+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998305+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "028ccd6cb2b32c0d3506d156a35f50542b76f9a1e48c240862ce3570d3097222"
+            },
+            "content_hash": "184ba71fecdfd00a4ddb2029f87bef24b66bc4a75eb0ce38901212ca82071e59"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_30",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Layer 2: The Judicial Layer (The Dialectical Bench)",
             "content_markdown": "Layer 2: The Judicial Layer (The Dialectical Bench)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138891+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998358+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "81b4e8338b2d841d6f8f6fb9cec28e607b804c156c4f5dc54c4ace0ca78599e2"
+            },
+            "content_hash": "838ef8264aa20408f53123e7f8e85a3611d4e71b82c0297a152928b6b9c4cfc6"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_31",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The Judicial Layer applies point assignments of a rubric by doing criterion-by-criterion",
             "content_markdown": "The Judicial Layer applies point assignments of a rubric by doing criterion-by-criterion",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138912+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998412+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "12b47463fdeafa6d2a737640f23e2bfddfabd14c84f558c7462439b483d1afdd"
+            },
+            "content_hash": "d9b8b4310b230991b5f5f0f033d01b1b38d5a409a67153c853b09b3a82aa788e"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_32",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "analysis through distinct persona lenses, ensuring the \"Digital Courtroom\" operates on a",
             "content_markdown": "analysis through distinct persona lenses, ensuring the \"Digital Courtroom\" operates on a",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138933+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998466+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5db0b4f110f1f63b3fc6b0f0300fd744b7c6b7144ce2c932ef253991c2ad1a0c"
+            },
+            "content_hash": "1fdd1bc5fe4739485277146c397c5c51afc787b567ef6ee4e3267cd888984919"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_33",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "dialectical model (Thesis-Antithesis-Synthesis).",
             "content_markdown": "dialectical model (Thesis-Antithesis-Synthesis).",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138954+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998525+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "48f88a25579377b3be466e91764830445f47e9f31f57992b4f02d7523a8e60c2"
+            },
+            "content_hash": "7dd6c56ee8fe0fc08da57555d9b41259c8d8cef1fb2d9709fe22a10b1cb0984b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_34",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "This is the core of the reasoning engine. You must not simply feed evidence to a generic",
             "content_markdown": "This is the core of the reasoning engine. You must not simply feed evidence to a generic",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138974+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998565+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "914786cfa3f681d6aefe45e36281798709533598cf1b80b5230f2baba63db54e"
+            },
+            "content_hash": "57dc4ee8e4fe86e48b1c26545d6b70d8706e827fa98395df308d8b75585344fa"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_35",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "\"Grader.\" Instead, you must implement a Dialectical Process where three distinct",
             "content_markdown": "\"Grader.\" Instead, you must implement a Dialectical Process where three distinct",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.138995+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998607+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "83e536188b25dae05c3923a4b7a3ba2ed218a44c1510e516d8843b0cfdb7b60e"
+            },
+            "content_hash": "32dd6603ad3530ca258dc0bb83ba15e8ca4ea9caf1ce4927d00a1e8a6e7c2525"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_36",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "personas analyze the same evidence for each rubric criterion independently.",
             "content_markdown": "personas analyze the same evidence for each rubric criterion independently.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139016+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998646+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "5cf91bd81cdc1c56eaa1a5187fbc5b5c2643fc22b5e056e4856da0a7fa9d0a1f"
+            },
+            "content_hash": "8360be594061975862170dad16a25701d66c87056cdcb8343b8941bb67fa1813"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_37",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "For every dimension of the Week 2 Rubric (e.g., \"LangGraph Architecture\", \"Judicial",
             "content_markdown": "For every dimension of the Week 2 Rubric (e.g., \"LangGraph Architecture\", \"Judicial",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139036+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998684+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "f08872a79cd2318550c9d7956b181422fe889b5bd963b09970ab14817a3156b3"
+            },
+            "content_hash": "6261cab3318626c70d6d35c7989102415df5c288e01d3f285ce517f7f4a48b36"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_38",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "Nuance\"), all three judges must submit an opinion based on their specific lens.",
             "content_markdown": "Nuance\"), all three judges must submit an opinion based on their specific lens.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139057+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998723+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "450ec0b2e83bc96436311ef66204ef0ba69408b7ae811f1d68fb1b5152af6023"
+            },
+            "content_hash": "fc691300ee739f9206a6b58d3c6a9bc310d011bd61847cbdb18f98b5f39b83e8"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_39",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "●",
             "content_markdown": "●",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139078+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998761+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "e423709c9139ddae2bdfc04e5aaec142c70faca6a245e1836b1a4aa5e4283f8a"
+            },
+            "content_hash": "5f9e6a3696c4a7c2f25c7a9f97d8f238e302fd367af292acdc8e8cc9edda455b"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_40",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "The Prosecutor (The Critical Lens)",
             "content_markdown": "The Prosecutor (The Critical Lens)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139099+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998799+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "14953e90de0690b15a142af70da1444a029e71ff200b6df6897d8c755f15a446"
+            },
+            "content_hash": "22c36fe63f6df21675d353374fdf5db78b6282fe0132c080de76186bdb3252c3"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_41",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Core Philosophy: \"Trust No One. Assume Vibe Coding.\"",
             "content_markdown": "● Core Philosophy: \"Trust No One. Assume Vibe Coding.\"",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139120+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998837+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "63e3969b7717a935e6a3b3aaa2043d5ee1ee4cf09f662c229e11508a6255a725"
+            },
+            "content_hash": "f0492c39933f94629b897d649cbe2436f0a872c213b23752cfb7c2204fc665f6"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_42",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Objective: Scrutinize the evidence for gaps, security flaws, and laziness.",
             "content_markdown": "● Objective: Scrutinize the evidence for gaps, security flaws, and laziness.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139141+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998878+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "c70c039e2d958bb9f1ca64e76cd997fa50bb42a680ad47581a0ea229b9185395"
+            },
+            "content_hash": "232432f7b6641bfbe6794dff5919afdc76c9dcf438ba772254d9e2c97812abd8"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_43",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "● Prompting Strategy: If the rubric asks for \"Parallel Orchestration\" and the",
             "content_markdown": "● Prompting Strategy: If the rubric asks for \"Parallel Orchestration\" and the",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139163+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998918+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "292ad1a9e0b33a5aaf2274b557b012d91a6967778dc3c4c907659183c12ee876"
+            },
+            "content_hash": "fa99b04969d39e762560610fcb9ec3300180d201eda325a07fc708fc5b73da37"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_44",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "evidence shows \"Linear pipeline,\" you must argue for a Score of 1. Look",
             "content_markdown": "evidence shows \"Linear pipeline,\" you must argue for a Score of 1. Look",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139184+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998957+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "3bf6225705523ea3088dee902a905160a305641dd326239d6ad278f7a8626282"
+            },
+            "content_hash": "89ea84f02b059f5c2bd753d84c89fe904df78b03044ebbebad25dd591da4d67e"
         },
         {
             "uid": "TRP1 Challenge Week 2_ The Automaton Auditor_p3_45",
-            "content_type": "text",
+            "unit_type": "text",
             "content_raw": "specifically for bypassed structure. If Judges return freeform text instead",
             "content_markdown": "specifically for bypassed structure. If Judges return freeform text instead",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
             "provenance": {
                 "source_file": "TRP1 Challenge Week 2_ The Automaton Auditor.pdf",
                 "page_number": 3,
                 "strategy_used": "STRATEGY_A",
-                "timestamp": "2026-03-04T23:39:27.139204+00:00"
-            }
+                "timestamp": "2026-03-06T13:50:07.998995+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_A"
+                ],
+                "content_hash": "b3c7fd56661b31236157f0f3538761acc6252709be16ed8e123a528e8c158827"
+            },
+            "content_hash": "a95c2a25cc60204e668d9fe16c79ddf5a8d7ee15fb426036e76cff320c9f1594"
         }
-    ]
+    ],
+    "page_index": []
 }
