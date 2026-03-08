@@ -1,0 +1,192 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 595.276,
+    "y2": 841.89
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 4,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.276,
+        "y2": 841.89
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The ETHSWITCH annual report for 2025-2024 outlines the company's operational and financial performance, including interoperable transactions, card and PIN personalization, dispute management, and clearing and settlement, as well as its strategic aspirations and goals.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 15,
+        "chunk_count": 3,
+        "summary": "The ETHSWITCH annual report for 2025-2024 outlines the company's operational and financial performance, including interoperable transactions, card and PIN personalization, dispute management, and clearing and settlement, as well as its strategic aspirations and goals.",
+        "total_pages_covered": 15
+      },
+      "chunk_hashes": [
+        "279c0ac44b94d90a349db1f946d697612a49692f8ab48980e6d5d353749f5d52",
+        "13ae67a0aa86408fb9e559c1e6621e0a64987860f62487f98f172f5721791dc0",
+        "57fd74598ac55e3cdc4e82084874fc1a3c1e9e3cd1de1a84fa9297a8c653391a"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.276,
+            "y2": 841.89
+          },
+          "node_id": "chunk/279c0ac44b94d90a",
+          "node_type": "chunk",
+          "title": "Chunk 279c0ac4",
+          "summary": "",
+          "metadata": {
+            "content_hash": "279c0ac44b94d90a349db1f946d697612a49692f8ab48980e6d5d353749f5d52",
+            "token_count": 989,
+            "page_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "279c0ac44b94d90a349db1f946d697612a49692f8ab48980e6d5d353749f5d52"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 10,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.276,
+            "y2": 841.89
+          },
+          "node_id": "chunk/13ae67a0aa86408f",
+          "node_type": "chunk",
+          "title": "Chunk 13ae67a0",
+          "summary": "",
+          "metadata": {
+            "content_hash": "13ae67a0aa86408fb9e559c1e6621e0a64987860f62487f98f172f5721791dc0",
+            "token_count": 964,
+            "page_numbers": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "13ae67a0aa86408fb9e559c1e6621e0a64987860f62487f98f172f5721791dc0"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.276,
+            "y2": 841.89
+          },
+          "node_id": "chunk/57fd74598ac55e3c",
+          "node_type": "chunk",
+          "title": "Chunk 57fd7459",
+          "summary": "",
+          "metadata": {
+            "content_hash": "57fd74598ac55e3cdc4e82084874fc1a3c1e9e3cd1de1a84fa9297a8c653391a",
+            "token_count": 231,
+            "page_numbers": [
+              14,
+              15
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "57fd74598ac55e3cdc4e82084874fc1a3c1e9e3cd1de1a84fa9297a8c653391a"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.276,
+        "y2": 841.89
+      },
+      "node_id": "untitled",
+      "node_type": "section",
+      "title": "\u12ab\u122d\u12f5 \u12ed\u12d8\u12cd \u12ed\u1202\u12f1!",
+      "summary": "The section discusses the growth of digital payments in Ethiopia, driven by government support and advancements in technology, with key developments including the proliferation of ATMs and POS terminals, and the role of EthSwitch in enabling interoperable payments.",
+      "metadata": {
+        "min_page": 16,
+        "max_page": 21,
+        "chunk_count": 1,
+        "summary": "The section discusses the growth of digital payments in Ethiopia, driven by government support and advancements in technology, with key developments including the proliferation of ATMs and POS terminals, and the role of EthSwitch in enabling interoperable payments.",
+        "total_pages_covered": 6
+      },
+      "chunk_hashes": [
+        "df51acd86bed6163d17fc9b3a206aba4f7be44389ddee73781cf7a4f28545b6e"
+      ],
+      "children": [
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.276,
+            "y2": 841.89
+          },
+          "node_id": "chunk/df51acd86bed6163",
+          "node_type": "chunk",
+          "title": "Chunk df51acd8",
+          "summary": "",
+          "metadata": {
+            "content_hash": "df51acd86bed6163d17fc9b3a206aba4f7be44389ddee73781cf7a4f28545b6e",
+            "token_count": 720,
+            "page_numbers": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "section_context": "# \u12ab\u122d\u12f5 \u12ed\u12d8\u12cd \u12ed\u1202\u12f1!"
+          },
+          "chunk_hashes": [
+            "df51acd86bed6163d17fc9b3a206aba4f7be44389ddee73781cf7a4f28545b6e"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

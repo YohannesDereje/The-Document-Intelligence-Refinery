@@ -162,6 +162,7 @@ class PageIndexBuilder:
         sorted_chunks = sorted(chunks, key=lambda item: (item.page_numbers[0], item.section_context, item.content_hash))
         root_bbox = self._merge_chunk_bboxes(sorted_chunks)
         root_page = sorted_chunks[0].page_numbers[0] if sorted_chunks else 0
+        all_pages = sorted({int(page) for chunk in sorted_chunks for page in chunk.page_numbers})
         root = PageIndex(
             page_number=root_page,
             bbox=root_bbox,
@@ -169,7 +170,12 @@ class PageIndexBuilder:
             node_type="root",
             title="Document Root",
             summary="",
-            metadata={"total_chunks": len(sorted_chunks)},
+            metadata={
+                "total_chunks": len(sorted_chunks),
+                "total_pages_covered": len(all_pages),
+                "min_page": all_pages[0] if all_pages else 0,
+                "max_page": all_pages[-1] if all_pages else 0,
+            },
             children=[],
         )
 
@@ -193,16 +199,29 @@ class PageIndexBuilder:
                         node_type=node_type,
                         title=title,
                         summary="",
-                        metadata={},
+                        metadata={
+                            "min_page": int(chunk.page_numbers[0]),
+                            "max_page": int(chunk.page_numbers[-1]),
+                            "chunk_count": 0,
+                        },
                         children=[],
                     )
                     parent.children.append(existing)
                 else:
+                    existing.page_number = min(int(existing.page_number), int(chunk.page_numbers[0]))
                     existing.bbox = BBox(
                         x1=min(existing.bbox.x1, chunk.bbox_bounds.x1),
                         y1=min(existing.bbox.y1, chunk.bbox_bounds.y1),
                         x2=max(existing.bbox.x2, chunk.bbox_bounds.x2),
                         y2=max(existing.bbox.y2, chunk.bbox_bounds.y2),
+                    )
+                    existing.metadata["min_page"] = min(
+                        int(existing.metadata.get("min_page", chunk.page_numbers[0])),
+                        int(chunk.page_numbers[0]),
+                    )
+                    existing.metadata["max_page"] = max(
+                        int(existing.metadata.get("max_page", chunk.page_numbers[-1])),
+                        int(chunk.page_numbers[-1]),
                     )
 
                 parent = existing
@@ -230,6 +249,9 @@ class PageIndexBuilder:
 
             if top_section_id:
                 self._section_chunks.setdefault(top_section_id, []).append(chunk)
+                top_node = self._section_nodes.get(top_section_id)
+                if top_node is not None:
+                    top_node.metadata["chunk_count"] = int(top_node.metadata.get("chunk_count", 0)) + 1
 
         for section_id, section_node in self._section_nodes.items():
             section_chunks = self._section_chunks.get(section_id, [])
@@ -237,6 +259,10 @@ class PageIndexBuilder:
             summary = self._llm_section_summary(section_node.title or section_id, combined)
             section_node.summary = summary
             section_node.metadata["summary"] = summary
+            pages = sorted({int(page) for chunk in section_chunks for page in chunk.page_numbers})
+            section_node.metadata["total_pages_covered"] = len(pages)
+            section_node.metadata["min_page"] = pages[0] if pages else 0
+            section_node.metadata["max_page"] = pages[-1] if pages else 0
             section_node.chunk_hashes = [chunk.content_hash for chunk in section_chunks]
 
         self.root = root
@@ -275,6 +301,15 @@ class PageIndexBuilder:
             raise ValueError("No index tree available to serialize. Call build_tree first.")
 
         target = Path(output_path) if output_path is not None else self.persistence_path
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(json.dumps(self.root.model_dump(), indent=2), encoding="utf-8")
+        os.makedirs(target.parent, exist_ok=True)
+
+        # Use mode="json" to coerce nested pydantic fields into JSON-safe primitives.
+        payload = self.root.model_dump(mode="json")
+        try:
+            with target.open("w", encoding="utf-8") as handle:
+                json.dump(payload, handle, indent=2, ensure_ascii=True)
+        except Exception as exc:
+            self.logger.exception("Failed to persist page index JSON at %s: %s", target, exc)
+            raise
+
         return target

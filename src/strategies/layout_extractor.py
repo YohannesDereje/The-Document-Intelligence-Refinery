@@ -4,6 +4,8 @@ import inspect
 import json
 import logging
 import os
+import shutil
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -44,6 +46,14 @@ try:
     from docling.datamodel.pipeline_options import TesseractOcrOptions
 except Exception:  # pragma: no cover
     TesseractOcrOptions = None
+
+pytesseract = None
+try:
+    import pytesseract as _pytesseract  # type: ignore[reportMissingImports]
+
+    pytesseract = _pytesseract
+except Exception:  # pragma: no cover
+    pytesseract = None
 
 
 class DoclingDocumentAdapter:
@@ -218,6 +228,12 @@ class LayoutExtractor(BaseExtractor):
             self.config_loader.get("thresholds.ocr_min_text_clarity", 0.35)
         )
         self.ocr_policy: Dict[str, Any] = dict(self.config_loader.get("ocr_policy", {}))
+        self.ocr_execution_mode = str(self.ocr_policy.get("execution_mode", "auto")).strip().lower()
+        if self.ocr_execution_mode not in {"auto", "docling", "pytesseract"}:
+            self.ocr_execution_mode = "auto"
+        self.tesseract_cmd = self._resolve_tesseract_cmd()
+        self.tesseract_runtime_ok = self._verify_tesseract_runtime(self.tesseract_cmd)
+        self.last_page_ocr_confidence: Dict[int, float] = {}
 
         self.converter = self._build_converter()
         self.vision_fallback: VisionExtractor | None = None
@@ -244,8 +260,9 @@ class LayoutExtractor(BaseExtractor):
         )
 
         self.logger.info(
-            "LayoutExtractor initialized with OCR-enabled Docling backend (engine=%s).",
+            "LayoutExtractor initialized with OCR-enabled Docling backend (engine=%s, tesseract_ok=%s).",
             str(self.ocr_policy.get("engine", "tesseract")),
+            self.tesseract_runtime_ok,
         )
         return converter
 
@@ -274,6 +291,8 @@ class LayoutExtractor(BaseExtractor):
         if not isinstance(ocr_languages, list):
             ocr_languages = ["eng"]
 
+        tesseract_cmd = self.tesseract_cmd
+
         for option_class in (TesseractCliOcrOptions, TesseractOcrOptions):
             if option_class is None:
                 continue
@@ -282,11 +301,181 @@ class LayoutExtractor(BaseExtractor):
                 for attr in ("lang", "languages", "language"):
                     if hasattr(option, attr):
                         setattr(option, attr, ocr_languages)
+                for attr in ("tesseract_cmd", "cmd", "command"):
+                    if tesseract_cmd and hasattr(option, attr):
+                        setattr(option, attr, tesseract_cmd)
                 return option
             except Exception:
                 continue
 
         return None
+
+    def _resolve_tesseract_cmd(self) -> str:
+        override = str(os.getenv("TESSERACT_CMD", "")).strip()
+        if override and Path(override).exists():
+            return override
+
+        discovered = shutil.which("tesseract")
+        if discovered:
+            return discovered
+
+        common_paths = [
+            Path("C:/Program Files/Tesseract-OCR/tesseract.exe"),
+            Path("C:/Program Files (x86)/Tesseract-OCR/tesseract.exe"),
+        ]
+        for candidate in common_paths:
+            if candidate.exists():
+                return str(candidate)
+        return "tesseract"
+
+    def _verify_tesseract_runtime(self, tesseract_cmd: str) -> bool:
+        if not tesseract_cmd:
+            self.logger.warning("Tesseract command is empty; OCR confidence may be degraded.")
+            return False
+
+        command_exists = Path(tesseract_cmd).exists() if (":" in tesseract_cmd or "/" in tesseract_cmd or "\\" in tesseract_cmd) else bool(shutil.which(tesseract_cmd))
+        if not command_exists:
+            self.logger.warning("Tesseract binary was not found at runtime: %s", tesseract_cmd)
+            return False
+
+        try:
+            completed = subprocess.run(
+                [tesseract_cmd, "--version"],
+                capture_output=True,
+                text=True,
+                timeout=8,
+                check=False,
+            )
+            if completed.returncode != 0:
+                self.logger.warning(
+                    "Tesseract binary check failed (code=%s): %s",
+                    completed.returncode,
+                    (completed.stderr or completed.stdout or "").strip(),
+                )
+                return False
+        except Exception as exc:  # pragma: no cover
+            self.logger.warning("Unable to execute tesseract binary '%s': %s", tesseract_cmd, exc)
+            return False
+
+        if pytesseract is not None:
+            try:
+                pytesseract.pytesseract.tesseract_cmd = tesseract_cmd
+            except Exception:
+                pass
+        else:
+            self.logger.warning("pytesseract is not installed; Strategy B confidence falls back to text-clarity signals.")
+
+        return True
+
+    @staticmethod
+    def _mean_tesseract_confidence(data: Dict[str, Any]) -> float | None:
+        confidences = data.get("conf", []) if isinstance(data, dict) else []
+        parsed: list[float] = []
+        for value in confidences:
+            try:
+                score = float(value)
+            except (TypeError, ValueError):
+                continue
+            if score >= 0.0:
+                parsed.append(score)
+
+        if not parsed:
+            return None
+
+        return max(0.0, min(1.0, (sum(parsed) / len(parsed)) / 100.0))
+
+    def _compute_page_ocr_confidence_map(self, pdf_path: Path, page_numbers: set[int] | None) -> Dict[int, float]:
+        if pytesseract is None or not self.tesseract_runtime_ok:
+            return {}
+
+        page_confidence: Dict[int, float] = {}
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_number, page in enumerate(pdf.pages, start=1):
+                if page_numbers is not None and page_number not in page_numbers:
+                    continue
+
+                try:
+                    page_image = page.to_image(resolution=220)
+                    pil_image = page_image.original
+                    data = pytesseract.image_to_data(
+                        pil_image,
+                        output_type=pytesseract.Output.DICT,
+                        lang="+".join(self.ocr_policy.get("languages", ["eng"])),
+                    )
+                    confidence = self._mean_tesseract_confidence(data)
+                    if confidence is not None:
+                        page_confidence[page_number] = confidence
+                except Exception as exc:
+                    self.logger.warning(
+                        "pytesseract OCR confidence probe failed on %s page %s: %s",
+                        pdf_path.name,
+                        page_number,
+                        exc,
+                    )
+
+        return page_confidence
+
+    def _extract_with_pytesseract(self, pdf_path: Path, page_numbers: set[int] | None) -> List[LDU]:
+        if pytesseract is None or not self.tesseract_runtime_ok:
+            raise RuntimeError("pytesseract runtime is unavailable.")
+
+        ocr_languages = self.ocr_policy.get("languages", ["eng"])
+        if not isinstance(ocr_languages, list):
+            ocr_languages = ["eng"]
+        lang = "+".join(str(item) for item in ocr_languages if str(item).strip()) or "eng"
+
+        units: List[LDU] = []
+        self.last_page_ocr_confidence = {}
+
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_number, page in enumerate(pdf.pages, start=1):
+                if page_numbers is not None and page_number not in page_numbers:
+                    continue
+
+                try:
+                    page_image = page.to_image(resolution=220)
+                    pil_image = page_image.original
+
+                    data = pytesseract.image_to_data(
+                        pil_image,
+                        output_type=pytesseract.Output.DICT,
+                        lang=lang,
+                    )
+                    confidence = self._mean_tesseract_confidence(data)
+                    if confidence is not None:
+                        self.last_page_ocr_confidence[page_number] = confidence
+
+                    raw_text = pytesseract.image_to_string(pil_image, lang=lang) or ""
+                    text = raw_text.strip()
+                    if not text:
+                        continue
+
+                    width = float(page.width or 1.0)
+                    height = float(page.height or 1.0)
+                    units.append(
+                        LDU(
+                            uid=f"{pdf_path.stem}_p{page_number}_ocr_1",
+                            content_type="text",
+                            content_raw=text,
+                            content_markdown=text,
+                            bbox=BBox(x1=0.0, y1=0.0, x2=max(width, 1.0), y2=max(height, 1.0)),
+                            provenance=ProvenanceChain(
+                                source_file=pdf_path.name,
+                                page_number=page_number,
+                                strategy_used="STRATEGY_B",
+                                timestamp=datetime.now(timezone.utc).isoformat(),
+                            ),
+                        )
+                    )
+                except Exception as exc:
+                    self.logger.warning(
+                        "pytesseract OCR extraction failed on %s page %s: %s",
+                        pdf_path.name,
+                        page_number,
+                        exc,
+                    )
+
+        return units
 
     def _get_vision_fallback(self) -> VisionExtractor:
         if self.vision_fallback is None:
@@ -361,19 +550,28 @@ class LayoutExtractor(BaseExtractor):
         return max(0.0, min(1.0, (0.7 * alnum_ratio) + (0.3 * word_score)))
 
     def calculate_ocr_confidence(self, page_data: Dict[str, Any]) -> float:
-        text_clarity = float(page_data.get("text_clarity", 0.0) or 0.0)
-        table_count = int(page_data.get("table_count", 0) or 0)
-        text_count = int(page_data.get("text_count", 0) or 0)
-        page_density = float(page_data.get("char_density", 0.0) or 0.0)
         parsed_ok = bool(page_data.get("parsed_ok", False))
+        raw_text_clarity = page_data.get("text_clarity")
+        text_clarity = float(raw_text_clarity) if raw_text_clarity is not None else (1.0 if parsed_ok else 0.0)
+        raw_engine_confidence = page_data.get("ocr_engine_confidence")
+        engine_confidence = float(raw_engine_confidence) if raw_engine_confidence is not None else None
+        table_count = int(page_data.get("table_count", 0) or 0)
+        default_text_count = 1 if parsed_ok else 0
+        text_count = int(page_data.get("text_count", default_text_count) or 0)
+        page_density = float(page_data.get("char_density", 0.0) or 0.0)
+        min_digital_density = float(getattr(self, "min_digital_density", 0.0005))
+        min_text_clarity = float(getattr(self, "ocr_min_text_clarity", 0.25))
 
         table_signal = 1.0 if table_count > 0 else (0.65 if text_count > 0 else 0.2)
-        density_signal = min(1.0, page_density / max(self.min_digital_density * 1.5, 1e-9))
+        density_signal = min(1.0, page_density / max(min_digital_density * 1.5, 1e-9))
 
-        confidence = (0.6 * text_clarity) + (0.25 * table_signal) + (0.15 * density_signal)
+        if engine_confidence is not None:
+            confidence = (0.5 * engine_confidence) + (0.3 * text_clarity) + (0.15 * table_signal) + (0.05 * density_signal)
+        else:
+            confidence = (0.6 * text_clarity) + (0.25 * table_signal) + (0.15 * density_signal)
         if not parsed_ok:
             confidence *= 0.5
-        if text_clarity < self.ocr_min_text_clarity:
+        if text_clarity < min_text_clarity:
             confidence *= 0.7
 
         return max(0.0, min(1.0, confidence))
@@ -385,6 +583,25 @@ class LayoutExtractor(BaseExtractor):
         selected_pages = set(page_numbers) if page_numbers else None
         density_map = self._page_density_map(pdf_path, selected_pages)
         geometry_map = self._page_geometry_map(pdf_path, selected_pages)
+
+        if self.ocr_execution_mode in {"auto", "pytesseract"}:
+            try:
+                pytesseract_units = self._extract_with_pytesseract(pdf_path, selected_pages)
+                if pytesseract_units:
+                    return pytesseract_units
+                if self.ocr_execution_mode == "pytesseract":
+                    return []
+            except Exception as exc:
+                if self.ocr_execution_mode == "pytesseract":
+                    self.logger.exception("pytesseract-only Strategy B failed for %s: %s", pdf_path.name, exc)
+                    return []
+                self.logger.warning(
+                    "pytesseract pre-pass failed for %s; falling back to docling backend: %s",
+                    pdf_path.name,
+                    exc,
+                )
+
+        self.last_page_ocr_confidence = self._compute_page_ocr_confidence_map(pdf_path, selected_pages)
 
         try:
             conversion_result = self._convert_pdf(pdf_path, selected_pages)
@@ -452,6 +669,7 @@ class LayoutExtractor(BaseExtractor):
                     "table_count": page_table_counts.get(page_no, 0),
                     "text_count": page_text_counts.get(page_no, 0),
                     "text_clarity": clarity,
+                    "ocr_engine_confidence": self.last_page_ocr_confidence.get(page_no),
                 }
             )
             if ocr_confidence < self.warning_confidence_threshold:
@@ -469,3 +687,6 @@ class LayoutExtractor(BaseExtractor):
             return self.calculate_ocr_confidence(page_data)
         parsed_ok = bool(getattr(page_data, "parsed_ok", False))
         return self.calculate_ocr_confidence({"parsed_ok": parsed_ok})
+
+    def get_last_page_ocr_confidence(self, page_number: int) -> float | None:
+        return self.last_page_ocr_confidence.get(page_number)

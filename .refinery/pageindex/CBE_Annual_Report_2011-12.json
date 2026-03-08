@@ -1,0 +1,286 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 609.84,
+    "y2": 849.96
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 6,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 574.92,
+        "y2": 847.8
+      },
+      "node_id": "annual-report-2011",
+      "node_type": "section",
+      "title": "Annual Report 2011",
+      "summary": "The Commercial Bank of Ethiopia's 2011 annual report outlines the bank's financial position, macroeconomic highlights, and organizational structure, including its board of directors and executive leadership, as it strives to become a world-class commercial bank with over 600 branches nationwide.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 8,
+        "chunk_count": 1,
+        "summary": "The Commercial Bank of Ethiopia's 2011 annual report outlines the bank's financial position, macroeconomic highlights, and organizational structure, including its board of directors and executive leadership, as it strives to become a world-class commercial bank with over 600 branches nationwide.",
+        "total_pages_covered": 8
+      },
+      "chunk_hashes": [
+        "d91fcbc37d73548c57e85b4085b821a2f70f373fa0e5a096c2bcb73d1477bfbb"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 574.92,
+            "y2": 847.8
+          },
+          "node_id": "annual-report-2011/12",
+          "node_type": "subsection",
+          "title": "12",
+          "summary": "",
+          "metadata": {
+            "min_page": 1,
+            "max_page": 8,
+            "chunk_count": 0
+          },
+          "chunk_hashes": [],
+          "children": [
+            {
+              "page_number": 1,
+              "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 574.92,
+                "y2": 847.8
+              },
+              "node_id": "chunk/d91fcbc37d73548c",
+              "node_type": "chunk",
+              "title": "Chunk d91fcbc3",
+              "summary": "",
+              "metadata": {
+                "content_hash": "d91fcbc37d73548c57e85b4085b821a2f70f373fa0e5a096c2bcb73d1477bfbb",
+                "token_count": 321,
+                "page_numbers": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "section_context": "# Annual Report 2011/12"
+              },
+              "chunk_hashes": [
+                "d91fcbc37d73548c57e85b4085b821a2f70f373fa0e5a096c2bcb73d1477bfbb"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "key-figures",
+      "node_type": "section",
+      "title": "Key Figures",
+      "summary": "The Key Figures section presents a financial summary for 2011 and 2012, including metrics such as Total Income, Total Expense, Profit Before Tax, and Net Profit for the Year, highlighting the company's financial performance and outstanding loans.",
+      "metadata": {
+        "min_page": 9,
+        "max_page": 9,
+        "chunk_count": 1,
+        "summary": "The Key Figures section presents a financial summary for 2011 and 2012, including metrics such as Total Income, Total Expense, Profit Before Tax, and Net Profit for the Year, highlighting the company's financial performance and outstanding loans.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "81f490416cdf4fed99527c12bf93b303db192fb4756ea1105f1fb2fa56a96c73"
+      ],
+      "children": [
+        {
+          "page_number": 9,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/81f490416cdf4fed",
+          "node_type": "chunk",
+          "title": "Chunk 81f49041",
+          "summary": "",
+          "metadata": {
+            "content_hash": "81f490416cdf4fed99527c12bf93b303db192fb4756ea1105f1fb2fa56a96c73",
+            "token_count": 75,
+            "page_numbers": [
+              9
+            ],
+            "section_context": "# Key Figures"
+          },
+          "chunk_hashes": [
+            "81f490416cdf4fed99527c12bf93b303db192fb4756ea1105f1fb2fa56a96c73"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 609.84,
+        "y2": 849.96
+      },
+      "node_id": "annual-report-2011-12",
+      "node_type": "section",
+      "title": "ANNUAL REPORT 2011-12",
+      "summary": "The Commercial Bank of Ethiopia's 2011-12 annual report highlights the bank's record-high profit of 7.9 billion Birr, a 65.5% increase in total income, and significant growth in total assets and deposits, driven by expansion efforts, including the opening of 167 new branches and implementation.",
+      "metadata": {
+        "min_page": 10,
+        "max_page": 21,
+        "chunk_count": 4,
+        "summary": "The Commercial Bank of Ethiopia's 2011-12 annual report highlights the bank's record-high profit of 7.9 billion Birr, a 65.5% increase in total income, and significant growth in total assets and deposits, driven by expansion efforts, including the opening of 167 new branches and implementation.",
+        "total_pages_covered": 12
+      },
+      "chunk_hashes": [
+        "c96886962d7ef9c553d502b5a11c22bb1156db41e1fa846aabb3886a6dc2ffc2",
+        "550344f3289ebc506818fb3af86fa3f78ea990199d51855bf94fb1282b0431a5",
+        "67076af39cfe002e61282593b520023cc973b4b7ca8108039d79d0dc3edb7ec3",
+        "b7b89891181a4869757f0783043d55056a968d751e6397af2bbdaf094aba8371"
+      ],
+      "children": [
+        {
+          "page_number": 10,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 609.84,
+            "y2": 841.68
+          },
+          "node_id": "chunk/c96886962d7ef9c5",
+          "node_type": "chunk",
+          "title": "Chunk c9688696",
+          "summary": "",
+          "metadata": {
+            "content_hash": "c96886962d7ef9c553d502b5a11c22bb1156db41e1fa846aabb3886a6dc2ffc2",
+            "token_count": 612,
+            "page_numbers": [
+              10,
+              11,
+              12
+            ],
+            "section_context": "# ANNUAL REPORT 2011-12"
+          },
+          "chunk_hashes": [
+            "c96886962d7ef9c553d502b5a11c22bb1156db41e1fa846aabb3886a6dc2ffc2"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 13,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 586.8,
+            "y2": 849.96
+          },
+          "node_id": "chunk/550344f3289ebc50",
+          "node_type": "chunk",
+          "title": "Chunk 550344f3",
+          "summary": "",
+          "metadata": {
+            "content_hash": "550344f3289ebc506818fb3af86fa3f78ea990199d51855bf94fb1282b0431a5",
+            "token_count": 969,
+            "page_numbers": [
+              13,
+              14,
+              15
+            ],
+            "section_context": "# ANNUAL REPORT 2011-12"
+          },
+          "chunk_hashes": [
+            "550344f3289ebc506818fb3af86fa3f78ea990199d51855bf94fb1282b0431a5"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 577.8,
+            "y2": 839.88
+          },
+          "node_id": "chunk/67076af39cfe002e",
+          "node_type": "chunk",
+          "title": "Chunk 67076af3",
+          "summary": "",
+          "metadata": {
+            "content_hash": "67076af39cfe002e61282593b520023cc973b4b7ca8108039d79d0dc3edb7ec3",
+            "token_count": 831,
+            "page_numbers": [
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "section_context": "# ANNUAL REPORT 2011-12"
+          },
+          "chunk_hashes": [
+            "67076af39cfe002e61282593b520023cc973b4b7ca8108039d79d0dc3edb7ec3"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 21,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 576.0,
+            "y2": 837.36
+          },
+          "node_id": "chunk/b7b89891181a4869",
+          "node_type": "chunk",
+          "title": "Chunk b7b89891",
+          "summary": "",
+          "metadata": {
+            "content_hash": "b7b89891181a4869757f0783043d55056a968d751e6397af2bbdaf094aba8371",
+            "token_count": 427,
+            "page_numbers": [
+              21
+            ],
+            "section_context": "# ANNUAL REPORT 2011-12"
+          },
+          "chunk_hashes": [
+            "b7b89891181a4869757f0783043d55056a968d751e6397af2bbdaf094aba8371"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

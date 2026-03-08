@@ -1,0 +1,488 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 604.8,
+    "y2": 841.68
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 13,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 604.8,
+        "y2": 841.68
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The Development Bank of Ethiopia's independent auditor's report, conducted in accordance with International Standards on Auditing, presents an opinion on the bank's consolidated financial statements as of 30 June 2023, stating that they fairly represent the bank's financial position and performance in accordance with International Financial Reporting Standards.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 5,
+        "chunk_count": 1,
+        "summary": "The Development Bank of Ethiopia's independent auditor's report, conducted in accordance with International Standards on Auditing, presents an opinion on the bank's consolidated financial statements as of 30 June 2023, stating that they fairly represent the bank's financial position and performance in accordance with International Financial Reporting Standards.",
+        "total_pages_covered": 5
+      },
+      "chunk_hashes": [
+        "19b5258bd9280f4f665b14d32c1fcd470356a9928f4921ea48ddaa2a5aba4756"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 604.8,
+            "y2": 841.68
+          },
+          "node_id": "chunk/19b5258bd9280f4f",
+          "node_type": "chunk",
+          "title": "Chunk 19b5258b",
+          "summary": "",
+          "metadata": {
+            "content_hash": "19b5258bd9280f4f665b14d32c1fcd470356a9928f4921ea48ddaa2a5aba4756",
+            "token_count": 947,
+            "page_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "19b5258bd9280f4f665b14d32c1fcd470356a9928f4921ea48ddaa2a5aba4756"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.2,
+        "y2": 841.68
+      },
+      "node_id": "development-bank-of-ethiopia-consolidated-and-separate-financial-statements-for-the-year-ended-30-june-2023-table-of-contents-independent-auditor-s-report-board-of-management-professional-advisers",
+      "node_type": "section",
+      "title": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nFor the year ended 30 June 2023\n\nTable of contents\n\nIndependent auditor's report\n\nBoard of management, professional advisers",
+      "summary": "The independent auditor's report for the Development Bank of Ethiopia's consolidated financial statements for the year ended June 30, 2023, outlines the auditor's responsibilities, including obtaining reasonable assurance about the statements' accuracy and detecting material misstatements, and communicating significant findings to those charged with governance.",
+      "metadata": {
+        "min_page": 6,
+        "max_page": 12,
+        "chunk_count": 4,
+        "summary": "The independent auditor's report for the Development Bank of Ethiopia's consolidated financial statements for the year ended June 30, 2023, outlines the auditor's responsibilities, including obtaining reasonable assurance about the statements' accuracy and detecting material misstatements, and communicating significant findings to those charged with governance.",
+        "total_pages_covered": 7
+      },
+      "chunk_hashes": [
+        "f2a4ee8470736ff8eb864cddcd97acf9a97d065ee2f92bce4d3b9c19ab44d0bc",
+        "27c2c2c387d913be84625c7e7d563a9fa3cd78c6d6596bdb3aee3ff0ed75030d",
+        "242772a055571be5682a33882f48453374286e01f679c258233cea24b9758009",
+        "bd63fab42a4af3cbd7cddd768d25636fa1f02adba6125fea58faccb258ee6a04"
+      ],
+      "children": [
+        {
+          "page_number": 6,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/f2a4ee8470736ff8",
+          "node_type": "chunk",
+          "title": "Chunk f2a4ee84",
+          "summary": "",
+          "metadata": {
+            "content_hash": "f2a4ee8470736ff8eb864cddcd97acf9a97d065ee2f92bce4d3b9c19ab44d0bc",
+            "token_count": 687,
+            "page_numbers": [
+              6,
+              7
+            ],
+            "section_context": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nFor the year ended 30 June 2023\n\nTable of contents\n\nIndependent auditor's report\n\nBoard of management, professional advisers"
+          },
+          "chunk_hashes": [
+            "f2a4ee8470736ff8eb864cddcd97acf9a97d065ee2f92bce4d3b9c19ab44d0bc"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 8,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/27c2c2c387d913be",
+          "node_type": "chunk",
+          "title": "Chunk 27c2c2c3",
+          "summary": "",
+          "metadata": {
+            "content_hash": "27c2c2c387d913be84625c7e7d563a9fa3cd78c6d6596bdb3aee3ff0ed75030d",
+            "token_count": 788,
+            "page_numbers": [
+              8,
+              9
+            ],
+            "section_context": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nFor the year ended 30 June 2023\n\nTable of contents\n\nIndependent auditor's report\n\nBoard of management, professional advisers"
+          },
+          "chunk_hashes": [
+            "27c2c2c387d913be84625c7e7d563a9fa3cd78c6d6596bdb3aee3ff0ed75030d"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 10,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/242772a055571be5",
+          "node_type": "chunk",
+          "title": "Chunk 242772a0",
+          "summary": "",
+          "metadata": {
+            "content_hash": "242772a055571be5682a33882f48453374286e01f679c258233cea24b9758009",
+            "token_count": 715,
+            "page_numbers": [
+              10,
+              11
+            ],
+            "section_context": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nFor the year ended 30 June 2023\n\nTable of contents\n\nIndependent auditor's report\n\nBoard of management, professional advisers"
+          },
+          "chunk_hashes": [
+            "242772a055571be5682a33882f48453374286e01f679c258233cea24b9758009"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 12,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/bd63fab42a4af3cb",
+          "node_type": "chunk",
+          "title": "Chunk bd63fab4",
+          "summary": "",
+          "metadata": {
+            "content_hash": "bd63fab42a4af3cbd7cddd768d25636fa1f02adba6125fea58faccb258ee6a04",
+            "token_count": 297,
+            "page_numbers": [
+              12
+            ],
+            "section_context": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nFor the year ended 30 June 2023\n\nTable of contents\n\nIndependent auditor's report\n\nBoard of management, professional advisers"
+          },
+          "chunk_hashes": [
+            "bd63fab42a4af3cbd7cddd768d25636fa1f02adba6125fea58faccb258ee6a04"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "development-bank-of-ethiopia-consolidated-and-separate-statement-of-changes-in-equity-for-the-year-ended-30-june-2023-group",
+      "node_type": "section",
+      "title": "Development Bank of Ethiopia\n## Consolidated and separate statement of changes in equity\n### For the year ended 30 June 2023\n#### Group",
+      "summary": "The Development Bank of Ethiopia's consolidated and separate statement of changes in equity for the year ended 30 June 2023 shows no changes in equity, with total comprehensive income for the year being zero, and the bank's equity remaining at Birr 28,250,000.",
+      "metadata": {
+        "min_page": 13,
+        "max_page": 13,
+        "chunk_count": 1,
+        "summary": "The Development Bank of Ethiopia's consolidated and separate statement of changes in equity for the year ended 30 June 2023 shows no changes in equity, with total comprehensive income for the year being zero, and the bank's equity remaining at Birr 28,250,000.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "324241b90592634578e783e487bb4c67662dbae5d3c96caf09c021149224ee21"
+      ],
+      "children": [
+        {
+          "page_number": 13,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/324241b905926345",
+          "node_type": "chunk",
+          "title": "Chunk 324241b9",
+          "summary": "",
+          "metadata": {
+            "content_hash": "324241b90592634578e783e487bb4c67662dbae5d3c96caf09c021149224ee21",
+            "token_count": 251,
+            "page_numbers": [
+              13
+            ],
+            "section_context": "# Development Bank of Ethiopia\n## Consolidated and separate statement of changes in equity\n### For the year ended 30 June 2023\n#### Group"
+          },
+          "chunk_hashes": [
+            "324241b90592634578e783e487bb4c67662dbae5d3c96caf09c021149224ee21"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.2,
+        "y2": 841.68
+      },
+      "node_id": "development-bank-of-ethiopia",
+      "node_type": "section",
+      "title": "Development Bank of Ethiopia",
+      "summary": "The Development Bank of Ethiopia's financial statements for the year ended 30 June 2023 include a consolidated and separate statement of changes in equity, statement of cash flows, and additional information on operational cash flows, detailing the bank's financial activities and performance.",
+      "metadata": {
+        "min_page": 14,
+        "max_page": 15,
+        "chunk_count": 1,
+        "summary": "The Development Bank of Ethiopia's financial statements for the year ended 30 June 2023 include a consolidated and separate statement of changes in equity, statement of cash flows, and additional information on operational cash flows, detailing the bank's financial activities and performance.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "e4f3414874974b844d70833ff89b9af36f7de7bafff5de4c53d1305fc459bd48"
+      ],
+      "children": [
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/e4f3414874974b84",
+          "node_type": "chunk",
+          "title": "Chunk e4f34148",
+          "summary": "",
+          "metadata": {
+            "content_hash": "e4f3414874974b844d70833ff89b9af36f7de7bafff5de4c53d1305fc459bd48",
+            "token_count": 430,
+            "page_numbers": [
+              14,
+              15
+            ],
+            "section_context": "# Development Bank of Ethiopia"
+          },
+          "chunk_hashes": [
+            "e4f3414874974b844d70833ff89b9af36f7de7bafff5de4c53d1305fc459bd48"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.2,
+        "y2": 841.68
+      },
+      "node_id": "consolidated-and-separate-statement-of-changes-in-equity-for-the-year-ended-30-june-2023",
+      "node_type": "section",
+      "title": "Consolidated and separate statement of changes in equity for the year ended 30 June 2023",
+      "summary": "The Development Bank of Ethiopia, a specialized financial institution established to promote national development through development finance, has prepared its consolidated and separate financial statements for the year ended 30 June 2023 in accordance with International Financial Reporting Standards (IFRS).",
+      "metadata": {
+        "min_page": 16,
+        "max_page": 21,
+        "chunk_count": 6,
+        "summary": "The Development Bank of Ethiopia, a specialized financial institution established to promote national development through development finance, has prepared its consolidated and separate financial statements for the year ended 30 June 2023 in accordance with International Financial Reporting Standards (IFRS).",
+        "total_pages_covered": 6
+      },
+      "chunk_hashes": [
+        "22c5a35442060093493cda2ec4ba3221bb00422dd1ba19b0ba35dd96c0659ecb",
+        "70c6f237e75aa612d3e84948fe4e7e08398ac7522bb410295ed593f6ccf9a025",
+        "e96e9ef23c60b415c27740f425c630b2133264ec72d703b2b5c3969389ed7fe6",
+        "c8d420d7a5a5ef152a03ee3b59406cb78bb130a2d3c29c6c341fb303e6cccc49",
+        "3116d9f983c17d95b45155129cf8e35fa2839eafbeaa1074d67357a0f2bbfa2d",
+        "6cfeb478a7ba0edf63b45fc0054da96f2537118532e2da89aecefe899ce9bca5"
+      ],
+      "children": [
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/22c5a35442060093",
+          "node_type": "chunk",
+          "title": "Chunk 22c5a354",
+          "summary": "",
+          "metadata": {
+            "content_hash": "22c5a35442060093493cda2ec4ba3221bb00422dd1ba19b0ba35dd96c0659ecb",
+            "token_count": 629,
+            "page_numbers": [
+              16
+            ],
+            "section_context": "## Consolidated and separate statement of changes in equity for the year ended 30 June 2023"
+          },
+          "chunk_hashes": [
+            "22c5a35442060093493cda2ec4ba3221bb00422dd1ba19b0ba35dd96c0659ecb"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 17,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/70c6f237e75aa612",
+          "node_type": "chunk",
+          "title": "Chunk 70c6f237",
+          "summary": "",
+          "metadata": {
+            "content_hash": "70c6f237e75aa612d3e84948fe4e7e08398ac7522bb410295ed593f6ccf9a025",
+            "token_count": 717,
+            "page_numbers": [
+              17
+            ],
+            "section_context": "## Consolidated and separate statement of changes in equity for the year ended 30 June 2023"
+          },
+          "chunk_hashes": [
+            "70c6f237e75aa612d3e84948fe4e7e08398ac7522bb410295ed593f6ccf9a025"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/e96e9ef23c60b415",
+          "node_type": "chunk",
+          "title": "Chunk e96e9ef2",
+          "summary": "",
+          "metadata": {
+            "content_hash": "e96e9ef23c60b415c27740f425c630b2133264ec72d703b2b5c3969389ed7fe6",
+            "token_count": 713,
+            "page_numbers": [
+              18
+            ],
+            "section_context": "## Consolidated and separate statement of changes in equity for the year ended 30 June 2023"
+          },
+          "chunk_hashes": [
+            "e96e9ef23c60b415c27740f425c630b2133264ec72d703b2b5c3969389ed7fe6"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 19,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/c8d420d7a5a5ef15",
+          "node_type": "chunk",
+          "title": "Chunk c8d420d7",
+          "summary": "",
+          "metadata": {
+            "content_hash": "c8d420d7a5a5ef152a03ee3b59406cb78bb130a2d3c29c6c341fb303e6cccc49",
+            "token_count": 665,
+            "page_numbers": [
+              19
+            ],
+            "section_context": "## Consolidated and separate statement of changes in equity for the year ended 30 June 2023"
+          },
+          "chunk_hashes": [
+            "c8d420d7a5a5ef152a03ee3b59406cb78bb130a2d3c29c6c341fb303e6cccc49"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 20,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/3116d9f983c17d95",
+          "node_type": "chunk",
+          "title": "Chunk 3116d9f9",
+          "summary": "",
+          "metadata": {
+            "content_hash": "3116d9f983c17d95b45155129cf8e35fa2839eafbeaa1074d67357a0f2bbfa2d",
+            "token_count": 731,
+            "page_numbers": [
+              20
+            ],
+            "section_context": "## Consolidated and separate statement of changes in equity for the year ended 30 June 2023"
+          },
+          "chunk_hashes": [
+            "3116d9f983c17d95b45155129cf8e35fa2839eafbeaa1074d67357a0f2bbfa2d"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 21,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.2,
+            "y2": 841.68
+          },
+          "node_id": "chunk/6cfeb478a7ba0edf",
+          "node_type": "chunk",
+          "title": "Chunk 6cfeb478",
+          "summary": "",
+          "metadata": {
+            "content_hash": "6cfeb478a7ba0edf63b45fc0054da96f2537118532e2da89aecefe899ce9bca5",
+            "token_count": 715,
+            "page_numbers": [
+              21
+            ],
+            "section_context": "## Consolidated and separate statement of changes in equity for the year ended 30 June 2023"
+          },
+          "chunk_hashes": [
+            "6cfeb478a7ba0edf63b45fc0054da96f2537118532e2da89aecefe899ce9bca5"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

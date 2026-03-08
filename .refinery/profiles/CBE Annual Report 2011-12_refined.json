@@ -1,0 +1,1216 @@
+{
+    "file_id": "CBE Annual Report 2011-12",
+    "domain_hint": "General",
+    "document_type": "unknown",
+    "metadata": {
+        "overall_origin": "scanned",
+        "layout_complexity": "Low",
+        "total_pages": 21,
+        "source_total_pages": 63,
+        "units_count": 27,
+        "escalations": 4,
+        "document_processing_time_ms": 318931.406,
+        "document_estimated_cost_usd": 0.050037,
+        "extraction_results": [
+            {
+                "page_number": 1,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "fail",
+                        "confidence_score": 0.7016394230769231,
+                        "processing_time_ms": 7898.649699985981,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    },
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "success",
+                        "confidence_score": 0.95,
+                        "processing_time_ms": 12921.938300016336,
+                        "estimated_cost_usd": 0.012375,
+                        "prompt_tokens": 36935,
+                        "image_tokens": 1020,
+                        "completion_tokens": 117
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "success",
+                "final_confidence_score": 0.95,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
+                "cumulative_processing_time_ms": 20820.588,
+                "cumulative_cost_usd": 0.012375,
+                "total_cost_usd": 0.012375,
+                "final_success_cost_usd": 0.012375,
+                "final_vlm_cost_usd": 0.012375
+            },
+            {
+                "page_number": 2,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.7996847826086956,
+                        "processing_time_ms": 5691.987400001381,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.7996847826086956,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 5691.987,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 3,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "fail",
+                        "confidence_score": 0.0,
+                        "processing_time_ms": 60042.574399965815,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    },
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "success",
+                        "confidence_score": 0.95,
+                        "processing_time_ms": 12050.48929998884,
+                        "estimated_cost_usd": 0.012455,
+                        "prompt_tokens": 36935,
+                        "image_tokens": 1020,
+                        "completion_tokens": 251
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "success",
+                "final_confidence_score": 0.95,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
+                "cumulative_processing_time_ms": 72093.064,
+                "cumulative_cost_usd": 0.012455,
+                "total_cost_usd": 0.012455,
+                "final_success_cost_usd": 0.012455,
+                "final_vlm_cost_usd": 0.012455
+            },
+            {
+                "page_number": 4,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8035329254079254,
+                        "processing_time_ms": 10521.8246000004,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8035329254079254,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 10521.825,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 5,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.852328409739889,
+                        "processing_time_ms": 9013.906600011978,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.852328409739889,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 9013.907,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 6,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8654849688031764,
+                        "processing_time_ms": 7658.903300005477,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8654849688031764,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 7658.903,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 7,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8546800544588155,
+                        "processing_time_ms": 7428.792400052771,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8546800544588155,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 7428.792,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 8,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8608238125224901,
+                        "processing_time_ms": 7716.984500002582,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8608238125224901,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 7716.985,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 9,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "fail",
+                        "confidence_score": 0.6315945180126998,
+                        "processing_time_ms": 9853.552200016566,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    },
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "success",
+                        "confidence_score": 0.95,
+                        "processing_time_ms": 10393.800600024406,
+                        "estimated_cost_usd": 0.012570000000000001,
+                        "prompt_tokens": 36935,
+                        "image_tokens": 1020,
+                        "completion_tokens": 442
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "success",
+                "final_confidence_score": 0.95,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
+                "cumulative_processing_time_ms": 20247.353,
+                "cumulative_cost_usd": 0.01257,
+                "total_cost_usd": 0.01257,
+                "final_success_cost_usd": 0.01257,
+                "final_vlm_cost_usd": 0.01257
+            },
+            {
+                "page_number": 10,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "fail",
+                        "confidence_score": 0.6289418236226016,
+                        "processing_time_ms": 11282.016200013459,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    },
+                    {
+                        "strategy": "STRATEGY_C",
+                        "status": "success",
+                        "confidence_score": 0.95,
+                        "processing_time_ms": 11269.996599992737,
+                        "estimated_cost_usd": 0.012637000000000002,
+                        "prompt_tokens": 36935,
+                        "image_tokens": 1020,
+                        "completion_tokens": 554
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "success",
+                "final_confidence_score": 0.95,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
+                "cumulative_processing_time_ms": 22552.013,
+                "cumulative_cost_usd": 0.012637,
+                "total_cost_usd": 0.012637,
+                "final_success_cost_usd": 0.012637,
+                "final_vlm_cost_usd": 0.012637
+            },
+            {
+                "page_number": 11,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8423702340101468,
+                        "processing_time_ms": 8882.155400002375,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8423702340101468,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 8882.155,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 12,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8461260685409953,
+                        "processing_time_ms": 12018.58390000416,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8461260685409953,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 12018.584,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 13,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.845039746917586,
+                        "processing_time_ms": 20445.827000017744,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.845039746917586,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 20445.827,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 14,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8172989068363518,
+                        "processing_time_ms": 10210.377099981997,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8172989068363518,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 10210.377,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 15,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.7956006868586561,
+                        "processing_time_ms": 10419.810500054155,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.7956006868586561,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 10419.811,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 16,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.7995783493792343,
+                        "processing_time_ms": 10693.330799986143,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.7995783493792343,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 10693.331,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 17,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8171622474747475,
+                        "processing_time_ms": 11752.371500013396,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8171622474747475,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 11752.372,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 18,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.7948145489351519,
+                        "processing_time_ms": 9428.711399959866,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.7948145489351519,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 9428.711,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 19,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8125928598026438,
+                        "processing_time_ms": 11877.385400002822,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8125928598026438,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 11877.385,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 20,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8158621666151786,
+                        "processing_time_ms": 8962.756399996579,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8158621666151786,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 8962.756,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 21,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8289773408326034,
+                        "processing_time_ms": 15095.432100002654,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8289773408326034,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 15095.432,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            }
+        ]
+    },
+    "units": [
+        {
+            "uid": "CBE Annual Report 2011-12_p1_1",
+            "unit_type": "header",
+            "content_raw": "Annual Report 2011/12",
+            "content_markdown": "# Annual Report 2011/12",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:55:01.215265+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "64eb0dd2dc9b8f544f61095d0ed23c121c528c703448c5468bf4a4cb7853b781"
+            },
+            "content_hash": "a91589e16c15d4bbbcd5c00f64ebff7b5f83f51cf011169127ff1fb6d2aebfd6"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p1_2",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIOPIA",
+            "content_markdown": "COMMERCIAL BANK OF ETHIOPIA",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 1,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:55:01.215647+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "9c4b62c1d37354808ffa34f50efcc1dd611c97035f4784596cac1eb1e409f774"
+            },
+            "content_hash": "d2f600832c3472f262fc83fb3a62bf47fde90b2d656081c27af2f9c6c3e8d0a8"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p2_ocr_1",
+            "unit_type": "text",
+            "content_raw": "SERVING YOU AT YOUR DOORSTEPS!\n\nMore than 600 Branches Nationwide!\n\nPA THAL FIL Vth Commereial Bank of Ethiopia",
+            "content_markdown": "SERVING YOU AT YOUR DOORSTEPS!\n\nMore than 600 Branches Nationwide!\n\nPA THAL FIL Vth Commereial Bank of Ethiopia",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 537.84,
+                "y2": 839.16
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 2,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:55:07.077926+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "5d69c8bb36ff62a6faacc20588437441a3d1c3337ef2a8523ed08399e4719bf7"
+            },
+            "content_hash": "79416fd3ebd8b51e89364fb8c6523ebce02883535f9518dfbcb46899d6dd2837"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p3_1",
+            "unit_type": "header",
+            "content_raw": "Annual Report 2011/12",
+            "content_markdown": "# Annual Report 2011/12",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:56:19.337038+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "625d82611cad77d3dc1309291d4f40c74ba1a0e44ac7262840ae64eec309aa99"
+            },
+            "content_hash": "f3af90ad3429932c997762d7e495c015165f9969bbe8f2ccd85cf92ec9c214b0"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p3_2",
+            "unit_type": "text",
+            "content_raw": "Working to Become a World Class Commercial Bank",
+            "content_markdown": "Working to Become a World Class Commercial Bank",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:56:19.337274+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "bf45fcc8d39afb9a5e7e6c5d137a1dae962310d57f1a0d708e015e33e545c363"
+            },
+            "content_hash": "c03e621f9bbb8d948cc9c097b412609083b51ebe6d7e7dc0c82c92d9356c600a"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p3_3",
+            "unit_type": "text",
+            "content_raw": "ኮምርሻል ባንክ ኢትዮጵያ",
+            "content_markdown": "ኮምርሻል ባንክ ኢትዮጵያ",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:56:19.337366+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "84d65aa592ebe26ca8cec6cbf005dccf0731e552feaaee59ca000f3c3f55ac54"
+            },
+            "content_hash": "3852b8e35744198f9cd04cd53569a4bc9cb370e05742731b44ad92c4d341c0e9"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p3_4",
+            "unit_type": "text",
+            "content_raw": "Commercial Bank of Ethiopia",
+            "content_markdown": "Commercial Bank of Ethiopia",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:56:19.337457+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "a0777ac0d997365cfa7301abf59b2a4f80bc68364b7d7c0d3314c0caea0e45b1"
+            },
+            "content_hash": "e479a3f8b6f99d1e55a1d9dd4441cc2205a9affd9232f864a7a6a1964b9ca865"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p4_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Eo Contents\n\nKey Figures\n\nMessage of the President\n\nz.\n\naide\n\n2.35\n\n2.4,\n\n2.5.\n\nMacroeconomic Highlights\n\n1.1. Global Economy\n\n1.2 The Ethiopian Economy\n\nHighlights of the CBE\n\n2.1. Financial Position\n\n2.1.1 Net Interest Incame\n2.1.2 Net Interest Margin\n\n2.1.3 Non-Interest Income\n\n2.1.4 Total Expenses\n2.1.5 Operating Profit\n2.1.6 Earning Capacity\nBelance Sheet Analysis\n2.22 Asset Structure\n2.2.2 Loan Portfolio\n2.2.2 Liabilities\n\n2.2.4 Capital Adequacy\nInternational Banking\nHuman Resources\n\nBusiness Development\n\n10\n12\n12\n12\n13\n13\n13\n13\ni4\n14\n14\ni4\n15\n15\n\nis\n\n18\nig\n20\n\n20",
+            "content_markdown": "Eo Contents\n\nKey Figures\n\nMessage of the President\n\nz.\n\naide\n\n2.35\n\n2.4,\n\n2.5.\n\nMacroeconomic Highlights\n\n1.1. Global Economy\n\n1.2 The Ethiopian Economy\n\nHighlights of the CBE\n\n2.1. Financial Position\n\n2.1.1 Net Interest Incame\n2.1.2 Net Interest Margin\n\n2.1.3 Non-Interest Income\n\n2.1.4 Total Expenses\n2.1.5 Operating Profit\n2.1.6 Earning Capacity\nBelance Sheet Analysis\n2.22 Asset Structure\n2.2.2 Loan Portfolio\n2.2.2 Liabilities\n\n2.2.4 Capital Adequacy\nInternational Banking\nHuman Resources\n\nBusiness Development\n\n10\n12\n12\n12\n13\n13\n13\n13\ni4\n14\n14\ni4\n15\n15\n\nis\n\n18\nig\n20\n\n20",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 546.48,
+                "y2": 839.88
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 4,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:56:30.192151+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "6273f50d138538622578eceeb1c2d27d9b7c358fd3a869b0a73925e06c6d82d6"
+            },
+            "content_hash": "f89faf87eb320e35913dc7666e49cfa8e4b4f4a15c77431a2894d2ff88ecf071"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p5_ocr_1",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIOPLA\n\nCommercial Bank Of Ethiopia\n\nH.E Ato Bereket Simon\nBoard Chairman\n\nH.E Ato Abay Tsehaye\nBoard Member\n\nAto Fikru Dessalegn\nBoard Member\n\nDr. Wolday Amha\nBoard Member\n\nDr, Mesfin Belachew\nBoard Member",
+            "content_markdown": "COMMERCIAL BANK OF ETHIOPLA\n\nCommercial Bank Of Ethiopia\n\nH.E Ato Bereket Simon\nBoard Chairman\n\nH.E Ato Abay Tsehaye\nBoard Member\n\nAto Fikru Dessalegn\nBoard Member\n\nDr. Wolday Amha\nBoard Member\n\nDr, Mesfin Belachew\nBoard Member",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 566.64,
+                "y2": 839.16
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 5,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:56:39.441540+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "27c00b89bf082538af66665d7d79f256f3ec1ca5f28ee67ad2ecf7364dc5fbcb"
+            },
+            "content_hash": "44f8ac112ba21c75659ff45187ce57e53013774bc0d6dc083dff00f24e0e2a3b"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p6_ocr_1",
+            "unit_type": "text",
+            "content_raw": "ANNUAL REPORT 2011-12\n\nBoard of Directors\n\nAto Nebiyou Samuel\nBoard Member\n\nWzo. Genet Abera\nBoard Member\n\nAto Getachew Negera\nBoard Member\n\nAto Esayas Kebede\nBoard Member\n\nAto Alemayehu Hunde\nBoard Secretary",
+            "content_markdown": "ANNUAL REPORT 2011-12\n\nBoard of Directors\n\nAto Nebiyou Samuel\nBoard Member\n\nWzo. Genet Abera\nBoard Member\n\nAto Getachew Negera\nBoard Member\n\nAto Esayas Kebede\nBoard Member\n\nAto Alemayehu Hunde\nBoard Secretary",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 574.92,
+                "y2": 847.8
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 6,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:56:47.577068+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "58573dd7dc3e0042f4c536d4934e10afa999d2572480318cd9f7f5987b863b34"
+            },
+            "content_hash": "146f48c2154b5dccccd1c1adad13b1ba4afd20f0193c52eea42b06f446fcb142"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p7_ocr_1",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIOPIA\n\nCommercial Bank Of Ethiopia\n|\n\nAto Bekalu Zeleke\nPresident\n\nAto Deribe Asfaw\nCustomer Accounts and Ato Abay Mehari\n\nTransaction Services Credit Management\nVice President Vice President\n\nAto Yehuala Gessesse Ato Mohammed Nuredin\nCredil Appraisal and Portfolio Trade Services\nManagement Vice President Vice President\n\nWzo, Melika Bedri\n| Information Systems\nVice President",
+            "content_markdown": "COMMERCIAL BANK OF ETHIOPIA\n\nCommercial Bank Of Ethiopia\n|\n\nAto Bekalu Zeleke\nPresident\n\nAto Deribe Asfaw\nCustomer Accounts and Ato Abay Mehari\n\nTransaction Services Credit Management\nVice President Vice President\n\nAto Yehuala Gessesse Ato Mohammed Nuredin\nCredil Appraisal and Portfolio Trade Services\nManagement Vice President Vice President\n\nWzo, Melika Bedri\n| Information Systems\nVice President",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 558.0,
+                "y2": 835.2
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 7,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:56:55.294376+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "dc8adf5871fd0693e5e34d02b80073a659524b5776d5fdaf5e6d432bff08cdc8"
+            },
+            "content_hash": "0178a909bfe80637d34182e6c15878e76fb9a3979463fdd2cbc0f06460d5eb4b"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p8_ocr_1",
+            "unit_type": "text",
+            "content_raw": "ANNUAL REPORT 2011-12\n\nThe Process Council\n\nAto Endale Gebru\nFacilities Management\nVice President\n\nAto Belay Gorfu\nFinance Vice President\n\nAto Yishak Mengesha\nChief Business\nDevelopment Officer\n\nAto Solomon Alula\nChief Internal Auditor\n\nAto Seifu Bogale\nHuman Resource\nManagement Vice President\n\nAto Samuel Tadesse\nChief Officer - Legal and\nLoan Recovery\n\n| Ato Mulugeta Alemayehu\nChief Risk and Campliance\nOfficer\n\nWzo Meseret Asfaw\nDirector Office of\nStrategy Management",
+            "content_markdown": "ANNUAL REPORT 2011-12\n\nThe Process Council\n\nAto Endale Gebru\nFacilities Management\nVice President\n\nAto Belay Gorfu\nFinance Vice President\n\nAto Yishak Mengesha\nChief Business\nDevelopment Officer\n\nAto Solomon Alula\nChief Internal Auditor\n\nAto Seifu Bogale\nHuman Resource\nManagement Vice President\n\nAto Samuel Tadesse\nChief Officer - Legal and\nLoan Recovery\n\n| Ato Mulugeta Alemayehu\nChief Risk and Campliance\nOfficer\n\nWzo Meseret Asfaw\nDirector Office of\nStrategy Management",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 572.76,
+                "y2": 837.36
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 8,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:57:03.181960+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "a153320770eff868707c64170c6d53cb237545b2701097f02c7879f68b51c48b"
+            },
+            "content_hash": "d8084973a663e2c5ae459033c8520cdd39fadfcc8b61f7a6a0e095fffa189c25"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p9_1",
+            "unit_type": "header",
+            "content_raw": "Key Figures",
+            "content_markdown": "# Key Figures",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 9,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:57:23.705566+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "0992c6318f315f6be46eb38d839c88f2d75f129fb772bd01e1a6af496c1107c3"
+            },
+            "content_hash": "8ee9c4ecbd024c02bed4ce37ebe10028507cba4a6120aa61bd8a0eff2096e87f"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p9_2",
+            "unit_type": "table",
+            "content_raw": "{\"headers\": [\"Metric\", \"2012\", \"2011\"], \"rows\": [[\"Total Income\", \"11,573.80\", \"5,994.20\"], [\"Total Expense\", \"3,642.20\", \"2,756.10\"], [\"Profit Before Tax\", \"7,931.60\", \"4,238.10\"], [\"Interest Income\", \"6,703.40\", \"4,08.50\"], [\"Interest Expense\", \"1,676.40\", \"1,117.20\"], [\"Outstanding Loans and Advances (incl. bonds)\", \"122,992.60\", \"75,197.00\"], [\"Net Profit for the Year\", \"5,419.40\", \"2,862.50\"]]}",
+            "content_markdown": "| Metric                                         | 2012       | 2011       |\n|------------------------------------------------|------------|------------|\n| Total Income                                   | 11,573.80  | 5,994.20   |\n| Total Expense                                  | 3,642.20   | 2,756.10   |\n| Profit Before Tax                              | 7,931.60   | 4,238.10   |\n| Interest Income                                | 6,703.40   | 4,08.50    |\n| Interest Expense                               | 1,676.40   | 1,117.20   |\n| Outstanding Loans and Advances (incl. bonds)  | 122,992.60 | 75,197.00  |\n| Net Profit for the Year                        | 5,419.40   | 2,862.50   |",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 9,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:57:23.705945+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "b46c6d04c44297ec4be527966acea4e084f2a6a96c4824cf9cf0e7cfa0dba923"
+            },
+            "content_hash": "e098b489435f21af073470ccb5b20ded2d614c17fd7dc503c88d8b61dcef3853"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p10_1",
+            "unit_type": "header",
+            "content_raw": "ANNUAL REPORT 2011-12",
+            "content_markdown": "# ANNUAL REPORT 2011-12",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 10,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:57:46.564818+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "ddc96728d16c9214b0b4bd8c1ddf26d2b7a2e897e63c3956235dd88b0ab6e18b"
+            },
+            "content_hash": "f49db05eea892edd264e25d45ab951e614765ec610faf266385b2c75d8a8d2ca"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p10_2",
+            "unit_type": "table",
+            "content_raw": "{\"Liabilities\": {\"2012\": \"150,494.30\", \"2011\": \"108,003.60\"}, \"Total Deposits\": {\"2012\": \"120,115.60\", \"2011\": \"89,056.60\"}, \"Non-Interest Income\": {\"2012\": \"4,870.40\", \"2011\": \"2,212.70\"}, \"Non-Interest Expense\": {\"2012\": \"1,965.80\", \"2011\": \"1,638.90\"}, \"Total Assets\": {\"2012\": \"158,112.30\", \"2011\": \"14,265.10\"}, \"Capital and Reserve\": {\"2012\": \"7,618.00\", \"2011\": \"6,251.50\"}, \"Number of Employees\": {\"2012\": \"12,782\", \"2011\": \"10,753\"}, \"Number of Branches\": {\"2012\": \"547\", \"2011\": \"380\"}}",
+            "content_markdown": "| Category               | 2012        | 2011        |\n|------------------------|-------------|-------------|\n| Liabilities            | 150,494.30  | 108,003.60  |\n| Total Deposits         | 120,115.60  | 89,056.60   |\n| Non-Interest Income     | 4,870.40    | 2,212.70    |\n| Non-Interest Expense    | 1,965.80    | 1,638.90    |\n| Total Assets           | 158,112.30  | 14,265.10   |\n| Capital and Reserve    | 7,618.00    | 6,251.50    |\n| Number of Employees    | 12,782      | 10,753      |\n| Number of Branches     | 547         | 380         |",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 10,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:57:46.565111+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "5d39bb853d647ff8b62057bb8267e77e775d1ce9b1735ade4e592636883474a7"
+            },
+            "content_hash": "156be88376442c13ec2f02a27863be5578f416a8e997249ea87c65d3a8d7b32b"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p11_ocr_1",
+            "unit_type": "text",
+            "content_raw": "During the fiscal year 2011/12, the aross profit\nof che Commercial Bank of Ethiosia reached\nan-all-time high of 7.9 billion Birr. This s an\nunprecedented level of profit im CBE’s 70 years\nexistence.\n\nTne total income of the Bank was Birr 11.8\nbillion, up by Birr 4.5 billion (65.5%) when\ncompared with the performance of the previous\nyear. At the end of the fiscal year, the total\nassets of the Bank stood at Birr 158.1 billion,\nwhile the total deposit reached 120.1 billion\nBirt, thus reflecting a 34.9% growth over the\nPreceding year's deposit level.\n\nOn the other hand, the overall expense of\nthe Bank reached Birr 3.5 billion, showing\nan increase of 32.2%, mainly due ‘to the\nsubstantial increase in interest expense\nfollowed by salaries end benefits. Growth in\ngeneral expense was related to the expansion\nof CRF.\n\nThe Bank hes demonstrated its commitment ta\nreach large potential customers and the public\nby opening 167 additional branches across\nthe country in the fiscal year. The opening of\nthe branches enabled the Bank to increase jts\ncustomer base to about 3.9 milllon and scale\nup deposit mobilization efforts.",
+            "content_markdown": "During the fiscal year 2011/12, the aross profit\nof che Commercial Bank of Ethiosia reached\nan-all-time high of 7.9 billion Birr. This s an\nunprecedented level of profit im CBE’s 70 years\nexistence.\n\nTne total income of the Bank was Birr 11.8\nbillion, up by Birr 4.5 billion (65.5%) when\ncompared with the performance of the previous\nyear. At the end of the fiscal year, the total\nassets of the Bank stood at Birr 158.1 billion,\nwhile the total deposit reached 120.1 billion\nBirt, thus reflecting a 34.9% growth over the\nPreceding year's deposit level.\n\nOn the other hand, the overall expense of\nthe Bank reached Birr 3.5 billion, showing\nan increase of 32.2%, mainly due ‘to the\nsubstantial increase in interest expense\nfollowed by salaries end benefits. Growth in\ngeneral expense was related to the expansion\nof CRF.\n\nThe Bank hes demonstrated its commitment ta\nreach large potential customers and the public\nby opening 167 additional branches across\nthe country in the fiscal year. The opening of\nthe branches enabled the Bank to increase jts\ncustomer base to about 3.9 milllon and scale\nup deposit mobilization efforts.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 564.48,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 11,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:57:55.736443+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "b3119ad449f858bed23c0029b6b335950b9e71247fe08408d23fe547d3291935"
+            },
+            "content_hash": "fc3516a2ead30a1baf2cc94559d0b55d0fcb6037888193a3db276bda6f193e2b"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p12_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Achieving service excellence and high business\ngrowt are the key objectives of the Commercial\nBank of Ethiopia. To this end, the CBE has\nimplemented two major projects that are\nexpected to bring about transformation in its\nservice delivery and overall performance, These\nare Information Technology (17) amd Human\nResources Development (HRD) projects.\n\nCard banking and core banking solutions which\nare the components of the major IT projects have\nsuccessfully been implemented during the year\nunder review, The T-24 core banking system went\nlive on May 2, 2012 with a total of 37 modules\nand interfaces going operalional up until the clase\nof the fiscal yaar, and the subsequent rollout to\n105 branches. The CBE plans to expand the\ncore banking solutions to 145 more branches in\n2012/13; and the number of branches connected\nto the system will reach 250 by the end of the\nnext FY.\n\nThe Human Resources Development strategy\nhas been the other initiatve the bank has been\nimp'ementing since 2011, Follawing the agreement\nconcluded with the Frankfurt School of Finance\nard Management (FSFM) for the development\nof CBE's HRD strategy, the strategy cocument\nwas prepared and its implementation has been\n\nANNUAL REPORT 2011-12\n\nunderway in the fiscal year under review. First\nround developmental training was delivered to\nmanagement groups of the Bank based on the\ncompetency framewerk developed by the FSFM,\n\nBy and large, 2011/12 FY was a very Successful\nyear for CBE. As usual, customers who continued\nto prefer our services were the key drivers for the\nsuccesses registered during the year under review.\nI would, therefore, like to extend my deepest\nappreciation and gratitude to our esteemed\ncustomers.\n\nI would also like to take Lhis opportunity to\nsincerely thank the Board of Directors of the CBE\nfor the visionary leadership they provided, and\nthe employees of the Bank for their continued\ncommitment and decication.\n\nWith the continuing patronage of our esteemed\ncustomers and the cammitment of the staff, 1 am\nvery confident that we will have no difficulty in\nachieving far better results in the years to come.\n\nBEKALU ZELEKE\n\nPresident",
+            "content_markdown": "Achieving service excellence and high business\ngrowt are the key objectives of the Commercial\nBank of Ethiopia. To this end, the CBE has\nimplemented two major projects that are\nexpected to bring about transformation in its\nservice delivery and overall performance, These\nare Information Technology (17) amd Human\nResources Development (HRD) projects.\n\nCard banking and core banking solutions which\nare the components of the major IT projects have\nsuccessfully been implemented during the year\nunder review, The T-24 core banking system went\nlive on May 2, 2012 with a total of 37 modules\nand interfaces going operalional up until the clase\nof the fiscal yaar, and the subsequent rollout to\n105 branches. The CBE plans to expand the\ncore banking solutions to 145 more branches in\n2012/13; and the number of branches connected\nto the system will reach 250 by the end of the\nnext FY.\n\nThe Human Resources Development strategy\nhas been the other initiatve the bank has been\nimp'ementing since 2011, Follawing the agreement\nconcluded with the Frankfurt School of Finance\nard Management (FSFM) for the development\nof CBE's HRD strategy, the strategy cocument\nwas prepared and its implementation has been\n\nANNUAL REPORT 2011-12\n\nunderway in the fiscal year under review. First\nround developmental training was delivered to\nmanagement groups of the Bank based on the\ncompetency framewerk developed by the FSFM,\n\nBy and large, 2011/12 FY was a very Successful\nyear for CBE. As usual, customers who continued\nto prefer our services were the key drivers for the\nsuccesses registered during the year under review.\nI would, therefore, like to extend my deepest\nappreciation and gratitude to our esteemed\ncustomers.\n\nI would also like to take Lhis opportunity to\nsincerely thank the Board of Directors of the CBE\nfor the visionary leadership they provided, and\nthe employees of the Bank for their continued\ncommitment and decication.\n\nWith the continuing patronage of our esteemed\ncustomers and the cammitment of the staff, 1 am\nvery confident that we will have no difficulty in\nachieving far better results in the years to come.\n\nBEKALU ZELEKE\n\nPresident",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 609.84,
+                "y2": 840.96
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 12,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:58:07.954435+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "ec824586308c525e774359b61bdb9c8fc241374a8a0bea02a39167a9540a20de"
+            },
+            "content_hash": "bf1e0fb36235083c7d816d4615929a37e31634222f675b7d8e2943865e184be0"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p13_ocr_1",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIOPIA\n\nn=\n\n1.1\n\n1.2\n\ni2\n\nMacroeconomic Highlights\n\nGlobal Economy\n\nAccording to the World Economic\nOutlook (IMF, October 2012), with\nrecovery suffering new setbacks and\ngrowth projections macked down,\nworld economy has deteriorated\nfurther The key reason for this\nis the inability of the policies of\nthe major advanced economies to\nrebuild confidence in medium-term\nprospects. The global ‘economic\ngrowth thus remained subdued in\n2012, with most regions expanding\nat a pace below potential. The\nglobal economy grew at ebout\n3.3% in 2012, down from that of\n2011 which saw @ 3.8 % growth.\nThe erisis in Euro-area remains the\nmost obvious threat to the world\neconomy. Advanced economies\nwere projected tc grow by 1.3% in 2012, compared with 1.6% the preceding year and 3.0% in 2010.\nGrowth in emerging and developing countries also dropped slightly and was expected to reach 5.3%\nin 2012; against the recorded 6.2% In 2011.This low growth and uncertainty in advanced economies\nis affecting emerging markets and developing economies through bath trade and financial channels\non top of country-specific weaknesses,\n\nGrowth in volume of world trade was projected to slump to 3.2% in 2012 from 5.8 % in 2011. The\nprice of oil remained high in the global market and widely fluctuated owing to economic and political\nuncertainties linked with major suppliers. A weak global economic outlook suggested that the nonfuel\ncommodity orices are unlikely to improve.\n\nThe Ethiopian Economy\n\nIn 2011/12 FY, the overall economic growth of Ethiopia was 11%. Increased crop production of\nsmallholder farmers during the main harvest season, efforts to diversify towards irrigation, continued\nhigh investments including public investment in infrastructure and other large agro-processing\nprojects as well as foreign direct investment are the major drivers of the high growth performance\nof the ccanomy. Large public investments and supports to promote micro and small scale industries\nalso continued to be important sources of employment in the economy,\n\nEfforts to maintain macroeconomic stability through monetary policies, market interventions and\nincreased supply as well as distributions of basic commodities have contributed to recent improvement\nin inflation rate. A notable improvement in the domestic market is the significant fall in the price of\nconstruction materials such as iron and cement,\n\nOn the whole, despite some challenges, the Ethicpian economy has shown good performance with\npositive cifects on the performance of the financial sector in general and the Commercial Bank of\nEthiopia in particular.",
+            "content_markdown": "COMMERCIAL BANK OF ETHIOPIA\n\nn=\n\n1.1\n\n1.2\n\ni2\n\nMacroeconomic Highlights\n\nGlobal Economy\n\nAccording to the World Economic\nOutlook (IMF, October 2012), with\nrecovery suffering new setbacks and\ngrowth projections macked down,\nworld economy has deteriorated\nfurther The key reason for this\nis the inability of the policies of\nthe major advanced economies to\nrebuild confidence in medium-term\nprospects. The global ‘economic\ngrowth thus remained subdued in\n2012, with most regions expanding\nat a pace below potential. The\nglobal economy grew at ebout\n3.3% in 2012, down from that of\n2011 which saw @ 3.8 % growth.\nThe erisis in Euro-area remains the\nmost obvious threat to the world\neconomy. Advanced economies\nwere projected tc grow by 1.3% in 2012, compared with 1.6% the preceding year and 3.0% in 2010.\nGrowth in emerging and developing countries also dropped slightly and was expected to reach 5.3%\nin 2012; against the recorded 6.2% In 2011.This low growth and uncertainty in advanced economies\nis affecting emerging markets and developing economies through bath trade and financial channels\non top of country-specific weaknesses,\n\nGrowth in volume of world trade was projected to slump to 3.2% in 2012 from 5.8 % in 2011. The\nprice of oil remained high in the global market and widely fluctuated owing to economic and political\nuncertainties linked with major suppliers. A weak global economic outlook suggested that the nonfuel\ncommodity orices are unlikely to improve.\n\nThe Ethiopian Economy\n\nIn 2011/12 FY, the overall economic growth of Ethiopia was 11%. Increased crop production of\nsmallholder farmers during the main harvest season, efforts to diversify towards irrigation, continued\nhigh investments including public investment in infrastructure and other large agro-processing\nprojects as well as foreign direct investment are the major drivers of the high growth performance\nof the ccanomy. Large public investments and supports to promote micro and small scale industries\nalso continued to be important sources of employment in the economy,\n\nEfforts to maintain macroeconomic stability through monetary policies, market interventions and\nincreased supply as well as distributions of basic commodities have contributed to recent improvement\nin inflation rate. A notable improvement in the domestic market is the significant fall in the price of\nconstruction materials such as iron and cement,\n\nOn the whole, despite some challenges, the Ethicpian economy has shown good performance with\npositive cifects on the performance of the financial sector in general and the Commercial Bank of\nEthiopia in particular.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 567.72,
+                "y2": 837.36
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 13,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:58:28.796909+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "cd3870fdfe0394e23c1d3f00b42c22d674312e238be016198b4a8ac893eec7e3"
+            },
+            "content_hash": "b45da8a80f8e77aa1c60d4aa5ce3905748dcd2299bac5b392962de3bb17c3a3e"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p14_ocr_1",
+            "unit_type": "text",
+            "content_raw": "ANNUAL REPORT 2011-12\n\n2. Highlights of the CBE\n\n2.1. Financial Position\n2.1.1 Net Interest Income\n\nThe net interest income of the Bank rose to Birr 5.03 billion in 2011/12, up by 69.9%\nfrom the 2.96 billion Birr in 2010/11, mainly due to higher growth of interest income than\ninterest expense.\n\nThe aggregate interest income grew by 64.2% to Birr 6.7 billlon during the year in review,\nThis high growth was largely attributed to the increase in the overall disbursement of\nloans and advances. Interest expense also increased by Birr 0.56 billion owing to the large\nexpansion in the deposit base of the bank, including interest bearing deposits.\n\n2.1.2 Net Interest Margin\nThe net interest margin jumped from 4% in 2010/11 to 4.6% in the year being reviewed.\nNet Interest Income (Mn. Birr)\n\n2010/11 | % Change,\n\nInterest Income 6,703.40 — 4,081.50 64.2\nLoans and advances 3,607.80) 2,130.80 67.7\nGovernment bonds 27.70) 31.20 =11:2\nTreasury bills 0.50\n\nCoupon and corporate bonds 3,053.10 1,893.20 61.3)\nPlacement with other banks 14.80, 5.80) 155.2 |\nInterest expense 1,676.40 1117.20 | 50.1\nCustomers’ deposits 1,662.60 1,122 | 43,5\nDeposits from other banks 0.2 0.3 | i ere\nOther 13.6 4.7) | 189.4\nNet interest income 5,027.00 2,964.30 | | 69.6\n\n2.1.3.Non-Interest Income\n\nNon-interest income accounted for 42% of the total income. During the yeerunder review,\ntotal non-interest income was Birr 4.8 billion, depicting a 67.2 % increase over the orevious\nyear. This was mainly due to the surge in income from service charges. Consequently, non-\ninterest income continued to contribute considerably to the total income of the Bank\n\n13",
+            "content_markdown": "ANNUAL REPORT 2011-12\n\n2. Highlights of the CBE\n\n2.1. Financial Position\n2.1.1 Net Interest Income\n\nThe net interest income of the Bank rose to Birr 5.03 billion in 2011/12, up by 69.9%\nfrom the 2.96 billion Birr in 2010/11, mainly due to higher growth of interest income than\ninterest expense.\n\nThe aggregate interest income grew by 64.2% to Birr 6.7 billlon during the year in review,\nThis high growth was largely attributed to the increase in the overall disbursement of\nloans and advances. Interest expense also increased by Birr 0.56 billion owing to the large\nexpansion in the deposit base of the bank, including interest bearing deposits.\n\n2.1.2 Net Interest Margin\nThe net interest margin jumped from 4% in 2010/11 to 4.6% in the year being reviewed.\nNet Interest Income (Mn. Birr)\n\n2010/11 | % Change,\n\nInterest Income 6,703.40 — 4,081.50 64.2\nLoans and advances 3,607.80) 2,130.80 67.7\nGovernment bonds 27.70) 31.20 =11:2\nTreasury bills 0.50\n\nCoupon and corporate bonds 3,053.10 1,893.20 61.3)\nPlacement with other banks 14.80, 5.80) 155.2 |\nInterest expense 1,676.40 1117.20 | 50.1\nCustomers’ deposits 1,662.60 1,122 | 43,5\nDeposits from other banks 0.2 0.3 | i ere\nOther 13.6 4.7) | 189.4\nNet interest income 5,027.00 2,964.30 | | 69.6\n\n2.1.3.Non-Interest Income\n\nNon-interest income accounted for 42% of the total income. During the yeerunder review,\ntotal non-interest income was Birr 4.8 billion, depicting a 67.2 % increase over the orevious\nyear. This was mainly due to the surge in income from service charges. Consequently, non-\ninterest income continued to contribute considerably to the total income of the Bank\n\n13",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 586.8,
+                "y2": 849.96
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:58:39.163349+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "d1e0397283003de92d6b85e81c422e12f1ed4baa854c37786d4e78fa0c682bb1"
+            },
+            "content_hash": "c6daf0fc20a3ea56a9fd9f052d99958d146d35da597812cfbcab2efc3d99c1d3"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p15_ocr_1",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIOPIA\n\n14\n\n2.1.4.Total Expenses\n\n2.1.5.\n\n2.1.6\n\nThe zotal expenses of the Bank reached Birr 3.6 billion, showing a 32.2% growth compared\nwith the level in the preceding fiscal year. Interest expense which is linked to deposit base\nexpansion of the Bank made major contributions to the overall expenses growth during the\nyear under review.\n\nTrends in Expenssetin Mn ear\n\n3000. -\n2500 |\n\n20b0 4\n\nTh Mn Blir\n\nTedd: 4\n\neng 0o 200s\" 10 2010/11 2011/12\n\nYaar\n\nMeo interes: mb Loieresc Exponszs:\n\nOperating Profit\n\nThe total income of the Bank for 2011/12 stood at Birr 11.6 billion, registering a growth o\n65.5% compared with Birr 4.99 billion in the preceding year. This wes mainly explained\nthe remarkable growth in interest and non-interest incomes. The total expenses of the Bank\non the ather hand, went up from Birr 2.75 billion in 2010/11 to Birr 3.6 billion in 2011/12\nlargely due to the 50.1% increase In Interest expenses. The operating profit of the Bank ha:\nsuccessively increased over the years to reach Birr 7.9 billion In 2011/12, This ts a big jum|\n(87.1%) compared with the preceding fiscal year. The net profit of the Bank stood at abou\nBirr 5.4 billida In 2011/12 FY, showing 89.3% growth against the previous fiscal year\n\nProfit Before Tax(Mn, Birr)\nso | 7\n7000 4 i \\\n5000 -\n5000 + Esa\n400d ran\noo) Ee Ea\n2000 c\no a\n2008/09 2009/10 2010/11 2011/12\nYear\n\nEarning Capacity\n\nReturn on Assets (RoA} increased from 4.4% in 2010/11 to 5.8% in 2011/12, indicating\nlarge and continued improvement on asset utilization of the Bank, Return on Equity (RoE\non the other hand, increased fram 71.9% in 2010/11 to 114 % in 2011/12. The high lev\naf RoA and RoE explain the continued robustness of the Bank in its profitaSility.",
+            "content_markdown": "COMMERCIAL BANK OF ETHIOPIA\n\n14\n\n2.1.4.Total Expenses\n\n2.1.5.\n\n2.1.6\n\nThe zotal expenses of the Bank reached Birr 3.6 billion, showing a 32.2% growth compared\nwith the level in the preceding fiscal year. Interest expense which is linked to deposit base\nexpansion of the Bank made major contributions to the overall expenses growth during the\nyear under review.\n\nTrends in Expenssetin Mn ear\n\n3000. -\n2500 |\n\n20b0 4\n\nTh Mn Blir\n\nTedd: 4\n\neng 0o 200s\" 10 2010/11 2011/12\n\nYaar\n\nMeo interes: mb Loieresc Exponszs:\n\nOperating Profit\n\nThe total income of the Bank for 2011/12 stood at Birr 11.6 billion, registering a growth o\n65.5% compared with Birr 4.99 billion in the preceding year. This wes mainly explained\nthe remarkable growth in interest and non-interest incomes. The total expenses of the Bank\non the ather hand, went up from Birr 2.75 billion in 2010/11 to Birr 3.6 billion in 2011/12\nlargely due to the 50.1% increase In Interest expenses. The operating profit of the Bank ha:\nsuccessively increased over the years to reach Birr 7.9 billion In 2011/12, This ts a big jum|\n(87.1%) compared with the preceding fiscal year. The net profit of the Bank stood at abou\nBirr 5.4 billida In 2011/12 FY, showing 89.3% growth against the previous fiscal year\n\nProfit Before Tax(Mn, Birr)\nso | 7\n7000 4 i \\\n5000 -\n5000 + Esa\n400d ran\noo) Ee Ea\n2000 c\no a\n2008/09 2009/10 2010/11 2011/12\nYear\n\nEarning Capacity\n\nReturn on Assets (RoA} increased from 4.4% in 2010/11 to 5.8% in 2011/12, indicating\nlarge and continued improvement on asset utilization of the Bank, Return on Equity (RoE\non the other hand, increased fram 71.9% in 2010/11 to 114 % in 2011/12. The high lev\naf RoA and RoE explain the continued robustness of the Bank in its profitaSility.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 563.4,
+                "y2": 843.48
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 15,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:58:49.827514+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "1260c02d007da61adde4e725e36cdf0da0c6cfec7c8dd0dd93123d3ffc14aa51"
+            },
+            "content_hash": "9613b5f3aa83711ec2a4162047e568233b515ca34990b8bfcca13c24b5779e94"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p16_ocr_1",
+            "unit_type": "text",
+            "content_raw": "ANNUAL REPORT 2011-12\n\nReturn on Equity(% Return on Assets(%)\n\n|\nun\nOt\n\n4.6 4g\n\n60\n719\n3.8\n\n40 53 51\n\noF Nw Wom sd\n\n(a) T T 1 “| I |\n\n2008/09 ZONS/1D 2010/11 2011/12 2008/09 2009/10 2010/11 2011/12\n\n2.2. Balance Sheet Analysis\n\n2.2.1 Asset Structure\n\nThe total asset of the Bank yrew by 38.4%, and reached Birr 158.1 billion during the fiscal\nyear under review. The major account categories that pushed the asset balance up were\nloan and advance to customers, investments, other assets, ard property end equipment.\n\nMoreover, the asset quality of the Bank .a5 shown successive improvements over recent\nyears. The Non-Performing Loans (NPLs) ratio shrank to 0.61%, mainly as a result of\nthe reduction of NPLs stock and to some extent due to increased level of outstanding\nloans. The continued high domestic economic performance has notably led to a General\nimprovement in the jaan repayment capacities of customers.\n\n2.2.2 Loan Portfolio\n\nAt the end of the fiscal year, the total outstanding loans and advances of the Bank (including\nbonds} rose by 62.9%, reaching 123 billion Birr. Qutstanding loans to customers q-ew by\nabout 71%,\n\nOutstanding Loans and Advances by Sector (Mn. Birr)\n\n2010/11|| % Change!\n\nLoans to customers* 56,465.40 33,092.60 70.63\n“Agriculture 13,551.80 7,836.30 72.93)\nManufacturing 16,673.70 6,567.80 117.44\nDomestic trade 5,310.30 3,393.60 56.48)\nForeign trade 14,949.20 10,345.80 44.50)\nBuilding and Construction 4,635.50 3,481.60 | 33.14|\nPersonal Loan 719.10 328.90 118.64)\nLoans to banks( Financial Institutions) 487,70 243,30 cana\nReceivables-EGTE 3,987.10 1,763.00 126.15\nBonds(Coupan &Corporate) 62,052.40 40,397.70 53.60)\nTotal outstanding loans |222,992.60) 75,496.60 | 62.91)\n\n*Net of provision for impairment losses",
+            "content_markdown": "ANNUAL REPORT 2011-12\n\nReturn on Equity(% Return on Assets(%)\n\n|\nun\nOt\n\n4.6 4g\n\n60\n719\n3.8\n\n40 53 51\n\noF Nw Wom sd\n\n(a) T T 1 “| I |\n\n2008/09 ZONS/1D 2010/11 2011/12 2008/09 2009/10 2010/11 2011/12\n\n2.2. Balance Sheet Analysis\n\n2.2.1 Asset Structure\n\nThe total asset of the Bank yrew by 38.4%, and reached Birr 158.1 billion during the fiscal\nyear under review. The major account categories that pushed the asset balance up were\nloan and advance to customers, investments, other assets, ard property end equipment.\n\nMoreover, the asset quality of the Bank .a5 shown successive improvements over recent\nyears. The Non-Performing Loans (NPLs) ratio shrank to 0.61%, mainly as a result of\nthe reduction of NPLs stock and to some extent due to increased level of outstanding\nloans. The continued high domestic economic performance has notably led to a General\nimprovement in the jaan repayment capacities of customers.\n\n2.2.2 Loan Portfolio\n\nAt the end of the fiscal year, the total outstanding loans and advances of the Bank (including\nbonds} rose by 62.9%, reaching 123 billion Birr. Qutstanding loans to customers q-ew by\nabout 71%,\n\nOutstanding Loans and Advances by Sector (Mn. Birr)\n\n2010/11|| % Change!\n\nLoans to customers* 56,465.40 33,092.60 70.63\n“Agriculture 13,551.80 7,836.30 72.93)\nManufacturing 16,673.70 6,567.80 117.44\nDomestic trade 5,310.30 3,393.60 56.48)\nForeign trade 14,949.20 10,345.80 44.50)\nBuilding and Construction 4,635.50 3,481.60 | 33.14|\nPersonal Loan 719.10 328.90 118.64)\nLoans to banks( Financial Institutions) 487,70 243,30 cana\nReceivables-EGTE 3,987.10 1,763.00 126.15\nBonds(Coupan &Corporate) 62,052.40 40,397.70 53.60)\nTotal outstanding loans |222,992.60) 75,496.60 | 62.91)\n\n*Net of provision for impairment losses",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 571.68,
+                "y2": 839.16
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 16,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:59:00.672120+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "db9dd40336f1a69311d547ab90e9b691055f79cc82391d243aaf29802a75a9d1"
+            },
+            "content_hash": "7e488336217ef08dbd5a899b24251f1ce8a51aaeaaf067eb23298b546e6c3e62"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p17_ocr_1",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIOPIA\n\nThe CBE plays its role in the development of the agriculture Sector\n\nCourtesy of Lush Adriguilure development PLC\n\nThe amaunt of fresh loans disbursed ta the various econamic sectors during the reporting\nyear was Birr 60.9 billion. This constituted an \\ncrease of 61.4% when compared with the\nlevel in the prececing year.\n\nTrends in Loans Disbursement (Mn. Birr)\n\n2011/1 2010/11 | % Change\nLoans and Bonds Disbursement 55,441.00 35,947,| 54.23\nLoans 31,940.00 17,780 73.64\nBonds 23,501.00 18,167 29.36\nPre-shipments(Net Increase) - 2,170.00\nReceivable-EGTE 3,263.00 1,763 85.08\nTotal disbursements 50,874.00 37,710 61.43\n\nThe total loan collection, on the other hand, reached Birr 20.5 billion, Showing an increase\nof 16.6% over the precedine fiscal year. This increase was attributed mainly to the large\nloan collections from disbursements effected during the year under review,\n\n16",
+            "content_markdown": "COMMERCIAL BANK OF ETHIOPIA\n\nThe CBE plays its role in the development of the agriculture Sector\n\nCourtesy of Lush Adriguilure development PLC\n\nThe amaunt of fresh loans disbursed ta the various econamic sectors during the reporting\nyear was Birr 60.9 billion. This constituted an \\ncrease of 61.4% when compared with the\nlevel in the prececing year.\n\nTrends in Loans Disbursement (Mn. Birr)\n\n2011/1 2010/11 | % Change\nLoans and Bonds Disbursement 55,441.00 35,947,| 54.23\nLoans 31,940.00 17,780 73.64\nBonds 23,501.00 18,167 29.36\nPre-shipments(Net Increase) - 2,170.00\nReceivable-EGTE 3,263.00 1,763 85.08\nTotal disbursements 50,874.00 37,710 61.43\n\nThe total loan collection, on the other hand, reached Birr 20.5 billion, Showing an increase\nof 16.6% over the precedine fiscal year. This increase was attributed mainly to the large\nloan collections from disbursements effected during the year under review,\n\n16",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 577.8,
+                "y2": 837.36
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 17,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:59:12.778733+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "16f10266326f09b0479a8e852f8ff4c958b5d47e9ee16690ed636a080c856d23"
+            },
+            "content_hash": "e948038414dd5fe19c833df51666640d0ce2056f5ba53cf31712efd51e09eec8"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p18_ocr_1",
+            "unit_type": "text",
+            "content_raw": "ANNUAL REPORT 2011-12\n\n2.2.3\n\nTrends in Loans Callection (Mn. Birr)\n\n2010/11) % Change\n\nTerm loan collection | 14,643 | | 10,156 44,2\nBonds collection 4,822) 7,424 -35.0\nDBE and Housing 2,855) |\n\nEEPCO 1,682,\n\nGovernment Bonds 285 |\n\nSub-total 19,465) 17,580 | ais\n' Receivables-EGTE 1040) 0\n\nTotal loans collection |e 20,505) | 17,580 | | 16.6\nLiabilities\n\nThe total liabilities of the Bank exceeded that of the orevious year by 39.3%, reaching Birr\n150.4 billion during the year under review. The opening of 167 braiches to mobilize deposits\nacross the country, coupled with the favorable husinass enviranment, has helped the Bank\nto command @ large deposit base. During 2011/12, the Bank's total deposit reached Birr\n\ni7",
+            "content_markdown": "ANNUAL REPORT 2011-12\n\n2.2.3\n\nTrends in Loans Callection (Mn. Birr)\n\n2010/11) % Change\n\nTerm loan collection | 14,643 | | 10,156 44,2\nBonds collection 4,822) 7,424 -35.0\nDBE and Housing 2,855) |\n\nEEPCO 1,682,\n\nGovernment Bonds 285 |\n\nSub-total 19,465) 17,580 | ais\n' Receivables-EGTE 1040) 0\n\nTotal loans collection |e 20,505) | 17,580 | | 16.6\nLiabilities\n\nThe total liabilities of the Bank exceeded that of the orevious year by 39.3%, reaching Birr\n150.4 billion during the year under review. The opening of 167 braiches to mobilize deposits\nacross the country, coupled with the favorable husinass enviranment, has helped the Bank\nto command @ large deposit base. During 2011/12, the Bank's total deposit reached Birr\n\ni7",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 568.8,
+                "y2": 839.88
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 18,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:59:22.403631+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "908b1b46b1a81df64a2ccf4b17f9176ebd4c9c1a2d9623674ef476ec295de827"
+            },
+            "content_hash": "e10c9283ded0a78d32c264a0ef3eae8bd5eb5618f4394e8a8e904e26b87f2e9f"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p19_ocr_1",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIOPIA\n\n(==\n\nis\n\n2.2.4\n\nCourtesy oF GUN’ TRADING HOUSE PLE\n\n120.1 billion, registering a growth of 34.9% compared with that of the preceding year. This\nlevel of deposit was tne highest in the Bank's aistory.\n\nDemand deposits increased by 34% when compared with the level in the preceding fiscal\nYear, Similarly, savings deposit grew by 35.1%) to reach Birr 42.1 billion, and fixed time\ndeposit by 42.6% to reach Birr 7.4 billion. The ratio of demand deposits to total deposit\nstood at 58.8%, slightly lawer than the 59.2% level in the previous year. On the other\nhand, the share of savinys and fixed time deposit were 35% and 6.2%, respectively.\n\nDeposit at Year-end (Mn. Birr}\n\n2000/92) 2010/1 1 “Growth (%).\nDemand Deposit 70,618.80) | 34.01\nSavings Deposit 42,087.00) 31,163.20 | 35.05}\nFixed Time Deposit 7,409.80) 5,196.10 | 42.60\nTotal Deposit 120,115.60) ee 89,056.60) 34.88\n\nCapital Adequacy\n\nCBE's capital end reserve increasec from Birr 6.3 billion in 2010/11 to Birr 7.6 billion in\n2011/12. The risk weighted capital adequacy ratio stood at 9.68%, somewhat lower than\nthe previous year but still well abave the 8% minimum requirement. The growth in capital\nand reserve further reflected the Bank’s continued financial strength.",
+            "content_markdown": "COMMERCIAL BANK OF ETHIOPIA\n\n(==\n\nis\n\n2.2.4\n\nCourtesy oF GUN’ TRADING HOUSE PLE\n\n120.1 billion, registering a growth of 34.9% compared with that of the preceding year. This\nlevel of deposit was tne highest in the Bank's aistory.\n\nDemand deposits increased by 34% when compared with the level in the preceding fiscal\nYear, Similarly, savings deposit grew by 35.1%) to reach Birr 42.1 billion, and fixed time\ndeposit by 42.6% to reach Birr 7.4 billion. The ratio of demand deposits to total deposit\nstood at 58.8%, slightly lawer than the 59.2% level in the previous year. On the other\nhand, the share of savinys and fixed time deposit were 35% and 6.2%, respectively.\n\nDeposit at Year-end (Mn. Birr}\n\n2000/92) 2010/1 1 “Growth (%).\nDemand Deposit 70,618.80) | 34.01\nSavings Deposit 42,087.00) 31,163.20 | 35.05}\nFixed Time Deposit 7,409.80) 5,196.10 | 42.60\nTotal Deposit 120,115.60) ee 89,056.60) 34.88\n\nCapital Adequacy\n\nCBE's capital end reserve increasec from Birr 6.3 billion in 2010/11 to Birr 7.6 billion in\n2011/12. The risk weighted capital adequacy ratio stood at 9.68%, somewhat lower than\nthe previous year but still well abave the 8% minimum requirement. The growth in capital\nand reserve further reflected the Bank’s continued financial strength.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 577.8,
+                "y2": 835.2
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 19,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:59:34.446791+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "d1b7b7897d84c3e5d273afaa884a9c61569061f165d65168770074a73b8f635b"
+            },
+            "content_hash": "e4f702649655009f77442ae1fbcd98ea3ca1e741452bb25d7e840cbbeeedeed2"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p20_ocr_1",
+            "unit_type": "text",
+            "content_raw": "ANNUAL REPORT 2011-12\n\nThe CBE gives priority to support the manufacturing Sector\n\nConrlasy of Ethiopian Sugar Corparation\n\n2.3. International Banking\n\nThe CBE has continued to earn significant income and profit fram its foreign banking operations\nas a result of its healthy and long lasting business relationship with many prominent banks\naround the world. The averall income earned from foreign banking operations stood at Birr 3.9\nbillion, surpassing the level recorded in the preceding year.\n\nIncome from Foreign Ganking Operations[ Mn Birr}\n\n4500\n\n3048\n4000\n3500\n3000\n| ge: Commision Income\n\n2500 2246\n: 7061\n2000 1887 Other Income\nalt ® Total income foreign\n1000\n427\nsou\no |\n\n2010/11 2011/12\n\nLo",
+            "content_markdown": "ANNUAL REPORT 2011-12\n\nThe CBE gives priority to support the manufacturing Sector\n\nConrlasy of Ethiopian Sugar Corparation\n\n2.3. International Banking\n\nThe CBE has continued to earn significant income and profit fram its foreign banking operations\nas a result of its healthy and long lasting business relationship with many prominent banks\naround the world. The averall income earned from foreign banking operations stood at Birr 3.9\nbillion, surpassing the level recorded in the preceding year.\n\nIncome from Foreign Ganking Operations[ Mn Birr}\n\n4500\n\n3048\n4000\n3500\n3000\n| ge: Commision Income\n\n2500 2246\n: 7061\n2000 1887 Other Income\nalt ® Total income foreign\n1000\n427\nsou\no |\n\n2010/11 2011/12\n\nLo",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 569.88,
+                "y2": 835.92
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 20,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:59:43.544134+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "01265c0dbd0757eee42fccdc81560e841487c711568692c8031164a6bd7b8f98"
+            },
+            "content_hash": "8bfcc60e3247ae52c70f699eba29206b1a18f648c3da6c5a94399c0a990ed498"
+        },
+        {
+            "uid": "CBE Annual Report 2011-12_p21_ocr_1",
+            "unit_type": "text",
+            "content_raw": "COMMERCIAL BANK OF ETHIGPIA\n\n20\n\nCompared with the preceding year, the import letters of credit opened and settled during the\nreporting year went up by 2.4% and 109.2%, respectively, Gn the other hand, the value of export\ndocuments negotiated cn a collection basis grew by 72.23%, while export documents negotiated\nat sight dropped by 4.2%, The value of guarantees issuec plummeted to 93.5% during the year\nunder review,\n\nSelected Performance Indices of the Foreign Banking Operations (Mn. Birr)\n\nParticulars\n2010/11|| % Change\nImport LiC Opened 35,238 34,413 2.40\nImport L/C Settled 55,020 26,299 109.21\nExporl Doc. Negot. on Collection 3,541 2,056) | Ht Ree 3\nExport L/C Negot. at Sight 8,889 G75 -4.16)}\nBC-Received 4,414 3,930 12.32)\nIBC-Settled 14,851 3,786 Boze)\nGuarantees Issued 560 8,553 -03.45.\nTotal 122,513 102/926 19.03)\nHuman Resotirces\nCognizant of the fact that strengthening of the human resources is ceatral to organizational\nsuccess, CBE concluded an agreement for the development of its human resources\n\n2.5.\n\ndevelopment strategy with the Frankfurt School of Finance and Management on January 1,\n2011, The strategy document was prepared as per the agreed schedule and approved by the\nBoard of Directors. Implementation continued in the year under review, during which tre\nconsultent developed detailed competency gaps on the basis of which training curriculum\nhave been developed.\n\nIn addition, the Bank provided various on-the-job and off-the-job training end recruitec\naddilional new employees and trained them. Accordingly, a total of 9.705 employees were\noffered with various training programs and specia emphasis was given on recruiting qualified\nprofessionals, In the reporting period, it recruited 2,511 permanent employees, raising the\nworkforce of CBE ta 12,787 hy the end of the FY. It also retained the existing staff through\ndevising different incentives and benefit packages,\n\nBusiness Development\n\nThe 2011/12 financial year saw the opening of additional 167 branches, bringing the Bank's\nbranch network to 547, Many of the existing branches also expanded their services by opening\nadditional windows, Consequently, the customer base grew significantly, reaching 3.9 million\nat the end of June 2011/12. In addition, 50 ATMs were installed at the end of June 2011 in\nthe major city branches, hotels, airport and commercial centers in Addis Ababa, providing\n24/7 services for both damestic end VISA/ATM card holders,\n\nApart from increased accessibility, impressive progress was also registered with respect to the\nimplementation of IT projects such as card banking and integrated core banking solutions,\nand the installation of infrastructure during the fiscal year. The piloting of mobile top up and\nbill payment Services has been launched ard cammercialization of mobile top upis underway.",
+            "content_markdown": "COMMERCIAL BANK OF ETHIGPIA\n\n20\n\nCompared with the preceding year, the import letters of credit opened and settled during the\nreporting year went up by 2.4% and 109.2%, respectively, Gn the other hand, the value of export\ndocuments negotiated cn a collection basis grew by 72.23%, while export documents negotiated\nat sight dropped by 4.2%, The value of guarantees issuec plummeted to 93.5% during the year\nunder review,\n\nSelected Performance Indices of the Foreign Banking Operations (Mn. Birr)\n\nParticulars\n2010/11|| % Change\nImport LiC Opened 35,238 34,413 2.40\nImport L/C Settled 55,020 26,299 109.21\nExporl Doc. Negot. on Collection 3,541 2,056) | Ht Ree 3\nExport L/C Negot. at Sight 8,889 G75 -4.16)}\nBC-Received 4,414 3,930 12.32)\nIBC-Settled 14,851 3,786 Boze)\nGuarantees Issued 560 8,553 -03.45.\nTotal 122,513 102/926 19.03)\nHuman Resotirces\nCognizant of the fact that strengthening of the human resources is ceatral to organizational\nsuccess, CBE concluded an agreement for the development of its human resources\n\n2.5.\n\ndevelopment strategy with the Frankfurt School of Finance and Management on January 1,\n2011, The strategy document was prepared as per the agreed schedule and approved by the\nBoard of Directors. Implementation continued in the year under review, during which tre\nconsultent developed detailed competency gaps on the basis of which training curriculum\nhave been developed.\n\nIn addition, the Bank provided various on-the-job and off-the-job training end recruitec\naddilional new employees and trained them. Accordingly, a total of 9.705 employees were\noffered with various training programs and specia emphasis was given on recruiting qualified\nprofessionals, In the reporting period, it recruited 2,511 permanent employees, raising the\nworkforce of CBE ta 12,787 hy the end of the FY. It also retained the existing staff through\ndevising different incentives and benefit packages,\n\nBusiness Development\n\nThe 2011/12 financial year saw the opening of additional 167 branches, bringing the Bank's\nbranch network to 547, Many of the existing branches also expanded their services by opening\nadditional windows, Consequently, the customer base grew significantly, reaching 3.9 million\nat the end of June 2011/12. In addition, 50 ATMs were installed at the end of June 2011 in\nthe major city branches, hotels, airport and commercial centers in Addis Ababa, providing\n24/7 services for both damestic end VISA/ATM card holders,\n\nApart from increased accessibility, impressive progress was also registered with respect to the\nimplementation of IT projects such as card banking and integrated core banking solutions,\nand the installation of infrastructure during the fiscal year. The piloting of mobile top up and\nbill payment Services has been launched ard cammercialization of mobile top upis underway.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 576.0,
+                "y2": 837.36
+            },
+            "provenance": {
+                "source_file": "CBE Annual Report 2011-12.pdf",
+                "page_number": 21,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:59:58.841265+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "2dfa03a4f8b57b62cfa1a105e1deb06d314af4571efbb4c612899a360f805066"
+            },
+            "content_hash": "b7b89891181a4869757f0783043d55056a968d751e6397af2bbdaf094aba8371"
+        }
+    ],
+    "page_index": []
+}

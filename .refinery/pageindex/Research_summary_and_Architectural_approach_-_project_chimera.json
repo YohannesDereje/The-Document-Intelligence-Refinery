@@ -1,0 +1,154 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 1.0,
+    "y2": 1.0
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 3,
+    "total_pages_covered": 7,
+    "min_page": 1,
+    "max_page": 7
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "1-executive-summary",
+      "node_type": "section",
+      "title": "1. Executive Summary",
+      "summary": "Project Chimera introduces a Neuro-Symbolic-Causal architecture to address the creative supply chain failure by establishing a high-governance node for autonomous influencer agents, ensuring provable safety and economic agency through Agentic Commerce and social protocols such as Proof-of-Intent manifests.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 7,
+        "chunk_count": 2,
+        "summary": "Project Chimera introduces a Neuro-Symbolic-Causal architecture to address the creative supply chain failure by establishing a high-governance node for autonomous influencer agents, ensuring provable safety and economic agency through Agentic Commerce and social protocols such as Proof-of-Intent manifests.",
+        "total_pages_covered": 7
+      },
+      "chunk_hashes": [
+        "280af1a904d2b13c7683febb8c0603a2c5164a705b271f8e670c724ca482ff55",
+        "82e093446125a0347ed86a9899e2e8ddbc928eaaccf18045a396b5c1856e73f4"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/280af1a904d2b13c",
+          "node_type": "chunk",
+          "title": "Chunk 280af1a9",
+          "summary": "",
+          "metadata": {
+            "content_hash": "280af1a904d2b13c7683febb8c0603a2c5164a705b271f8e670c724ca482ff55",
+            "token_count": 421,
+            "page_numbers": [
+              1,
+              2,
+              3
+            ],
+            "section_context": "1. Executive Summary"
+          },
+          "chunk_hashes": [
+            "280af1a904d2b13c7683febb8c0603a2c5164a705b271f8e670c724ca482ff55"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 3,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/82e093446125a034",
+          "node_type": "chunk",
+          "title": "Chunk 82e09344",
+          "summary": "",
+          "metadata": {
+            "content_hash": "82e093446125a0347ed86a9899e2e8ddbc928eaaccf18045a396b5c1856e73f4",
+            "token_count": 842,
+            "page_numbers": [
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "section_context": "1. Executive Summary"
+          },
+          "chunk_hashes": [
+            "82e093446125a0347ed86a9899e2e8ddbc928eaaccf18045a396b5c1856e73f4"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "Project Chimera adopts a Specification-First methodology and utilizes a multi-tier model routing strategy, incorporating components like Gemini 3 Flash and Claude Opus 4.5, to optimize agent capabilities and integrate with the OpenClaw ecosystem as a High-Governance Node.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 1,
+        "chunk_count": 1,
+        "summary": "Project Chimera adopts a Specification-First methodology and utilizes a multi-tier model routing strategy, incorporating components like Gemini 3 Flash and Claude Opus 4.5, to optimize agent capabilities and integrate with the OpenClaw ecosystem as a High-Governance Node.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "879bc73e187253f4a4d76c8622372b705aa4763cf9ddea1c442297f1e7ef8f07"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/879bc73e187253f4",
+          "node_type": "chunk",
+          "title": "Chunk 879bc73e",
+          "summary": "",
+          "metadata": {
+            "content_hash": "879bc73e187253f4a4d76c8622372b705aa4763cf9ddea1c442297f1e7ef8f07",
+            "token_count": 158,
+            "page_numbers": [
+              1
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "879bc73e187253f4a4d76c8622372b705aa4763cf9ddea1c442297f1e7ef8f07"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

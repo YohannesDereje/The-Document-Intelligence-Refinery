@@ -1,7 +1,11 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
+from datetime import datetime, timezone
+import json
+import os
 from pathlib import Path
+import threading
 from typing import Any, Iterable, List
 
 import pdfplumber
@@ -51,6 +55,7 @@ class TriageAgent:
     def __init__(
         self,
         rules_path: str | Path = "rubric/extraction_rules.yaml",
+        max_pages_per_doc: int | None = None,
         domain_strategies: Iterable[BaseDomainStrategy] | None = None,
     ) -> None:
         self.rules_path = Path(rules_path)
@@ -69,6 +74,7 @@ class TriageAgent:
         self.contradictory_image_ratio_threshold = float(
             self.config_loader.get("thresholds.contradictory_image_ratio_threshold", 0.30)
         )
+        self.max_pages_per_doc = int(max_pages_per_doc) if max_pages_per_doc is not None else None
 
         self.domain_registry: list[dict[str, Any]] = list(self.config_loader.get("domain_registry", []))
         self.cost_tier_to_model: dict[str, str] = dict(
@@ -82,6 +88,27 @@ class TriageAgent:
                 MetadataDomainStrategy(self.domain_registry),
             ]
         )
+
+        project_root = Path(__file__).resolve().parents[2]
+        self.ledger_path = project_root / ".refinery" / "extraction_ledger.jsonl"
+        self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
+        self._ledger_lock = threading.Lock()
+
+    def _log_to_ledger(self, entry: dict[str, Any]) -> None:
+        self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
+        line = json.dumps(entry, ensure_ascii=True)
+
+        with self._ledger_lock:
+            with self.ledger_path.open("a", encoding="utf-8") as ledger_file:
+                ledger_file.write(line)
+                ledger_file.write("\n")
+                ledger_file.flush()
+                os.fsync(ledger_file.fileno())
+
+        event_name = str(entry.get("event_type", "triage_event"))
+        file_name = str(entry.get("file_name", ""))
+        page_number = int(entry.get("page_number", 0) or 0)
+        print(f"[LEDGER] committed event={event_name} file={file_name} page={page_number}")
 
     @staticmethod
     def _build_condition_from_when(when: dict[str, Any]) -> str:
@@ -274,16 +301,31 @@ class TriageAgent:
         if not pdf_path.exists() or pdf_path.suffix.lower() != ".pdf":
             raise ValueError(f"Invalid PDF file path: {pdf_path}")
 
+        triage_started_at = datetime.now(timezone.utc).isoformat()
         page_profiles: list[PageProfile] = []
         page_metrics: list[dict[str, Any]] = []
+        page_decisions: list[dict[str, Any]] = []
         document_text_parts: list[str] = []
         self.last_page_reasons: dict[int, str] = {}
 
         with pdfplumber.open(pdf_path) as pdf:
             metadata = pdf.metadata or {}
             form_fillable = self._detect_form_fillable(pdf)
+            total_pages = len(pdf.pages)
+            pages_to_process = pdf.pages[: self.max_pages_per_doc] if self.max_pages_per_doc else pdf.pages
 
-            for page_number, page in enumerate(pdf.pages, start=1):
+            self._log_to_ledger(
+                {
+                    "event_type": "triage_start",
+                    "file_name": pdf_path.name,
+                    "page_number": 0,
+                    "started_at": triage_started_at,
+                    "total_pages_target": len(pages_to_process),
+                    "source_total_pages": total_pages,
+                }
+            )
+
+            for page_number, page in enumerate(pages_to_process, start=1):
                 text = page.extract_text() or ""
                 document_text_parts.append(text)
 
@@ -331,6 +373,13 @@ class TriageAgent:
                         "rect_count": rect_count,
                     }
                 )
+                page_decisions.append(
+                    {
+                        "page_number": page_number,
+                        "strategy_selected": selected_action,
+                        "reason": selected_reason,
+                    }
+                )
 
         full_text = "\n".join(document_text_parts)
         domain_hint = self._resolve_domain_hint(full_text, metadata)
@@ -365,6 +414,38 @@ class TriageAgent:
         normalized_origin_type = "scanned_image" if overall_origin == "scanned" else overall_origin
         if mixed_mode:
             normalized_origin_type = "hybrid"
+
+        for decision in page_decisions:
+            self._log_to_ledger(
+                {
+                    "event_type": "triage_decision",
+                    "file_name": pdf_path.name,
+                    "page_number": int(decision["page_number"]),
+                    "strategy_selected": str(decision["strategy_selected"]),
+                    "confidence_score": float(triage_confidence),
+                    "reasoning": str(decision["reason"]),
+                    "logged_at": datetime.now(timezone.utc).isoformat(),
+                }
+            )
+
+        self._log_to_ledger(
+            {
+                "event_type": "triage_summary",
+                "file_name": pdf_path.name,
+                "page_number": 0,
+                "started_at": triage_started_at,
+                "ended_at": datetime.now(timezone.utc).isoformat(),
+                "total_pages_processed": len(page_profiles),
+                "overall_origin": overall_origin,
+                "origin_type": normalized_origin_type,
+                "layout_complexity": layout_complexity,
+                "mixed_mode": mixed_mode,
+                "form_fillable": form_fillable,
+                "domain_hint": domain_hint,
+                "confidence_score": float(triage_confidence),
+                "cost_tier": cost_tier,
+            }
+        )
 
         return DocumentProfile(
             file_name=pdf_path.name,

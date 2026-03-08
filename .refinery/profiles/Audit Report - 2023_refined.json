@@ -5,9 +5,12 @@
     "metadata": {
         "overall_origin": "scanned",
         "layout_complexity": "Low",
-        "total_pages": 3,
-        "units_count": 5,
-        "escalations": 3,
+        "total_pages": 21,
+        "source_total_pages": 95,
+        "units_count": 29,
+        "escalations": 2,
+        "document_processing_time_ms": 405373.129,
+        "document_estimated_cost_usd": 0.025719,
         "extraction_results": [
             {
                 "page_number": 1,
@@ -15,34 +18,24 @@
                 "attempts": [
                     {
                         "strategy": "STRATEGY_B",
-                        "status": "fail",
-                        "confidence_score": 0.0,
-                        "processing_time_ms": 547.213699988788,
+                        "status": "success",
+                        "confidence_score": 0.8624768936534117,
+                        "processing_time_ms": 7115.970999991987,
                         "estimated_cost_usd": 0.0,
                         "prompt_tokens": 0,
                         "image_tokens": 0,
                         "completion_tokens": 0
-                    },
-                    {
-                        "strategy": "STRATEGY_C",
-                        "status": "success",
-                        "confidence_score": 0.95,
-                        "processing_time_ms": 4938.187300023856,
-                        "estimated_cost_usd": 0.012416999999999997,
-                        "prompt_tokens": 36935,
-                        "image_tokens": 1020,
-                        "completion_tokens": 187
                     }
                 ],
-                "final_strategy": "STRATEGY_C",
+                "final_strategy": "STRATEGY_B",
                 "final_status": "success",
-                "final_confidence_score": 0.95,
-                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
-                "cumulative_processing_time_ms": 5485.401,
-                "cumulative_cost_usd": 0.012417,
-                "total_cost_usd": 0.012417,
-                "final_success_cost_usd": 0.012417,
-                "final_vlm_cost_usd": 0.012417
+                "final_confidence_score": 0.8624768936534117,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 7115.971,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
             },
             {
                 "page_number": 2,
@@ -50,9 +43,284 @@
                 "attempts": [
                     {
                         "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.7509448160535117,
+                        "processing_time_ms": 6059.7149999812245,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.7509448160535117,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 6059.715,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 3,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8738067269808844,
+                        "processing_time_ms": 12022.263400023803,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8738067269808844,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 12022.263,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 4,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8429901106111736,
+                        "processing_time_ms": 16595.92100000009,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8429901106111736,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 16595.921,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 5,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8625571106821107,
+                        "processing_time_ms": 26416.38139996212,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8625571106821107,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 26416.381,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 6,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8535694104030501,
+                        "processing_time_ms": 17264.09720000811,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8535694104030501,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 17264.097,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 7,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8612427280043004,
+                        "processing_time_ms": 12612.085799977649,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8612427280043004,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 12612.086,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 8,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8401794467787115,
+                        "processing_time_ms": 15647.496599995065,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8401794467787115,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 15647.497,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 9,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8517113335617666,
+                        "processing_time_ms": 17074.957800039556,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8517113335617666,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 17074.958,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 10,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8630476397917922,
+                        "processing_time_ms": 14387.961800035555,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8630476397917922,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 14387.962,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 11,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.7998532904633303,
+                        "processing_time_ms": 17168.86470001191,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.7998532904633303,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 17168.865,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 12,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8162672763111017,
+                        "processing_time_ms": 14798.800000047777,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8162672763111017,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 14798.8,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 13,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
                         "status": "fail",
-                        "confidence_score": 0.0,
-                        "processing_time_ms": 515.6480000005104,
+                        "confidence_score": 0.5124690020258434,
+                        "processing_time_ms": 19033.78659998998,
                         "estimated_cost_usd": 0.0,
                         "prompt_tokens": 0,
                         "image_tokens": 0,
@@ -62,32 +330,32 @@
                         "strategy": "STRATEGY_C",
                         "status": "success",
                         "confidence_score": 0.95,
-                        "processing_time_ms": 6258.112200011965,
-                        "estimated_cost_usd": 0.012400999999999995,
+                        "processing_time_ms": 21515.251599950716,
+                        "estimated_cost_usd": 0.012933,
                         "prompt_tokens": 36935,
                         "image_tokens": 1020,
-                        "completion_tokens": 160
+                        "completion_tokens": 1048
                     }
                 ],
                 "final_strategy": "STRATEGY_C",
                 "final_status": "success",
                 "final_confidence_score": 0.95,
                 "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
-                "cumulative_processing_time_ms": 6773.76,
-                "cumulative_cost_usd": 0.012401,
-                "total_cost_usd": 0.012401,
-                "final_success_cost_usd": 0.012401,
-                "final_vlm_cost_usd": 0.012401
+                "cumulative_processing_time_ms": 40549.038,
+                "cumulative_cost_usd": 0.012933,
+                "total_cost_usd": 0.012933,
+                "final_success_cost_usd": 0.012933,
+                "final_vlm_cost_usd": 0.012933
             },
             {
-                "page_number": 3,
+                "page_number": 14,
                 "origin_type": "scanned_image",
                 "attempts": [
                     {
                         "strategy": "STRATEGY_B",
                         "status": "fail",
-                        "confidence_score": 0.0,
-                        "processing_time_ms": 557.8643000044394,
+                        "confidence_score": 0.5170549738219895,
+                        "processing_time_ms": 15427.185399981681,
                         "estimated_cost_usd": 0.0,
                         "prompt_tokens": 0,
                         "image_tokens": 0,
@@ -95,20 +363,195 @@
                     },
                     {
                         "strategy": "STRATEGY_C",
-                        "status": "fail",
-                        "confidence_score": 0.0,
-                        "processing_time_ms": 744.2181000078563,
+                        "status": "success",
+                        "confidence_score": 0.95,
+                        "processing_time_ms": 17604.96409999905,
+                        "estimated_cost_usd": 0.012785999999999999,
+                        "prompt_tokens": 36935,
+                        "image_tokens": 1020,
+                        "completion_tokens": 803
+                    }
+                ],
+                "final_strategy": "STRATEGY_C",
+                "final_status": "success",
+                "final_confidence_score": 0.95,
+                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Success)",
+                "cumulative_processing_time_ms": 33032.149,
+                "cumulative_cost_usd": 0.012786,
+                "total_cost_usd": 0.012786,
+                "final_success_cost_usd": 0.012786,
+                "final_vlm_cost_usd": 0.012786
+            },
+            {
+                "page_number": 15,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.781621215690894,
+                        "processing_time_ms": 15353.106199996546,
                         "estimated_cost_usd": 0.0,
                         "prompt_tokens": 0,
                         "image_tokens": 0,
                         "completion_tokens": 0
                     }
                 ],
-                "final_strategy": "STRATEGY_C",
-                "final_status": "fail",
-                "final_confidence_score": 0.0,
-                "escalation_path": "scanned_image -> Strategy B (Fail) -> Strategy C (Fail)",
-                "cumulative_processing_time_ms": 1302.082,
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.781621215690894,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 15353.106,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 16,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8637482348867492,
+                        "processing_time_ms": 24669.84119999688,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8637482348867492,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 24669.841,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 17,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.858517456213815,
+                        "processing_time_ms": 19987.409800000023,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.858517456213815,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 19987.41,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 18,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8637707309954487,
+                        "processing_time_ms": 20279.158400022425,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8637707309954487,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 20279.158,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 19,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8639806789055089,
+                        "processing_time_ms": 20457.526799989864,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8639806789055089,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 20457.527,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 20,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8614841134942113,
+                        "processing_time_ms": 21415.088400011882,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8614841134942113,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 21415.088,
+                "cumulative_cost_usd": 0.0,
+                "total_cost_usd": 0.0,
+                "final_success_cost_usd": 0.0,
+                "final_vlm_cost_usd": 0.0
+            },
+            {
+                "page_number": 21,
+                "origin_type": "scanned_image",
+                "attempts": [
+                    {
+                        "strategy": "STRATEGY_B",
+                        "status": "success",
+                        "confidence_score": 0.8624861111111112,
+                        "processing_time_ms": 19614.16429997189,
+                        "estimated_cost_usd": 0.0,
+                        "prompt_tokens": 0,
+                        "image_tokens": 0,
+                        "completion_tokens": 0
+                    }
+                ],
+                "final_strategy": "STRATEGY_B",
+                "final_status": "success",
+                "final_confidence_score": 0.8624861111111112,
+                "escalation_path": "scanned_image -> Strategy B (Success)",
+                "cumulative_processing_time_ms": 19614.164,
                 "cumulative_cost_usd": 0.0,
                 "total_cost_usd": 0.0,
                 "final_success_cost_usd": 0.0,
@@ -118,106 +561,286 @@
     },
     "units": [
         {
-            "uid": "Audit Report - 2023_p1_1",
-            "unit_type": "header",
-            "content_raw": "INDEPENDENT AUDITOR’S REPORT AND FINANCIAL STATEMENTS",
-            "content_markdown": "# INDEPENDENT AUDITOR’S REPORT AND FINANCIAL STATEMENTS",
-            "bbox": {
-                "x1": 0.0,
-                "y1": 0.0,
-                "x2": 1.0,
-                "y2": 1.0
-            },
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 1,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-06T13:48:36.617628+00:00",
-                "strategy_escalation_path": [
-                    "STRATEGY_B",
-                    "STRATEGY_C"
-                ],
-                "content_hash": "0451a068beb42205b5d36b4e9e32f752f18cf06e9ec7ec6fe7bfc4e070895ce7"
-            },
-            "content_hash": "c6204b2fbda026c65140ce0f6ca374c70d7bc9e311eeb9b26b0d4a9cb7b6e6e2"
-        },
-        {
-            "uid": "Audit Report - 2023_p1_2",
+            "uid": "Audit Report - 2023_p1_ocr_1",
             "unit_type": "text",
-            "content_raw": "30 JUNE 2023",
-            "content_markdown": "## 30 JUNE 2023",
+            "content_raw": "INDEPENDENT AUDITOR’S REPORT\nAND\nFINANCIAL STATEMENTS\n\n30 JUNE 2023\n\na DEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+            "content_markdown": "INDEPENDENT AUDITOR’S REPORT\nAND\nFINANCIAL STATEMENTS\n\n30 JUNE 2023\n\na DEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
             "bbox": {
                 "x1": 0.0,
                 "y1": 0.0,
-                "x2": 1.0,
-                "y2": 1.0
+                "x2": 604.8,
+                "y2": 841.68
             },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
                 "page_number": 1,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-06T13:48:36.617737+00:00",
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:47:57.030499+00:00",
                 "strategy_escalation_path": [
-                    "STRATEGY_B",
-                    "STRATEGY_C"
+                    "STRATEGY_B"
                 ],
-                "content_hash": "acd3745010c8ba47cfa91c1b76a24b09bb47bd5c2b9c484b8663236cde3833b1"
+                "content_hash": "ac049b4b4f881863e448e28860d5d079e879b5777642ed955f2c99e531777fe9"
             },
-            "content_hash": "6c46ab06b7503519437b1a8c1939f3af4cd3bb324bc3c114a880eef2a4abd7b6"
+            "content_hash": "1806e656544dc7a448b66ae47f18b7b1e3bde1ea451db2da9bace05f9966b3c5"
         },
         {
-            "uid": "Audit Report - 2023_p1_3",
+            "uid": "Audit Report - 2023_p2_ocr_1",
             "unit_type": "text",
-            "content_raw": "DEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
-            "content_markdown": "### DEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+            "content_raw": "PhAN PCa0¢.\nMIAME CTSA}\n\n. AUDIT SERVICES\nyy CORPORATION\n\nDEVELOPMENT BANK OF ETHIOPIA\nINDEPENDENT AUDITOR’S REPORT\nAND\nFINANCIAL STATEMENTS\n\n30 JUNE 2023",
+            "content_markdown": "PhAN PCa0¢.\nMIAME CTSA}\n\n. AUDIT SERVICES\nyy CORPORATION\n\nDEVELOPMENT BANK OF ETHIOPIA\nINDEPENDENT AUDITOR’S REPORT\nAND\nFINANCIAL STATEMENTS\n\n30 JUNE 2023",
             "bbox": {
                 "x1": 0.0,
                 "y1": 0.0,
-                "x2": 1.0,
-                "y2": 1.0
-            },
-            "provenance": {
-                "source_file": "Audit Report - 2023.pdf",
-                "page_number": 1,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-06T13:48:36.617789+00:00",
-                "strategy_escalation_path": [
-                    "STRATEGY_B",
-                    "STRATEGY_C"
-                ],
-                "content_hash": "5b8aa78679bf05b615d6c58d2c39b8d20614a42be0b64bad16d2ee6d23c0f473"
-            },
-            "content_hash": "ef30456452bd0eb71ecd08fe1b8f9f8a86b37292f3f620b98f235d2a65022087"
-        },
-        {
-            "uid": "Audit Report - 2023_p2_1",
-            "unit_type": "header",
-            "content_raw": "DEVELOPMENT BANK OF ETHIOPIA\nINDEPENDENT AUDITOR'S REPORT\nAND\nFINANCIAL STATEMENTS\n30 JUNE 2023",
-            "content_markdown": "# DEVELOPMENT BANK OF ETHIOPIA\n## INDEPENDENT AUDITOR'S REPORT\n### AND\n### FINANCIAL STATEMENTS\n#### 30 JUNE 2023",
-            "bbox": {
-                "x1": 0.0,
-                "y1": 0.0,
-                "x2": 1.0,
-                "y2": 1.0
+                "x2": 595.2,
+                "y2": 841.68
             },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
                 "page_number": 2,
-                "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-06T13:48:43.648221+00:00",
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:48:03.490260+00:00",
                 "strategy_escalation_path": [
-                    "STRATEGY_B",
-                    "STRATEGY_C"
+                    "STRATEGY_B"
                 ],
-                "content_hash": "66d702f2dcd85e84420a6fba158b28815c86584f488ef9e1be77bf32b26be126"
+                "content_hash": "038b1827857204279930d455e4809006ee3360d223c72fc5be5f77d1ce23be0c"
             },
-            "content_hash": "6c357ecc4e32a449605155423ebd1f0659d9dd0bb9b582a84de34bf723f25ca9"
+            "content_hash": "38522aee446c563b061673e67d913c5e58930a9f1ce9e9010a4dcc685103fe17"
         },
         {
-            "uid": "Audit Report - 2023_p2_2",
+            "uid": "Audit Report - 2023_p3_ocr_1",
             "unit_type": "text",
-            "content_raw": "Audit Services Corporation",
-            "content_markdown": "Audit Services Corporation",
+            "content_raw": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nFor the year ended 30 June 2023\n\nTable of contents\n\nIndependent auditor's report\n\nBoard of management, professional advisers and registered office\n\nReport of the board of management\n\nStatement of board of management's responsibilities\n\nConsolidated and separate statement of profit or loss and other comprehensive income\nConsolidated and separate statement of financial position\n\nConsolidated and separate statement of changes in equity\n\nConsolidated and separate statement of cash flows\n\nNotes to the consolidated and separate financial statements\n\nPage\n\n1-4",
+            "content_markdown": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nFor the year ended 30 June 2023\n\nTable of contents\n\nIndependent auditor's report\n\nBoard of management, professional advisers and registered office\n\nReport of the board of management\n\nStatement of board of management's responsibilities\n\nConsolidated and separate statement of profit or loss and other comprehensive income\nConsolidated and separate statement of financial position\n\nConsolidated and separate statement of changes in equity\n\nConsolidated and separate statement of cash flows\n\nNotes to the consolidated and separate financial statements\n\nPage\n\n1-4",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 3,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:48:15.934777+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "ba8b58b64354545f701947ec61ae4c82c6583d867b5c6ee908d351514f4f0f47"
+            },
+            "content_hash": "4f8bef385a85f6a7e26885016887c6094af85e20a8751311f3a8f7494d891a44"
+        },
+        {
+            "uid": "Audit Report - 2023_p4_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Nba LGA PS RAC GOH? (Lb\nPLL] Pad. HIATT DCT ANT\nOffice of the Federal Auditor General\nAudit Service Corporation\n\nINDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA\n\nReport on the Audit of the Consolidated Financial Statements\nOpinion\n\nWe have audited the consolidated financial statements of Development Bank of Ethiopia (the\nBank) and its consolidated subsidiary (the Group), which comprise the consolidated and the\nBank’s statements of financial position as at 30 June 2023, and the consolidated and the\nBank’s statements of profit or loss and other comprehensive income, the consolidated and the\nBank’s statements of changes in equity and the consolidated and the Bank's statements of\ncash flows for the year then ended, and notes to the consolidated and the Bank’s financial\nstatements, including consolidated and the Bank’s summaries of significant accounting\npolicies.\n\nIn our opinion, the accompanying consolidated financial statements present fairly, in all\nmaterial respects, the consolidated financial positions of the Group and of the Bank as at 30\nJune 2023 and the consolidated and the Bank's financial performances and the consolidated\nand the Bank’s cash flows for the year then ended in accordance with International Financial\nReporting Standards (IFRSs).\n\nBasis for Opinion\n\nWe conducted our audit in accordance with International Standards on Auditing (ISAs). Our\nresponsibilities under those standards are further described in the Auditor’s Responsibilities\njor the Audit of the Financial Statements section of our report. We are independent of the\nBank in accordance with the International Ethics Standards Board for Accountants’ Code of\nEthics for Professional Accountants (IESBA Code) together with the ethical requirements that\nare relevant to our audit of the consolidated financial statements in Ethiopia, and we have\nfulfilled our other ethical responsibilities in accordance with those requirements and the\nIESBA Code. We believe that the audit evidence we have obtained is sufficient and\nappropriate to provide a basis for our opinion. aa\n\nie ~.\n\nEsmail:asc@ascethiopia.com =\n“website WWW.ascethiopia.com\n\n@® 251-011-5515222\n251-011-5535012\n251-011-5535015\n9R1-041-S535018",
+            "content_markdown": "Nba LGA PS RAC GOH? (Lb\nPLL] Pad. HIATT DCT ANT\nOffice of the Federal Auditor General\nAudit Service Corporation\n\nINDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA\n\nReport on the Audit of the Consolidated Financial Statements\nOpinion\n\nWe have audited the consolidated financial statements of Development Bank of Ethiopia (the\nBank) and its consolidated subsidiary (the Group), which comprise the consolidated and the\nBank’s statements of financial position as at 30 June 2023, and the consolidated and the\nBank’s statements of profit or loss and other comprehensive income, the consolidated and the\nBank’s statements of changes in equity and the consolidated and the Bank's statements of\ncash flows for the year then ended, and notes to the consolidated and the Bank’s financial\nstatements, including consolidated and the Bank’s summaries of significant accounting\npolicies.\n\nIn our opinion, the accompanying consolidated financial statements present fairly, in all\nmaterial respects, the consolidated financial positions of the Group and of the Bank as at 30\nJune 2023 and the consolidated and the Bank's financial performances and the consolidated\nand the Bank’s cash flows for the year then ended in accordance with International Financial\nReporting Standards (IFRSs).\n\nBasis for Opinion\n\nWe conducted our audit in accordance with International Standards on Auditing (ISAs). Our\nresponsibilities under those standards are further described in the Auditor’s Responsibilities\njor the Audit of the Financial Statements section of our report. We are independent of the\nBank in accordance with the International Ethics Standards Board for Accountants’ Code of\nEthics for Professional Accountants (IESBA Code) together with the ethical requirements that\nare relevant to our audit of the consolidated financial statements in Ethiopia, and we have\nfulfilled our other ethical responsibilities in accordance with those requirements and the\nIESBA Code. We believe that the audit evidence we have obtained is sufficient and\nappropriate to provide a basis for our opinion. aa\n\nie ~.\n\nEsmail:asc@ascethiopia.com =\n“website WWW.ascethiopia.com\n\n@® 251-011-5515222\n251-011-5535012\n251-011-5535015\n9R1-041-S535018",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 4,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:48:33.125740+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "df8389e37470ca715ac01dc9daa4748ceee175488f1726ff3961b4fe2a5eb51d"
+            },
+            "content_hash": "81b7231f2a21413288fe3369a73a08ca4146f46d634557679d9bf10b08b73ff6"
+        },
+        {
+            "uid": "Audit Report - 2023_p5_ocr_1",
+            "unit_type": "text",
+            "content_raw": "INDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA (continued)\n\nReport on the Audit of the Consolidated Financial Statements (continued) Co\n\nKey Audit Matters\n\nKey audit matters are those matters that, in our professional judgment, were of most\nsignificance in our audit of the consolidated financial statements of the current period. These\nmatters were addressed in the context of our audit of the consolidated financial statements as\na whole, and in forming our opinion thereon, and we do not provide a separate opinion on\nthese matters.\n\nLoans and advances\n\nThere are risks that loans and advances may be given without proper managerial approval:\nmay not be accurately recorded; do not exist; may not be recorded at appropriate values; and\nall bad and doubtful balances may not have been provided for or written off. In our response\nto these risks, we assessed the reasonableness of the design of the system of internal control\nby enquiring of relevant Bank personnel and reviewing the documented system developed by\nthe Bank. We tested this system in order to confirm our understanding of it. We identified\nthe preventive and detective controls. We checked a sample of selected transactions covering\nthe whole year to see that all controls were exercised on all transactions. For a sample of\ndisbursements made during the year, we checked the approval by the appropriate level of\nmanagement and checked that all formalities necessary before disbursement of loans and\nadvances had been fulfilled. We test checked loan agreements and legal documents to verify\nthe terms and conditions of the loans and advances. We obtained an analysis of loans and\nverified that they had been classified in correct categories and we considered the value of\ncollateral available against each loan for calculating the provision for doubtful loans and\nadvances. Our testing did not identify major weaknesses in the design and operation of\ncontrols that would have required us to expand the nature or scope of our planned detailed\ntest work. Overall, we found no concerns in respect to the completion of formalities or the\nrecording of loans and advances at appropriate values.\n\nResponsibilities of the Board of Management and Those Charged with Governance for the\nConsolidated Financial Statements\n\nThe Board of Management is responsible for the preparation and fair presentation of the\nconsolidated financial statements in accordance with IFRSs, and for such internal control as\nmanagement determines is necessary to enable the preparation of consolidated financial\nstatements that are free from material misstatement, whether due to fraud or error.\n\nIn preparing the consolidated financial statements, the Board is responsible for assessing the\nGroup’s ability to continue as a going concern, disclosing, as applicable, matters related to\ngoing concern and using the going concern basis of accounting unless management either\n\nintends to liquidate the Group or to cease operations, or-has-no realistic alternative but to do\n$0. PA Adee TS\nwt\n\nf7e\nThose charged with governance are responsible/ Sg\nprocess. | 23\n\nyee. .\n\n—_——\n\n*s financial reporting",
+            "content_markdown": "INDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA (continued)\n\nReport on the Audit of the Consolidated Financial Statements (continued) Co\n\nKey Audit Matters\n\nKey audit matters are those matters that, in our professional judgment, were of most\nsignificance in our audit of the consolidated financial statements of the current period. These\nmatters were addressed in the context of our audit of the consolidated financial statements as\na whole, and in forming our opinion thereon, and we do not provide a separate opinion on\nthese matters.\n\nLoans and advances\n\nThere are risks that loans and advances may be given without proper managerial approval:\nmay not be accurately recorded; do not exist; may not be recorded at appropriate values; and\nall bad and doubtful balances may not have been provided for or written off. In our response\nto these risks, we assessed the reasonableness of the design of the system of internal control\nby enquiring of relevant Bank personnel and reviewing the documented system developed by\nthe Bank. We tested this system in order to confirm our understanding of it. We identified\nthe preventive and detective controls. We checked a sample of selected transactions covering\nthe whole year to see that all controls were exercised on all transactions. For a sample of\ndisbursements made during the year, we checked the approval by the appropriate level of\nmanagement and checked that all formalities necessary before disbursement of loans and\nadvances had been fulfilled. We test checked loan agreements and legal documents to verify\nthe terms and conditions of the loans and advances. We obtained an analysis of loans and\nverified that they had been classified in correct categories and we considered the value of\ncollateral available against each loan for calculating the provision for doubtful loans and\nadvances. Our testing did not identify major weaknesses in the design and operation of\ncontrols that would have required us to expand the nature or scope of our planned detailed\ntest work. Overall, we found no concerns in respect to the completion of formalities or the\nrecording of loans and advances at appropriate values.\n\nResponsibilities of the Board of Management and Those Charged with Governance for the\nConsolidated Financial Statements\n\nThe Board of Management is responsible for the preparation and fair presentation of the\nconsolidated financial statements in accordance with IFRSs, and for such internal control as\nmanagement determines is necessary to enable the preparation of consolidated financial\nstatements that are free from material misstatement, whether due to fraud or error.\n\nIn preparing the consolidated financial statements, the Board is responsible for assessing the\nGroup’s ability to continue as a going concern, disclosing, as applicable, matters related to\ngoing concern and using the going concern basis of accounting unless management either\n\nintends to liquidate the Group or to cease operations, or-has-no realistic alternative but to do\n$0. PA Adee TS\nwt\n\nf7e\nThose charged with governance are responsible/ Sg\nprocess. | 23\n\nyee. .\n\n—_——\n\n*s financial reporting",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 5,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:49:00.400715+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "4a1c951bf05a34754bda30b7e68e5844a2611a38c46190cbf6448c2699fd1d22"
+            },
+            "content_hash": "cd06c4a60ef938c3b0249e301d276039b7970e176b64f654a22530c7ec736aae"
+        },
+        {
+            "uid": "Audit Report - 2023_p6_ocr_1",
+            "unit_type": "text",
+            "content_raw": "INDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA (continued)\n\nReport on the Audit of the Consolidated Financial Statements(continued) = dese .\nAuditor’s Responsibilities for the Audit of the Consolidated Financial Statements\n\nOur objectives are to obtain reasonable assurance about whether the consolidated financial\nStatements as a whole are free from material misstatement, whether due to fraud or error, and\nto issue an auditor’s report that includes our opinion. Reasonable assurance is a high level of\nassurance, but is not a guarantee that an audit conducted in accordance with ISAs will always\ndetect a material misstatement when it exists. Misstatements can arise from fraud or error\nand are considered material if, individually or in the aggregate, they could reasonably be\nexpected to influence the economic decisions of users taken on the basis of these financial\nstatements.\n\nAs part of an audit in accordance with ISAs, we exercise professional judgment and maintain\nprofessional scepticism throughout the audit. We also\n\n¢ Identify and assess the risks of material misstatement of the consolidated financial\nstatements, whether due to fraud or error, design and perform audit procedures\nresponsive to those risks, and obtain audit evidence that is sufficient and appropriate\nto provide a basis for our opinion. The risk of not detecting a material misstatement\nresulting from fraud is higher than for one resulting from error, as fraud may involve\ncollusion, forgery, intentional omissions, misrepresentations. or the override of\ninternal control.\n\n¢ Obtain an understanding of internal control relevant to the audit in order to design\naudit procedures that are appropriate in the circumstances, but not for the purpose of\nexpressing an opinion on the effectiveness of the Group’s internal control.\n\ne Evaluate the appropriateness of accounting policies used and the reasonableness of\naccounting estimates and related disclosures made by the Board of Management.\n\n* Conclude on the appropriateness of the Board’s use of the going concern basis of\naccounting and, based on the audit evidence obtained, whether a material uncertainty\nexists related to events or conditions that may cast significant doubt on the Group’s\nability to continue as a going concern. If we conclude that a material uncertainty\nexists, we are required to draw attention in our auditor’s report to the related\ndisclosures in the financial statements or if such disclosures are inadequate, to modify\nour opinion. Our conclusions are based on the audit evidence obtained up to the date\nof our auditor’s report. However, future events or conditions may cause the Group to\ncease to continue as a going concern.\n\n¢ Evaluate the overall presentation, structure and content of theconsolidated financial\nstatements, including the disclosures, and whether theconsolidated financial\nstatements represent the underlying transactions and eyents-jf, @: manner that achieves\nfair presentation. ra Beary?\n\nAST\n\nee)",
+            "content_markdown": "INDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA (continued)\n\nReport on the Audit of the Consolidated Financial Statements(continued) = dese .\nAuditor’s Responsibilities for the Audit of the Consolidated Financial Statements\n\nOur objectives are to obtain reasonable assurance about whether the consolidated financial\nStatements as a whole are free from material misstatement, whether due to fraud or error, and\nto issue an auditor’s report that includes our opinion. Reasonable assurance is a high level of\nassurance, but is not a guarantee that an audit conducted in accordance with ISAs will always\ndetect a material misstatement when it exists. Misstatements can arise from fraud or error\nand are considered material if, individually or in the aggregate, they could reasonably be\nexpected to influence the economic decisions of users taken on the basis of these financial\nstatements.\n\nAs part of an audit in accordance with ISAs, we exercise professional judgment and maintain\nprofessional scepticism throughout the audit. We also\n\n¢ Identify and assess the risks of material misstatement of the consolidated financial\nstatements, whether due to fraud or error, design and perform audit procedures\nresponsive to those risks, and obtain audit evidence that is sufficient and appropriate\nto provide a basis for our opinion. The risk of not detecting a material misstatement\nresulting from fraud is higher than for one resulting from error, as fraud may involve\ncollusion, forgery, intentional omissions, misrepresentations. or the override of\ninternal control.\n\n¢ Obtain an understanding of internal control relevant to the audit in order to design\naudit procedures that are appropriate in the circumstances, but not for the purpose of\nexpressing an opinion on the effectiveness of the Group’s internal control.\n\ne Evaluate the appropriateness of accounting policies used and the reasonableness of\naccounting estimates and related disclosures made by the Board of Management.\n\n* Conclude on the appropriateness of the Board’s use of the going concern basis of\naccounting and, based on the audit evidence obtained, whether a material uncertainty\nexists related to events or conditions that may cast significant doubt on the Group’s\nability to continue as a going concern. If we conclude that a material uncertainty\nexists, we are required to draw attention in our auditor’s report to the related\ndisclosures in the financial statements or if such disclosures are inadequate, to modify\nour opinion. Our conclusions are based on the audit evidence obtained up to the date\nof our auditor’s report. However, future events or conditions may cause the Group to\ncease to continue as a going concern.\n\n¢ Evaluate the overall presentation, structure and content of theconsolidated financial\nstatements, including the disclosures, and whether theconsolidated financial\nstatements represent the underlying transactions and eyents-jf, @: manner that achieves\nfair presentation. ra Beary?\n\nAST\n\nee)",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 6,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:49:19.460987+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "a5dfa744bc0583fb37492e9ad93700c5598d15d9a2c97f7c92730dbfa13b8edb"
+            },
+            "content_hash": "d164c20698f30c630fedf4d25e1ee65965fdc4294957710f6bd36409f54c5a61"
+        },
+        {
+            "uid": "Audit Report - 2023_p7_ocr_1",
+            "unit_type": "text",
+            "content_raw": "INDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA (continued)\n\nReport on the Audit of the Consolidated Financial Statements(continued)\n\nAuditor's Responsibilities for the Audit of the Consolidated Financial\nStatements (continued)\n\nWe communicate with those charged with governance regarding, among other matters, the\nplanned scope and timing of the audit and significant audit findings, including any significant\ndeficiencies in internal control that we identify during our audit.\n\nWe also provide those charged with governance with a statement that we have complied with\nrelevant ethical requirements regarding independence, and to communicate with them all\nrelationships and other matters that may reasonably be thought to bear on our independence,\nand where applicable, related safeguards.\n\nFrom the matters communicated with those charged with governance, we determine those\nmatters that were of most significance in the audit of the consolidated financial statements of\nthe current period and are therefore the key audit matters. We describe these matters in our\nauditor’s report unless law or regulation precludes public disclosure about the matter or\nwhen, in extremely rare circumstances, we determine that a matter should not be\ncommunicated in our report because the adverse consequences of doing so would reasonably\nbe expected to outweigh the public interest benefits of such communication.\n\nThe engagement partner on the audit resulting in this independent auditor's report is Woizero\nAzeb Tekleselassie.\n\nDarr SeaviesS Gass BHSVK\n\n11 March 2024",
+            "content_markdown": "INDEPENDENT AUDITOR’S REPORT\nTO THE SUPERVISING AUTHORITY OF\nDEVELOPMENT BANK OF ETHIOPIA (continued)\n\nReport on the Audit of the Consolidated Financial Statements(continued)\n\nAuditor's Responsibilities for the Audit of the Consolidated Financial\nStatements (continued)\n\nWe communicate with those charged with governance regarding, among other matters, the\nplanned scope and timing of the audit and significant audit findings, including any significant\ndeficiencies in internal control that we identify during our audit.\n\nWe also provide those charged with governance with a statement that we have complied with\nrelevant ethical requirements regarding independence, and to communicate with them all\nrelationships and other matters that may reasonably be thought to bear on our independence,\nand where applicable, related safeguards.\n\nFrom the matters communicated with those charged with governance, we determine those\nmatters that were of most significance in the audit of the consolidated financial statements of\nthe current period and are therefore the key audit matters. We describe these matters in our\nauditor’s report unless law or regulation precludes public disclosure about the matter or\nwhen, in extremely rare circumstances, we determine that a matter should not be\ncommunicated in our report because the adverse consequences of doing so would reasonably\nbe expected to outweigh the public interest benefits of such communication.\n\nThe engagement partner on the audit resulting in this independent auditor's report is Woizero\nAzeb Tekleselassie.\n\nDarr SeaviesS Gass BHSVK\n\n11 March 2024",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 7,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:49:32.545953+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "2e5e3cd17f6687250daa0d28fdd5f5e5029847fe25604de5803de5bd2ddbb34a"
+            },
+            "content_hash": "55e6271ea586e9972e278ab1d74340f3c1819281f2523194bd5ae93e372e1300"
+        },
+        {
+            "uid": "Audit Report - 2023_p8_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\n\nConsolidated and separate financial statements\n\nBoard of management, professional advisers and registered offi\nFor the year ended 30 June 2023\n\nLicense for Banking Business and Lease Financing\nNBE Registration No. LBB/o03/70\n\nBoard of Management (as of June 30, 2023)\n\nAppointment since\n\nELE. Tegegnework Gettu Mengesha (PhD) Chairman (Independent Non-Executive Director (Board of Mgmt.) pecan\n\nHE, Ato Zekarias Erkola Yimam Independent Non-Executive Director (Board of Management Member) \" denap\nChairperson of Board Audit Sub-Committee\n\nTLE, Ato Tesfaye Daba Wakjira Independent Non-Executive Director (Board of Management Member) 28-Nov-20\nMember of Board Audit Sub-Committee\n\nWrt Melikt Sahla Denbu Independent Non-Executive Director (Board of Management Member) 25-Dec-18\nChairperson of Board Risk and Finance Sub-Committee\n\nAbebe Yitayew Ambaye (PhD) Independent Non-Executive Director (Board of Management Member) 28-Nov-20\nMember of Board Risk and Finance Sub-Committee\n\nAderajew Shumet Tamirat (PhD) Independent Non-Executive Director (Board of Management Member) 7-Oct-22\nMember of Board Human Resource Affairs Sub-committee\n\nAto Netsanet Lemessa Gurara Independent Non-Executive Director (Board of Management Member) 28-Nov-20\nMember of Board Risk and Finance Sub-Committee\n\nAto Michael Hailu Assegie Independent Non-Executive Director (Board of Management Member) 16-Jan-23\n\nChairperson of Board Human Resource Affairs Sub-committee\nWrt.Hinjat Shamil Wulsebo Independent Non-Executive Director (Board of Management Member) 16-Jan-23\n\nMember of Board Audit Sub-Committee\nExecutive management (as of June 30, 2023)\n\nYohannes Ayalew (PhD) President\n\nAto Getachew Wakie Vice President, Corporate Agriculture Project Fanancing\nW/ro Yemisrach Alemneh Vice President, Banking and Finance\n\nAto Asfaw Abera Vice President, Small and Medium Enterprises Financing\nAto Getachew Belay A/Vice President, Corporate Services\n\nRegistered office\n\nDevelopment Bank of Ethiopia Tower\nJosip Broz Tito Street\n\nP.O Box 1900\n\nKirkos Sub-City (Kazanchis) =\nAddis Ababa, Ethiopia f A\n\nIndependent auditors\n\nThe Federal Democratic Republic of Ethiopia Z .\nAudit Services Corporation =\nJosip Broz Tito Street\n\nP.O Box 5720 E\nKirkos Sub-City (Kazanchis)\n\nAddis Ababa\n\nEthiopia\n\nActuaries\n\nQED Actuaries and Consultants (Pty) Ltd\nP.O. Box 413313, Craighall 2024\n\nist floor, The Bridle, Hunts End Office Park,\nEmail: craigfaleoner@qedacturial.com.\nSandton, Johannesburg, 2196,\n\nSouth Africa",
+            "content_markdown": "Development Bank of Ethiopia\n\nConsolidated and separate financial statements\n\nBoard of management, professional advisers and registered offi\nFor the year ended 30 June 2023\n\nLicense for Banking Business and Lease Financing\nNBE Registration No. LBB/o03/70\n\nBoard of Management (as of June 30, 2023)\n\nAppointment since\n\nELE. Tegegnework Gettu Mengesha (PhD) Chairman (Independent Non-Executive Director (Board of Mgmt.) pecan\n\nHE, Ato Zekarias Erkola Yimam Independent Non-Executive Director (Board of Management Member) \" denap\nChairperson of Board Audit Sub-Committee\n\nTLE, Ato Tesfaye Daba Wakjira Independent Non-Executive Director (Board of Management Member) 28-Nov-20\nMember of Board Audit Sub-Committee\n\nWrt Melikt Sahla Denbu Independent Non-Executive Director (Board of Management Member) 25-Dec-18\nChairperson of Board Risk and Finance Sub-Committee\n\nAbebe Yitayew Ambaye (PhD) Independent Non-Executive Director (Board of Management Member) 28-Nov-20\nMember of Board Risk and Finance Sub-Committee\n\nAderajew Shumet Tamirat (PhD) Independent Non-Executive Director (Board of Management Member) 7-Oct-22\nMember of Board Human Resource Affairs Sub-committee\n\nAto Netsanet Lemessa Gurara Independent Non-Executive Director (Board of Management Member) 28-Nov-20\nMember of Board Risk and Finance Sub-Committee\n\nAto Michael Hailu Assegie Independent Non-Executive Director (Board of Management Member) 16-Jan-23\n\nChairperson of Board Human Resource Affairs Sub-committee\nWrt.Hinjat Shamil Wulsebo Independent Non-Executive Director (Board of Management Member) 16-Jan-23\n\nMember of Board Audit Sub-Committee\nExecutive management (as of June 30, 2023)\n\nYohannes Ayalew (PhD) President\n\nAto Getachew Wakie Vice President, Corporate Agriculture Project Fanancing\nW/ro Yemisrach Alemneh Vice President, Banking and Finance\n\nAto Asfaw Abera Vice President, Small and Medium Enterprises Financing\nAto Getachew Belay A/Vice President, Corporate Services\n\nRegistered office\n\nDevelopment Bank of Ethiopia Tower\nJosip Broz Tito Street\n\nP.O Box 1900\n\nKirkos Sub-City (Kazanchis) =\nAddis Ababa, Ethiopia f A\n\nIndependent auditors\n\nThe Federal Democratic Republic of Ethiopia Z .\nAudit Services Corporation =\nJosip Broz Tito Street\n\nP.O Box 5720 E\nKirkos Sub-City (Kazanchis)\n\nAddis Ababa\n\nEthiopia\n\nActuaries\n\nQED Actuaries and Consultants (Pty) Ltd\nP.O. Box 413313, Craighall 2024\n\nist floor, The Bridle, Hunts End Office Park,\nEmail: craigfaleoner@qedacturial.com.\nSandton, Johannesburg, 2196,\n\nSouth Africa",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 8,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:49:48.669231+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "01358b85eef1f6aa558a2814d90e358d8e8e09e9506e646f566632d5ef7a1644"
+            },
+            "content_hash": "4266564aa7fb6b5f1cbfe952268b1a729b93df9e1c5c9eb2d6ac5a70a922297a"
+        },
+        {
+            "uid": "Audit Report - 2023_p9_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nReport of the Board of Management\n\nFor the year ended 30 June 2023\n\nThe Board of Management submits its report together with the consolidated and separate financial statements and independent\nauditor's report of the Development Bank of Ethiopia (\"DBE or the Bank\") and its subsidiary (together referred to as the\n\"Group\") for the year ended 30 June 2023 to the Public Enterprises Holding and Administration Agency (PEHAA). This report\ndiscloses the financial performance and state of affairs of the Group and the Bank.\n\nIncorporation\n\nDevelopment Bank of Ethiopia was incorporated in Ethiopia in 1909 as a specialized state-owned development financial\ninstitution, and is domiciled in Ethiopia.\n\nThe Bank is fully owned by the Federal Government of Ethiopia and is supervised by the Public Enterprises Holding and\nAdministration Agency.\n\nPrincipal activities\n\nThe mandate of the Bank is to support the economic growth and development of the country through the provision of medium-\nand long-term finance and other credit services and facilities to viable/bankable investment projects in the Government priority\nareas and sectors, which seem to have market failure, impacted by economic shocks and missing or underdeveloped market,\nalong with technical support through mobilizing resources from domestic and foreign sources. Specifically, the Bank provides\nfinance to encourage mainly private sector investment in sectors like commercial agriculture, agro-processing, manufacturing,\nmining and extractive as well as energy generating industries. It also supports SME through capital goods lease (hire purchase\nfinancing). Moreover, it implements/administers special projects/programs and managed funds entrusted to it by multilateral\nlending institutions and government agencies. Since its initial establishment in 1909, the Bank has been playing a catalytic role in\npromoting the economic development of the country.\n\nResults\n\nThe Group's and Bank's results for the year ended 30 June 2029 are set out on page 8. The net profit for the year has been\ntransferred to retained earnings. The summarized results are presented below.\n\n‘Group Bank Group Bank\n30 June 2023 30June2023 30 June 2022 30 June 2022\nBirr'ooo Birr'ooo Birr'ooo Birr'ooo\n\nInterest income 11,809,284 11,808,029 7,283,385 75282,356\nProfit/ (Loss) before tax 6,463,536 6,463,494 3,426,593 3,426,199\nIncome tax income/ (expense) (725,496) (725,496) (15,433) (15,433)\nProfit/ (Loss) for the year\n\n5:738,040 5,737,998 3,411,160 3,410,767\nOther comprehensive income; (loss)\n(met of tax) (21,332) (21,332) 16,080 16,080\nTotal comprehensive income;/ (loss) for\nthe year 5;716,709 5,716,666 3.427,240 3,426,846\n\nBoard of Management\n\nPage 5 lists the members of the Board of Management who were in office during the year and as of the reporting date. The report\nhas been signed by Board of Management Chairman Dr. Tegegnework Gettu on behalf of the Board of Management of the Bank.\n\n.E. Pégegnework Gettu (PhD)\nChairman of the Board of Management f ;\nAddis Ababa, Ethiopia if ‘",
+            "content_markdown": "Development Bank of Ethiopia\nConsolidated and separate financial statements\nReport of the Board of Management\n\nFor the year ended 30 June 2023\n\nThe Board of Management submits its report together with the consolidated and separate financial statements and independent\nauditor's report of the Development Bank of Ethiopia (\"DBE or the Bank\") and its subsidiary (together referred to as the\n\"Group\") for the year ended 30 June 2023 to the Public Enterprises Holding and Administration Agency (PEHAA). This report\ndiscloses the financial performance and state of affairs of the Group and the Bank.\n\nIncorporation\n\nDevelopment Bank of Ethiopia was incorporated in Ethiopia in 1909 as a specialized state-owned development financial\ninstitution, and is domiciled in Ethiopia.\n\nThe Bank is fully owned by the Federal Government of Ethiopia and is supervised by the Public Enterprises Holding and\nAdministration Agency.\n\nPrincipal activities\n\nThe mandate of the Bank is to support the economic growth and development of the country through the provision of medium-\nand long-term finance and other credit services and facilities to viable/bankable investment projects in the Government priority\nareas and sectors, which seem to have market failure, impacted by economic shocks and missing or underdeveloped market,\nalong with technical support through mobilizing resources from domestic and foreign sources. Specifically, the Bank provides\nfinance to encourage mainly private sector investment in sectors like commercial agriculture, agro-processing, manufacturing,\nmining and extractive as well as energy generating industries. It also supports SME through capital goods lease (hire purchase\nfinancing). Moreover, it implements/administers special projects/programs and managed funds entrusted to it by multilateral\nlending institutions and government agencies. Since its initial establishment in 1909, the Bank has been playing a catalytic role in\npromoting the economic development of the country.\n\nResults\n\nThe Group's and Bank's results for the year ended 30 June 2029 are set out on page 8. The net profit for the year has been\ntransferred to retained earnings. The summarized results are presented below.\n\n‘Group Bank Group Bank\n30 June 2023 30June2023 30 June 2022 30 June 2022\nBirr'ooo Birr'ooo Birr'ooo Birr'ooo\n\nInterest income 11,809,284 11,808,029 7,283,385 75282,356\nProfit/ (Loss) before tax 6,463,536 6,463,494 3,426,593 3,426,199\nIncome tax income/ (expense) (725,496) (725,496) (15,433) (15,433)\nProfit/ (Loss) for the year\n\n5:738,040 5,737,998 3,411,160 3,410,767\nOther comprehensive income; (loss)\n(met of tax) (21,332) (21,332) 16,080 16,080\nTotal comprehensive income;/ (loss) for\nthe year 5;716,709 5,716,666 3.427,240 3,426,846\n\nBoard of Management\n\nPage 5 lists the members of the Board of Management who were in office during the year and as of the reporting date. The report\nhas been signed by Board of Management Chairman Dr. Tegegnework Gettu on behalf of the Board of Management of the Bank.\n\n.E. Pégegnework Gettu (PhD)\nChairman of the Board of Management f ;\nAddis Ababa, Ethiopia if ‘",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 9,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:50:06.196521+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "e9b6befedb251fce20020f5226d46fc9ec854e99255f7cce33ba1980ea73fce3"
+            },
+            "content_hash": "b82fe8cb722c9907cbc814d6016077407e291dc9d970f50a09f4b1cead1695b8"
+        },
+        {
+            "uid": "Audit Report - 2023_p10_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\n\nConsolidated and separate financial statements ate\nStatement of board of management's responsibilities\n\nFor the year ended 30 June 2023\n\nIn accordance with the Financial Reporting Proclamation No. 847/2014, the Group and Bank are required to prepare their\nconsolidated and separate financial statements in accordance with the International Financial Reporting Standards (IFRS).\n\nThe Group's and Bank's Board of Management is responsible for the preparation and fair presentation of these financial\nstatements in accordance with International Financial Reporting Standards, and for such internal control as management\ndetermines is necessary to enable the preparation of financial statements that are free from material misstatement, whether\ndue to fraud or error. Among other things, this duty entails making certain that the Group and the Bank:\n\na) keep proper accounting records that disclose, with reasonable accuracy, the financial position, financial performance and\ncash flows of the group and bank;\n\nb) establish adequate internal controls to safeguard its assets and to prevent and detect fraud and other irregularities; and\n\nc) prepare the consolidated and separate financial statements using suitable accounting policies supported by reasonable\nand prudent judgments and estimates that are consistently applied and reasonable in the circumstances.\n\nThe Board of Management is of the opinion that the financial statements present fairly, in all material respects, the state of\nthe financial affairs of the Group and Bank and of their financial performance and cash flows, as well as the adequate\nsystems of internal financial control that may be relied upon in the preparation of financial statements.\n\nThe Board of Management has assessed the Group's and Bank's ability to continue as a going concern. Hence, nothing has\ncome to the attention of the Board of Management to indicate that the Bank will not remain as a going concern for at least\ntwelve months from the date of this statement.\n\nSigned on behalf of the Board of Management by the Chairman of the Board of Management and the President, as follows:\n\n— Se\n\n“E. Tegeenework Gettu (PhD) Yohannes Ayalew (PhD)\nChairman, Board of Management President/Chief Executive Officer\n\n11-Mar-24 11-Mar-24",
+            "content_markdown": "Development Bank of Ethiopia\n\nConsolidated and separate financial statements ate\nStatement of board of management's responsibilities\n\nFor the year ended 30 June 2023\n\nIn accordance with the Financial Reporting Proclamation No. 847/2014, the Group and Bank are required to prepare their\nconsolidated and separate financial statements in accordance with the International Financial Reporting Standards (IFRS).\n\nThe Group's and Bank's Board of Management is responsible for the preparation and fair presentation of these financial\nstatements in accordance with International Financial Reporting Standards, and for such internal control as management\ndetermines is necessary to enable the preparation of financial statements that are free from material misstatement, whether\ndue to fraud or error. Among other things, this duty entails making certain that the Group and the Bank:\n\na) keep proper accounting records that disclose, with reasonable accuracy, the financial position, financial performance and\ncash flows of the group and bank;\n\nb) establish adequate internal controls to safeguard its assets and to prevent and detect fraud and other irregularities; and\n\nc) prepare the consolidated and separate financial statements using suitable accounting policies supported by reasonable\nand prudent judgments and estimates that are consistently applied and reasonable in the circumstances.\n\nThe Board of Management is of the opinion that the financial statements present fairly, in all material respects, the state of\nthe financial affairs of the Group and Bank and of their financial performance and cash flows, as well as the adequate\nsystems of internal financial control that may be relied upon in the preparation of financial statements.\n\nThe Board of Management has assessed the Group's and Bank's ability to continue as a going concern. Hence, nothing has\ncome to the attention of the Board of Management to indicate that the Bank will not remain as a going concern for at least\ntwelve months from the date of this statement.\n\nSigned on behalf of the Board of Management by the Chairman of the Board of Management and the President, as follows:\n\n— Se\n\n“E. Tegeenework Gettu (PhD) Yohannes Ayalew (PhD)\nChairman, Board of Management President/Chief Executive Officer\n\n11-Mar-24 11-Mar-24",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 10,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:50:21.094597+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "af34987dd0bf603e5e3558e3e5bf76755e5a2a1d2699cbaebcee7ff16d8d2c18"
+            },
+            "content_hash": "ae54890bc4a482872a07803a4987fdec59810cd24531970719aa0daae4f14ce7"
+        },
+        {
+            "uid": "Audit Report - 2023_p11_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia coptiges\nConsolidated and separate statement of profit or loss and\nother comprehensive income\n\nFor the year ended 30 June 2023\n\nGroup Bank Group Bank\n\n3o June 2023 30 June 2023 30 June 2022 30 June 2022\n\nNotes Birr'ooo Birr'ooo Birr'ooo Birr'o0o0\n\n$$\nInterest income calculated using the effective interest method 5 11,809,284 11,808,029 7,283,385 7,282,356\nInterest expense calculated using the effective interest method 6 (4,200,622) (4,200,622) (3,119,783) (3,119,783)\nNet interest income 7,608,662 7,607,407 4,163,602 4,162,573\nFee and commission income 7 708,910 708,910 378,961 378,961\nFee and commission expense Kg (3,759) (3,759) (3.334) 334)\nNet fee and commission income 705152 705,152 375,627 375,627\nOther operating income 8 506,937 506,937 504,497 504,497\nTotal operating income 8,820,751 8,819,496 5,043,726 5042,697\nLoan impairment reversal/(charge) 9 373,604 373,604 (499,221) (499,221)\nOther assets impairment reversal/(charge) 10 201,375 201,375 755:467 755,467\nNet operating income/ (loss) 9,395,731 9,394,475 552995972 5,298,943\nPersonnel expenses i (1,777,622) (2,776,496) (1,154,011) (1,153,434)\nDepreciation of investment property 20 (3) (3) (3) (3)\nAmortization of intangible assets 21 (17,483) (17,483) (27,647) (17,647)\nDepreciation and impairment of property, plant and equipment 22 (112,469) (212,467) (98,842) (98,840)\nDepreciation of right-of-use assets 19 (42,153) (42,153) (26,296) (26,296)\nInterest expense on lease liability 19 (3,909) (3,909) (2,968) (2,968)\nOther operating expenses 12 (978,555) (978,471) (573,612) (573,555)\nProfit / (Loss) before tax 6,463,536 6,463,494 3,426,593 35,426,199\nIncome tax income/ (expense) 13 (725,496) (725,496) (45,433) 45,433)\nProfit /(loss) after tax 5,738,040 5:737,998 3,411,160 3,410,767\n\nOther comprehensive income (OCI), net of income tax\n\nItems that will not be subsequently reclassified into profit or loss:\n\nRemeasurement gain/ (loss) on retirement benefits obligations 27 (76,000) (76,000) 16,307 16,307\nNet change in fair value of equity investments measured at FVOCI 16 45,526 45,526 6,664, 6,664\nIncome tax related to the above 13 9,142 9,142 (6,891) (6,891)\npeo oa comprehensive income/ (loss) for the year, Gauge) (21,292) 16,080 16,080\nTotal comprehensive income/ (loss) for the year 5,716,709 5,716,666 3,427,240 3,426,846\nProfit/ (loss) attributable to:\n\nOwner of the bank 5,738,040 5,737,998 3,411,160 3,410,767\nNon-controlling interest 33 0.00 0.02\n\nProfit/ (loss) for the year 5,738,040 5,737,998 3,411,160 3,410,767\nTotal comprehensive income/ (loss) attributable to:\n\nOwner of the bank Bo 3 5,716,709 5,716,666 3,427,240 3,426,846\nNon-controlling interest ; ty 0.00 0.02\n\n\\\\ 5,716,709 5,716,666 3,427,240 3,426,846",
+            "content_markdown": "Development Bank of Ethiopia coptiges\nConsolidated and separate statement of profit or loss and\nother comprehensive income\n\nFor the year ended 30 June 2023\n\nGroup Bank Group Bank\n\n3o June 2023 30 June 2023 30 June 2022 30 June 2022\n\nNotes Birr'ooo Birr'ooo Birr'ooo Birr'o0o0\n\n$$\nInterest income calculated using the effective interest method 5 11,809,284 11,808,029 7,283,385 7,282,356\nInterest expense calculated using the effective interest method 6 (4,200,622) (4,200,622) (3,119,783) (3,119,783)\nNet interest income 7,608,662 7,607,407 4,163,602 4,162,573\nFee and commission income 7 708,910 708,910 378,961 378,961\nFee and commission expense Kg (3,759) (3,759) (3.334) 334)\nNet fee and commission income 705152 705,152 375,627 375,627\nOther operating income 8 506,937 506,937 504,497 504,497\nTotal operating income 8,820,751 8,819,496 5,043,726 5042,697\nLoan impairment reversal/(charge) 9 373,604 373,604 (499,221) (499,221)\nOther assets impairment reversal/(charge) 10 201,375 201,375 755:467 755,467\nNet operating income/ (loss) 9,395,731 9,394,475 552995972 5,298,943\nPersonnel expenses i (1,777,622) (2,776,496) (1,154,011) (1,153,434)\nDepreciation of investment property 20 (3) (3) (3) (3)\nAmortization of intangible assets 21 (17,483) (17,483) (27,647) (17,647)\nDepreciation and impairment of property, plant and equipment 22 (112,469) (212,467) (98,842) (98,840)\nDepreciation of right-of-use assets 19 (42,153) (42,153) (26,296) (26,296)\nInterest expense on lease liability 19 (3,909) (3,909) (2,968) (2,968)\nOther operating expenses 12 (978,555) (978,471) (573,612) (573,555)\nProfit / (Loss) before tax 6,463,536 6,463,494 3,426,593 35,426,199\nIncome tax income/ (expense) 13 (725,496) (725,496) (45,433) 45,433)\nProfit /(loss) after tax 5,738,040 5:737,998 3,411,160 3,410,767\n\nOther comprehensive income (OCI), net of income tax\n\nItems that will not be subsequently reclassified into profit or loss:\n\nRemeasurement gain/ (loss) on retirement benefits obligations 27 (76,000) (76,000) 16,307 16,307\nNet change in fair value of equity investments measured at FVOCI 16 45,526 45,526 6,664, 6,664\nIncome tax related to the above 13 9,142 9,142 (6,891) (6,891)\npeo oa comprehensive income/ (loss) for the year, Gauge) (21,292) 16,080 16,080\nTotal comprehensive income/ (loss) for the year 5,716,709 5,716,666 3,427,240 3,426,846\nProfit/ (loss) attributable to:\n\nOwner of the bank 5,738,040 5,737,998 3,411,160 3,410,767\nNon-controlling interest 33 0.00 0.02\n\nProfit/ (loss) for the year 5,738,040 5,737,998 3,411,160 3,410,767\nTotal comprehensive income/ (loss) attributable to:\n\nOwner of the bank Bo 3 5,716,709 5,716,666 3,427,240 3,426,846\nNon-controlling interest ; ty 0.00 0.02\n\n\\\\ 5,716,709 5,716,666 3,427,240 3,426,846",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 11,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:50:38.717215+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "f9f2959cbf4a25185133c2119c07153dbb1db52f891e7a10e7879be8f351edbb"
+            },
+            "content_hash": "3c207f4c2b234c78e60435a440bad4d16f202a4046080331fb83e282bb511a3a"
+        },
+        {
+            "uid": "Audit Report - 2023_p12_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia eo.\nConsolidated and separate statement of financial position OK\nAs at 30 June 2023\n\nee\n\nGroup Bank Group Bank\ngoJune2023 30June2023 3jo0June2022 30 June 2022\nNotes Birr'ooo Birr'ooo Birr'ooo Birr'ooo\n\nASSETS\nCash and bank balances 14 33,095,715 33,085,405 12,875,627 12,864,983\nLoans and advances to customers 15 67,646,196 67,646,196 53,960,766 53,960,766\nInvestment securities:\n\n- Financial assets measured at FVOCI 16 103,822 103,822 52,531 52,531\n\n- Financial assets measured at amortized cost 16 46,456,966 46,456,966 45,983,126 45,983,126\nDeferred day one loss on investment securities 16 7,565,882 7,565,882 8,206,923 8,206,923\nInvestment in subsidiary 17 9,999 9,999\nOther assets 18 4,105,010 4,104,629 5,221,403 5)221,032\nRights-of-use-assets 19 187,452 187,452 52,307 52,307\nInvestment property 20 145 145 149 149\nIntangible assets 21 41,294 41,294 58,777 58,777\nProperty, plant and equipment 22 953,324 953,308 916,646 916,635\nTotal Assets 160,155,807 160,155,100 127,328,253 127,327,227\nLIABILITIES\nDeposits from customers 23 1,557,743 1,557,743 656,568 656,568\nCurrent tax liabilities 13 523,859 523,916 31,184 31,182\nOther liabilities 26 11,304,388 11,904,117 4,791,586 4,791,539\nLease liabilities 19 78,665 78,665 33,238 33,238\nDebt securities issued 24 37,393,241 37,393,241 20,896,751 20,896,751\nBorrowings 25 71,775:354 71,775,354 65,128,490 65,128,490\nRetirement benefit obligations 27 294,968 294,968 184,159 184,159\nDeferred tax liabilities 13 157,894 157,894 179,156 179,156\nTotal Liabilities 123,086,112 123,085,898 91,901,132 91,901,083\nEQUITY\nCapital 28 28,520,000 28,520,000 28,520,000 28,520,000\nLegal reserve 32 3,883,189 3,882,899 2,448,895 2,448,605\nAccumulated profit/(loss) 29 1,906,157 1,905,955 623,874 623,188\nRegulatory credit risk reserve 31 2,783,613 2,783,613 3,836,285 3,836,285\nOther reserves 30 (23,266) (23,266) (2,934) (4,934)\nTotal equity attributable to owner of the\nBank 37,069,694 37,069,202 35,427,121 35,426,144\nNon-controlling interest 33 1 1\nTotal equity 37,069,695 37,069,202 35,427,121 35,426,144\nTotal equity and liabilities 160,155,807 160,155,100 127,328,253 127,327,227\n\n4 : —_ are Py\nThe notes on_pages.13 to 92 are an integral part of these financial statements. iS\n\n‘,\nae\n5 ‘",
+            "content_markdown": "Development Bank of Ethiopia eo.\nConsolidated and separate statement of financial position OK\nAs at 30 June 2023\n\nee\n\nGroup Bank Group Bank\ngoJune2023 30June2023 3jo0June2022 30 June 2022\nNotes Birr'ooo Birr'ooo Birr'ooo Birr'ooo\n\nASSETS\nCash and bank balances 14 33,095,715 33,085,405 12,875,627 12,864,983\nLoans and advances to customers 15 67,646,196 67,646,196 53,960,766 53,960,766\nInvestment securities:\n\n- Financial assets measured at FVOCI 16 103,822 103,822 52,531 52,531\n\n- Financial assets measured at amortized cost 16 46,456,966 46,456,966 45,983,126 45,983,126\nDeferred day one loss on investment securities 16 7,565,882 7,565,882 8,206,923 8,206,923\nInvestment in subsidiary 17 9,999 9,999\nOther assets 18 4,105,010 4,104,629 5,221,403 5)221,032\nRights-of-use-assets 19 187,452 187,452 52,307 52,307\nInvestment property 20 145 145 149 149\nIntangible assets 21 41,294 41,294 58,777 58,777\nProperty, plant and equipment 22 953,324 953,308 916,646 916,635\nTotal Assets 160,155,807 160,155,100 127,328,253 127,327,227\nLIABILITIES\nDeposits from customers 23 1,557,743 1,557,743 656,568 656,568\nCurrent tax liabilities 13 523,859 523,916 31,184 31,182\nOther liabilities 26 11,304,388 11,904,117 4,791,586 4,791,539\nLease liabilities 19 78,665 78,665 33,238 33,238\nDebt securities issued 24 37,393,241 37,393,241 20,896,751 20,896,751\nBorrowings 25 71,775:354 71,775,354 65,128,490 65,128,490\nRetirement benefit obligations 27 294,968 294,968 184,159 184,159\nDeferred tax liabilities 13 157,894 157,894 179,156 179,156\nTotal Liabilities 123,086,112 123,085,898 91,901,132 91,901,083\nEQUITY\nCapital 28 28,520,000 28,520,000 28,520,000 28,520,000\nLegal reserve 32 3,883,189 3,882,899 2,448,895 2,448,605\nAccumulated profit/(loss) 29 1,906,157 1,905,955 623,874 623,188\nRegulatory credit risk reserve 31 2,783,613 2,783,613 3,836,285 3,836,285\nOther reserves 30 (23,266) (23,266) (2,934) (4,934)\nTotal equity attributable to owner of the\nBank 37,069,694 37,069,202 35,427,121 35,426,144\nNon-controlling interest 33 1 1\nTotal equity 37,069,695 37,069,202 35,427,121 35,426,144\nTotal equity and liabilities 160,155,807 160,155,100 127,328,253 127,327,227\n\n4 : —_ are Py\nThe notes on_pages.13 to 92 are an integral part of these financial statements. iS\n\n‘,\nae\n5 ‘",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 12,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:50:54.083078+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "4bdc013e6517e85ecb6bd794626b93d4291217af7fafde2d44fad71446b5421c"
+            },
+            "content_hash": "bd63fab42a4af3cbd7cddd768d25636fa1f02adba6125fea58faccb258ee6a04"
+        },
+        {
+            "uid": "Audit Report - 2023_p13_1",
+            "unit_type": "header",
+            "content_raw": "Development Bank of Ethiopia\nConsolidated and separate statement of changes in equity\nFor the year ended 30 June 2023\nGroup",
+            "content_markdown": "# Development Bank of Ethiopia\n## Consolidated and separate statement of changes in equity\n### For the year ended 30 June 2023\n#### Group",
             "bbox": {
                 "x1": 0.0,
                 "y1": 0.0,
@@ -226,16 +849,393 @@
             },
             "provenance": {
                 "source_file": "Audit Report - 2023.pdf",
-                "page_number": 2,
+                "page_number": 13,
                 "strategy_used": "STRATEGY_C",
-                "timestamp": "2026-03-06T13:48:43.648329+00:00",
+                "timestamp": "2026-03-07T23:51:35.046837+00:00",
                 "strategy_escalation_path": [
                     "STRATEGY_B",
                     "STRATEGY_C"
                 ],
-                "content_hash": "70293552a2978d0498802805f4e66fff2b9e18dfcb7f3d6da50c80ac0ca9bd4c"
+                "content_hash": "8d030d07bdd2307f93a2f9db0c35f4b839cf0ff82f15ded65ceb12e265483ce9"
             },
-            "content_hash": "821e0dd5c1f24cbc76dde33bf17aeecd3bdde8a502227324d2ef4a148163baff"
+            "content_hash": "548f19fb48e11da80f1c524cb99af81cc179c0d24dc3e6b5a1420e15b99a79f3"
+        },
+        {
+            "uid": "Audit Report - 2023_p13_2",
+            "unit_type": "table",
+            "content_raw": "{\"headers\": [\"As at 1 July 2021\", \"Profit/(loss) over credit risk reserve\", \"Transfer to regulatory credit risk reserve\", \"Other comprehensive income\", \"Revaluation of property, plant and equipment\", \"Transfer from retained earnings\", \"Change in fair value of equity instruments at fair value\", \"Total comprehensive income for the year\", \"As at 1 July 2022\", \"Dividends paid\", \"Transfer to regulatory credit risk reserve\", \"Profit/(loss) over credit risk reserve\", \"Other comprehensive income\", \"Change in fair value of equity instruments at fair value\", \"Total comprehensive income for the year\", \"As at 1 July 2023\"], \"rows\": [[\"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\", \"Birr 000\"], [\"28,250,000\", \"(1,569)\", \"(1,569)\", \"0\", \"0\", \"0\", \"0\", \"0\", \"28,250,000\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"28,250,000\"], [\"28,250,000\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"28,250,000\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"28,250,000\"]]}",
+            "content_markdown": "| As at 1 July 2021 | Profit/(loss) over credit risk reserve | Transfer to regulatory credit risk reserve | Other comprehensive income | Revaluation of property, plant and equipment | Transfer from retained earnings | Change in fair value of equity instruments at fair value | Total comprehensive income for the year | As at 1 July 2022 | Dividends paid | Transfer to regulatory credit risk reserve | Profit/(loss) over credit risk reserve | Other comprehensive income | Change in fair value of equity instruments at fair value | Total comprehensive income for the year | As at 1 July 2023 |\n|--------------------|----------------------------------------|-----------------------------------------------|--------------------------|------------------------------------------|--------------------------|------------------------------------------------|------------------------------------------|--------------------------|----------------|-----------------------------------------------|----------------------------------------|--------------------------|------------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|\n| Birr 000          | Birr 000                              | Birr 000                                       | Birr 000                | Birr 000                                | Birr 000                | Birr 000                                        | Birr 000                                | Birr 000                | Birr 000      | Birr 000                                       | Birr 000                              | Birr 000                | Birr 000                                        | Birr 000                                | Birr 000                                | Birr 000                                |\n| 28,250,000        | (1,569)                               | (1,569)                                        | 0                        | 0                                        | 0                        | 0                                              | 0                                        | 28,250,000              | 0              | 0                                             | 0                                      | 0                        | 0                                              | 0                                        | 28,250,000                            | 0                                        |\n| 28,250,000        | 0                                    | 0                                             | 0                        | 0                                        | 0                        | 0                                              | 0                                        | 28,250,000              | 0              | 0                                             | 0                                      | 0                        | 0                                              | 0                                        | 28,250,000                            | 0                                        |",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 13,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:51:35.047144+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "0268f9fbd0d52426219658b16ba553f802b04131b030eb28f6f6266f3f441806"
+            },
+            "content_hash": "f72b72c5650dbe86f414867e76d8e647f1ab69bb33e7f4f18e03cf7d7fc1a8cc"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_1",
+            "unit_type": "header",
+            "content_raw": "Development Bank of Ethiopia",
+            "content_markdown": "# Development Bank of Ethiopia",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.639582+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "4fdcf5385b03aeab2835301ac018dd51d40007a9a8be9c75d40b93e8feb9dfba"
+            },
+            "content_hash": "3029142465e5a26eaa4bc2aa4c08f71f354c61e90ae005255c1b917ec8c4d710"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_2",
+            "unit_type": "header",
+            "content_raw": "Consolidated and separate statement of changes in equity for the year ended 30 June 2023",
+            "content_markdown": "## Consolidated and separate statement of changes in equity for the year ended 30 June 2023",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.639764+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "714b306a9d738256a594e1c8bac1b70f7ab83d1711a9b9a98c6614efe63c98b3"
+            },
+            "content_hash": "bbdffc0e177cba9a09ad4e1239aae99d32a7d4ddd6d25bcd8fc44336ac0329d4"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_3",
+            "unit_type": "table",
+            "content_raw": "{\"headers\": [\"Level\", \"Nature\", \"Regulatory risk\", \"Total\", \"Capital\", \"Notes\"], \"rows\": [[\"1.145\", \"4,465\", \"4,465\", \"4,465\", \"28,250,000\", \"28,250,000\"], [\"1.145\", \"4,465\", \"4,465\", \"4,465\", \"28,250,000\", \"28,250,000\"], [\"1.145\", \"4,465\", \"4,465\", \"4,465\", \"28,250,000\", \"28,250,000\"], [\"1.145\", \"4,465\", \"4,465\", \"4,465\", \"28,250,000\", \"28,250,000\"]]}",
+            "content_markdown": "| Level | Nature | Regulatory risk | Total | Capital | Notes |\n|-------|--------|----------------|-------|---------|-------|\n| 1.145 | 4,465  | 4,465          | 4,465 | 28,250,000 | 28,250,000 |\n| 1.145 | 4,465  | 4,465          | 4,465 | 28,250,000 | 28,250,000 |\n| 1.145 | 4,465  | 4,465          | 4,465 | 28,250,000 | 28,250,000 |\n| 1.145 | 4,465  | 4,465          | 4,465 | 28,250,000 | 28,250,000 |",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.639897+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "2244674c0f4eee80fb7dbcf1e6b135fa6b6f5d8a6f6280252179423986442e17"
+            },
+            "content_hash": "854a4deb476b0ac47b11dd831e8d60d71916946c00d51d8bdcac7d1e4adad607"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_4",
+            "unit_type": "text",
+            "content_raw": "As at 30 June 2023",
+            "content_markdown": "As at 30 June 2023",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.639997+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "1d8f1e0b0ef95e0d426982552a002b9dad54d9a81737aab0fb82ecb5a20837f8"
+            },
+            "content_hash": "8400887832021f2a8804f690a69cac35f81bb15c99d13dd806314ed806c6b489"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_5",
+            "unit_type": "text",
+            "content_raw": "Profit / (Loss) for the year",
+            "content_markdown": "Profit / (Loss) for the year",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.640151+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "52aa319f6fee9621c0ddb06f3994c66fa168fcc5f1c7f4b522c9fecbc1d61093"
+            },
+            "content_hash": "32f476e096bd460518ffb2904577d3e433131909570550ac1153040fa5f9191f"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_6",
+            "unit_type": "text",
+            "content_raw": "Transfer to regulatory credit risk reserve",
+            "content_markdown": "Transfer to regulatory credit risk reserve",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.640242+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "c00f356395d691cf005deabe29ea8629d2222581155e1626b5d9088dae730632"
+            },
+            "content_hash": "0cf550d87b99c562ca0c04f34e52cf312c6f4ada5df34f93270be22f1033284c"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_7",
+            "unit_type": "text",
+            "content_raw": "Other comprehensive income",
+            "content_markdown": "Other comprehensive income",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.640319+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "bb2c214acf9d46f413a500f8d01a0507f1537c073898a32e234333c8a7fcbea6"
+            },
+            "content_hash": "e1145ae7315af311d1f1b0c4a0cfc9a967f5c19757885c3924ebaf8f69458e7b"
+        },
+        {
+            "uid": "Audit Report - 2023_p14_8",
+            "unit_type": "text",
+            "content_raw": "Total comprehensive income for the year",
+            "content_markdown": "Total comprehensive income for the year",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 14,
+                "strategy_used": "STRATEGY_C",
+                "timestamp": "2026-03-07T23:52:08.640398+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B",
+                    "STRATEGY_C"
+                ],
+                "content_hash": "21b0301e8d5d8583776b6c39d88604ecfc52f5802460c6921c64f85929b3cb0b"
+            },
+            "content_hash": "7a813fc1ed919b285236878618e6ee31f81f73ade5c50b048ee70140003e8767"
+        },
+        {
+            "uid": "Audit Report - 2023_p15_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\nConsolidated and separate statement of cash flows\nFor the year ended 30 June 2023\n\nGroup Bank Group Bank\ngo June 2023 30 June 2023 30 June 2022 30 June 2022\nNotes Birr'ooo _—Birr'ooo Birr'ooo Birr'ooo\nCash flows from operating activities\nCash generated from operations 34 (2,200,608) (1,200,342) (1,033,678) (1,034,172)\nDefined benefits paid = (11,602) (11,602)\n(Realized) gain on foreign exchange dealing and\nfluctuation on cash & cash equivalents oeas 449,692 449,692 574,016 574,016\nIncome tax paid 13 (263,774) (263,716) (986,362) (986,362)\nEE\n\nNet cash (outflow)/inflow from operating activities (4,014,690) (1,014,366) (1,457,626) (4,458,120)\n_\n\nCash flows from investing activities\n\nPurchase of intangible assets 21 * - (1,559) (1,559)\nProceeds from sale of property, plant andequipment 34 n8 118 269 269\nPurchase of property, plant and equipment 22 (149,253) (149,244) (83,940) (83,940)\nPi A\nNet cash (outflow)/inflow from investing activities (149,135) (149,125) (85,230) (85,230)\n_——\n\nCash flows from financing activities\n\nProceeds from issue of debt securities 23 15,854,181 15,854,181 11,277,399 11,277,399\nRepayment of debt securities 23 (2,150,759) (2,150,759) (1,749,555) G,749,555)\nProceeds from borrowings 24 71710,164 7,710,164 4,496,184 4,496,184\nRepayment of principal borrowings 24 (1,003,195) (1,003,195) (12,531,337) (22,531,337)\nRepayment of principal portion of lease payments 19 (14,840) (14,840) (11,932) (21,932)\nEE\nNet cash (outflow)/inflow from financing activities 21,395,552 21,395,552 1,480,759 1,480,759\nEEE\nNet increase/(decrease) in cash and cash equivalents 20,231,727 20,232,061 (62,097) (62,591)\n‘ot and cash equivalents at the beginning of the 14 12,876,268 12,865,624 13,040,325 13,030,176\nUnrealized loss on foreign exchange fluctuation on\nbene! 8 &25 (10,595) (10,595) (101,960) (101,960)\nChange in NCI 0.03,\ni\n_ cash equivalents at the end of the 14 33,097,400 33,087,090 12,876,268 12,865,624\nids a\nAdditional information on operational cash\nflows from interest and dividends\nInterest received\n7,091,415 7031415 5,552,909 5,552,909\nDividends received 5,765 5.765 527 527\nInterest paid 2,476,359 2,476,359 2,765,461 2,765,461\n\nThe notes on pages 13 to.92-are anit patt D\\ financial statements.\n- Sal uy Fae\n\nS",
+            "content_markdown": "Development Bank of Ethiopia\nConsolidated and separate statement of cash flows\nFor the year ended 30 June 2023\n\nGroup Bank Group Bank\ngo June 2023 30 June 2023 30 June 2022 30 June 2022\nNotes Birr'ooo _—Birr'ooo Birr'ooo Birr'ooo\nCash flows from operating activities\nCash generated from operations 34 (2,200,608) (1,200,342) (1,033,678) (1,034,172)\nDefined benefits paid = (11,602) (11,602)\n(Realized) gain on foreign exchange dealing and\nfluctuation on cash & cash equivalents oeas 449,692 449,692 574,016 574,016\nIncome tax paid 13 (263,774) (263,716) (986,362) (986,362)\nEE\n\nNet cash (outflow)/inflow from operating activities (4,014,690) (1,014,366) (1,457,626) (4,458,120)\n_\n\nCash flows from investing activities\n\nPurchase of intangible assets 21 * - (1,559) (1,559)\nProceeds from sale of property, plant andequipment 34 n8 118 269 269\nPurchase of property, plant and equipment 22 (149,253) (149,244) (83,940) (83,940)\nPi A\nNet cash (outflow)/inflow from investing activities (149,135) (149,125) (85,230) (85,230)\n_——\n\nCash flows from financing activities\n\nProceeds from issue of debt securities 23 15,854,181 15,854,181 11,277,399 11,277,399\nRepayment of debt securities 23 (2,150,759) (2,150,759) (1,749,555) G,749,555)\nProceeds from borrowings 24 71710,164 7,710,164 4,496,184 4,496,184\nRepayment of principal borrowings 24 (1,003,195) (1,003,195) (12,531,337) (22,531,337)\nRepayment of principal portion of lease payments 19 (14,840) (14,840) (11,932) (21,932)\nEE\nNet cash (outflow)/inflow from financing activities 21,395,552 21,395,552 1,480,759 1,480,759\nEEE\nNet increase/(decrease) in cash and cash equivalents 20,231,727 20,232,061 (62,097) (62,591)\n‘ot and cash equivalents at the beginning of the 14 12,876,268 12,865,624 13,040,325 13,030,176\nUnrealized loss on foreign exchange fluctuation on\nbene! 8 &25 (10,595) (10,595) (101,960) (101,960)\nChange in NCI 0.03,\ni\n_ cash equivalents at the end of the 14 33,097,400 33,087,090 12,876,268 12,865,624\nids a\nAdditional information on operational cash\nflows from interest and dividends\nInterest received\n7,091,415 7031415 5,552,909 5,552,909\nDividends received 5,765 5.765 527 527\nInterest paid 2,476,359 2,476,359 2,765,461 2,765,461\n\nThe notes on pages 13 to.92-are anit patt D\\ financial statements.\n- Sal uy Fae\n\nS",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 15,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:52:24.454196+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "dc81f6f055efd1be43201198eb5722a3df78b1299ec76047e9439c2ee83ea31b"
+            },
+            "content_hash": "ef89856c75c51e4831a8c23f5eca0ce078163c93898666c3013cb09fd55931b0"
+        },
+        {
+            "uid": "Audit Report - 2023_p16_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia a\nNotes to the consolidated and separate financial statements 2\nFor the year ended 30 June 2023\n\n4 General information\n\nDevelopment Bank of Ethiopia (\"Development Bank or the Bank\") is a specialized financial institution established to promote the national\ndevelopment agenda through development finance and close technical support to viable projects from the priority areas of the Government by\nmobilizing funds from domestic and foreign sources while ensuring its sustainability, The consolidated and separate financial statements of\nthe Bank for the year ended 30 June 2023 comprise the Bank and its subsidiary (together referred to as \"the Group\" and separately referred\nto as \"Group entities\"), The Bank and its subsidiary are not listed on a stock market as there is no a stock exchange in the country.\n\nThe Bank was initially established in 1909 and was last reestablished on the 24th of January 2003 in accordance with the Council of\nMinisters Regulations No. 83/2013. The Bank is governed by the Public Enterprises Proclamation No. 25/1992 and in compliance with the\nBanking Business Proclamation No. 592/2008\n\n‘he Bank has one subsidiary, namely Ethio Capital and Investment PLC, which was established on June 14, 2017 in accordance with the then\nCommercial code of Ethiopia of 1960.\n\nThe Group does not have any associate or unconsolidated structured entity.\n\nThe Bank's registered office is at:\n\nDevelopment Bank of Ethiopia Tower\nJosip Broz Tito Street\n\nP.O Box 1900\n\nKirkos Sub-city (Kasanchis)\n\nAddis Ababa, Ethiopia\n\n‘The Bank is principally engaged in the provision of diverse range of financial products and services to corporate, retail and small- and\nmedium-sized enterprise clients, as well as lease financing (hire purchase) to SMEs, based in the Ethiopian market.\n\n2 Summary of significant accounting policies\n2.1 Introduction to summary of significant accounting policies\n\nThe principal accounting policies applied in the preparation of these consolidated and separate financial statements are set out below. These\npolicies have been consistently applied to all the years presented, unless otherwise stated.\n\n2.2 Basis of preparation\n\nThe consolidated and separate financial statements of the Group and Bank for the period ended 30 June 2023 have been prepared in\naccordance with International Financial Reporting Standards (\"IFRS\") as issued by the International Accounting Standards Board (\"IASB\").\nAdditional information required by national regulations is included where appropriate.\n\nThe consolidated and separate financial statements comprise the consolidated and separate statement of profit or loss and other\ncomprehensive income, the consolidated and separate statement of financial position, the consolidated and separate statement of changes in\nequity, the consolidated and separate statement of cash flows and the notes to the consolidated and separate financial statements.\n\nThe consolidated and separate financial statements have been prepared in accordance with the going concern principle, on accruals basis\nunder the historical cost concept, except for the following:\n\ne defined benefit obligations measured at fair value;\n\n» equity investments measured at fair value through other comprehensive income; and\n\n© staff loans measured at fair value,\n\n‘All values are rounded to the nearest thousand, except when otherwise indicated. The consolidated and separate financial statements are\npresented in thousands of Ethiopian Birr (Birr ‘o00),\n\nThe preparation of consolidated and separate financial statements in conformity with IFRS requires the use of certain critical accounting\nestimates. It also requires management to exercise its judgment in the process of applying the Group's and Bank's accounting policies.\nChanges in assumptions may have a significant impact on the financial statements in the period the assumptions changed. Management\nbelieves that the underlying assumptions are appropriate and that the Group's and Bank's consolidated and separate financial statements\ntherefore present the financial position and results fairly. The areas involving a higher degree of judgment or complexity, or areas where\nassumptions and estimates are significant to the financial statements, are disclosed in Note 3.",
+            "content_markdown": "Development Bank of Ethiopia a\nNotes to the consolidated and separate financial statements 2\nFor the year ended 30 June 2023\n\n4 General information\n\nDevelopment Bank of Ethiopia (\"Development Bank or the Bank\") is a specialized financial institution established to promote the national\ndevelopment agenda through development finance and close technical support to viable projects from the priority areas of the Government by\nmobilizing funds from domestic and foreign sources while ensuring its sustainability, The consolidated and separate financial statements of\nthe Bank for the year ended 30 June 2023 comprise the Bank and its subsidiary (together referred to as \"the Group\" and separately referred\nto as \"Group entities\"), The Bank and its subsidiary are not listed on a stock market as there is no a stock exchange in the country.\n\nThe Bank was initially established in 1909 and was last reestablished on the 24th of January 2003 in accordance with the Council of\nMinisters Regulations No. 83/2013. The Bank is governed by the Public Enterprises Proclamation No. 25/1992 and in compliance with the\nBanking Business Proclamation No. 592/2008\n\n‘he Bank has one subsidiary, namely Ethio Capital and Investment PLC, which was established on June 14, 2017 in accordance with the then\nCommercial code of Ethiopia of 1960.\n\nThe Group does not have any associate or unconsolidated structured entity.\n\nThe Bank's registered office is at:\n\nDevelopment Bank of Ethiopia Tower\nJosip Broz Tito Street\n\nP.O Box 1900\n\nKirkos Sub-city (Kasanchis)\n\nAddis Ababa, Ethiopia\n\n‘The Bank is principally engaged in the provision of diverse range of financial products and services to corporate, retail and small- and\nmedium-sized enterprise clients, as well as lease financing (hire purchase) to SMEs, based in the Ethiopian market.\n\n2 Summary of significant accounting policies\n2.1 Introduction to summary of significant accounting policies\n\nThe principal accounting policies applied in the preparation of these consolidated and separate financial statements are set out below. These\npolicies have been consistently applied to all the years presented, unless otherwise stated.\n\n2.2 Basis of preparation\n\nThe consolidated and separate financial statements of the Group and Bank for the period ended 30 June 2023 have been prepared in\naccordance with International Financial Reporting Standards (\"IFRS\") as issued by the International Accounting Standards Board (\"IASB\").\nAdditional information required by national regulations is included where appropriate.\n\nThe consolidated and separate financial statements comprise the consolidated and separate statement of profit or loss and other\ncomprehensive income, the consolidated and separate statement of financial position, the consolidated and separate statement of changes in\nequity, the consolidated and separate statement of cash flows and the notes to the consolidated and separate financial statements.\n\nThe consolidated and separate financial statements have been prepared in accordance with the going concern principle, on accruals basis\nunder the historical cost concept, except for the following:\n\ne defined benefit obligations measured at fair value;\n\n» equity investments measured at fair value through other comprehensive income; and\n\n© staff loans measured at fair value,\n\n‘All values are rounded to the nearest thousand, except when otherwise indicated. The consolidated and separate financial statements are\npresented in thousands of Ethiopian Birr (Birr ‘o00),\n\nThe preparation of consolidated and separate financial statements in conformity with IFRS requires the use of certain critical accounting\nestimates. It also requires management to exercise its judgment in the process of applying the Group's and Bank's accounting policies.\nChanges in assumptions may have a significant impact on the financial statements in the period the assumptions changed. Management\nbelieves that the underlying assumptions are appropriate and that the Group's and Bank's consolidated and separate financial statements\ntherefore present the financial position and results fairly. The areas involving a higher degree of judgment or complexity, or areas where\nassumptions and estimates are significant to the financial statements, are disclosed in Note 3.",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 16,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:52:49.783696+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "c9d948af3894c4d430c6d0280eee759fe46d5440a1c67a0bbc8f7c22c3bf80f1"
+            },
+            "content_hash": "22c5a35442060093493cda2ec4ba3221bb00422dd1ba19b0ba35dd96c0659ecb"
+        },
+        {
+            "uid": "Audit Report - 2023_p17_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\nNotes to the consolidated and separate financial statements > 3\n\nFor\n\nthe year ended 30 June 2023\n\n2.3\n\n2.4\n\n2.41\n\na)\n\n25\na)\n\nb)\n\n°)\n\nGoing concern\n\n‘The consolidated and separate financial statements have been prepared on a going concern basis. The management have no doubt that the\nGroup and Bank would remain in existence after 12 months.\n\nChanges in accounting policies and disclosures\nNew and amended standards and interpretations effective and adopted during the year\n\nThe Group/Bank applied for the first-time certain standards and amendments, which are effective for annual periods beginning on or after 1\nJuly 2022 (unless otherwise stated). The effect of these new and amended standards are disclosed below:\n\nInterest Rate Benchmark Reform — Phase 2: Amendments to IFRS 9, LAS 39, IFRS 7, IFRS 4 and IFRS 16\n\nInterest Rate Benchmark Reform — Phase 2 introduces amendments to IFRS 9, IAS 39, IFRS 7, IFRS q and IFRS 16 and is not mandatorily\neffective until annual periods beginning on or after 1 January 2021, However, many entities were expected to adopt the amendments early,\nThe amendments provide temporary reliefs which address the financial reporting effects when an interbank offered rate (IBOR) is replaced\nwith an alternative nearly risk-free interest rate (RFR). These reliefs relate to modifications of financial instruments and lease contracts or\nhedging relationships triggered by a replacement of benchmark interest rate in a contract with a new alternative benchmark rate. In general,\nthe amendments include the following practical expedients:\n\n+ A practical expedient to require contractual changes, or changes to cash flows that are directly required by therefrom, to be treated as\n\nchanges to a floating interest rate, equivalent to a movement in a market rate of interest.\n\n+ Permit changes required by IBOR reform to be made to hedge designations and hedge documentation without the hedging relationship\nbeing discontinued.\n\n+ Provide temporary relief to entities from having to meet the separately identifiable requirement when an RFR instrument is designated\nas a hedge of a risk component.\n\nHowever, these amendments had no impact on the consolidated financial statements of the Group/Bank, or on its transactions for which the\nbenchmark rate had been replaced with an alternative benchmark rate as at 30 June 2022 and 30 June 2023, as the Group/Bank does not\ncurrently manage cash flow hedges or derivative financial instruments and floating rate loans linked to external benchmarks. The\nGroup/Bank intends to use the practical expedients in future periods if they become applicable,\n\nBasis of Consolidation\n\nSubsidiaries\n\nSubsidiaries are entities (including structured entities) controlled by the Bank. The Bank controls an entity if it is exposed to, or has the\nrights to variable returns from its involvement with the entity and has the ability to affect those returns through its power over the entity. The\n\nBank reassesses periodically whether it has control if there are changes to one or more elements of the control listed. This includes\ncircumstances in which protective rights held become substantive and lead to the Group having control over an investee.\n\nLoss of control\n\nOn loss of control, the Group derecognises the assets and liabilities of the subsidiary, any related non-controlling interests and the other\ncomponents of equity relating to a subsidiary. Any surplus or deficit arising on the loss of control is recognised in profit or loss. If the Group\nretains any interest in the previous subsidiary, then such interest is measured at fair value at the date that control is lost. Subsequently, that\nretained interest is accounted for as an equity-accounted investee or as a financial asset depending on the level of influence retained.\n\nChanges in oumership interests in subsidiaries without change of control\n\nChanges in the Group's interest in a subsidiary that do not result in a loss of control are accounted for as equity transactions (transactions\nwith owners). When the proportion of the equity held by non-controlling interests (NCIs) changes, the carrying amounts of the controlling\nand NCIs are adjusted to reflect the changes in their relative interests in the subsidiary. Any difference between the amount by which the non-\ncontrolling interest is adjusted and the fair value of the consideration paid or received is recognised directly in equity and attributed to the\nGroup.\n\n0119861296\n14 Qs 0111541235 y\n3, te\n\nA>\nWe, Peza ey\n¥ Submit®",
+            "content_markdown": "Development Bank of Ethiopia\nNotes to the consolidated and separate financial statements > 3\n\nFor\n\nthe year ended 30 June 2023\n\n2.3\n\n2.4\n\n2.41\n\na)\n\n25\na)\n\nb)\n\n°)\n\nGoing concern\n\n‘The consolidated and separate financial statements have been prepared on a going concern basis. The management have no doubt that the\nGroup and Bank would remain in existence after 12 months.\n\nChanges in accounting policies and disclosures\nNew and amended standards and interpretations effective and adopted during the year\n\nThe Group/Bank applied for the first-time certain standards and amendments, which are effective for annual periods beginning on or after 1\nJuly 2022 (unless otherwise stated). The effect of these new and amended standards are disclosed below:\n\nInterest Rate Benchmark Reform — Phase 2: Amendments to IFRS 9, LAS 39, IFRS 7, IFRS 4 and IFRS 16\n\nInterest Rate Benchmark Reform — Phase 2 introduces amendments to IFRS 9, IAS 39, IFRS 7, IFRS q and IFRS 16 and is not mandatorily\neffective until annual periods beginning on or after 1 January 2021, However, many entities were expected to adopt the amendments early,\nThe amendments provide temporary reliefs which address the financial reporting effects when an interbank offered rate (IBOR) is replaced\nwith an alternative nearly risk-free interest rate (RFR). These reliefs relate to modifications of financial instruments and lease contracts or\nhedging relationships triggered by a replacement of benchmark interest rate in a contract with a new alternative benchmark rate. In general,\nthe amendments include the following practical expedients:\n\n+ A practical expedient to require contractual changes, or changes to cash flows that are directly required by therefrom, to be treated as\n\nchanges to a floating interest rate, equivalent to a movement in a market rate of interest.\n\n+ Permit changes required by IBOR reform to be made to hedge designations and hedge documentation without the hedging relationship\nbeing discontinued.\n\n+ Provide temporary relief to entities from having to meet the separately identifiable requirement when an RFR instrument is designated\nas a hedge of a risk component.\n\nHowever, these amendments had no impact on the consolidated financial statements of the Group/Bank, or on its transactions for which the\nbenchmark rate had been replaced with an alternative benchmark rate as at 30 June 2022 and 30 June 2023, as the Group/Bank does not\ncurrently manage cash flow hedges or derivative financial instruments and floating rate loans linked to external benchmarks. The\nGroup/Bank intends to use the practical expedients in future periods if they become applicable,\n\nBasis of Consolidation\n\nSubsidiaries\n\nSubsidiaries are entities (including structured entities) controlled by the Bank. The Bank controls an entity if it is exposed to, or has the\nrights to variable returns from its involvement with the entity and has the ability to affect those returns through its power over the entity. The\n\nBank reassesses periodically whether it has control if there are changes to one or more elements of the control listed. This includes\ncircumstances in which protective rights held become substantive and lead to the Group having control over an investee.\n\nLoss of control\n\nOn loss of control, the Group derecognises the assets and liabilities of the subsidiary, any related non-controlling interests and the other\ncomponents of equity relating to a subsidiary. Any surplus or deficit arising on the loss of control is recognised in profit or loss. If the Group\nretains any interest in the previous subsidiary, then such interest is measured at fair value at the date that control is lost. Subsequently, that\nretained interest is accounted for as an equity-accounted investee or as a financial asset depending on the level of influence retained.\n\nChanges in oumership interests in subsidiaries without change of control\n\nChanges in the Group's interest in a subsidiary that do not result in a loss of control are accounted for as equity transactions (transactions\nwith owners). When the proportion of the equity held by non-controlling interests (NCIs) changes, the carrying amounts of the controlling\nand NCIs are adjusted to reflect the changes in their relative interests in the subsidiary. Any difference between the amount by which the non-\ncontrolling interest is adjusted and the fair value of the consideration paid or received is recognised directly in equity and attributed to the\nGroup.\n\n0119861296\n14 Qs 0111541235 y\n3, te\n\nA>\nWe, Peza ey\n¥ Submit®",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 17,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:53:10.153748+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "6ddd79d7e622a84261210373fcc3dd66fa147bd08683e5939e1cb7db8e3690e6"
+            },
+            "content_hash": "70c6f237e75aa612d3e84948fe4e7e08398ac7522bb410295ed593f6ccf9a025"
+        },
+        {
+            "uid": "Audit Report - 2023_p18_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\nNotes to the consolidated and separate financial statements\nFor the year ended 30 June 2023\n\nd) Transactions eliminated on consolidation\n\nInter-company transactions, balances and unrealised gains on transactions between companies within the Group are eliminated on\nconsolidation, Unrealised losses are also eliminated in the same manner as unrealised gains, but only to the extent that there is no evidence of\nimpairment. Accounting policies of subsidiaries have been changed where necessary to ensure consistency with the policies adopted by the\nGroup.\n\ne) Non-controlling interests\n\nNon-controlling interests are measured at their proportionate share of the acquiree's identifiable net assets at the acquisition date. Changes in\nthe Group's interest in a subsidiary that do not result in a loss of control are accounted for as equity transactions.\n\n2.6 Foreign currency translation\n\na) Functional and presentation currency\n\nItems included in the financial statements are measured using the currency of the primary economic environment in which the Bank operates\n(‘the functional currency’). The functional currency and presentation currency of the Bank is Ethiopian Birr.\n\nb) Transactions and balances\n\nForeign currency transactions are translated into the functional currency using the exchange rates prevailing at the dates of the transactions.\nForeign exchange gains and losses resulting from the settlement of foreign currency transactions and from the translation at exchange rates of\nmonetary assets and liabilities denominated in currencies other than the Bank's functional currency are recognised in profit or loss. Monetary\nitems denominated in foreign currency are translated using the closing rate as at the reporting date.\n\nNon-monetary items that are measured at historical cost in a foreign currency are translated using the spot exchange rates as at the date of\nrecognition.\n\n2.7 Recognition of income and expenses\nRevenue is recognised to the extent that it is probable that the economic benefits will flow to the Group and Bank and the revenue can be\nreliably measured, regardless of when the payment is being made, Revenue is measured at the fair value of the consideration received or\nreceivable, taking into account contractually defined terms of payment and excluding any amounts collected on behalf of third parties(i.e.\ntaxes or duty).\n\nThe Group and the Bank earn income from interest on loans given to customers for commercial agriculture, agro-processing, manufacturing,\nmining and extractive industries, hire purchase leases, personal loans, etc, On top of that, the Bank earns interest from deposit placements\nwith local and foreign banks, as well as with investment in Government Treasury notes and special Government bonds. Other incomes include\nfees and commissions on letter of credits, guarantees and managed/entrusted funds.\n\n2.7.1 Interest income and expense\na) Effective interest rate and amortized cost\n\nInterest income and expense are recognised in profit or loss using the effective interest method. The ‘effective interest rate’ is the rate that\nexactly discounts estimated future cash payments or receipts through the expected life of the financial instrument to:\n\n— the gross carrying amount of the financial asset; or\n\n— the amortised cost of the financial liability.\n\nWhen calculating the effective interest rate for financial instruments other than purchased or originated credit-impaired assets, the Group\nand the Bank estimate future cash flows considering all contractual terms of the financial instrument, but not expected credit loss (ECL), For\npurchased or originated credit impaired financial assets, a credit-adjusted effective interest rate is calculated using estimated future cash\nflows including ECL.\n\nThe calculation of the effective interest rate includes transaction costs and fees and points paid or received that are an integral part of the\neffective interest rate. Transaction costs include incremental costs that are directly attributable to the acquisition or issue of a financial asset\nor financial liability.\n\nb) Amortized cost and gross carrying amount\n\nThe ‘amortised cost’ of a financial asset or financial liability is the amount at which the financial asset or financial liability is measured on\ninitial recognition minus the principal repayments, plus or minus the cumulative amortisation using the effective interest method of any\ndifference between that initial amount and the maturity amount and, for financial assets, adjusted for any expected credit loss allowance if the\nfinancial assets fall into Stage 3 (impaired loans).\n\nThe ‘gross carrying amount of a financial asset’ is the amortised cost of a financial asset before adjusting for any expected credit loss\nallowance. g ‘\n\n18",
+            "content_markdown": "Development Bank of Ethiopia\nNotes to the consolidated and separate financial statements\nFor the year ended 30 June 2023\n\nd) Transactions eliminated on consolidation\n\nInter-company transactions, balances and unrealised gains on transactions between companies within the Group are eliminated on\nconsolidation, Unrealised losses are also eliminated in the same manner as unrealised gains, but only to the extent that there is no evidence of\nimpairment. Accounting policies of subsidiaries have been changed where necessary to ensure consistency with the policies adopted by the\nGroup.\n\ne) Non-controlling interests\n\nNon-controlling interests are measured at their proportionate share of the acquiree's identifiable net assets at the acquisition date. Changes in\nthe Group's interest in a subsidiary that do not result in a loss of control are accounted for as equity transactions.\n\n2.6 Foreign currency translation\n\na) Functional and presentation currency\n\nItems included in the financial statements are measured using the currency of the primary economic environment in which the Bank operates\n(‘the functional currency’). The functional currency and presentation currency of the Bank is Ethiopian Birr.\n\nb) Transactions and balances\n\nForeign currency transactions are translated into the functional currency using the exchange rates prevailing at the dates of the transactions.\nForeign exchange gains and losses resulting from the settlement of foreign currency transactions and from the translation at exchange rates of\nmonetary assets and liabilities denominated in currencies other than the Bank's functional currency are recognised in profit or loss. Monetary\nitems denominated in foreign currency are translated using the closing rate as at the reporting date.\n\nNon-monetary items that are measured at historical cost in a foreign currency are translated using the spot exchange rates as at the date of\nrecognition.\n\n2.7 Recognition of income and expenses\nRevenue is recognised to the extent that it is probable that the economic benefits will flow to the Group and Bank and the revenue can be\nreliably measured, regardless of when the payment is being made, Revenue is measured at the fair value of the consideration received or\nreceivable, taking into account contractually defined terms of payment and excluding any amounts collected on behalf of third parties(i.e.\ntaxes or duty).\n\nThe Group and the Bank earn income from interest on loans given to customers for commercial agriculture, agro-processing, manufacturing,\nmining and extractive industries, hire purchase leases, personal loans, etc, On top of that, the Bank earns interest from deposit placements\nwith local and foreign banks, as well as with investment in Government Treasury notes and special Government bonds. Other incomes include\nfees and commissions on letter of credits, guarantees and managed/entrusted funds.\n\n2.7.1 Interest income and expense\na) Effective interest rate and amortized cost\n\nInterest income and expense are recognised in profit or loss using the effective interest method. The ‘effective interest rate’ is the rate that\nexactly discounts estimated future cash payments or receipts through the expected life of the financial instrument to:\n\n— the gross carrying amount of the financial asset; or\n\n— the amortised cost of the financial liability.\n\nWhen calculating the effective interest rate for financial instruments other than purchased or originated credit-impaired assets, the Group\nand the Bank estimate future cash flows considering all contractual terms of the financial instrument, but not expected credit loss (ECL), For\npurchased or originated credit impaired financial assets, a credit-adjusted effective interest rate is calculated using estimated future cash\nflows including ECL.\n\nThe calculation of the effective interest rate includes transaction costs and fees and points paid or received that are an integral part of the\neffective interest rate. Transaction costs include incremental costs that are directly attributable to the acquisition or issue of a financial asset\nor financial liability.\n\nb) Amortized cost and gross carrying amount\n\nThe ‘amortised cost’ of a financial asset or financial liability is the amount at which the financial asset or financial liability is measured on\ninitial recognition minus the principal repayments, plus or minus the cumulative amortisation using the effective interest method of any\ndifference between that initial amount and the maturity amount and, for financial assets, adjusted for any expected credit loss allowance if the\nfinancial assets fall into Stage 3 (impaired loans).\n\nThe ‘gross carrying amount of a financial asset’ is the amortised cost of a financial asset before adjusting for any expected credit loss\nallowance. g ‘\n\n18",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 18,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:53:30.942766+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "c590d097ada1ff9a6247251f6746e400c1271422c3341bf296759dcbfd1674c5"
+            },
+            "content_hash": "e96e9ef23c60b415c27740f425c630b2133264ec72d703b2b5c3969389ed7fe6"
+        },
+        {
+            "uid": "Audit Report - 2023_p19_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\n\nNotes to the consolidated and separate financial statements 2\nFor the year ended 30 June 2023\n\n)\n\nd)\n\n2.7.2\n\n27:3\n\n2.74\n\n2.8\n\nCalculation of interest income and expense\n\nThe effective interest rate of a financial asset or financial liability is calculated on initial recognition of a financial asset or a financial liability.\nIn calculating interest income and expense, the effective interest rate is applied to the gross carrying amount of the asset (when the asset is\nnot credit impaired) or to the amortised cost of the liability. The effective interest rate js revised as a result of periodic re-estimation of cash\nflows of floating rate instruments to reflect movements in market rates of interest.\n\nHowever, for financial assets that have become credit-impaired subsequent to initial recognition, interest income is calculated by applying the\neffective interest rate to the amortised cost of the financial asset. If the asset is no longer credit-impaired, then the calculation of interest\nincome reverts to the gross basis.\n\nFor financial assets that were credit-impaired on initial recognition, interest income is calculated by applying the credit-adjusted effective\ninterest ate to the amortised cost of the asset. The calculation of interest income does not revert to a gross basis, even if the credit risk of the\nasset improves.\n\nPresentation\nInterest income and expense using the effective interest method presented in the statement of profit and loss and other compressive income\n(OCT) include:\n© interest on financial assets and financial liabilities measured at amortized cost; and\n© interest on debt instruments measured at FVOCI (currently, such instruments as well as hedge products are not available at the Group\nand the Bank).\n\n© Other interest income and expense presented in the statement of profit or loss and OCI includes interest income and expense on lease\nreceivables and liabilities.\nFees and commission\n\nFees and commission income and expenses that are integral to the effective interest rate on a financial asset or liability are included in the\nmeasurement of the effective interest rate. Other fees and commission income like commission income on cash payment order (CPO) and\nfund transfer, commission income on insurance, commission on letters of credit, financial guarantee contracts issued and commission on\nmanaged funds are recognised as the related services are performed,\n\nAcontract with a customer that results in a recognised financial instrument in the Group’s/Bank's financial statements may be partially in the\nscope of IFRS 9 and partially in the scope of IFRS 15. If this is the case, then the Group first applies IFRS 9 to separate and measure the part\nof the contract that is in the scope of IFRS 9 and then applies IFRS 15 to the residual.\n\nWhen a loan commitment is not expected to result in the draw-down ofa loan, loan commitment fees are recognised on a straight-line basis\nover the commitment period.\n\nOther fees and commission expenses relate mainly to transaction and service fees, which are expensed as the services are received.\n\nDividend income\n\nDividend income is recognised in profit or loss as other operating income when the Bank's right to receive the payment is established, except\nwhen the Bank benefits from such proceeds as a recovery of part of the cost of the instrument, in which case, such gains are recorded in OCI.\n\nForeign exchange revaluation gains or losses\n\n‘These are gains and losses arising on settlement and translation of monetary assets and liabilities denominated in foreign currencies at the\nfunctional currency’s spot rate of exchange at the reporting date. This amount is recognised in profit or loss and it is further broken down into\nrealised and unrealised portion.\n\n‘The foreign denominated monetary assets and liabilities include the foreign financial assets held within the cash and bank balances, foreign\ncurrency deposits received and held on behalf of third parties, borrowings in foreign currencies, etc.\nFinancial instruments\n\nA financial instrument is any contract that gives\nentity.\n\nrise to a financial asset of one entity and a financial liability or equity instrument of another",
+            "content_markdown": "Development Bank of Ethiopia\n\nNotes to the consolidated and separate financial statements 2\nFor the year ended 30 June 2023\n\n)\n\nd)\n\n2.7.2\n\n27:3\n\n2.74\n\n2.8\n\nCalculation of interest income and expense\n\nThe effective interest rate of a financial asset or financial liability is calculated on initial recognition of a financial asset or a financial liability.\nIn calculating interest income and expense, the effective interest rate is applied to the gross carrying amount of the asset (when the asset is\nnot credit impaired) or to the amortised cost of the liability. The effective interest rate js revised as a result of periodic re-estimation of cash\nflows of floating rate instruments to reflect movements in market rates of interest.\n\nHowever, for financial assets that have become credit-impaired subsequent to initial recognition, interest income is calculated by applying the\neffective interest rate to the amortised cost of the financial asset. If the asset is no longer credit-impaired, then the calculation of interest\nincome reverts to the gross basis.\n\nFor financial assets that were credit-impaired on initial recognition, interest income is calculated by applying the credit-adjusted effective\ninterest ate to the amortised cost of the asset. The calculation of interest income does not revert to a gross basis, even if the credit risk of the\nasset improves.\n\nPresentation\nInterest income and expense using the effective interest method presented in the statement of profit and loss and other compressive income\n(OCT) include:\n© interest on financial assets and financial liabilities measured at amortized cost; and\n© interest on debt instruments measured at FVOCI (currently, such instruments as well as hedge products are not available at the Group\nand the Bank).\n\n© Other interest income and expense presented in the statement of profit or loss and OCI includes interest income and expense on lease\nreceivables and liabilities.\nFees and commission\n\nFees and commission income and expenses that are integral to the effective interest rate on a financial asset or liability are included in the\nmeasurement of the effective interest rate. Other fees and commission income like commission income on cash payment order (CPO) and\nfund transfer, commission income on insurance, commission on letters of credit, financial guarantee contracts issued and commission on\nmanaged funds are recognised as the related services are performed,\n\nAcontract with a customer that results in a recognised financial instrument in the Group’s/Bank's financial statements may be partially in the\nscope of IFRS 9 and partially in the scope of IFRS 15. If this is the case, then the Group first applies IFRS 9 to separate and measure the part\nof the contract that is in the scope of IFRS 9 and then applies IFRS 15 to the residual.\n\nWhen a loan commitment is not expected to result in the draw-down ofa loan, loan commitment fees are recognised on a straight-line basis\nover the commitment period.\n\nOther fees and commission expenses relate mainly to transaction and service fees, which are expensed as the services are received.\n\nDividend income\n\nDividend income is recognised in profit or loss as other operating income when the Bank's right to receive the payment is established, except\nwhen the Bank benefits from such proceeds as a recovery of part of the cost of the instrument, in which case, such gains are recorded in OCI.\n\nForeign exchange revaluation gains or losses\n\n‘These are gains and losses arising on settlement and translation of monetary assets and liabilities denominated in foreign currencies at the\nfunctional currency’s spot rate of exchange at the reporting date. This amount is recognised in profit or loss and it is further broken down into\nrealised and unrealised portion.\n\n‘The foreign denominated monetary assets and liabilities include the foreign financial assets held within the cash and bank balances, foreign\ncurrency deposits received and held on behalf of third parties, borrowings in foreign currencies, etc.\nFinancial instruments\n\nA financial instrument is any contract that gives\nentity.\n\nrise to a financial asset of one entity and a financial liability or equity instrument of another",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 19,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:53:52.055504+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "9a62bf2d666f771be8d270d9fb1e79e2aa18684d485ab74db87a0bad4a19a276"
+            },
+            "content_hash": "c8d420d7a5a5ef152a03ee3b59406cb78bb130a2d3c29c6c341fb303e6cccc49"
+        },
+        {
+            "uid": "Audit Report - 2023_p20_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia\nNotes to the consolidated and separate financial statements aS\nFor the year ended 30 June 2023\n\n2.8.1 Financial assets and liabilities\n\ni) Recognition and initial measurement\n\nThe Group and Bank initially recognise loans and advances, Ethiopian special government bonds and Treasury notes, deposits, debt securities\nissued (savings/renaissance dam bonds and DBE bonds), borrowings and other receivables and payables on the date on which they are\noriginated. All other financial instruments (including regular-way purchases and sales of financial assets) are recognised on the trade date,\nwhich is the date on which the Group and Bank become a party to the contractual provisions of the instrument.\n\n‘A financial asset or financial liability is measured initially at fair value plus, for an item not at fair value through profit or loss (FVTPL),\ntransaction costs that are directly attributable to its acquisition or issue. The fair value of a financial instrument at initial recognition is\ngenerally its transaction price.\n\nDay 1 profit or loss\n\n‘When the transaction price of the instrument differs from the fair value at origination and the fair value is evidenced by a quoted price in an\nactive market or is based on a valuation technique using only inputs observable in market transactions (or in which any unobservable inputs\nare judged to be insignificant in relation to measuring the day one difference), the Group/Bank recognises the difference between the\ntransaction price and fair value in profit or loss as day one profit or loss. In those cases where fair value is based on models for which some of\nthe inputs are not observable, the difference between the transaction price and the fair value is deferred and is only recognised in profit or\nloss when the inputs become observable, or when the instrument is derecognised.\n\nii) Classification and subsequent measurement\na) Financial assets\n\nOn initial recognition, a financial asset is classified as measured at either amortised cost, fair value through other comprehensive income\n(FVOCY or fair value through profit or loss (FVTPL).\n\n‘The Group and Bank measure a financial asset at amortised cost if it meets both of the following conditions and is not designated at FVIPL:\n\n~ the asset is held within a business model whose objective is to hold assets to collect contractual eash flows; and\n~—the contractual terms of the financial asset give rise on specified dates to cash flows that are payments of principal and interest (SPPI).\n‘A debt instrument is measured at FVOCI only if it meets both of the following conditions and is not designated as at FVIPL:\n\n~— the asset is held within a business model whose objective is achieved by both collecting contractual cash flows and selling financial assets;\n—the contractual terms of the financial asset give rise on specified dates to cash flows that are SPPI.\n\nOn initial recognition, an equity investment that is held for trading is classified at FVTPL. However, for equity investment that is not held for\ntrading, the Group and Bank may irrevocably elect to present subsequent changes in fair value in other comprehensive income (OCI). This\nelection is made on an investment-by-investment basis.\n\nAll other financial assets that do not meet the classification criteria at amortised cost or FVOCI above are classified as measured at FVIPL.\n\nIn addition, on initial recognition, the Group and Bank may irrevocably designate a financial asset that otherwise meets the requirements to\nbe measured at amortised cost or at FVOCI as at FVIPL if doing so eliminates or significantly reduces an accounting mismatch that would\notherwise arise.\n\nHowever. the Groun and Bank are not expected to hold such financial instruments in the foreseeable future.\nBusiness model assessment\nThe Group and Bank make an assessment of the objective of a business model in which an asset is held at a portfolio level because this best\n\nreflects the way the business is managed and information is provided to management. The information considered includes:\n\n~ the stated policies and objectives for the portfolio and the operation of those policies in practice. In particular, whether management's\nstrategy focuses on earning contractual interest revenue, maintaining a particular interest rate profile, matching the duration of the financial\nassets to the duration of the liabilities that are funding those assets or realising cash flows through the sale of the assets;\n\n— how the performance of the portfolio is evaluated and reported to the Group’s and Bank's management;",
+            "content_markdown": "Development Bank of Ethiopia\nNotes to the consolidated and separate financial statements aS\nFor the year ended 30 June 2023\n\n2.8.1 Financial assets and liabilities\n\ni) Recognition and initial measurement\n\nThe Group and Bank initially recognise loans and advances, Ethiopian special government bonds and Treasury notes, deposits, debt securities\nissued (savings/renaissance dam bonds and DBE bonds), borrowings and other receivables and payables on the date on which they are\noriginated. All other financial instruments (including regular-way purchases and sales of financial assets) are recognised on the trade date,\nwhich is the date on which the Group and Bank become a party to the contractual provisions of the instrument.\n\n‘A financial asset or financial liability is measured initially at fair value plus, for an item not at fair value through profit or loss (FVTPL),\ntransaction costs that are directly attributable to its acquisition or issue. The fair value of a financial instrument at initial recognition is\ngenerally its transaction price.\n\nDay 1 profit or loss\n\n‘When the transaction price of the instrument differs from the fair value at origination and the fair value is evidenced by a quoted price in an\nactive market or is based on a valuation technique using only inputs observable in market transactions (or in which any unobservable inputs\nare judged to be insignificant in relation to measuring the day one difference), the Group/Bank recognises the difference between the\ntransaction price and fair value in profit or loss as day one profit or loss. In those cases where fair value is based on models for which some of\nthe inputs are not observable, the difference between the transaction price and the fair value is deferred and is only recognised in profit or\nloss when the inputs become observable, or when the instrument is derecognised.\n\nii) Classification and subsequent measurement\na) Financial assets\n\nOn initial recognition, a financial asset is classified as measured at either amortised cost, fair value through other comprehensive income\n(FVOCY or fair value through profit or loss (FVTPL).\n\n‘The Group and Bank measure a financial asset at amortised cost if it meets both of the following conditions and is not designated at FVIPL:\n\n~ the asset is held within a business model whose objective is to hold assets to collect contractual eash flows; and\n~—the contractual terms of the financial asset give rise on specified dates to cash flows that are payments of principal and interest (SPPI).\n‘A debt instrument is measured at FVOCI only if it meets both of the following conditions and is not designated as at FVIPL:\n\n~— the asset is held within a business model whose objective is achieved by both collecting contractual cash flows and selling financial assets;\n—the contractual terms of the financial asset give rise on specified dates to cash flows that are SPPI.\n\nOn initial recognition, an equity investment that is held for trading is classified at FVTPL. However, for equity investment that is not held for\ntrading, the Group and Bank may irrevocably elect to present subsequent changes in fair value in other comprehensive income (OCI). This\nelection is made on an investment-by-investment basis.\n\nAll other financial assets that do not meet the classification criteria at amortised cost or FVOCI above are classified as measured at FVIPL.\n\nIn addition, on initial recognition, the Group and Bank may irrevocably designate a financial asset that otherwise meets the requirements to\nbe measured at amortised cost or at FVOCI as at FVIPL if doing so eliminates or significantly reduces an accounting mismatch that would\notherwise arise.\n\nHowever. the Groun and Bank are not expected to hold such financial instruments in the foreseeable future.\nBusiness model assessment\nThe Group and Bank make an assessment of the objective of a business model in which an asset is held at a portfolio level because this best\n\nreflects the way the business is managed and information is provided to management. The information considered includes:\n\n~ the stated policies and objectives for the portfolio and the operation of those policies in practice. In particular, whether management's\nstrategy focuses on earning contractual interest revenue, maintaining a particular interest rate profile, matching the duration of the financial\nassets to the duration of the liabilities that are funding those assets or realising cash flows through the sale of the assets;\n\n— how the performance of the portfolio is evaluated and reported to the Group’s and Bank's management;",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 20,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:54:13.854644+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "106064a4f1bdcfcd498023639ccb8da474d985f0ab14426c8979560fc64040c4"
+            },
+            "content_hash": "3116d9f983c17d95b45155129cf8e35fa2839eafbeaa1074d67357a0f2bbfa2d"
+        },
+        {
+            "uid": "Audit Report - 2023_p21_ocr_1",
+            "unit_type": "text",
+            "content_raw": "Development Bank of Ethiopia gixsisi\nNotes to the consolidated and separate financial statements See\nFor the year ended 30 June 2023\n\n— the risks that affect the performance of the business model (and the financial assets held within that business model) and its strategy for\nhow those risks are managed;\n\n— how managers of the business are compensated (e.g. whether compensation is based on the fair value of the assets managed or the\ncontractual cash flows collected); and\n\n— the frequency, volume and timing of revenue in prior periods, the reasons for such revenue and its expectations about future revenue\nactivity. However, information about revenue activity is not considered in isolation, but as part of an overall assessment of how the Group’s\nand Bank's stated objective for managing the financial assets is achieved and how cash flows are realised.\n\nFinancial assets that are held for trading or managed and whose performance is evaluated on a fair value basis are measured at FVIPL\nbecause they are neither held to collect contractual cash flows nor held both to collect contractual cash flows and to sell financial assets.\nNevertheless, the Group and Bank are not expected to hold financial assets for trading in the foreseeable future.\n\nReclassifications\n\nFinancial assets are not reclassified subsequent to their initial recognition, except in the period after the Bank changes its business model for\nmanaging financial assets.\n\nAssessment of whether contractual cash flows are solely payments of principal and interest (SPP)\n\nFor the purposes of this assessment, ‘principal’ is defined as the fair value of the financial asset on initial recognition. ‘Interest’ is defined as\nthe consideration for the time value of money and for the credit risk associated with the principal amount outstanding during a particular\nperiod of time and for other basic lending risks and costs (e.g, liquidity risk and administrative costs), as well as profit margin.\n\nIn assessing whether the contractual cash flows are SPPI, the Group and Bank consider the contractual terms of the instrument. This includes\nassessing whether the financial asset contains a contractual term that could change the timing or amount of contractual cash flows such that it\nwould not meet this condition. In making the assessment, the Group and Bank consider:\n\n— contingent events that would change the amount and timing of cash flows;\n\n— leverage features;\n\n— prepayment and extension terms;\n\n— terms that limit the Bank's claim to cash flows from specified assets (e.g. non-recourse loans); and\n— features that modify consideration of the time value of money (e.g. periodical reset of interest rates).\n\nb) Financial liabilities\n\n‘The Group and Bank classify its financial liabilities, other than financial guarantees and loan commitments, as measured at amortised cost or\nFVTPL. However, the Group and Bank are not expected to hold financial liabilities as measured at fair value through profit or loss (FVTPL)\nin the foreseeable future.\n\nA financial guarantee is an undertaking/commitment that requires the issuer to make specified payments to reimburse the holder for a loss it\nincurs because a specified party fails to meet its obligation when due in accordance with the contractual terms.\n\nFinancial guarantees issued by the Group and Bank are initially measured at their fair values and, if not designated as at FVIPL, are\nsubsequently measured at the higher of the amount of the obligation under the guarantee, as determined in accordance with IAS 37\nProvisions, Contingent Liabilities and Contingent Assets, and the amount initially recognised less, where appropriate, cumulative\namortisation recognised in accordance with the revenue recognition policies.\n\niii) Impairment\n\nAt each reporting date, the Group and Bank assess whether there is objective evidence that financial assets (except equity investments), other\nthan those carried at FVTPL, are impaired,\n\nThe Group and Bank recognise loss allowances for expected credit losses (ECL) on the following financial instruments that are not measured.\nat FVTPL:\n\n— financial assets that are debt instruments;\n\n— lease receivables;\n\n— financial guarantee contracts and Letter of Credit issued; and\n— loan commitments issued.\n\nNo impairment loss is recognised on equity investments.\n\nThe Group and Bank measure loss allowances at an amount equal to lifetime expected credit losses (ECL), except for the following, for which\nare measured as 12-month ECL:\n\n— debt investment securities that are determined to have low credit risk at the reporting date; and\n\n18",
+            "content_markdown": "Development Bank of Ethiopia gixsisi\nNotes to the consolidated and separate financial statements See\nFor the year ended 30 June 2023\n\n— the risks that affect the performance of the business model (and the financial assets held within that business model) and its strategy for\nhow those risks are managed;\n\n— how managers of the business are compensated (e.g. whether compensation is based on the fair value of the assets managed or the\ncontractual cash flows collected); and\n\n— the frequency, volume and timing of revenue in prior periods, the reasons for such revenue and its expectations about future revenue\nactivity. However, information about revenue activity is not considered in isolation, but as part of an overall assessment of how the Group’s\nand Bank's stated objective for managing the financial assets is achieved and how cash flows are realised.\n\nFinancial assets that are held for trading or managed and whose performance is evaluated on a fair value basis are measured at FVIPL\nbecause they are neither held to collect contractual cash flows nor held both to collect contractual cash flows and to sell financial assets.\nNevertheless, the Group and Bank are not expected to hold financial assets for trading in the foreseeable future.\n\nReclassifications\n\nFinancial assets are not reclassified subsequent to their initial recognition, except in the period after the Bank changes its business model for\nmanaging financial assets.\n\nAssessment of whether contractual cash flows are solely payments of principal and interest (SPP)\n\nFor the purposes of this assessment, ‘principal’ is defined as the fair value of the financial asset on initial recognition. ‘Interest’ is defined as\nthe consideration for the time value of money and for the credit risk associated with the principal amount outstanding during a particular\nperiod of time and for other basic lending risks and costs (e.g, liquidity risk and administrative costs), as well as profit margin.\n\nIn assessing whether the contractual cash flows are SPPI, the Group and Bank consider the contractual terms of the instrument. This includes\nassessing whether the financial asset contains a contractual term that could change the timing or amount of contractual cash flows such that it\nwould not meet this condition. In making the assessment, the Group and Bank consider:\n\n— contingent events that would change the amount and timing of cash flows;\n\n— leverage features;\n\n— prepayment and extension terms;\n\n— terms that limit the Bank's claim to cash flows from specified assets (e.g. non-recourse loans); and\n— features that modify consideration of the time value of money (e.g. periodical reset of interest rates).\n\nb) Financial liabilities\n\n‘The Group and Bank classify its financial liabilities, other than financial guarantees and loan commitments, as measured at amortised cost or\nFVTPL. However, the Group and Bank are not expected to hold financial liabilities as measured at fair value through profit or loss (FVTPL)\nin the foreseeable future.\n\nA financial guarantee is an undertaking/commitment that requires the issuer to make specified payments to reimburse the holder for a loss it\nincurs because a specified party fails to meet its obligation when due in accordance with the contractual terms.\n\nFinancial guarantees issued by the Group and Bank are initially measured at their fair values and, if not designated as at FVIPL, are\nsubsequently measured at the higher of the amount of the obligation under the guarantee, as determined in accordance with IAS 37\nProvisions, Contingent Liabilities and Contingent Assets, and the amount initially recognised less, where appropriate, cumulative\namortisation recognised in accordance with the revenue recognition policies.\n\niii) Impairment\n\nAt each reporting date, the Group and Bank assess whether there is objective evidence that financial assets (except equity investments), other\nthan those carried at FVTPL, are impaired,\n\nThe Group and Bank recognise loss allowances for expected credit losses (ECL) on the following financial instruments that are not measured.\nat FVTPL:\n\n— financial assets that are debt instruments;\n\n— lease receivables;\n\n— financial guarantee contracts and Letter of Credit issued; and\n— loan commitments issued.\n\nNo impairment loss is recognised on equity investments.\n\nThe Group and Bank measure loss allowances at an amount equal to lifetime expected credit losses (ECL), except for the following, for which\nare measured as 12-month ECL:\n\n— debt investment securities that are determined to have low credit risk at the reporting date; and\n\n18",
+            "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 595.2,
+                "y2": 841.68
+            },
+            "provenance": {
+                "source_file": "Audit Report - 2023.pdf",
+                "page_number": 21,
+                "strategy_used": "STRATEGY_B",
+                "timestamp": "2026-03-07T23:54:33.900847+00:00",
+                "strategy_escalation_path": [
+                    "STRATEGY_B"
+                ],
+                "content_hash": "7fc79164fcff1436dafb8b71c132fa5e3228873dfd1e29162f16f38807733479"
+            },
+            "content_hash": "6cfeb478a7ba0edf63b45fc0054da96f2537118532e2da89aecefe899ce9bca5"
         }
     ],
     "page_index": []

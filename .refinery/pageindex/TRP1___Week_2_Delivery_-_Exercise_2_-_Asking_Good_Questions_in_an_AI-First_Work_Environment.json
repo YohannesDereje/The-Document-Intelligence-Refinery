@@ -1,0 +1,105 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 612.0,
+    "y2": 792.0
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 2,
+    "total_pages_covered": 8,
+    "min_page": 1,
+    "max_page": 8
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 612.0,
+        "y2": 792.0
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The Document Root section emphasizes the importance of asking clear and structured questions in professional environments, particularly in AI-assisted and remote work settings, to clarify requirements, identify missing information, and deliver high-quality work, as demonstrated through a project scenario involving the development of a dashboard for a logistics company.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 8,
+        "chunk_count": 2,
+        "summary": "The Document Root section emphasizes the importance of asking clear and structured questions in professional environments, particularly in AI-assisted and remote work settings, to clarify requirements, identify missing information, and deliver high-quality work, as demonstrated through a project scenario involving the development of a dashboard for a logistics company.",
+        "total_pages_covered": 8
+      },
+      "chunk_hashes": [
+        "91fc27aa16a299d8f20b0ac57cbc6a4fb33287503bd86c5da32d1c5f7595d14c",
+        "4651af842459773594438a19d2f0f87a79743c971eb5863eda5850188ab0d91b"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/91fc27aa16a299d8",
+          "node_type": "chunk",
+          "title": "Chunk 91fc27aa",
+          "summary": "",
+          "metadata": {
+            "content_hash": "91fc27aa16a299d8f20b0ac57cbc6a4fb33287503bd86c5da32d1c5f7595d14c",
+            "token_count": 996,
+            "page_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "91fc27aa16a299d8f20b0ac57cbc6a4fb33287503bd86c5da32d1c5f7595d14c"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 7,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 612.0,
+            "y2": 792.0
+          },
+          "node_id": "chunk/4651af8424597735",
+          "node_type": "chunk",
+          "title": "Chunk 4651af84",
+          "summary": "",
+          "metadata": {
+            "content_hash": "4651af842459773594438a19d2f0f87a79743c971eb5863eda5850188ab0d91b",
+            "token_count": 167,
+            "page_numbers": [
+              7,
+              8
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "4651af842459773594438a19d2f0f87a79743c971eb5863eda5850188ab0d91b"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

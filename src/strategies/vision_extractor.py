@@ -34,16 +34,38 @@ class VisionExtractor(BaseExtractor):
         dpi: int = 140,
         rules_path: str | Path = "rubric/extraction_rules.yaml",
     ) -> None:
-        resolved_key = api_key or os.getenv("OPENROUTER_API_KEY") or os.getenv("OPENAI_API_KEY")
+        openrouter_key = os.getenv("OPENROUTER_API_KEY")
+        openai_key = os.getenv("OPENAI_API_KEY")
+
+        resolved_key = api_key or openrouter_key or openai_key
         if not resolved_key:
             raise ConfigurationError("Missing API key. Provide api_key or set OPENROUTER_API_KEY.")
 
         self.config_loader = ConfigLoader(rules_path)
+        self.provider_name = "openrouter"
+        self.provider_base_url = "https://openrouter.ai/api/v1"
+
+        if api_key and openai_key and api_key == openai_key:
+            self.provider_name = "openai"
+            self.provider_base_url = "https://api.openai.com/v1"
+        elif api_key and openrouter_key and api_key == openrouter_key:
+            self.provider_name = "openrouter"
+            self.provider_base_url = "https://openrouter.ai/api/v1"
+        elif not api_key and openai_key and not openrouter_key:
+            self.provider_name = "openai"
+            self.provider_base_url = "https://api.openai.com/v1"
+        elif "/" not in model_name and (openai_key or (api_key and not openrouter_key)):
+            self.provider_name = "openai"
+            self.provider_base_url = "https://api.openai.com/v1"
+
         try:
-            self.client = OpenAI(api_key=resolved_key, base_url="https://openrouter.ai/api/v1")
+            self.client = OpenAI(api_key=resolved_key, base_url=self.provider_base_url)
         except Exception as exc:
-            raise ConfigurationError(f"Failed to initialize OpenRouter client: {exc}") from exc
-        self.model_name = model_name
+            raise ConfigurationError(f"Failed to initialize {self.provider_name} client: {exc}") from exc
+        if self.provider_name == "openai" and "/" in model_name:
+            self.model_name = model_name.split("/")[-1]
+        else:
+            self.model_name = model_name
         self.max_budget = max_budget
         self.total_spend = 0.0
         self.dpi = dpi
@@ -71,6 +93,21 @@ class VisionExtractor(BaseExtractor):
         )
         self.vlm_chars_per_token = self._load_positive_float(guards, "vlm_chars_per_token", 4.0)
         self.vlm_max_output_tokens = int(self._load_positive_float(guards, "vlm_max_output_tokens", 1200.0))
+
+    def _switch_to_openai_fallback(self) -> bool:
+        openai_key = os.getenv("OPENAI_API_KEY")
+        if not openai_key:
+            return False
+
+        try:
+            self.client = OpenAI(api_key=openai_key, base_url="https://api.openai.com/v1")
+            self.provider_name = "openai"
+            self.provider_base_url = "https://api.openai.com/v1"
+            if "/" in self.model_name:
+                self.model_name = self.model_name.split("/")[-1]
+            return True
+        except Exception:
+            return False
 
     def _load_positive_float(self, config: Dict[str, Any], key: str, default: float) -> float:
         try:
@@ -201,15 +238,42 @@ class VisionExtractor(BaseExtractor):
                 response_format={"type": "json_object"},
             )
         except Exception as exc:
-            self.logger.exception(
-                "Vision API connectivity/config failure on page %s with model %s: %s",
-                page_number,
-                self.model_name,
-                exc,
-            )
-            raise ConfigurationError(
-                f"Vision API cannot be reached for page {page_number} using model {self.model_name}: {exc}"
-            ) from exc
+            error_text = str(exc).lower()
+            if self.provider_name == "openrouter" and (
+                "insufficient credits" in error_text or "error code: 402" in error_text
+            ):
+                if self._switch_to_openai_fallback():
+                    self.logger.warning(
+                        "OpenRouter credits exhausted; retrying Strategy C with OpenAI provider and model %s.",
+                        self.model_name,
+                    )
+                    response = self.client.chat.completions.create(
+                        model=self.model_name,
+                        messages=messages,
+                        temperature=0,
+                        max_tokens=self.vlm_max_output_tokens,
+                        response_format={"type": "json_object"},
+                    )
+                else:
+                    self.logger.exception(
+                        "Vision API connectivity/config failure on page %s with model %s: %s",
+                        page_number,
+                        self.model_name,
+                        exc,
+                    )
+                    raise ConfigurationError(
+                        f"Vision API cannot be reached for page {page_number} using model {self.model_name}: {exc}"
+                    ) from exc
+            else:
+                self.logger.exception(
+                    "Vision API connectivity/config failure on page %s with model %s: %s",
+                    page_number,
+                    self.model_name,
+                    exc,
+                )
+                raise ConfigurationError(
+                    f"Vision API cannot be reached for page {page_number} using model {self.model_name}: {exc}"
+                ) from exc
 
         raw = response.choices[0].message.content or "{}"
         usage = getattr(response, "usage", None)

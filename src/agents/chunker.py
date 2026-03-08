@@ -88,9 +88,14 @@ class ChunkValidator:
 
 
 class ChunkingEngine:
-    def __init__(self, rules_path: str | Path = "rubric/extraction_rules.yaml") -> None:
+    def __init__(
+        self,
+        rules_path: str | Path = "rubric/extraction_rules.yaml",
+        max_pages_per_doc: int | None = None,
+    ) -> None:
         self.logger = logging.getLogger(__name__)
         self.config_loader = ConfigLoader(rules_path)
+        self.max_pages_per_doc = int(max_pages_per_doc) if max_pages_per_doc is not None else None
 
         self.max_chunk_size = int(self.config_loader.get("chunking_constitution.max_chunk_size", 1000))
         self.min_chunk_size = int(self.config_loader.get("chunking_constitution.min_chunk_size", 50))
@@ -196,7 +201,15 @@ class ChunkingEngine:
         return page_index
 
     def _to_atomic_units(self, document: ExtractedDocument) -> list[_AtomicUnit]:
-        ordered_units = sorted(document.units, key=self._unit_order_key)
+        capped_units = document.units
+        if self.max_pages_per_doc is not None:
+            capped_units = [
+                unit
+                for unit in document.units
+                if int(unit.provenance.page_number) <= self.max_pages_per_doc
+            ]
+
+        ordered_units = sorted(capped_units, key=self._unit_order_key)
         atomic_units: list[_AtomicUnit] = []
 
         current_section = "Document Root"

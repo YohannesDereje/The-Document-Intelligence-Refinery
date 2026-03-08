@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+from datetime import datetime, timezone
+import json
+import os
 from pathlib import Path
+import threading
 from typing import Any
 
 import pdfplumber
@@ -18,6 +22,25 @@ class TriageAgent:
         self.rules_config = self._load_rules(self.rules_path)
         self.thresholds: dict[str, Any] = self.rules_config.get("thresholds", {})
         self.routing_rules = self._load_and_sort_rules(self.rules_config)
+        self.ledger_path = Path(__file__).resolve().parent / ".refinery" / "extraction_ledger.jsonl"
+        self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
+        self._ledger_lock = threading.Lock()
+
+    def _log_to_ledger(self, entry: dict[str, Any]) -> None:
+        self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
+        line = json.dumps(entry, ensure_ascii=True)
+
+        with self._ledger_lock:
+            with self.ledger_path.open("a", encoding="utf-8") as ledger_file:
+                ledger_file.write(line)
+                ledger_file.write("\n")
+                ledger_file.flush()
+                os.fsync(ledger_file.fileno())
+
+        event_name = str(entry.get("event_type", "triage_event"))
+        file_name = str(entry.get("file_name", ""))
+        page_number = int(entry.get("page_number", 0) or 0)
+        print(f"[LEDGER] committed event={event_name} file={file_name} page={page_number}")
 
     @staticmethod
     def _load_rules(rules_path: Path) -> dict[str, Any]:
@@ -139,11 +162,24 @@ class TriageAgent:
         if not pdf_path.exists() or pdf_path.suffix.lower() != ".pdf":
             raise ValueError(f"Invalid PDF file path: {pdf_path}")
 
+        triage_started_at = datetime.now(timezone.utc).isoformat()
         page_profiles: list[PageProfile] = []
+        page_decisions: list[dict[str, Any]] = []
         document_text_parts: list[str] = []
         self.last_page_reasons: dict[int, str] = {}
 
         with pdfplumber.open(pdf_path) as pdf:
+            total_pages = len(pdf.pages)
+            self._log_to_ledger(
+                {
+                    "event_type": "triage_start",
+                    "file_name": pdf_path.name,
+                    "page_number": 0,
+                    "started_at": triage_started_at,
+                    "total_pages_target": total_pages,
+                }
+            )
+
             for page_number, page in enumerate(pdf.pages, start=1):
                 text = page.extract_text() or ""
                 document_text_parts.append(text)
@@ -186,12 +222,49 @@ class TriageAgent:
                     detected_origin=self._infer_detected_origin(char_density),
                 )
                 page_profiles.append(page_profile)
+                page_decisions.append(
+                    {
+                        "page_number": page_number,
+                        "strategy_selected": selected_action,
+                        "reasoning": selected_reason,
+                    }
+                )
 
         full_text = "\n".join(document_text_parts)
         domain_hint = self.get_domain_hint(full_text)
 
         scanned_pages = sum(1 for page in page_profiles if page.detected_origin == "scanned")
         overall_origin = "scanned" if scanned_pages > (len(page_profiles) / 2) else "born_digital"
+        majority_gap = abs((2 * scanned_pages) - len(page_profiles)) / max(1, len(page_profiles))
+        triage_confidence = max(0.50, min(0.99, 0.70 + (0.29 * majority_gap)))
+
+        for decision in page_decisions:
+            self._log_to_ledger(
+                {
+                    "event_type": "triage_decision",
+                    "file_name": pdf_path.name,
+                    "page_number": int(decision["page_number"]),
+                    "strategy_selected": str(decision["strategy_selected"]),
+                    "confidence_score": float(triage_confidence),
+                    "reasoning": str(decision["reasoning"]),
+                    "logged_at": datetime.now(timezone.utc).isoformat(),
+                }
+            )
+
+        self._log_to_ledger(
+            {
+                "event_type": "triage_summary",
+                "file_name": pdf_path.name,
+                "page_number": 0,
+                "started_at": triage_started_at,
+                "ended_at": datetime.now(timezone.utc).isoformat(),
+                "total_pages_processed": len(page_profiles),
+                "overall_origin": overall_origin,
+                "layout_complexity": self._infer_layout_complexity(page_profiles),
+                "domain_hint": domain_hint,
+                "confidence_score": float(triage_confidence),
+            }
+        )
 
         document_profile = DocumentProfile(
             file_name=pdf_path.name,

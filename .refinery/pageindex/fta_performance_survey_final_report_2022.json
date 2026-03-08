@@ -1,0 +1,320 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 595.32,
+    "y2": 841.92
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 8,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.32,
+        "y2": 841.92
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The document, submitted by TAK-Innovative Research and Development Institute PLC to the Ministry of Finance in Ethiopia, presents a final report on the assessment of Financial Transparency and Accountability (FTA) implementation in Ethiopia, covering the scope, methodology, achievements, and expectations of the FTA program.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 2,
+        "chunk_count": 1,
+        "summary": "The document, submitted by TAK-Innovative Research and Development Institute PLC to the Ministry of Finance in Ethiopia, presents a final report on the assessment of Financial Transparency and Accountability (FTA) implementation in Ethiopia, covering the scope, methodology, achievements, and expectations of the FTA program.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "ce8f361c1973557ddf523f41100522e80b54d382d55aec2eeaf8c6b763e82cbb"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.32,
+            "y2": 841.92
+          },
+          "node_id": "chunk/ce8f361c1973557d",
+          "node_type": "chunk",
+          "title": "Chunk ce8f361c",
+          "summary": "",
+          "metadata": {
+            "content_hash": "ce8f361c1973557ddf523f41100522e80b54d382d55aec2eeaf8c6b763e82cbb",
+            "token_count": 240,
+            "page_numbers": [
+              1,
+              2
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "ce8f361c1973557ddf523f41100522e80b54d382d55aec2eeaf8c6b763e82cbb"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "executive-summary-i",
+      "node_type": "section",
+      "title": "Executive Summary ................................................................................................................................. i",
+      "summary": "The document provides an executive summary and outlines various sections, including introduction, determinants of local government transparency, gender and FTA, linkage and coordination, project management, and conclusions and recommendations, covering key topics such as stakeholder engagement, women representation, and implementation challenges.",
+      "metadata": {
+        "min_page": 2,
+        "max_page": 8,
+        "chunk_count": 2,
+        "summary": "The document provides an executive summary and outlines various sections, including introduction, determinants of local government transparency, gender and FTA, linkage and coordination, project management, and conclusions and recommendations, covering key topics such as stakeholder engagement, women representation, and implementation challenges.",
+        "total_pages_covered": 7
+      },
+      "chunk_hashes": [
+        "83f9d62513760dfdbae425a94b662f330b00d70b46729e263637e342c040a4b5",
+        "44946ffffc25e3a8c76338e81befd7bf76d2eb22373e1b0d91fe1a60ad3e6552"
+      ],
+      "children": [
+        {
+          "page_number": 2,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/83f9d62513760dfd",
+          "node_type": "chunk",
+          "title": "Chunk 83f9d625",
+          "summary": "",
+          "metadata": {
+            "content_hash": "83f9d62513760dfdbae425a94b662f330b00d70b46729e263637e342c040a4b5",
+            "token_count": 992,
+            "page_numbers": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "section_context": "Executive Summary ................................................................................................................................. i"
+          },
+          "chunk_hashes": [
+            "83f9d62513760dfdbae425a94b662f330b00d70b46729e263637e342c040a4b5"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 5,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/44946ffffc25e3a8",
+          "node_type": "chunk",
+          "title": "Chunk 44946fff",
+          "summary": "",
+          "metadata": {
+            "content_hash": "44946ffffc25e3a8c76338e81befd7bf76d2eb22373e1b0d91fe1a60ad3e6552",
+            "token_count": 388,
+            "page_numbers": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "section_context": "Executive Summary ................................................................................................................................. i"
+          },
+          "chunk_hashes": [
+            "44946ffffc25e3a8c76338e81befd7bf76d2eb22373e1b0d91fe1a60ad3e6552"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.32,
+        "y2": 841.92
+      },
+      "node_id": "executive-summary",
+      "node_type": "section",
+      "title": "Executive Summary",
+      "summary": "The Executive Summary section discusses the Financial Transparency and Accountability (FTA) initiative in Ethiopia, which aims to improve transparency and accountability in public budget processes, and reports on its implementation status, achievements, and assessment methods, including its impact on citizen participation and access to basic services.",
+      "metadata": {
+        "min_page": 9,
+        "max_page": 21,
+        "chunk_count": 5,
+        "summary": "The Executive Summary section discusses the Financial Transparency and Accountability (FTA) initiative in Ethiopia, which aims to improve transparency and accountability in public budget processes, and reports on its implementation status, achievements, and assessment methods, including its impact on citizen participation and access to basic services.",
+        "total_pages_covered": 13
+      },
+      "chunk_hashes": [
+        "026d8a326b3de86c8a275e37bb8e859496b15f599a7ca223e44317911218952e",
+        "ebfce12dfd89fa31529118823cf06531e26fd6626e105fdff21a43345b2fbc54",
+        "0ac051cccef53846a6c39e156dc4d9fcfb3fb47a19563fcd56d75c8275b3dff2",
+        "21ea1d8fbb0afbb1579626ad204cceda9831a787fec845716d574af01c2b7e80",
+        "63bd7a98e1435278a289973792bfe5bb4aff15fd06760c3361c1dff45279efb5"
+      ],
+      "children": [
+        {
+          "page_number": 9,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/026d8a326b3de86c",
+          "node_type": "chunk",
+          "title": "Chunk 026d8a32",
+          "summary": "",
+          "metadata": {
+            "content_hash": "026d8a326b3de86c8a275e37bb8e859496b15f599a7ca223e44317911218952e",
+            "token_count": 992,
+            "page_numbers": [
+              9,
+              10,
+              11
+            ],
+            "section_context": "Executive Summary"
+          },
+          "chunk_hashes": [
+            "026d8a326b3de86c8a275e37bb8e859496b15f599a7ca223e44317911218952e"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 11,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/ebfce12dfd89fa31",
+          "node_type": "chunk",
+          "title": "Chunk ebfce12d",
+          "summary": "",
+          "metadata": {
+            "content_hash": "ebfce12dfd89fa31529118823cf06531e26fd6626e105fdff21a43345b2fbc54",
+            "token_count": 996,
+            "page_numbers": [
+              11,
+              12,
+              13,
+              14
+            ],
+            "section_context": "Executive Summary"
+          },
+          "chunk_hashes": [
+            "ebfce12dfd89fa31529118823cf06531e26fd6626e105fdff21a43345b2fbc54"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.32,
+            "y2": 841.92
+          },
+          "node_id": "chunk/0ac051cccef53846",
+          "node_type": "chunk",
+          "title": "Chunk 0ac051cc",
+          "summary": "",
+          "metadata": {
+            "content_hash": "0ac051cccef53846a6c39e156dc4d9fcfb3fb47a19563fcd56d75c8275b3dff2",
+            "token_count": 997,
+            "page_numbers": [
+              14,
+              15,
+              16,
+              17
+            ],
+            "section_context": "Executive Summary"
+          },
+          "chunk_hashes": [
+            "0ac051cccef53846a6c39e156dc4d9fcfb3fb47a19563fcd56d75c8275b3dff2"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/21ea1d8fbb0afbb1",
+          "node_type": "chunk",
+          "title": "Chunk 21ea1d8f",
+          "summary": "",
+          "metadata": {
+            "content_hash": "21ea1d8fbb0afbb1579626ad204cceda9831a787fec845716d574af01c2b7e80",
+            "token_count": 998,
+            "page_numbers": [
+              18,
+              19,
+              20,
+              21
+            ],
+            "section_context": "Executive Summary"
+          },
+          "chunk_hashes": [
+            "21ea1d8fbb0afbb1579626ad204cceda9831a787fec845716d574af01c2b7e80"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 21,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/63bd7a98e1435278",
+          "node_type": "chunk",
+          "title": "Chunk 63bd7a98",
+          "summary": "",
+          "metadata": {
+            "content_hash": "63bd7a98e1435278a289973792bfe5bb4aff15fd06760c3361c1dff45279efb5",
+            "token_count": 259,
+            "page_numbers": [
+              21
+            ],
+            "section_context": "Executive Summary"
+          },
+          "chunk_hashes": [
+            "63bd7a98e1435278a289973792bfe5bb4aff15fd06760c3361c1dff45279efb5"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

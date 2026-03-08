@@ -1,0 +1,920 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 594.96,
+    "y2": 842.04
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 19,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 594.96,
+        "y2": 842.04
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The Import Tax Expenditure Report, prepared by the Tax Policy Directorate of Ethiopia's Ministry of Finance in collaboration with the IFS Centre for Tax Analysis in Developing Countries, presents tax expenditure estimates for FY 2018/19 to 2020/21, covering customs duty, excise duty, VAT, and sur.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 3,
+        "chunk_count": 1,
+        "summary": "The Import Tax Expenditure Report, prepared by the Tax Policy Directorate of Ethiopia's Ministry of Finance in collaboration with the IFS Centre for Tax Analysis in Developing Countries, presents tax expenditure estimates for FY 2018/19 to 2020/21, covering customs duty, excise duty, VAT, and sur.",
+        "total_pages_covered": 3
+      },
+      "chunk_hashes": [
+        "a63519945a060d6f2748d9af253596da53ef69104f94918c6e24e50e4568d531"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 594.96,
+            "y2": 842.04
+          },
+          "node_id": "chunk/a63519945a060d6f",
+          "node_type": "chunk",
+          "title": "Chunk a6351994",
+          "summary": "",
+          "metadata": {
+            "content_hash": "a63519945a060d6f2748d9af253596da53ef69104f94918c6e24e50e4568d531",
+            "token_count": 240,
+            "page_numbers": [
+              1,
+              2,
+              3
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "a63519945a060d6f2748d9af253596da53ef69104f94918c6e24e50e4568d531"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "executive-summary-4",
+      "node_type": "section",
+      "title": "Executive summary ...................................................................................................................... 4",
+      "summary": "The executive summary section introduces a report estimating import tax expenditures for fiscal years 2018/19 to 2020/21, covering customs duty, excise duty, VAT, and surtax, and provides an overview of the report's methodology and scope.",
+      "metadata": {
+        "min_page": 3,
+        "max_page": 4,
+        "chunk_count": 1,
+        "summary": "The executive summary section introduces a report estimating import tax expenditures for fiscal years 2018/19 to 2020/21, covering customs duty, excise duty, VAT, and surtax, and provides an overview of the report's methodology and scope.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "21ec73ffea7accc43ad3ee7c268dd0697822ce54d0197692ef91daf3f2e5d0a5"
+      ],
+      "children": [
+        {
+          "page_number": 3,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/21ec73ffea7accc4",
+          "node_type": "chunk",
+          "title": "Chunk 21ec73ff",
+          "summary": "",
+          "metadata": {
+            "content_hash": "21ec73ffea7accc43ad3ee7c268dd0697822ce54d0197692ef91daf3f2e5d0a5",
+            "token_count": 180,
+            "page_numbers": [
+              3,
+              4
+            ],
+            "section_context": "Executive summary ...................................................................................................................... 4"
+          },
+          "chunk_hashes": [
+            "21ec73ffea7accc43ad3ee7c268dd0697822ce54d0197692ef91daf3f2e5d0a5"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "executive-summary",
+      "node_type": "section",
+      "title": "Executive summary",
+      "summary": "The Ethiopian government incurred significant import tax expenditures, totaling ETB 120.7 billion in FY 2020/21, with the largest shares attributed to VAT, customs duty, excise tax, and surtax expenditures, which are estimated to be around 2.8% of GDP and are primarily driven by ad.",
+      "metadata": {
+        "min_page": 4,
+        "max_page": 6,
+        "chunk_count": 1,
+        "summary": "The Ethiopian government incurred significant import tax expenditures, totaling ETB 120.7 billion in FY 2020/21, with the largest shares attributed to VAT, customs duty, excise tax, and surtax expenditures, which are estimated to be around 2.8% of GDP and are primarily driven by ad.",
+        "total_pages_covered": 3
+      },
+      "chunk_hashes": [
+        "8b2f09eb3d6e88b0d481ce59d0f70eba9daa2e9bb6196508fc0a05e728c18451"
+      ],
+      "children": [
+        {
+          "page_number": 4,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/8b2f09eb3d6e88b0",
+          "node_type": "chunk",
+          "title": "Chunk 8b2f09eb",
+          "summary": "",
+          "metadata": {
+            "content_hash": "8b2f09eb3d6e88b0d481ce59d0f70eba9daa2e9bb6196508fc0a05e728c18451",
+            "token_count": 857,
+            "page_numbers": [
+              4,
+              5,
+              6
+            ],
+            "section_context": "Executive summary"
+          },
+          "chunk_hashes": [
+            "8b2f09eb3d6e88b0d481ce59d0f70eba9daa2e9bb6196508fc0a05e728c18451"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "for-details-see-appendix-d",
+      "node_type": "section",
+      "title": "For details, see Appendix D.",
+      "summary": "The Ethiopian Ministry of Finance's tax expenditure report for 2018/19 to 2020/21 details the country's tax policies, including exemptions and incentives, aimed at promoting investment, particularly in the manufacturing sector, and improving international competitiveness, with the goal of transforming the Ethiopian economy and improving living standards.",
+      "metadata": {
+        "min_page": 6,
+        "max_page": 9,
+        "chunk_count": 1,
+        "summary": "The Ethiopian Ministry of Finance's tax expenditure report for 2018/19 to 2020/21 details the country's tax policies, including exemptions and incentives, aimed at promoting investment, particularly in the manufacturing sector, and improving international competitiveness, with the goal of transforming the Ethiopian economy and improving living standards.",
+        "total_pages_covered": 4
+      },
+      "chunk_hashes": [
+        "f2aaabaf0c02d18cdc8ba11685c8504edcd58f37549d9e9d91ac79954359deec"
+      ],
+      "children": [
+        {
+          "page_number": 6,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/f2aaabaf0c02d18c",
+          "node_type": "chunk",
+          "title": "Chunk f2aaabaf",
+          "summary": "",
+          "metadata": {
+            "content_hash": "f2aaabaf0c02d18cdc8ba11685c8504edcd58f37549d9e9d91ac79954359deec",
+            "token_count": 630,
+            "page_numbers": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "section_context": "For details, see Appendix D."
+          },
+          "chunk_hashes": [
+            "f2aaabaf0c02d18cdc8ba11685c8504edcd58f37549d9e9d91ac79954359deec"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "adjustment-is-not-made-are-discussed-in-appendix-a",
+      "node_type": "section",
+      "title": "adjustment is not made are discussed in Appendix A).",
+      "summary": "The section discusses definitions and data related to tax expenditures, including the revenue forgone method used to estimate them, and the definition of a benchmark tax system, which involves judgement calls that affect the resulting estimates, particularly in the context of import taxes and customs duty.",
+      "metadata": {
+        "min_page": 9,
+        "max_page": 10,
+        "chunk_count": 1,
+        "summary": "The section discusses definitions and data related to tax expenditures, including the revenue forgone method used to estimate them, and the definition of a benchmark tax system, which involves judgement calls that affect the resulting estimates, particularly in the context of import taxes and customs duty.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "c6d27090f0cb14897c07f06b17e8e32b1c6f89e78e0b8484f59d795b33270f58"
+      ],
+      "children": [
+        {
+          "page_number": 9,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/c6d27090f0cb1489",
+          "node_type": "chunk",
+          "title": "Chunk c6d27090",
+          "summary": "",
+          "metadata": {
+            "content_hash": "c6d27090f0cb14897c07f06b17e8e32b1c6f89e78e0b8484f59d795b33270f58",
+            "token_count": 329,
+            "page_numbers": [
+              9,
+              10
+            ],
+            "section_context": "adjustment is not made are discussed in Appendix A)."
+          },
+          "chunk_hashes": [
+            "c6d27090f0cb14897c07f06b17e8e32b1c6f89e78e0b8484f59d795b33270f58"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "part-of-expenditures-on-the-tax-whose-collection-is-affected-are-reported-in-appendix-c",
+      "node_type": "section",
+      "title": "part of expenditures on the tax whose collection is affected are reported in Appendix C.)",
+      "summary": "The section discusses Ethiopia's import tax system, including customs duty, excise tax, and VAT, which are governed by various proclamations and trade agreements, such as the Common Market for Eastern and Southern Africa (COMESA) Preferential Trade Agreement, and are applied sequentially to affect the tax base and revenue collection.",
+      "metadata": {
+        "min_page": 10,
+        "max_page": 13,
+        "chunk_count": 2,
+        "summary": "The section discusses Ethiopia's import tax system, including customs duty, excise tax, and VAT, which are governed by various proclamations and trade agreements, such as the Common Market for Eastern and Southern Africa (COMESA) Preferential Trade Agreement, and are applied sequentially to affect the tax base and revenue collection.",
+        "total_pages_covered": 4
+      },
+      "chunk_hashes": [
+        "8e6daccec26d75183ca430ed3db0487edf54f03c83f28dc78163034ad4254062",
+        "31f2c69ceea4170edfca78f5a0e04e1dd5df8b22ce8adfa639469b4d78535958"
+      ],
+      "children": [
+        {
+          "page_number": 10,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/8e6daccec26d7518",
+          "node_type": "chunk",
+          "title": "Chunk 8e6dacce",
+          "summary": "",
+          "metadata": {
+            "content_hash": "8e6daccec26d75183ca430ed3db0487edf54f03c83f28dc78163034ad4254062",
+            "token_count": 1000,
+            "page_numbers": [
+              10,
+              11,
+              12
+            ],
+            "section_context": "part of expenditures on the tax whose collection is affected are reported in Appendix C.)"
+          },
+          "chunk_hashes": [
+            "8e6daccec26d75183ca430ed3db0487edf54f03c83f28dc78163034ad4254062"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 12,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/31f2c69ceea4170e",
+          "node_type": "chunk",
+          "title": "Chunk 31f2c69c",
+          "summary": "",
+          "metadata": {
+            "content_hash": "31f2c69ceea4170edfca78f5a0e04e1dd5df8b22ce8adfa639469b4d78535958",
+            "token_count": 479,
+            "page_numbers": [
+              12,
+              13
+            ],
+            "section_context": "part of expenditures on the tax whose collection is affected are reported in Appendix C.)"
+          },
+          "chunk_hashes": [
+            "31f2c69ceea4170edfca78f5a0e04e1dd5df8b22ce8adfa639469b4d78535958"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "are-reported-in-appendix-c",
+      "node_type": "section",
+      "title": "are reported in Appendix C.)",
+      "summary": "The section discusses customs duty tax expenditures in Ethiopia, calculated using a formula that considers the CIF value, customs duty, excise tax, and VAT payable, with certain imports exempt from surtax, such as fertilizers and petroleum, as per the Council of Ministers Regulation No. 133/2007.",
+      "metadata": {
+        "min_page": 13,
+        "max_page": 14,
+        "chunk_count": 1,
+        "summary": "The section discusses customs duty tax expenditures in Ethiopia, calculated using a formula that considers the CIF value, customs duty, excise tax, and VAT payable, with certain imports exempt from surtax, such as fertilizers and petroleum, as per the Council of Ministers Regulation No. 133/2007.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "f68e666abac72958c585725ff58c41e771653d1812e481591d12687f7413ebcc"
+      ],
+      "children": [
+        {
+          "page_number": 13,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/f68e666abac72958",
+          "node_type": "chunk",
+          "title": "Chunk f68e666a",
+          "summary": "",
+          "metadata": {
+            "content_hash": "f68e666abac72958c585725ff58c41e771653d1812e481591d12687f7413ebcc",
+            "token_count": 141,
+            "page_numbers": [
+              13,
+              14
+            ],
+            "section_context": "are reported in Appendix C.)"
+          },
+          "chunk_hashes": [
+            "f68e666abac72958c585725ff58c41e771653d1812e481591d12687f7413ebcc"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "appendix-b",
+      "node_type": "section",
+      "title": "Appendix B.",
+      "summary": "This section, Appendix B, discusses customs duty tax expenditures and excise tax expenditures, explaining how they are computed based on benchmark duty rates, actual rates charged, and tax bases, using variables such as \u03c4, CIF, and IE to represent customs duty rates, cost, insurance, and freight, and import expenses.",
+      "metadata": {
+        "min_page": 14,
+        "max_page": 14,
+        "chunk_count": 1,
+        "summary": "This section, Appendix B, discusses customs duty tax expenditures and excise tax expenditures, explaining how they are computed based on benchmark duty rates, actual rates charged, and tax bases, using variables such as \u03c4, CIF, and IE to represent customs duty rates, cost, insurance, and freight, and import expenses.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "63581636a30ad5287ceda7ab4f98d2c004020177f7e7bdf5f85b57c3da5cb3ec"
+      ],
+      "children": [
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/63581636a30ad528",
+          "node_type": "chunk",
+          "title": "Chunk 63581636",
+          "summary": "",
+          "metadata": {
+            "content_hash": "63581636a30ad5287ceda7ab4f98d2c004020177f7e7bdf5f85b57c3da5cb3ec",
+            "token_count": 137,
+            "page_numbers": [
+              14
+            ],
+            "section_context": "Appendix B."
+          },
+          "chunk_hashes": [
+            "63581636a30ad5287ceda7ab4f98d2c004020177f7e7bdf5f85b57c3da5cb3ec"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "excise-tax-and-details-on-the-calculation-of-are-given-in-appendix-b",
+      "node_type": "section",
+      "title": "excise tax), and details on the calculation of are given in Appendix B.",
+      "summary": "The section discusses the calculation of tax expenditures for surtax, customs duty, excise tax, and VAT, providing formulas and definitions for key variables, as well as data on import tax expenditures in Ethiopia from FY 2018/19 to 2020/21.",
+      "metadata": {
+        "min_page": 14,
+        "max_page": 15,
+        "chunk_count": 1,
+        "summary": "The section discusses the calculation of tax expenditures for surtax, customs duty, excise tax, and VAT, providing formulas and definitions for key variables, as well as data on import tax expenditures in Ethiopia from FY 2018/19 to 2020/21.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "ea82ad18093a2d46b688807dcdda6eb3ccb44b686d9e25948ad1af4bb847740d"
+      ],
+      "children": [
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/ea82ad18093a2d46",
+          "node_type": "chunk",
+          "title": "Chunk ea82ad18",
+          "summary": "",
+          "metadata": {
+            "content_hash": "ea82ad18093a2d46b688807dcdda6eb3ccb44b686d9e25948ad1af4bb847740d",
+            "token_count": 266,
+            "page_numbers": [
+              14,
+              15
+            ],
+            "section_context": "excise tax), and details on the calculation of are given in Appendix B."
+          },
+          "chunk_hashes": [
+            "ea82ad18093a2d46b688807dcdda6eb3ccb44b686d9e25948ad1af4bb847740d"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "value-including-customs-duty-again-details-on-the-calculation-of-are-given-in-appendix-b",
+      "node_type": "section",
+      "title": "value including customs duty. Again, details on the calculation of are given in Appendix B.",
+      "summary": "The section discusses the calculation of tax expenditure for VAT, providing a formula that incorporates variables such as import value, customs duty, and tax rates, with details on the calculation given in Appendix B.",
+      "metadata": {
+        "min_page": 14,
+        "max_page": 14,
+        "chunk_count": 1,
+        "summary": "The section discusses the calculation of tax expenditure for VAT, providing a formula that incorporates variables such as import value, customs duty, and tax rates, with details on the calculation given in Appendix B.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "626212b8b32a312bb65e00563796581313c413041bafe631497a90fcb2cbee0b"
+      ],
+      "children": [
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/626212b8b32a312b",
+          "node_type": "chunk",
+          "title": "Chunk 626212b8",
+          "summary": "",
+          "metadata": {
+            "content_hash": "626212b8b32a312bb65e00563796581313c413041bafe631497a90fcb2cbee0b",
+            "token_count": 95,
+            "page_numbers": [
+              14
+            ],
+            "section_context": "value including customs duty. Again, details on the calculation of are given in Appendix B."
+          },
+          "chunk_hashes": [
+            "626212b8b32a312bb65e00563796581313c413041bafe631497a90fcb2cbee0b"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "issue-is-discussed-in-detail-in-appendix-d",
+      "node_type": "section",
+      "title": "issue is discussed in detail in Appendix D.",
+      "summary": "The report utilizes shipment-level microdata from the Ethiopian Customs Commission, covering FY 2018/19 to FY 2020/21, which was accessed from the Automated System for Customs Data and the electronic Customs Management System, containing details such as importer information and tax expenditures.",
+      "metadata": {
+        "min_page": 15,
+        "max_page": 16,
+        "chunk_count": 1,
+        "summary": "The report utilizes shipment-level microdata from the Ethiopian Customs Commission, covering FY 2018/19 to FY 2020/21, which was accessed from the Automated System for Customs Data and the electronic Customs Management System, containing details such as importer information and tax expenditures.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "4ad3094ba048205c8524b5e62ac46414ce4533b3f0edf1cc5d98a72914015698"
+      ],
+      "children": [
+        {
+          "page_number": 15,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/4ad3094ba048205c",
+          "node_type": "chunk",
+          "title": "Chunk 4ad3094b",
+          "summary": "",
+          "metadata": {
+            "content_hash": "4ad3094ba048205c8524b5e62ac46414ce4533b3f0edf1cc5d98a72914015698",
+            "token_count": 124,
+            "page_numbers": [
+              15,
+              16
+            ],
+            "section_context": "issue is discussed in detail in Appendix D."
+          },
+          "chunk_hashes": [
+            "4ad3094ba048205c8524b5e62ac46414ce4533b3f0edf1cc5d98a72914015698"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "note-assumes-no-duplicate-reporting-of-transactions-across-customs-it-systems-see-appendix-d",
+      "node_type": "section",
+      "title": "Note: Assumes no duplicate reporting of transactions across customs IT systems (see Appendix D).",
+      "summary": "The Ethiopian Customs Commission reported a 54% increase in tax expenditures in FY 2020/21, with customs duty, excise, VAT, and surtax expenditures totaling ETB 78 billion in FY 2019/20 and increasing to ETB 120.7 billion in FY 2020/21.",
+      "metadata": {
+        "min_page": 16,
+        "max_page": 21,
+        "chunk_count": 3,
+        "summary": "The Ethiopian Customs Commission reported a 54% increase in tax expenditures in FY 2020/21, with customs duty, excise, VAT, and surtax expenditures totaling ETB 78 billion in FY 2019/20 and increasing to ETB 120.7 billion in FY 2020/21.",
+        "total_pages_covered": 4
+      },
+      "chunk_hashes": [
+        "5210058a6cd8a320dc2fb4fdde187bf91a3aee383844334db6e2654fa976541c",
+        "27a4f7eea389131328079e083fecf514c84ae7f983d0d80f97cdf1044d997e3e",
+        "7d07a150e71c3e623552026c452f84eb8053b03a208f5c0b87e9d30b3c41c25e"
+      ],
+      "children": [
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/5210058a6cd8a320",
+          "node_type": "chunk",
+          "title": "Chunk 5210058a",
+          "summary": "",
+          "metadata": {
+            "content_hash": "5210058a6cd8a320dc2fb4fdde187bf91a3aee383844334db6e2654fa976541c",
+            "token_count": 268,
+            "page_numbers": [
+              16,
+              17
+            ],
+            "section_context": "Note: Assumes no duplicate reporting of transactions across customs IT systems (see Appendix D)."
+          },
+          "chunk_hashes": [
+            "5210058a6cd8a320dc2fb4fdde187bf91a3aee383844334db6e2654fa976541c"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 17,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/27a4f7eea3891313",
+          "node_type": "chunk",
+          "title": "Chunk 27a4f7ee",
+          "summary": "",
+          "metadata": {
+            "content_hash": "27a4f7eea389131328079e083fecf514c84ae7f983d0d80f97cdf1044d997e3e",
+            "token_count": 278,
+            "page_numbers": [
+              17
+            ],
+            "section_context": "Note: Assumes no duplicate reporting of transactions across customs IT systems (see Appendix D)."
+          },
+          "chunk_hashes": [
+            "27a4f7eea389131328079e083fecf514c84ae7f983d0d80f97cdf1044d997e3e"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 20,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/7d07a150e71c3e62",
+          "node_type": "chunk",
+          "title": "Chunk 7d07a150",
+          "summary": "",
+          "metadata": {
+            "content_hash": "7d07a150e71c3e623552026c452f84eb8053b03a208f5c0b87e9d30b3c41c25e",
+            "token_count": 286,
+            "page_numbers": [
+              20,
+              21
+            ],
+            "section_context": "Note: Assumes no duplicate reporting of transactions across customs IT systems (see Appendix D)."
+          },
+          "chunk_hashes": [
+            "7d07a150e71c3e623552026c452f84eb8053b03a208f5c0b87e9d30b3c41c25e"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "ranges-assuming-no-double-counting-however-as-detailed-in-appendix-d-there-is-some",
+      "node_type": "section",
+      "title": "ranges, assuming no double-counting. However, as detailed in Appendix D, there is some",
+      "summary": "The section discusses tax expenditures as a share of GDP and imports from FY 2018/19 to FY 2020/21, categorizing imports into capital/investment, second schedule, and non-capital/second schedule based on the Customs Procedure Code (CPC), while noting evidence of substantial duplicate recording of imports.",
+      "metadata": {
+        "min_page": 17,
+        "max_page": 18,
+        "chunk_count": 1,
+        "summary": "The section discusses tax expenditures as a share of GDP and imports from FY 2018/19 to FY 2020/21, categorizing imports into capital/investment, second schedule, and non-capital/second schedule based on the Customs Procedure Code (CPC), while noting evidence of substantial duplicate recording of imports.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "4a2e15098504e255e8dbf284f527cccf9b515eeed080170bc0abad7665b52ebf"
+      ],
+      "children": [
+        {
+          "page_number": 17,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/4a2e15098504e255",
+          "node_type": "chunk",
+          "title": "Chunk 4a2e1509",
+          "summary": "",
+          "metadata": {
+            "content_hash": "4a2e15098504e255e8dbf284f527cccf9b515eeed080170bc0abad7665b52ebf",
+            "token_count": 176,
+            "page_numbers": [
+              17,
+              18
+            ],
+            "section_context": "ranges, assuming no double-counting. However, as detailed in Appendix D, there is some"
+          },
+          "chunk_hashes": [
+            "4a2e15098504e255e8dbf284f527cccf9b515eeed080170bc0abad7665b52ebf"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "expenditures-across-categories-are-given-in-table-f-5-in-appendix-f",
+      "node_type": "section",
+      "title": "expenditures across categories are given in Table F.5 in Appendix F.",
+      "summary": "The Ministry of Finance, Ethiopia, reports total expenditures across various categories, including imports, capital investments, and specific commodity groups such as food, mineral oil, and machinery, as detailed in Table F.5 in Appendix F.",
+      "metadata": {
+        "min_page": 18,
+        "max_page": 19,
+        "chunk_count": 1,
+        "summary": "The Ministry of Finance, Ethiopia, reports total expenditures across various categories, including imports, capital investments, and specific commodity groups such as food, mineral oil, and machinery, as detailed in Table F.5 in Appendix F.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "3ef073ce39102c4cc51a022f69f078252ab53a0f2528d627a89b796970acfc3c"
+      ],
+      "children": [
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/3ef073ce39102c4c",
+          "node_type": "chunk",
+          "title": "Chunk 3ef073ce",
+          "summary": "",
+          "metadata": {
+            "content_hash": "3ef073ce39102c4cc51a022f69f078252ab53a0f2528d627a89b796970acfc3c",
+            "token_count": 184,
+            "page_numbers": [
+              18,
+              19
+            ],
+            "section_context": "expenditures across categories are given in Table F.5 in Appendix F."
+          },
+          "chunk_hashes": [
+            "3ef073ce39102c4cc51a022f69f078252ab53a0f2528d627a89b796970acfc3c"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "transactions-across-customs-it-systems-see-appendix-d",
+      "node_type": "section",
+      "title": "transactions across customs IT systems (see Appendix D).",
+      "summary": "The section discusses transactions across customs IT systems, specifically analyzing tax expenditures in Ethiopia from FY 2018/19 to FY 2020/21, with notable year-on-year variations in categories such as vehicle imports, animal or vegetable fats, and non-electrical machinery, influenced by government policy and changes in import values.",
+      "metadata": {
+        "min_page": 18,
+        "max_page": 18,
+        "chunk_count": 1,
+        "summary": "The section discusses transactions across customs IT systems, specifically analyzing tax expenditures in Ethiopia from FY 2018/19 to FY 2020/21, with notable year-on-year variations in categories such as vehicle imports, animal or vegetable fats, and non-electrical machinery, influenced by government policy and changes in import values.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "8d1617f05da4fd81bbbe9102edba1ea7bbcfb882cd464707d022c086562e28d2"
+      ],
+      "children": [
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/8d1617f05da4fd81",
+          "node_type": "chunk",
+          "title": "Chunk 8d1617f0",
+          "summary": "",
+          "metadata": {
+            "content_hash": "8d1617f05da4fd81bbbe9102edba1ea7bbcfb882cd464707d022c086562e28d2",
+            "token_count": 195,
+            "page_numbers": [
+              18
+            ],
+            "section_context": "transactions across customs IT systems (see Appendix D)."
+          },
+          "chunk_hashes": [
+            "8d1617f05da4fd81bbbe9102edba1ea7bbcfb882cd464707d022c086562e28d2"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "appendix-e-assumes-no-duplicate-reporting-of-transactions-across-customs-it-systems-see-appendix-d",
+      "node_type": "section",
+      "title": "Appendix E. Assumes no duplicate reporting of transactions across customs IT systems (see Appendix D).",
+      "summary": "The Ethiopian Customs Commission's data reveals that tax expenditures as a share of import value varied significantly across commodity groups in FY 2020/21, with the highest shares observed for vehicles at 52.3% and animal or vegetable fats at 48.1%.",
+      "metadata": {
+        "min_page": 19,
+        "max_page": 20,
+        "chunk_count": 1,
+        "summary": "The Ethiopian Customs Commission's data reveals that tax expenditures as a share of import value varied significantly across commodity groups in FY 2020/21, with the highest shares observed for vehicles at 52.3% and animal or vegetable fats at 48.1%.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "f1941ec27da6d7543392b9987d4abac35334216a335b49d9aedbf82dd1fd9389"
+      ],
+      "children": [
+        {
+          "page_number": 19,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/f1941ec27da6d754",
+          "node_type": "chunk",
+          "title": "Chunk f1941ec2",
+          "summary": "",
+          "metadata": {
+            "content_hash": "f1941ec27da6d7543392b9987d4abac35334216a335b49d9aedbf82dd1fd9389",
+            "token_count": 228,
+            "page_numbers": [
+              19,
+              20
+            ],
+            "section_context": "Appendix E. Assumes no duplicate reporting of transactions across customs IT systems (see Appendix D)."
+          },
+          "chunk_hashes": [
+            "f1941ec27da6d7543392b9987d4abac35334216a335b49d9aedbf82dd1fd9389"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

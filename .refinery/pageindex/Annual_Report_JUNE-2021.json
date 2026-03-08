@@ -1,0 +1,320 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 581.102,
+    "y2": 751.181
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 8,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "rising-with-africa",
+      "node_type": "section",
+      "title": "RISING WITH AFRICA",
+      "summary": "The \"RISING WITH AFRICA\" section of the Ethiopian Reinsurance Annual Report 2020/21 provides an overview of the company's activities and progress during the reported year.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 1,
+        "chunk_count": 1,
+        "summary": "The \"RISING WITH AFRICA\" section of the Ethiopian Reinsurance Annual Report 2020/21 provides an overview of the company's activities and progress during the reported year.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "89dd8f122b9cced8206dfe493187fcf2b79b05d20ff31a718a2cf7bce572d72b"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/89dd8f122b9cced8",
+          "node_type": "chunk",
+          "title": "Chunk 89dd8f12",
+          "summary": "",
+          "metadata": {
+            "content_hash": "89dd8f122b9cced8206dfe493187fcf2b79b05d20ff31a718a2cf7bce572d72b",
+            "token_count": 10,
+            "page_numbers": [
+              1
+            ],
+            "section_context": "# RISING WITH AFRICA"
+          },
+          "chunk_hashes": [
+            "89dd8f122b9cced8206dfe493187fcf2b79b05d20ff31a718a2cf7bce572d72b"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 581.102,
+        "y2": 751.181
+      },
+      "node_id": "ethiopian-reinsurance",
+      "node_type": "section",
+      "title": "Ethiopian Reinsurance",
+      "summary": "The Ethiopian Reinsurance company, also known as Ethio RE, provides dependable reinsurance services locally and internationally, driven by its mission, vision, and core values, including professionalism, innovation, and excellence, with a motto of \"Rising with Africa\" to capitalize on the continent's rapid economic growth.",
+      "metadata": {
+        "min_page": 2,
+        "max_page": 7,
+        "chunk_count": 1,
+        "summary": "The Ethiopian Reinsurance company, also known as Ethio RE, provides dependable reinsurance services locally and internationally, driven by its mission, vision, and core values, including professionalism, innovation, and excellence, with a motto of \"Rising with Africa\" to capitalize on the continent's rapid economic growth.",
+        "total_pages_covered": 6
+      },
+      "chunk_hashes": [
+        "3bb0cc02e3314f06f10157861139c6284c67e64236f41f24de4c7d1906ae56b0"
+      ],
+      "children": [
+        {
+          "page_number": 2,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 581.102,
+            "y2": 751.181
+          },
+          "node_id": "chunk/3bb0cc02e3314f06",
+          "node_type": "chunk",
+          "title": "Chunk 3bb0cc02",
+          "summary": "",
+          "metadata": {
+            "content_hash": "3bb0cc02e3314f06f10157861139c6284c67e64236f41f24de4c7d1906ae56b0",
+            "token_count": 647,
+            "page_numbers": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "section_context": "# Ethiopian Reinsurance"
+          },
+          "chunk_hashes": [
+            "3bb0cc02e3314f06f10157861139c6284c67e64236f41f24de4c7d1906ae56b0"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 581.102,
+        "y2": 751.181
+      },
+      "node_id": "our-credit-rating",
+      "node_type": "section",
+      "title": "OUR CREDIT RATING",
+      "summary": "The Ethiopian Reinsurance Company, also known as Ethio-Re, has a Financial Strength Rating of B- (International Scale) / AA (ET) (National Scale) from GCR RATINGS, and has achieved a 30% increase in Gross Written Premium and 18% growth in profit before tax, driven by.",
+      "metadata": {
+        "min_page": 8,
+        "max_page": 21,
+        "chunk_count": 6,
+        "summary": "The Ethiopian Reinsurance Company, also known as Ethio-Re, has a Financial Strength Rating of B- (International Scale) / AA (ET) (National Scale) from GCR RATINGS, and has achieved a 30% increase in Gross Written Premium and 18% growth in profit before tax, driven by.",
+        "total_pages_covered": 14
+      },
+      "chunk_hashes": [
+        "dede6ff9209cfa53a619c2136c67a005aa25e52abc378b09089f7a7318931e98",
+        "9fba16457450220446539569b75afc3f2b720fb48f2e195de35604ad68152db9",
+        "1050bda8175a70fd367c3e250bddf7ec76bfec66f64b29555bd55061b14721a7",
+        "2bffda5710aa3e56f103caf9f923599e1ea6c1c249e8b1320c8ff2156bcbc797",
+        "0563e903bdb704e55197f0b58f442a217fa5f62ff96b8fe999ed7006265e7ba2",
+        "5d764056f69e44c7b603678e7b64f360978d60a9c0a8424e0cc62d3c5b8f8858"
+      ],
+      "children": [
+        {
+          "page_number": 8,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/dede6ff9209cfa53",
+          "node_type": "chunk",
+          "title": "Chunk dede6ff9",
+          "summary": "",
+          "metadata": {
+            "content_hash": "dede6ff9209cfa53a619c2136c67a005aa25e52abc378b09089f7a7318931e98",
+            "token_count": 992,
+            "page_numbers": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "section_context": "# OUR CREDIT RATING"
+          },
+          "chunk_hashes": [
+            "dede6ff9209cfa53a619c2136c67a005aa25e52abc378b09089f7a7318931e98"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 11,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 581.102,
+            "y2": 751.181
+          },
+          "node_id": "chunk/9fba164574502204",
+          "node_type": "chunk",
+          "title": "Chunk 9fba1645",
+          "summary": "",
+          "metadata": {
+            "content_hash": "9fba16457450220446539569b75afc3f2b720fb48f2e195de35604ad68152db9",
+            "token_count": 1000,
+            "page_numbers": [
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "section_context": "# OUR CREDIT RATING"
+          },
+          "chunk_hashes": [
+            "9fba16457450220446539569b75afc3f2b720fb48f2e195de35604ad68152db9"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 15,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/1050bda8175a70fd",
+          "node_type": "chunk",
+          "title": "Chunk 1050bda8",
+          "summary": "",
+          "metadata": {
+            "content_hash": "1050bda8175a70fd367c3e250bddf7ec76bfec66f64b29555bd55061b14721a7",
+            "token_count": 996,
+            "page_numbers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "section_context": "# OUR CREDIT RATING"
+          },
+          "chunk_hashes": [
+            "1050bda8175a70fd367c3e250bddf7ec76bfec66f64b29555bd55061b14721a7"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/2bffda5710aa3e56",
+          "node_type": "chunk",
+          "title": "Chunk 2bffda57",
+          "summary": "",
+          "metadata": {
+            "content_hash": "2bffda5710aa3e56f103caf9f923599e1ea6c1c249e8b1320c8ff2156bcbc797",
+            "token_count": 989,
+            "page_numbers": [
+              18,
+              19
+            ],
+            "section_context": "# OUR CREDIT RATING"
+          },
+          "chunk_hashes": [
+            "2bffda5710aa3e56f103caf9f923599e1ea6c1c249e8b1320c8ff2156bcbc797"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 19,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/0563e903bdb704e5",
+          "node_type": "chunk",
+          "title": "Chunk 0563e903",
+          "summary": "",
+          "metadata": {
+            "content_hash": "0563e903bdb704e55197f0b58f442a217fa5f62ff96b8fe999ed7006265e7ba2",
+            "token_count": 994,
+            "page_numbers": [
+              19,
+              20,
+              21
+            ],
+            "section_context": "# OUR CREDIT RATING"
+          },
+          "chunk_hashes": [
+            "0563e903bdb704e55197f0b58f442a217fa5f62ff96b8fe999ed7006265e7ba2"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 21,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/5d764056f69e44c7",
+          "node_type": "chunk",
+          "title": "Chunk 5d764056",
+          "summary": "",
+          "metadata": {
+            "content_hash": "5d764056f69e44c7b603678e7b64f360978d60a9c0a8424e0cc62d3c5b8f8858",
+            "token_count": 353,
+            "page_numbers": [
+              21
+            ],
+            "section_context": "# OUR CREDIT RATING"
+          },
+          "chunk_hashes": [
+            "5d764056f69e44c7b603678e7b64f360978d60a9c0a8424e0cc62d3c5b8f8858"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

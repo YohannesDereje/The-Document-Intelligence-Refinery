@@ -1,7 +1,11 @@
 from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor, TimeoutError
+from datetime import datetime, timezone
+import json
 import logging
+import os
+import threading
 import time
 from pathlib import Path
 from typing import Any, Dict, List, Sequence
@@ -16,6 +20,7 @@ from models import (
     ExtractionLedgerEntry,
     ExtractionResult,
     LDU,
+    PageProfile,
 )
 from src.config import ConfigLoader
 from src.strategies.fast_text import FastTextExtractor
@@ -30,12 +35,14 @@ class ExtractionRouter:
         model_name: str | None = None,
         confidence_threshold: float | None = None,
         max_budget: float | None = None,
+        max_pages_per_doc: int | None = None,
         per_page_timeout_seconds: float | None = None,
         rules_path: str | Path = "rubric/extraction_rules.yaml",
     ) -> None:
         self.logger = logging.getLogger(__name__)
         self.rules_path = Path(rules_path)
         self.config_loader = ConfigLoader(self.rules_path)
+        self.max_pages_per_doc = int(max_pages_per_doc) if max_pages_per_doc is not None else None
 
         self.vlm_budget_cap = float(self.config_loader.get("economic_guards.vlm_budget_cap", 30.0))
         self.default_dpi = int(self.config_loader.get("economic_guards.default_dpi", 140))
@@ -76,9 +83,12 @@ class ExtractionRouter:
             "STRATEGY_C": self.vision_extractor,
         }
 
-        self.ledger_path = Path(".refinery") / "extraction_ledger.jsonl"
+        project_root = self.rules_path.resolve().parent.parent if self.rules_path.resolve().parent.name == "rubric" else Path.cwd()
+        self.ledger_path = project_root / ".refinery" / "extraction_ledger.jsonl"
         self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
+        self._ledger_lock = threading.Lock()
         self.total_cost_usd = 0.0
+        self.strategy_c_disabled_reason = ""
 
     def _normalize_strategy(self, strategy: str) -> str:
         normalized = strategy.strip().upper()
@@ -90,6 +100,17 @@ class ExtractionRouter:
         normalized = self._normalize_strategy(starting_strategy)
         start_index = self.strategy_order.index(normalized)
         return self.strategy_order[start_index:]
+
+    def _strategy_chain_for_page(self, origin_type: str, dominant_strategy: str) -> List[str]:
+        if origin_type == "hybrid":
+            return ["STRATEGY_A", "STRATEGY_B", "STRATEGY_C"]
+        if origin_type == "scanned_image":
+            return ["STRATEGY_B", "STRATEGY_C"]
+
+        normalized_dominant = self._normalize_strategy(dominant_strategy)
+        if normalized_dominant == "STRATEGY_A":
+            return ["STRATEGY_A", "STRATEGY_B", "STRATEGY_C"]
+        return self._strategy_chain(normalized_dominant)
 
     @staticmethod
     def _origin_type_from_profile(profile: DocumentProfile) -> str:
@@ -137,9 +158,23 @@ class ExtractionRouter:
                 }
             )
 
-        with self.ledger_path.open("a", encoding="utf-8") as ledger_file:
-            ledger_file.write(entry.model_dump_json())
-            ledger_file.write("\n")
+        self._log_to_ledger(entry.model_dump(mode="json"))
+
+    def _log_to_ledger(self, entry: Dict[str, Any]) -> None:
+        self.ledger_path.parent.mkdir(parents=True, exist_ok=True)
+        line = json.dumps(entry, ensure_ascii=True)
+
+        with self._ledger_lock:
+            with self.ledger_path.open("a", encoding="utf-8") as ledger_file:
+                ledger_file.write(line)
+                ledger_file.write("\n")
+                ledger_file.flush()
+                os.fsync(ledger_file.fileno())
+
+        event_name = str(entry.get("event_type", "extraction_event"))
+        file_name = str(entry.get("file_name", ""))
+        page_number = int(entry.get("page_number", 0) or 0)
+        print(f"[LEDGER] committed event={event_name} file={file_name} page={page_number}")
 
     @staticmethod
     def _page_metrics(pdf_path: Path, page_number: int) -> Dict[str, Any]:
@@ -156,10 +191,12 @@ class ExtractionRouter:
             char_density = (char_count / area) if area > 0 else 0.0
 
             return {
+                "page_number": page_number,
                 "char_count": char_count,
                 "width": width,
                 "height": height,
                 "char_density": char_density,
+                "rect_count": len(page.rects),
                 "chars": page.chars,
                 "parsed_ok": True,
             }
@@ -175,6 +212,11 @@ class ExtractionRouter:
             return float(extractor.calculate_confidence(page_data))
 
         if strategy == "STRATEGY_B":
+            page_number = int(page_data.get("page_number", 0) or 0)
+            ocr_engine_confidence = None
+            if page_number > 0 and hasattr(extractor, "get_last_page_ocr_confidence"):
+                ocr_engine_confidence = extractor.get_last_page_ocr_confidence(page_number)
+
             joined_text = "\n".join(unit.content_markdown for unit in units if unit.content_type in {"text", "header", "table"})
             layout_data = {
                 "parsed_ok": bool(units),
@@ -182,6 +224,7 @@ class ExtractionRouter:
                 "table_count": sum(1 for unit in units if unit.content_type == "table"),
                 "text_count": sum(1 for unit in units if unit.content_type in {"text", "header"}),
                 "text_clarity": extractor._text_clarity_score(joined_text) if hasattr(extractor, "_text_clarity_score") else 0.0,
+                "ocr_engine_confidence": ocr_engine_confidence,
             }
             return float(extractor.calculate_ocr_confidence(layout_data))
 
@@ -257,6 +300,15 @@ class ExtractionRouter:
         if not pdf_path.exists() or pdf_path.suffix.lower() != ".pdf":
             raise ValueError(f"Invalid PDF path: {pdf_path}")
 
+        document_start = time.perf_counter()
+        started_at = datetime.now(timezone.utc).isoformat()
+        self.vision_extractor.total_spend = 0.0
+        self.vision_extractor.last_call_cost_usd = 0.0
+        self.vision_extractor.last_usage = {
+            "prompt_tokens": 0,
+            "image_tokens": 0,
+            "completion_tokens": 0,
+        }
         self.vision_extractor.model_name = self._resolve_vision_model_for_profile(profile)
 
         all_units: List[LDU] = []
@@ -264,14 +316,56 @@ class ExtractionRouter:
         escalations = 0
         origin_type = self._origin_type_from_profile(profile)
 
-        for page_profile in sorted(profile.pages, key=lambda item: item.page_number):
-            page_number = int(page_profile.page_number)
-            page_metrics = self._page_metrics(pdf_path, page_number)
+        with pdfplumber.open(pdf_path) as pdf:
+            total_pdf_pages = len(pdf.pages)
 
-            if origin_type == "scanned_image":
-                strategy_chain = ["STRATEGY_B", "STRATEGY_C"]
-            else:
-                strategy_chain = self._strategy_chain(page_profile.dominant_strategy)
+        profile_page_numbers = sorted(
+            int(item.page_number)
+            for item in profile.pages
+            if 1 <= int(item.page_number) <= total_pdf_pages
+        )
+
+        if self.max_pages_per_doc is not None:
+            profile_page_numbers = profile_page_numbers[: self.max_pages_per_doc]
+
+        page_numbers_to_process = profile_page_numbers or list(
+            range(1, min(total_pdf_pages, self.max_pages_per_doc or total_pdf_pages) + 1)
+        )
+
+        self._log_to_ledger(
+            {
+                "event_type": "extraction_start",
+                "file_name": pdf_path.name,
+                "page_number": 0,
+                "started_at": started_at,
+                "total_pages_target": len(page_numbers_to_process),
+                "source_total_pages": total_pdf_pages,
+                "cost_estimate": float(self.vision_extractor.total_spend),
+            }
+        )
+
+        profile_by_page: Dict[int, PageProfile] = {
+            int(item.page_number): item for item in sorted(profile.pages, key=lambda item: item.page_number)
+        }
+
+        for page_number in page_numbers_to_process:
+            page_metrics = self._page_metrics(pdf_path, page_number)
+            page_profile = profile_by_page.get(page_number)
+
+            if page_profile is None:
+                fallback_strategy = "STRATEGY_B" if origin_type == "scanned_image" else "STRATEGY_A"
+                page_profile = PageProfile(
+                    page_number=page_number,
+                    char_density=float(page_metrics.get("char_density", 0.0) or 0.0),
+                    rect_count=int(page_metrics.get("rect_count", 0) or 0),
+                    is_landscape=float(page_metrics.get("width", 0.0) or 0.0)
+                    > float(page_metrics.get("height", 0.0) or 0.0),
+                    dominant_strategy=fallback_strategy,
+                    detected_origin="scanned" if origin_type == "scanned_image" else "born_digital",
+                )
+
+            dominant_strategy_value = getattr(page_profile.dominant_strategy, "value", page_profile.dominant_strategy)
+            strategy_chain = self._strategy_chain_for_page(origin_type, str(dominant_strategy_value))
 
             selected_units: List[LDU] = []
             selected_strategy = strategy_chain[-1]
@@ -289,7 +383,14 @@ class ExtractionRouter:
                 if strategy_name == "STRATEGY_C":
                     self.logger.info("Directing to Strategy C (VLM) for page %s", page_number)
 
-                if strategy_name == "STRATEGY_C" and self.vision_extractor.total_spend >= self.vlm_budget_cap:
+                if strategy_name == "STRATEGY_C" and self.strategy_c_disabled_reason:
+                    units = []
+                    confidence = 0.0
+                    self.logger.warning(
+                        "Strategy C disabled for remaining pages: %s",
+                        self.strategy_c_disabled_reason,
+                    )
+                elif strategy_name == "STRATEGY_C" and self.vision_extractor.total_spend >= self.vlm_budget_cap:
                     units: List[LDU] = []
                     confidence = 0.0
                     self.logger.error(
@@ -321,6 +422,10 @@ class ExtractionRouter:
                     except Exception as exc:
                         units = []
                         confidence = 0.0
+                        if strategy_name == "STRATEGY_C" and "insufficient credits" in str(exc).lower():
+                            self.strategy_c_disabled_reason = str(exc)
+                        elif strategy_name == "STRATEGY_C" and "cannot be reached" in str(exc).lower():
+                            self.strategy_c_disabled_reason = str(exc)
                         self.logger.exception(
                             "Strategy failure on %s page %s via %s. Escalating to next strategy. Error: %s",
                             pdf_path.name,
@@ -372,7 +477,8 @@ class ExtractionRouter:
 
             all_units.extend(normalized_units)
 
-            final_status = "success" if normalized_units else "fail"
+            final_attempt_status = attempt_chain[-1].status if attempt_chain else "fail"
+            final_status = "success" if final_attempt_status == "success" else "fail"
             path_string = self._path_string(origin_type, attempt_chain)
             cumulative_cost_usd = self.calculate_final_cost(attempt_chain)
             cumulative_processing_time_ms = self._cumulative_processing_time(attempt_chain)
@@ -410,6 +516,25 @@ class ExtractionRouter:
                 escalation_path=path_string,
             )
             self._append_ledger_entry(ledger_entry)
+            page_token_count = 0
+            for unit in normalized_units:
+                unit_token_count = getattr(unit, "token_count", None)
+                if unit_token_count is None:
+                    unit_token_count = max(1, len(str(getattr(unit, "content_raw", "")).split()))
+                page_token_count += int(unit_token_count)
+            self._log_to_ledger(
+                {
+                    "event_type": "extraction_page_metrics",
+                    "file_name": pdf_path.name,
+                    "page_number": page_number,
+                    "strategy_selected": selected_strategy,
+                    "confidence_score": float(selected_confidence),
+                    "token_count": int(page_token_count),
+                    "cost_estimate": float(cumulative_cost_usd),
+                    "total_pages_processed": int(len(page_results)),
+                    "processed_at": datetime.now(timezone.utc).isoformat(),
+                }
+            )
 
             self.logger.info(
                 "Page %s finalized with %s (confidence=%.3f, units=%s, path=%s)",
@@ -427,12 +552,58 @@ class ExtractionRouter:
                     page_number,
                 )
 
+        document_processing_time_ms = round((time.perf_counter() - document_start) * 1000.0, 3)
+        ended_at = datetime.now(timezone.utc).isoformat()
+        document_estimated_cost_usd = round(sum(result.cumulative_cost_usd for result in page_results), 6)
+        document_final_vlm_cost_usd = round(float(self.vision_extractor.total_spend), 6)
+        document_summary_strategy = page_results[-1].final_strategy if page_results else "STRATEGY_A"
+
+        self._append_ledger_entry(
+            ExtractionLedgerEntry(
+                file_name=pdf_path.name,
+                page_number=0,
+                origin_type=origin_type,
+                strategy_selected=document_summary_strategy,
+                confidence_score=1.0 if page_results else 0.0,
+                processing_time_ms=document_processing_time_ms,
+                estimated_cost_usd=document_estimated_cost_usd,
+                final_success_cost_usd=document_estimated_cost_usd,
+                final_vlm_cost_usd=document_final_vlm_cost_usd,
+                attempt_chain=[],
+                escalation_path="DOCUMENT_SUMMARY",
+            )
+        )
+        total_token_count = 0
+        for unit in all_units:
+            unit_token_count = getattr(unit, "token_count", None)
+            if unit_token_count is None:
+                unit_token_count = max(1, len(str(getattr(unit, "content_raw", "")).split()))
+            total_token_count += int(unit_token_count)
+        self._log_to_ledger(
+            {
+                "event_type": "extraction_summary",
+                "file_name": pdf_path.name,
+                "page_number": 0,
+                "started_at": started_at,
+                "ended_at": ended_at,
+                "total_pages_processed": int(len(page_results)),
+                "token_count": int(total_token_count),
+                "cost_estimate": float(document_estimated_cost_usd),
+                "strategy_selected": document_summary_strategy,
+                "confidence_score": 1.0 if page_results else 0.0,
+                "processing_time_ms": float(document_processing_time_ms),
+            }
+        )
+
         metadata = {
             "overall_origin": profile.overall_origin,
             "layout_complexity": profile.layout_complexity,
-            "total_pages": profile.total_pages,
+            "total_pages": len(page_numbers_to_process),
+            "source_total_pages": total_pdf_pages,
             "units_count": len(all_units),
             "escalations": escalations,
+            "document_processing_time_ms": document_processing_time_ms,
+            "document_estimated_cost_usd": document_estimated_cost_usd,
             "extraction_results": [result.model_dump() for result in page_results],
         }
 

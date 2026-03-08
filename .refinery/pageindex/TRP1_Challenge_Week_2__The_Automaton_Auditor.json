@@ -1,0 +1,713 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 1.0,
+    "y2": 1.0
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 14,
+    "total_pages_covered": 19,
+    "min_page": 1,
+    "max_page": 19
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The FDE Challenge Week 2, also known as the Automaton Auditor, involves building a Digital Courtroom with a hierarchical swarm of \"Detective\" agents that utilize Deep LangGraph Agents, multi-agent systems, and forensic analysis to evaluate code quality and provide constructive feedback, ultimately creating an autonomous quality assurance system.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 5,
+        "chunk_count": 2,
+        "summary": "The FDE Challenge Week 2, also known as the Automaton Auditor, involves building a Digital Courtroom with a hierarchical swarm of \"Detective\" agents that utilize Deep LangGraph Agents, multi-agent systems, and forensic analysis to evaluate code quality and provide constructive feedback, ultimately creating an autonomous quality assurance system.",
+        "total_pages_covered": 5
+      },
+      "chunk_hashes": [
+        "4b43e011fcc1c56228a5ba9f9f19577619b20db116e6d9605d6e7ff8297d4da4",
+        "50c8a357c658ccf9c8da4d449bb1033880227986e1b7c724a5918d51e1b251e5"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/4b43e011fcc1c562",
+          "node_type": "chunk",
+          "title": "Chunk 4b43e011",
+          "summary": "",
+          "metadata": {
+            "content_hash": "4b43e011fcc1c56228a5ba9f9f19577619b20db116e6d9605d6e7ff8297d4da4",
+            "token_count": 999,
+            "page_numbers": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "4b43e011fcc1c56228a5ba9f9f19577619b20db116e6d9605d6e7ff8297d4da4"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 4,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/50c8a357c658ccf9",
+          "node_type": "chunk",
+          "title": "Chunk 50c8a357",
+          "summary": "",
+          "metadata": {
+            "content_hash": "50c8a357c658ccf9c8da4d449bb1033880227986e1b7c724a5918d51e1b251e5",
+            "token_count": 494,
+            "page_numbers": [
+              4,
+              5
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "50c8a357c658ccf9c8da4d449bb1033880227986e1b7c724a5918d51e1b251e5"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "detective-output",
+      "node_type": "section",
+      "title": "--- Detective Output ---",
+      "summary": "The Detective Output section defines a data model for evidence, including attributes such as goal, found status, content, location, criterion ID, score, argument, and cited evidence, which are used to evaluate claims and architecture in a repository investigation.",
+      "metadata": {
+        "min_page": 5,
+        "max_page": 6,
+        "chunk_count": 1,
+        "summary": "The Detective Output section defines a data model for evidence, including attributes such as goal, found status, content, location, criterion ID, score, argument, and cited evidence, which are used to evaluate claims and architecture in a repository investigation.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "5af553d7bbd42a44dbf0a0961d557ee8d310a62a96b6cd993d82a56ed499baa1"
+      ],
+      "children": [
+        {
+          "page_number": 5,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/5af553d7bbd42a44",
+          "node_type": "chunk",
+          "title": "Chunk 5af553d7",
+          "summary": "",
+          "metadata": {
+            "content_hash": "5af553d7bbd42a44dbf0a0961d557ee8d310a62a96b6cd993d82a56ed499baa1",
+            "token_count": 88,
+            "page_numbers": [
+              5,
+              6
+            ],
+            "section_context": "# --- Detective Output ---"
+          },
+          "chunk_hashes": [
+            "5af553d7bbd42a44dbf0a0961d557ee8d310a62a96b6cd993d82a56ed499baa1"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "chief-justice-output",
+      "node_type": "section",
+      "title": "--- Chief Justice Output ---",
+      "summary": "The Chief Justice Output section defines data models for CriterionResult and AuditReport, which include key entities such as dimension_id, judge_opinions, rationale, and remediation, to structure the output of a judicial review process.",
+      "metadata": {
+        "min_page": 6,
+        "max_page": 6,
+        "chunk_count": 1,
+        "summary": "The Chief Justice Output section defines data models for CriterionResult and AuditReport, which include key entities such as dimension_id, judge_opinions, rationale, and remediation, to structure the output of a judicial review process.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "94a6e6eabd908d9cc12dfc3c2a9d54b49a0e7acf1e452ad9b521ae004f0d59b6"
+      ],
+      "children": [
+        {
+          "page_number": 6,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/94a6e6eabd908d9c",
+          "node_type": "chunk",
+          "title": "Chunk 94a6e6ea",
+          "summary": "",
+          "metadata": {
+            "content_hash": "94a6e6eabd908d9cc12dfc3c2a9d54b49a0e7acf1e452ad9b521ae004f0d59b6",
+            "token_count": 64,
+            "page_numbers": [
+              6
+            ],
+            "section_context": "# --- Chief Justice Output ---"
+          },
+          "chunk_hashes": [
+            "94a6e6eabd908d9cc12dfc3c2a9d54b49a0e7acf1e452ad9b521ae004f0d59b6"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "graph-state",
+      "node_type": "section",
+      "title": "--- Graph State ---",
+      "summary": "The Graph State section defines an AgentState class with attributes including repo_url, pdf_path, and rubric_dimensions, which is utilized in the context of evidence-based goal evaluation and retrieval routing.",
+      "metadata": {
+        "min_page": 6,
+        "max_page": 6,
+        "chunk_count": 1,
+        "summary": "The Graph State section defines an AgentState class with attributes including repo_url, pdf_path, and rubric_dimensions, which is utilized in the context of evidence-based goal evaluation and retrieval routing.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "6d5971158c759b44f163f22dbea8ebc63ab02e68b217d10665930a812cd15afc"
+      ],
+      "children": [
+        {
+          "page_number": 6,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/6d5971158c759b44",
+          "node_type": "chunk",
+          "title": "Chunk 6d597115",
+          "summary": "",
+          "metadata": {
+            "content_hash": "6d5971158c759b44f163f22dbea8ebc63ab02e68b217d10665930a812cd15afc",
+            "token_count": 29,
+            "page_numbers": [
+              6
+            ],
+            "section_context": "# --- Graph State ---"
+          },
+          "chunk_hashes": [
+            "6d5971158c759b44f163f22dbea8ebc63ab02e68b217d10665930a812cd15afc"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "from-overwriting-data",
+      "node_type": "section",
+      "title": "from overwriting data",
+      "summary": "The section \"from overwriting data\" discusses the development of a digital courtroom system, involving multiple phases, including tool engineering, graph construction, and a synthesis engine, with key components such as the JudicialOpinion class, Detectives, Judges, and a Conflict Resolution Strategy.",
+      "metadata": {
+        "min_page": 6,
+        "max_page": 8,
+        "chunk_count": 1,
+        "summary": "The section \"from overwriting data\" discusses the development of a digital courtroom system, involving multiple phases, including tool engineering, graph construction, and a synthesis engine, with key components such as the JudicialOpinion class, Detectives, Judges, and a Conflict Resolution Strategy.",
+        "total_pages_covered": 3
+      },
+      "chunk_hashes": [
+        "e89f336bfda0cbf335eb9963bd6f534861302847c6dd75024a42707ce041eb9a"
+      ],
+      "children": [
+        {
+          "page_number": 6,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/e89f336bfda0cbf3",
+          "node_type": "chunk",
+          "title": "Chunk e89f336b",
+          "summary": "",
+          "metadata": {
+            "content_hash": "e89f336bfda0cbf335eb9963bd6f534861302847c6dd75024a42707ce041eb9a",
+            "token_count": 472,
+            "page_numbers": [
+              6,
+              7,
+              8
+            ],
+            "section_context": "# from overwriting data"
+          },
+          "chunk_hashes": [
+            "e89f336bfda0cbf335eb9963bd6f534861302847c6dd75024a42707ce041eb9a"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "it-must-follow-the-structure-executive-summary",
+      "node_type": "section",
+      "title": "\u25cf It must follow the structure: Executive Summary -",
+      "summary": "The retrieval routing section outlines the structure and deliverables for a project, including an executive summary, criterion breakdown, and remediation plan, with key components such as Pydantic, AST parsing, and a judicial layer, to be submitted as a PDF report and peer-gradable GitHub repository.",
+      "metadata": {
+        "min_page": 8,
+        "max_page": 9,
+        "chunk_count": 1,
+        "summary": "The retrieval routing section outlines the structure and deliverables for a project, including an executive summary, criterion breakdown, and remediation plan, with key components such as Pydantic, AST parsing, and a judicial layer, to be submitted as a PDF report and peer-gradable GitHub repository.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "ad85cd821170a3e305bc09226230700f67e4b1b676c0a639bc127bfccaccb9e9"
+      ],
+      "children": [
+        {
+          "page_number": 8,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "it-must-follow-the-structure-executive-summary/criterion-breakdown",
+          "node_type": "subsection",
+          "title": "Criterion Breakdown",
+          "summary": "",
+          "metadata": {
+            "min_page": 8,
+            "max_page": 9,
+            "chunk_count": 0
+          },
+          "chunk_hashes": [],
+          "children": [
+            {
+              "page_number": 8,
+              "bbox": {
+                "x1": 0.0,
+                "y1": 0.0,
+                "x2": 1.0,
+                "y2": 1.0
+              },
+              "node_id": "chunk/ad85cd821170a3e3",
+              "node_type": "chunk",
+              "title": "Chunk ad85cd82",
+              "summary": "",
+              "metadata": {
+                "content_hash": "ad85cd821170a3e305bc09226230700f67e4b1b676c0a639bc127bfccaccb9e9",
+                "token_count": 239,
+                "page_numbers": [
+                  8,
+                  9
+                ],
+                "section_context": "\u25cf It must follow the structure: Executive Summary -> Criterion Breakdown"
+              },
+              "chunk_hashes": [
+                "ad85cd821170a3e305bc09226230700f67e4b1b676c0a639bc127bfccaccb9e9"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "executive-summary",
+      "node_type": "section",
+      "title": "- Executive summary",
+      "summary": "The executive summary section requires the submission of a GitHub Repository containing detailed architecture, source code, and audit reports, including a StateGraph visualization, criterion-by-criterion breakdown, and reflection on the MinMax feedback loop, to demonstrate a comprehensive auditing system with features like Dialectical Synthesis, Fan-In/Fan-Out,.",
+      "metadata": {
+        "min_page": 9,
+        "max_page": 10,
+        "chunk_count": 1,
+        "summary": "The executive summary section requires the submission of a GitHub Repository containing detailed architecture, source code, and audit reports, including a StateGraph visualization, criterion-by-criterion breakdown, and reflection on the MinMax feedback loop, to demonstrate a comprehensive auditing system with features like Dialectical Synthesis, Fan-In/Fan-Out,.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "9d875ac2bbe220eeea8e5971b2116631dd855207448af780f148353063a796a2"
+      ],
+      "children": [
+        {
+          "page_number": 9,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/9d875ac2bbe220ee",
+          "node_type": "chunk",
+          "title": "Chunk 9d875ac2",
+          "summary": "",
+          "metadata": {
+            "content_hash": "9d875ac2bbe220eeea8e5971b2116631dd855207448af780f148353063a796a2",
+            "token_count": 322,
+            "page_numbers": [
+              9,
+              10
+            ],
+            "section_context": "- Executive summary"
+          },
+          "chunk_hashes": [
+            "9d875ac2bbe220eeea8e5971b2116631dd855207448af780f148353063a796a2"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "executive-summary-overall-verdict-and-aggregate-score",
+      "node_type": "section",
+      "title": "- Executive Summary -- overall verdict and aggregate score",
+      "summary": "The retrieval routing section outlines the structure and components of an auditing system, including the executive summary, criterion breakdown, remediation plan, and tools such as Detectives, Judges, and the ChiefJustice, which work together to collect evidence, render verdicts, and synthesize final outputs based on specific protocols and standards.",
+      "metadata": {
+        "min_page": 10,
+        "max_page": 12,
+        "chunk_count": 1,
+        "summary": "The retrieval routing section outlines the structure and components of an auditing system, including the executive summary, criterion breakdown, remediation plan, and tools such as Detectives, Judges, and the ChiefJustice, which work together to collect evidence, render verdicts, and synthesize final outputs based on specific protocols and standards.",
+        "total_pages_covered": 3
+      },
+      "chunk_hashes": [
+        "86196bad47811e188d0738c5ead2057a2d28e8f4b7d5c4e20e291aeb7cb36fa9"
+      ],
+      "children": [
+        {
+          "page_number": 10,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/86196bad47811e18",
+          "node_type": "chunk",
+          "title": "Chunk 86196bad",
+          "summary": "",
+          "metadata": {
+            "content_hash": "86196bad47811e188d0738c5ead2057a2d28e8f4b7d5c4e20e291aeb7cb36fa9",
+            "token_count": 478,
+            "page_numbers": [
+              10,
+              11,
+              12
+            ],
+            "section_context": "- Executive Summary -- overall verdict and aggregate score"
+          },
+          "chunk_hashes": [
+            "86196bad47811e188d0738c5ead2057a2d28e8f4b7d5c4e20e291aeb7cb36fa9"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "they-just-buzzwords-thrown-in-the-executive-summary",
+      "node_type": "section",
+      "title": "they just buzzwords thrown in the executive summary?",
+      "summary": "The retrieval routing section outlines a framework for evaluating and scoring the architecture and implementation of a system, focusing on key entities such as orchestration concepts, evidence classes, and judicial sentencing guidelines, with specific instructions for VisionInspector, RepoInvestigator, and Judge nodes.",
+      "metadata": {
+        "min_page": 12,
+        "max_page": 16,
+        "chunk_count": 2,
+        "summary": "The retrieval routing section outlines a framework for evaluating and scoring the architecture and implementation of a system, focusing on key entities such as orchestration concepts, evidence classes, and judicial sentencing guidelines, with specific instructions for VisionInspector, RepoInvestigator, and Judge nodes.",
+        "total_pages_covered": 5
+      },
+      "chunk_hashes": [
+        "363a22a85b097216bb41b5e50f83c19c5abc2063d84a7f00724611c41448802e",
+        "fd5139cd85a7873812c7efea8a8f9a0a5b51e708754a6ada6f1017493d8da157"
+      ],
+      "children": [
+        {
+          "page_number": 12,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/363a22a85b097216",
+          "node_type": "chunk",
+          "title": "Chunk 363a22a8",
+          "summary": "",
+          "metadata": {
+            "content_hash": "363a22a85b097216bb41b5e50f83c19c5abc2063d84a7f00724611c41448802e",
+            "token_count": 996,
+            "page_numbers": [
+              12,
+              13,
+              14,
+              15
+            ],
+            "section_context": "they just buzzwords thrown in the executive summary?"
+          },
+          "chunk_hashes": [
+            "363a22a85b097216bb41b5e50f83c19c5abc2063d84a7f00724611c41448802e"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 15,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/fd5139cd85a78738",
+          "node_type": "chunk",
+          "title": "Chunk fd5139cd",
+          "summary": "",
+          "metadata": {
+            "content_hash": "fd5139cd85a7873812c7efea8a8f9a0a5b51e708754a6ada6f1017493d8da157",
+            "token_count": 671,
+            "page_numbers": [
+              15,
+              16
+            ],
+            "section_context": "they just buzzwords thrown in the executive summary?"
+          },
+          "chunk_hashes": [
+            "fd5139cd85a7873812c7efea8a8f9a0a5b51e708754a6ada6f1017493d8da157"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "is-a-markdown-file-with-executive-summary-criterion-breakdown-with-dissent-and-remediation",
+      "node_type": "section",
+      "title": "is a Markdown file with Executive Summary, Criterion Breakdown (with dissent), and Remediation",
+      "summary": "The section discusses a Markdown file containing an Executive Summary, Criterion Breakdown with dissent, and Remediation, as well as other topics including failure patterns, theoretical depth, and forensic instructions for searching a PDF report.",
+      "metadata": {
+        "min_page": 16,
+        "max_page": 16,
+        "chunk_count": 1,
+        "summary": "The section discusses a Markdown file containing an Executive Summary, Criterion Breakdown with dissent, and Remediation, as well as other topics including failure patterns, theoretical depth, and forensic instructions for searching a PDF report.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "fca908774521eea55143c8db7696c36319d6f982681562434050849921185377"
+      ],
+      "children": [
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/fca908774521eea5",
+          "node_type": "chunk",
+          "title": "Chunk fca90877",
+          "summary": "",
+          "metadata": {
+            "content_hash": "fca908774521eea55143c8db7696c36319d6f982681562434050849921185377",
+            "token_count": 83,
+            "page_numbers": [
+              16
+            ],
+            "section_context": "is a Markdown file with Executive Summary, Criterion Breakdown (with dissent), and Remediation"
+          },
+          "chunk_hashes": [
+            "fca908774521eea55143c8db7696c36319d6f982681562434050849921185377"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "substantive-architectural-explanation-or-is-just-a-buzzword-dropped-in-the-executive-summary",
+      "node_type": "section",
+      "title": "substantive architectural explanation or is just a buzzword dropped in the executive summary.",
+      "summary": "The section discusses the importance of a substantive architectural explanation in a report, warning against \"keyword dropping\" and emphasizing the need for detailed explanations of how architectural concepts are executed, with a focus on verifying claims through forensic evidence and code analysis.",
+      "metadata": {
+        "min_page": 16,
+        "max_page": 17,
+        "chunk_count": 1,
+        "summary": "The section discusses the importance of a substantive architectural explanation in a report, warning against \"keyword dropping\" and emphasizing the need for detailed explanations of how architectural concepts are executed, with a focus on verifying claims through forensic evidence and code analysis.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "c7a9a49043b4edb40196d24ab7ecb351cff848bc3ff70f858aae7476b270bf1a"
+      ],
+      "children": [
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/c7a9a49043b4edb4",
+          "node_type": "chunk",
+          "title": "Chunk c7a9a490",
+          "summary": "",
+          "metadata": {
+            "content_hash": "c7a9a49043b4edb40196d24ab7ecb351cff848bc3ff70f858aae7476b270bf1a",
+            "token_count": 451,
+            "page_numbers": [
+              16,
+              17
+            ],
+            "section_context": "substantive architectural explanation or is just a buzzword dropped in the executive summary."
+          },
+          "chunk_hashes": [
+            "c7a9a49043b4edb40196d24ab7ecb351cff848bc3ff70f858aae7476b270bf1a"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "failure-pattern-terms-appear-only-in-the-executive-summary-or-introduction-no-connection-to",
+      "node_type": "section",
+      "title": "\"failure_pattern\": \"Terms appear only in the executive summary or introduction. No connection to",
+      "summary": "The retrieval routing section discusses the Tenx Evaluation Rubric, which assesses repositories based on criteria such as LangGraph, Feedback, Architecture, Report Quality, and Professional Management, with scores ranging from 1 to 5, including a \"Vibe Score\" and a \"Master Coder\" score.",
+      "metadata": {
+        "min_page": 17,
+        "max_page": 19,
+        "chunk_count": 1,
+        "summary": "The retrieval routing section discusses the Tenx Evaluation Rubric, which assesses repositories based on criteria such as LangGraph, Feedback, Architecture, Report Quality, and Professional Management, with scores ranging from 1 to 5, including a \"Vibe Score\" and a \"Master Coder\" score.",
+        "total_pages_covered": 3
+      },
+      "chunk_hashes": [
+        "4782d428da495e4fa29432d3e0438933d8e7d3a6565ab71c755bab2c7218b80c"
+      ],
+      "children": [
+        {
+          "page_number": 17,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/4782d428da495e4f",
+          "node_type": "chunk",
+          "title": "Chunk 4782d428",
+          "summary": "",
+          "metadata": {
+            "content_hash": "4782d428da495e4fa29432d3e0438933d8e7d3a6565ab71c755bab2c7218b80c",
+            "token_count": 453,
+            "page_numbers": [
+              17,
+              18,
+              19
+            ],
+            "section_context": "\"failure_pattern\": \"Terms appear only in the executive summary or introduction. No connection to"
+          },
+          "chunk_hashes": [
+            "4782d428da495e4fa29432d3e0438933d8e7d3a6565ab71c755bab2c7218b80c"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 595.276,
+    "y2": 841.89
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 6,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.276,
+        "y2": 841.89
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The Commercial Bank of Ethiopia, with a vision to become a world-class commercial bank, provides various digital banking services, including POS, mobile banking, and internet banking, and has achieved significant financial milestones, such as having 1,942 branches and a strong asset position of Birr 1.4 trillion as of.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 5,
+        "chunk_count": 1,
+        "summary": "The Commercial Bank of Ethiopia, with a vision to become a world-class commercial bank, provides various digital banking services, including POS, mobile banking, and internet banking, and has achieved significant financial milestones, such as having 1,942 branches and a strong asset position of Birr 1.4 trillion as of.",
+        "total_pages_covered": 5
+      },
+      "chunk_hashes": [
+        "ecfe6f4b01a4fc8df88a01e0082a8ea977cc3fe5bb4c07fe96cdc7da9d1165a7"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.276,
+            "y2": 841.89
+          },
+          "node_id": "chunk/ecfe6f4b01a4fc8d",
+          "node_type": "chunk",
+          "title": "Chunk ecfe6f4b",
+          "summary": "",
+          "metadata": {
+            "content_hash": "ecfe6f4b01a4fc8df88a01e0082a8ea977cc3fe5bb4c07fe96cdc7da9d1165a7",
+            "token_count": 772,
+            "page_numbers": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "ecfe6f4b01a4fc8df88a01e0082a8ea977cc3fe5bb4c07fe96cdc7da9d1165a7"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "performance-highlights",
+      "node_type": "section",
+      "title": "Performance Highlights",
+      "summary": "The Performance Highlights section presents financial data from 2014/15 to 2023/24, including total assets, outstanding loans and securities, and net profit before tax, showcasing the growth of the organization over the years in billion Birr.",
+      "metadata": {
+        "min_page": 6,
+        "max_page": 6,
+        "chunk_count": 1,
+        "summary": "The Performance Highlights section presents financial data from 2014/15 to 2023/24, including total assets, outstanding loans and securities, and net profit before tax, showcasing the growth of the organization over the years in billion Birr.",
+        "total_pages_covered": 1
+      },
+      "chunk_hashes": [
+        "dd57b8acdcaf750d073afc189819d7c195a0dbca379bfe526ff26eb160e53fb2"
+      ],
+      "children": [
+        {
+          "page_number": 6,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/dd57b8acdcaf750d",
+          "node_type": "chunk",
+          "title": "Chunk dd57b8ac",
+          "summary": "",
+          "metadata": {
+            "content_hash": "dd57b8acdcaf750d073afc189819d7c195a0dbca379bfe526ff26eb160e53fb2",
+            "token_count": 184,
+            "page_numbers": [
+              6
+            ],
+            "section_context": "# Performance Highlights"
+          },
+          "chunk_hashes": [
+            "dd57b8acdcaf750d073afc189819d7c195a0dbca379bfe526ff26eb160e53fb2"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 595.276,
+        "y2": 841.89
+      },
+      "node_id": "sections-content-type-header-content-raw-performance-highlights-continued-content-markdown-performance-highlights-continued-uncertai",
+      "node_type": "section",
+      "title": "{\n  \"sections\": [\n    {\n      \"content_type\": \"header\",\n      \"content_raw\": \"Performance Highlights - (Continued)\",\n      \"content_markdown\": \"# Performance Highlights - (Continued)\",\n      \"uncertai",
+      "summary": "The Commercial Bank of Ethiopia (CBE) achieved its highest gross profit of Birr 26.6 billion, with a gross income of Birr 137.4 billion, and surpassed Birr 1.17 trillion in deposits, during the fiscal year under review, under the leadership of President Ato Abie.",
+      "metadata": {
+        "min_page": 7,
+        "max_page": 21,
+        "chunk_count": 4,
+        "summary": "The Commercial Bank of Ethiopia (CBE) achieved its highest gross profit of Birr 26.6 billion, with a gross income of Birr 137.4 billion, and surpassed Birr 1.17 trillion in deposits, during the fiscal year under review, under the leadership of President Ato Abie.",
+        "total_pages_covered": 15
+      },
+      "chunk_hashes": [
+        "8454ead9416ed3ea8bb416ecc9153b308d76d0b3051028cf5b17608f81d56936",
+        "7fa66c198f6745f32f034f89cde0be20648cbb1b98bcf7afc530d63642ffb90f",
+        "1b7ec290da793deef46579f1e1849bf6f2bda7f2e0d37b9db29317f2970eb3b6",
+        "d47fe8e08bbd62e4983c65689fd0b26b31394e3acba9893ed19ef7400ee66855"
+      ],
+      "children": [
+        {
+          "page_number": 7,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 595.276,
+            "y2": 841.89
+          },
+          "node_id": "chunk/8454ead9416ed3ea",
+          "node_type": "chunk",
+          "title": "Chunk 8454ead9",
+          "summary": "",
+          "metadata": {
+            "content_hash": "8454ead9416ed3ea8bb416ecc9153b308d76d0b3051028cf5b17608f81d56936",
+            "token_count": 1000,
+            "page_numbers": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "section_context": "{\n  \"sections\": [\n    {\n      \"content_type\": \"header\",\n      \"content_raw\": \"Performance Highlights - (Continued)\",\n      \"content_markdown\": \"# Performance Highlights - (Continued)\",\n      \"uncertai"
+          },
+          "chunk_hashes": [
+            "8454ead9416ed3ea8bb416ecc9153b308d76d0b3051028cf5b17608f81d56936"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 15,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/7fa66c198f6745f3",
+          "node_type": "chunk",
+          "title": "Chunk 7fa66c19",
+          "summary": "",
+          "metadata": {
+            "content_hash": "7fa66c198f6745f32f034f89cde0be20648cbb1b98bcf7afc530d63642ffb90f",
+            "token_count": 991,
+            "page_numbers": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "section_context": "{\n  \"sections\": [\n    {\n      \"content_type\": \"header\",\n      \"content_raw\": \"Performance Highlights - (Continued)\",\n      \"content_markdown\": \"# Performance Highlights - (Continued)\",\n      \"uncertai"
+          },
+          "chunk_hashes": [
+            "7fa66c198f6745f32f034f89cde0be20648cbb1b98bcf7afc530d63642ffb90f"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/1b7ec290da793dee",
+          "node_type": "chunk",
+          "title": "Chunk 1b7ec290",
+          "summary": "",
+          "metadata": {
+            "content_hash": "1b7ec290da793deef46579f1e1849bf6f2bda7f2e0d37b9db29317f2970eb3b6",
+            "token_count": 987,
+            "page_numbers": [
+              18,
+              19,
+              20
+            ],
+            "section_context": "{\n  \"sections\": [\n    {\n      \"content_type\": \"header\",\n      \"content_raw\": \"Performance Highlights - (Continued)\",\n      \"content_markdown\": \"# Performance Highlights - (Continued)\",\n      \"uncertai"
+          },
+          "chunk_hashes": [
+            "1b7ec290da793deef46579f1e1849bf6f2bda7f2e0d37b9db29317f2970eb3b6"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 20,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/d47fe8e08bbd62e4",
+          "node_type": "chunk",
+          "title": "Chunk d47fe8e0",
+          "summary": "",
+          "metadata": {
+            "content_hash": "d47fe8e08bbd62e4983c65689fd0b26b31394e3acba9893ed19ef7400ee66855",
+            "token_count": 152,
+            "page_numbers": [
+              20,
+              21
+            ],
+            "section_context": "{\n  \"sections\": [\n    {\n      \"content_type\": \"header\",\n      \"content_raw\": \"Performance Highlights - (Continued)\",\n      \"content_markdown\": \"# Performance Highlights - (Continued)\",\n      \"uncertai"
+          },
+          "chunk_hashes": [
+            "d47fe8e08bbd62e4983c65689fd0b26b31394e3acba9893ed19ef7400ee66855"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

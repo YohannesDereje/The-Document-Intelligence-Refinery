@@ -1,0 +1,740 @@
+{
+  "page_number": 1,
+  "bbox": {
+    "x1": 0.0,
+    "y1": 0.0,
+    "x2": 581.102,
+    "y2": 751.181
+  },
+  "node_id": "root",
+  "node_type": "root",
+  "title": "Document Root",
+  "summary": "",
+  "metadata": {
+    "total_chunks": 25,
+    "total_pages_covered": 21,
+    "min_page": 1,
+    "max_page": 21
+  },
+  "chunk_hashes": [],
+  "children": [
+    {
+      "page_number": 1,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 581.102,
+        "y2": 751.181
+      },
+      "node_id": "document-root",
+      "node_type": "section",
+      "title": "Document Root",
+      "summary": "The Document Root section appears to reference Ethiopian Reinsurance and includes codes such as PATPREI MAF DL, possibly related to insurance or reinsurance identifiers.",
+      "metadata": {
+        "min_page": 1,
+        "max_page": 2,
+        "chunk_count": 1,
+        "summary": "The Document Root section appears to reference Ethiopian Reinsurance and includes codes such as PATPREI MAF DL, possibly related to insurance or reinsurance identifiers.",
+        "total_pages_covered": 2
+      },
+      "chunk_hashes": [
+        "55eb14aa770cf7d6d3264bd0b4ca75fcd388356a412ba1ad4622f299d0d75cc1"
+      ],
+      "children": [
+        {
+          "page_number": 1,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 581.102,
+            "y2": 751.181
+          },
+          "node_id": "chunk/55eb14aa770cf7d6",
+          "node_type": "chunk",
+          "title": "Chunk 55eb14aa",
+          "summary": "",
+          "metadata": {
+            "content_hash": "55eb14aa770cf7d6d3264bd0b4ca75fcd388356a412ba1ad4622f299d0d75cc1",
+            "token_count": 8,
+            "page_numbers": [
+              1,
+              2
+            ],
+            "section_context": "Document Root"
+          },
+          "chunk_hashes": [
+            "55eb14aa770cf7d6d3264bd0b4ca75fcd388356a412ba1ad4622f299d0d75cc1"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "node_id": "family",
+      "node_type": "section",
+      "title": "FAMILY",
+      "summary": "The Ethiopian Reinsurance S.C. company, also known as ETHIO RE, has a subscribed capital of Birr 2.5 Billion and paid-up capital of Birr 1.4 Billion, and is governed by its Articles of Association and the relevant Directives of the National Bank of Ethiopia.",
+      "metadata": {
+        "min_page": 2,
+        "max_page": 21,
+        "chunk_count": 24,
+        "summary": "The Ethiopian Reinsurance S.C. company, also known as ETHIO RE, has a subscribed capital of Birr 2.5 Billion and paid-up capital of Birr 1.4 Billion, and is governed by its Articles of Association and the relevant Directives of the National Bank of Ethiopia.",
+        "total_pages_covered": 20
+      },
+      "chunk_hashes": [
+        "f9d93492101f4650006924053dc313ef4c1b4dc4265fedcaa605cfc5871dd0b4",
+        "8e2886ccdcea54b21e60c12fd954b0931cb7652f6e2abde7532f5bb56937d5b0",
+        "ba19d1ec00052258bfaf7ea6add81e069f51ce1d34d2789ae8645d613ecdcc68",
+        "bcebe60d7f7bce754a9fa5ce201f570402a25c1422212ae129f6d3ba11323183",
+        "57d78349641881de726b6ca4c77ece210d0daad7473d399a3c33efbac4a63987",
+        "5cfadddbc077923d2f2d86c477eb822ded6eb8c13603ecfc4f6edfaa2c100293",
+        "98a1195b8123fb41aacb9d848e45110f94b3478a34865cd9b34a5c143033d2dc",
+        "bd42e6e2a75dc247d97c066fe568e4d6b3b3f414e3d62aa530ca21622d20e736",
+        "254aa55ceebd282c2b04fcbafe004a625ea6967384463f96f49691bb4d45b8bb",
+        "6ed1fe2af24125f8a30b1a536fd69fd28ee21c1afcda0e0523ed2bfe97d47be7",
+        "e037fc46e87085558f7209ed8fb078dde91082372b29e3a09b49ba2c23f3947f",
+        "48b8918e4462da43d04eb7f73b88fc6712f03337a316c15783d2bf7cedf15277",
+        "97e861e0c9a9745bad85303816115b128a9b8ba55b156880eaa8e8427e4e615f",
+        "004feef3965631d7f2b8439523e8cc7bcf4e7e64739b608e71bc488aa1ddef3e",
+        "cc7a037effeb0a49ae7ef73dc26227e17b02ff2d35b0714924cef243477adea1",
+        "1fffbb6617072975de31bcd69649e47f2e98b5e8570367f14ef01d52bc9dbc69",
+        "79843690d019b2e9ca03fe55ef4ceb7ee3a9098c1bd6646e6dd662a03191e4ba",
+        "ab42600fabd31722ce69490d33db7e83acb70bf0b00625983db732d41f709ffe",
+        "4c941b67fea2f7744cb7ddfb6d41a985905e291865f0204af34ddff3f544f464",
+        "85d0a7746ca30416085f20811c9f2a1fa7e5c6c596077c3e0165a963ac30008c",
+        "19ebd97bffba59abe0d97fe9641e779aba16d299d9553b5d266e5516dfbceaf0",
+        "85f86ef557b5288b054c49101a940faba45b0849456fa437f1f006382a07329b",
+        "99719687e70b4ee1ec7771c580413380338f8195d85e854c0ef6065af6cccbd7",
+        "81022891b2e27da4a7219efe54fe075e3c4900831cf0953d04a37947eee46628"
+      ],
+      "children": [
+        {
+          "page_number": 2,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/f9d93492101f4650",
+          "node_type": "chunk",
+          "title": "Chunk f9d93492",
+          "summary": "",
+          "metadata": {
+            "content_hash": "f9d93492101f4650006924053dc313ef4c1b4dc4265fedcaa605cfc5871dd0b4",
+            "token_count": 982,
+            "page_numbers": [
+              2,
+              3,
+              4
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "f9d93492101f4650006924053dc313ef4c1b4dc4265fedcaa605cfc5871dd0b4"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 4,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/8e2886ccdcea54b2",
+          "node_type": "chunk",
+          "title": "Chunk 8e2886cc",
+          "summary": "",
+          "metadata": {
+            "content_hash": "8e2886ccdcea54b21e60c12fd954b0931cb7652f6e2abde7532f5bb56937d5b0",
+            "token_count": 988,
+            "page_numbers": [
+              4,
+              5
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "8e2886ccdcea54b21e60c12fd954b0931cb7652f6e2abde7532f5bb56937d5b0"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 4,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/ba19d1ec00052258",
+          "node_type": "chunk",
+          "title": "Chunk ba19d1ec",
+          "summary": "",
+          "metadata": {
+            "content_hash": "ba19d1ec00052258bfaf7ea6add81e069f51ce1d34d2789ae8645d613ecdcc68",
+            "token_count": 986,
+            "page_numbers": [
+              4
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "ba19d1ec00052258bfaf7ea6add81e069f51ce1d34d2789ae8645d613ecdcc68"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 5,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/bcebe60d7f7bce75",
+          "node_type": "chunk",
+          "title": "Chunk bcebe60d",
+          "summary": "",
+          "metadata": {
+            "content_hash": "bcebe60d7f7bce754a9fa5ce201f570402a25c1422212ae129f6d3ba11323183",
+            "token_count": 999,
+            "page_numbers": [
+              5,
+              6
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "bcebe60d7f7bce754a9fa5ce201f570402a25c1422212ae129f6d3ba11323183"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 6,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/57d78349641881de",
+          "node_type": "chunk",
+          "title": "Chunk 57d78349",
+          "summary": "",
+          "metadata": {
+            "content_hash": "57d78349641881de726b6ca4c77ece210d0daad7473d399a3c33efbac4a63987",
+            "token_count": 998,
+            "page_numbers": [
+              6,
+              7
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "57d78349641881de726b6ca4c77ece210d0daad7473d399a3c33efbac4a63987"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 7,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/5cfadddbc077923d",
+          "node_type": "chunk",
+          "title": "Chunk 5cfadddb",
+          "summary": "",
+          "metadata": {
+            "content_hash": "5cfadddbc077923d2f2d86c477eb822ded6eb8c13603ecfc4f6edfaa2c100293",
+            "token_count": 998,
+            "page_numbers": [
+              7,
+              8
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "5cfadddbc077923d2f2d86c477eb822ded6eb8c13603ecfc4f6edfaa2c100293"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 8,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/98a1195b8123fb41",
+          "node_type": "chunk",
+          "title": "Chunk 98a1195b",
+          "summary": "",
+          "metadata": {
+            "content_hash": "98a1195b8123fb41aacb9d848e45110f94b3478a34865cd9b34a5c143033d2dc",
+            "token_count": 953,
+            "page_numbers": [
+              8
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "98a1195b8123fb41aacb9d848e45110f94b3478a34865cd9b34a5c143033d2dc"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 8,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/bd42e6e2a75dc247",
+          "node_type": "chunk",
+          "title": "Chunk bd42e6e2",
+          "summary": "",
+          "metadata": {
+            "content_hash": "bd42e6e2a75dc247d97c066fe568e4d6b3b3f414e3d62aa530ca21622d20e736",
+            "token_count": 993,
+            "page_numbers": [
+              8,
+              9,
+              10
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "bd42e6e2a75dc247d97c066fe568e4d6b3b3f414e3d62aa530ca21622d20e736"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 10,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/254aa55ceebd282c",
+          "node_type": "chunk",
+          "title": "Chunk 254aa55c",
+          "summary": "",
+          "metadata": {
+            "content_hash": "254aa55ceebd282c2b04fcbafe004a625ea6967384463f96f49691bb4d45b8bb",
+            "token_count": 996,
+            "page_numbers": [
+              10,
+              11
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "254aa55ceebd282c2b04fcbafe004a625ea6967384463f96f49691bb4d45b8bb"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 10,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/6ed1fe2af24125f8",
+          "node_type": "chunk",
+          "title": "Chunk 6ed1fe2a",
+          "summary": "",
+          "metadata": {
+            "content_hash": "6ed1fe2af24125f8a30b1a536fd69fd28ee21c1afcda0e0523ed2bfe97d47be7",
+            "token_count": 974,
+            "page_numbers": [
+              10
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "6ed1fe2af24125f8a30b1a536fd69fd28ee21c1afcda0e0523ed2bfe97d47be7"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 11,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/e037fc46e8708555",
+          "node_type": "chunk",
+          "title": "Chunk e037fc46",
+          "summary": "",
+          "metadata": {
+            "content_hash": "e037fc46e87085558f7209ed8fb078dde91082372b29e3a09b49ba2c23f3947f",
+            "token_count": 989,
+            "page_numbers": [
+              11,
+              12
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "e037fc46e87085558f7209ed8fb078dde91082372b29e3a09b49ba2c23f3947f"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 12,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/48b8918e4462da43",
+          "node_type": "chunk",
+          "title": "Chunk 48b8918e",
+          "summary": "",
+          "metadata": {
+            "content_hash": "48b8918e4462da43d04eb7f73b88fc6712f03337a316c15783d2bf7cedf15277",
+            "token_count": 966,
+            "page_numbers": [
+              12,
+              13,
+              14
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "48b8918e4462da43d04eb7f73b88fc6712f03337a316c15783d2bf7cedf15277"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 12,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/97e861e0c9a9745b",
+          "node_type": "chunk",
+          "title": "Chunk 97e861e0",
+          "summary": "",
+          "metadata": {
+            "content_hash": "97e861e0c9a9745bad85303816115b128a9b8ba55b156880eaa8e8427e4e615f",
+            "token_count": 998,
+            "page_numbers": [
+              12
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "97e861e0c9a9745bad85303816115b128a9b8ba55b156880eaa8e8427e4e615f"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/004feef3965631d7",
+          "node_type": "chunk",
+          "title": "Chunk 004feef3",
+          "summary": "",
+          "metadata": {
+            "content_hash": "004feef3965631d7f2b8439523e8cc7bcf4e7e64739b608e71bc488aa1ddef3e",
+            "token_count": 961,
+            "page_numbers": [
+              14
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "004feef3965631d7f2b8439523e8cc7bcf4e7e64739b608e71bc488aa1ddef3e"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 14,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/cc7a037effeb0a49",
+          "node_type": "chunk",
+          "title": "Chunk cc7a037e",
+          "summary": "",
+          "metadata": {
+            "content_hash": "cc7a037effeb0a49ae7ef73dc26227e17b02ff2d35b0714924cef243477adea1",
+            "token_count": 999,
+            "page_numbers": [
+              14,
+              15
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "cc7a037effeb0a49ae7ef73dc26227e17b02ff2d35b0714924cef243477adea1"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 15,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/1fffbb6617072975",
+          "node_type": "chunk",
+          "title": "Chunk 1fffbb66",
+          "summary": "",
+          "metadata": {
+            "content_hash": "1fffbb6617072975de31bcd69649e47f2e98b5e8570367f14ef01d52bc9dbc69",
+            "token_count": 984,
+            "page_numbers": [
+              15,
+              16
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "1fffbb6617072975de31bcd69649e47f2e98b5e8570367f14ef01d52bc9dbc69"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/79843690d019b2e9",
+          "node_type": "chunk",
+          "title": "Chunk 79843690",
+          "summary": "",
+          "metadata": {
+            "content_hash": "79843690d019b2e9ca03fe55ef4ceb7ee3a9098c1bd6646e6dd662a03191e4ba",
+            "token_count": 936,
+            "page_numbers": [
+              16
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "79843690d019b2e9ca03fe55ef4ceb7ee3a9098c1bd6646e6dd662a03191e4ba"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 16,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/ab42600fabd31722",
+          "node_type": "chunk",
+          "title": "Chunk ab42600f",
+          "summary": "",
+          "metadata": {
+            "content_hash": "ab42600fabd31722ce69490d33db7e83acb70bf0b00625983db732d41f709ffe",
+            "token_count": 932,
+            "page_numbers": [
+              16,
+              17,
+              18
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "ab42600fabd31722ce69490d33db7e83acb70bf0b00625983db732d41f709ffe"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/4c941b67fea2f774",
+          "node_type": "chunk",
+          "title": "Chunk 4c941b67",
+          "summary": "",
+          "metadata": {
+            "content_hash": "4c941b67fea2f7744cb7ddfb6d41a985905e291865f0204af34ddff3f544f464",
+            "token_count": 986,
+            "page_numbers": [
+              18,
+              19
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "4c941b67fea2f7744cb7ddfb6d41a985905e291865f0204af34ddff3f544f464"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 18,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/85d0a7746ca30416",
+          "node_type": "chunk",
+          "title": "Chunk 85d0a774",
+          "summary": "",
+          "metadata": {
+            "content_hash": "85d0a7746ca30416085f20811c9f2a1fa7e5c6c596077c3e0165a963ac30008c",
+            "token_count": 999,
+            "page_numbers": [
+              18
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "85d0a7746ca30416085f20811c9f2a1fa7e5c6c596077c3e0165a963ac30008c"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 19,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/19ebd97bffba59ab",
+          "node_type": "chunk",
+          "title": "Chunk 19ebd97b",
+          "summary": "",
+          "metadata": {
+            "content_hash": "19ebd97bffba59abe0d97fe9641e779aba16d299d9553b5d266e5516dfbceaf0",
+            "token_count": 998,
+            "page_numbers": [
+              19,
+              20
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "19ebd97bffba59abe0d97fe9641e779aba16d299d9553b5d266e5516dfbceaf0"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 20,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/85f86ef557b5288b",
+          "node_type": "chunk",
+          "title": "Chunk 85f86ef5",
+          "summary": "",
+          "metadata": {
+            "content_hash": "85f86ef557b5288b054c49101a940faba45b0849456fa437f1f006382a07329b",
+            "token_count": 996,
+            "page_numbers": [
+              20,
+              21
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "85f86ef557b5288b054c49101a940faba45b0849456fa437f1f006382a07329b"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 20,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/99719687e70b4ee1",
+          "node_type": "chunk",
+          "title": "Chunk 99719687",
+          "summary": "",
+          "metadata": {
+            "content_hash": "99719687e70b4ee1ec7771c580413380338f8195d85e854c0ef6065af6cccbd7",
+            "token_count": 1000,
+            "page_numbers": [
+              20
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "99719687e70b4ee1ec7771c580413380338f8195d85e854c0ef6065af6cccbd7"
+          ],
+          "children": []
+        },
+        {
+          "page_number": 21,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 0.0,
+            "x2": 1.0,
+            "y2": 1.0
+          },
+          "node_id": "chunk/81022891b2e27da4",
+          "node_type": "chunk",
+          "title": "Chunk 81022891",
+          "summary": "",
+          "metadata": {
+            "content_hash": "81022891b2e27da4a7219efe54fe075e3c4900831cf0953d04a37947eee46628",
+            "token_count": 299,
+            "page_numbers": [
+              21
+            ],
+            "section_context": "## FAMILY"
+          },
+          "chunk_hashes": [
+            "81022891b2e27da4a7219efe54fe075e3c4900831cf0953d04a37947eee46628"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
